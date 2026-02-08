@@ -70,29 +70,7 @@ For full detail on the maturity model see [CMM](pages/cmm.md).
 
 Once on-boarded, clients organisation enters the **BPT Loop** — a continuous cycle made of three clearly decoupled parts: **Business**, **Product** and **Technology**.
 
-#### Entering the BPT Loop
-
-Irone Code Labs, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
-
-Activities are communication protocols communicating the intent. They are simple and clean and make possible keeping the 3 parts decoupled, but delivering as a whole. Again under the central authority of the Enterprise Architecture firmly eastablished in clients organization
-
-| Activity Protocol | The Intent | Key actors |
-|----------|-------------|------------|
-| **Require** | Business declares product needs; EA ensures alignment with strategy | Business, EA |
-| **Develop** | Technology builds to product specifications; EA governs coherence | Technology, Product, EA |
-| **Deploy** | Product is released into operations; EA validates architecture compliance | Technology, Product, EA |
-| **Evaluate** | Measure outcomes against business objectives; feed back into next cycle | Business, Product, EA |
-
-Evaluate feeds back to Business so that next Require can commence— the loop never stops.
-
-#### Roles, Actors and Scope
-
-Different roles and actors work inside different parts of the loop. That fact defines the scope of each role.
-
-- **Business** — declares products, owns outcomes
-- **Product** — bridges business needs and technical capabilities (the alignment point)
-- **Technology** — implements products
-- **Enterprise Architect** — overarching role whose scope is company-wide; governs the meta-layer, guides all transitions without bottlenecking
+This is Irone Code Labs, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
 
 See [BPT Meta Loop](pages/bpt.md) for the diagram and full conceptual description.
 

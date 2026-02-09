@@ -27,7 +27,10 @@ Your enterprise exists within a wider context of forces and obligations. See [Co
 
 # Iron Code Labs Method 
 
-From the client's perspective the "Iron Code Labs" (aka ICL) method is composed of two stages.
+The "Iron Code Labs" (aka ICL) method is composed of two stages
+
+1. On Boarding
+2. The Loop
 
 > **Note**
 > 

@@ -23,11 +23,11 @@ ICL EA is a TOGAF subset tailored for guided, measurable delivery. EA is not one
 
 Your enterprise exists within a wider context of forces and obligations. See [Commercial Enterprise](pages/commercial_enterprise.md) for where the enterprise sits in the global geo-economic continuum. -->
 
----
+![](assets/warwick-journey-image.png)
 
 # Iron Code Labs Method 
 
-From the client's perspective the ICL method is composed of two stages.
+From the client's perspective the "Iron Code Labs" (aka ICL) method is composed of two stages.
 
 > **Note**
 > 
@@ -37,7 +37,7 @@ From the client's perspective the ICL method is composed of two stages.
 
 >**Stage**
 >
-> On-boarding
+> **On-boarding**
 > 
 > In this step ICL prepare clients for EA architecture-led delivery by establishing clients[capability maturity foundations](cmm.md).
 >

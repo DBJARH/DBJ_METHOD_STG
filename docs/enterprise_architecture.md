@@ -42,13 +42,14 @@ EA role is to pro-actively manage the business/technology missalignment
 * **“EA ensures business strategy and technology evolve together.”**
 * **“EA governs the alignment of business goals and technology capabilities.”**
 
-Concise, correct, and defensible.
+## Concise, correct, and defensible.
 
 ### Wider Iron Code Labs Enterprise Architecture Role
 
 **Enterprise Architecture (EA)** exists to **align business strategy with execution** by providing a coherent structure for how an organization’s **processes, information, applications, and technology** fit together over time.
 
 > **Important**
+> 
 > This is critical role of the ICL BPT Method. ["Business Product Technology"](bpt.md)
 > 
 {: .important}
@@ -74,10 +75,11 @@ In more precise terms, the purpose of EA is to:
    Architectural oversight ensures systemic risks, data flows, and regulatory obligations are addressed holistically—not project by project.
 
 > **Note**
-> That is why Iron Code Labs trains the customers to win and keepy place on high levels of [TOGAF Capability Maturity Modeling](cmm.md)
+> Abose is why Iron Code Labs trains the customers to win and keepy place on high levels of [TOGAF Capability Maturity Modeling](cmm.md)
 {: .note}
 
 > **Important**
+> 
 > **Iron Code Labs Enterprise Architecture ensures the enterprise changes intentionally, not accidentally.**
 {: .important}
 
@@ -87,6 +89,6 @@ In more precise terms, the purpose of EA is to:
 
 ## Taxonomy
 
-Taxonomy provides the structural foundation that characterizes a capable and mature enterprise.
+Taxonomy provides the key communication aid and structural foundation, that characterizes a capable and mature enterprise. As per the [TOGAF CMM](cmm.md) foundations.
 
 See [Taxonomy](pages/taxonomy/taxonomy.md) for details.

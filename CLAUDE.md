@@ -13,6 +13,11 @@ When writing or organizing architectural content, place each concern at the corr
 3. **Physical Architecture** — deployment topology, infrastructure, network
 4. **Software Architecture** — code structure, layering, dependency rules (rarely the focus here)
 
+- Common Taxonomy is single source of truth organization wide
+- Taxonomy is that single hierarchy that defines levels and names
+- These names should be used by all the roles in the company process
+- This is the common vocabulary
+
 Architecture and engineering are distinct disciplines. Architecture defines *what* the system is and *how it is structured*; engineering defines *how it is built, operated, and kept healthy*. Keep them clearly separated in all documents.
 
 ## Output

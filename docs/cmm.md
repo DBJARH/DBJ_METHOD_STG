@@ -4,17 +4,19 @@ title: CMM
 description: Iron Code Labs Enterprise Architectur:we (ICL EA)
 ---
 
+#### Diagram
+
 ![](assets/TOGAF_CMM.png)
 
 # Capability Maturity Model (CMM) 
 
->[!TIP] Formal foundations are in TOGAF CMM
+>[!TIP] Formal foundations are embeded in the TOGAF CMM
 https://www.opengroup.org/architecture/0310wash/presents/Judith_Jones-Maturity_Models.pdf
 
 ## Overview
 
-## Introductioni
-In the ever-evolving landscape of Information Technology (IT)1, organisations seek effective methods to enhance their development processes and gain better control over their architectural endeavours. The Architecture Capability Framework, deeply rooted in the Capability Maturity Models (CMM), emerges as a powerful tool within The Open Group Architecture Framework (TOGAF). This framework provides organisations with a structured approach to gradually improve their Technology-related processes. One prominent aspect of this framework is the Architecture Capabilities Maturity Model (ACMM).
+## Why CMM
+In the ever-evolving landscape of Information Technology (IT)1, organisations seek effective methods to enhance their business/technology processes and gain better control over their architectural endeavours. The Architecture Capability Framework, deeply rooted in the Capability Maturity Models (CMM), emerges as a powerful tool within The Open Group Architecture Framework (TOGAF). This framework provides organisations with a structured approach to gradually improve their Technology-related processes. One prominent aspect of this framework is the Architecture Capabilities Maturity Model (ACMM).
 
 ## What is CMM
 There is a whole Landscape of Capability Maturity Models (CMMs)
@@ -64,3 +66,24 @@ Each characteristic is assessed independently across the maturity levels (M0–M
 
 ## Conclusion
 The Architecture Capability Framework in TOGAF, particularly the Architecture Capabilities Maturity Model, empowers organisations to enhance their Technology3-related development processes systematically. By leveraging the structured approach of maturity levels and characteristics, organisations can not only gain control over their architecture but also pave the way for continuous improvement. As the technological landscape continues to evolve, embracing frameworks like ACMM becomes imperative for organisations aspiring to thrive in the realm of Information Technology.
+
+
+# History
+
+Capability Maturity Models (CMM) are frameworks developed by the [**Software Engineering Institute (SEI)**](https://en.wikipedia.org/wiki/Software_Engineering_Institute) in 1987 to assess and improve software development processes. They provide a structured, five-level evolutionary path (Initial, Repeatable, Defined, Managed, Optimizing) to enhance process maturity, quality, and predictability. CMM has evolved into CMMI (Capability Maturity Model Integration), covering broader business areas. 
+
+### Key Aspects of Capability Maturity Models
+
+- **Origin**: Developed by SEI at Carnegie Mellon University to help the U.S. Department of Defense evaluate contractor capabilities.
+- **Purpose**: To transform software development from an ad-hoc process into a managed, measurable, and continuously improving one.
+- **Structure**: Uses five levels to measure maturity:
+  - Initial (Ad hoc): Processes are unorganized and chaotic.
+  - Repeatable (Basic): Basic project management is established.
+  - Defined (Standardized): Processes are documented and standardized.
+  - Managed (Proactive): Processes are measured and controlled.
+  - Optimizing (Leading): Focus on continuous process improvement.
+- Evolution to CMMI: CMM was updated to Capability Maturity Model Integration (CMMI) to integrate diverse organizational functions like software engineering, hardware development, and service delivery. 
+Benefits
+Provides a roadmap for continuous improvement.
+Increases predictability and efficiency in delivery.
+Helps identify, prioritize, and fix process bottlenecks. 

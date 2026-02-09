@@ -89,4 +89,4 @@ In more precise terms, the purpose of EA is to:
 
 Taxonomy provides the structural foundation that characterizes a capable and mature enterprise.
 
-See [Taxonomy](taxonomy.md) for details.
+See [Taxonomy](pages/taxonomy/taxonomy.md) for details.

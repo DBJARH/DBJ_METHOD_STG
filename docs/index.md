@@ -25,19 +25,21 @@ Your enterprise exists within a wider context of forces and obligations. See [Co
 
 ---
 
-## Iron Code Labs Method 
+# Iron Code Labs Method 
 
-From the client's perspective the ICL method is composed of two steps.
+From the client's perspective the ICL method is composed of two stages.
 
 > **Important**
-> Clients [Enterprise Architecture](enterprise_architecture.md), is overarching authority supporting and driving the whole process. 
+> Irone Code Labs enables Clients [Enterprise Architecture](enterprise_architecture.md), as overarching authority supporting and driving the whole process. 
 > It is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations
 {: .important}
 
-### Step 1 — On-boarding
+>**Stage**
+>
+> On-boarding
+> 
+> In this step ICL prepare clinets for EA architecture-led delivery by establishing clients[capability maturity foundations](cmm.md).
 {: .stage}
-
-In this step ICL prepare clinets for EA architecture-led delivery by establishing [capability maturity foundations](cmm.md).
 
 #### A — Preparing for the CMM Levels
 
@@ -63,20 +65,19 @@ ICL EA
 
 For full detail on the maturity model see [CMM](pages/cmm.md).
 
-### Step 2 — Business, Product, Technology
+>**Stage**
+>
+> [Business, Product, Technology](bpt.md)
+>
+> **Continuous operational organization, company wide cycle**
+> 
+> Once on-boarded, clients organisation enters the **BPT Loop** — a continuous cycle made of three clearly decoupled parts: **Business**, **Product** and **Technology**.
+> This is Irone Code Labs, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
 {: .stage}
-
-*EA governs: continuous operational organization wide cycle*
-
-Once on-boarded, clients organisation enters the **BPT Loop** — a continuous cycle made of three clearly decoupled parts: **Business**, **Product** and **Technology**.
-
-This is Irone Code Labs, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
-
-See [BPT Meta Loop](pages/bpt.md) for the diagram and full conceptual description.
 
 ---
 
-## [AI is inside](pages/AI.md)
+## [AI is inside](AI.md)
 
 By "AI is inside" we mean that each individual has a Role and can use the LLM to help create the results of their activities. Accountability stays with the person, not the tool.
 

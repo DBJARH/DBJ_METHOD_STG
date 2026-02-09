@@ -29,10 +29,11 @@ Your enterprise exists within a wider context of forces and obligations. See [Co
 
 From the client's perspective the ICL method is composed of two stages.
 
-> **Important**
+> **Note**
+> 
 > Irone Code Labs enables Clients [Enterprise Architecture](enterprise_architecture.md), as overarching authority supporting and driving the whole process. 
 > It is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations
-{: .important}
+{: .note}
 
 >**Stage**
 >

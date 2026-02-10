@@ -1,23 +1,28 @@
 ---
 layout: default
-title: AI Context
-description: Iron Code Labs AI guiding principles
+title: EA AI Context
+description: Iron Code Labs EA AI guiding principles
 ---
 
 ![](assets/ai-iceberg-sober.png)
 
-## We navigate arround legacy iceberg
+By clients own admitions, Enterprise Architecture imposes (what we call)"uncomfortable transparency". The real picture of clients Technology & IT Landscape.  The true picture of an Iceberg, formed after years of operataions.
 
-> - We help "CMM invigorated" organizations understand and aknowledge the iceberg they have to deal with
-> - Just then we build the model of future together
+It becomes clear, by putting the AI Model on top of that iceberg, the legacy will not be solved.
 
-After the products are well described, organization can proceed to 
+## We navigate clients arround the legacy iceberg
 
-## AI-assisted Software Development
+> - We help "[CMM](cmm.md) invigorated" organizations understand and aknowledge the iceberg they have to deal with
+> - Just then we build the model of future together, guiding by the [BPT Loop](bpt.md)
+
+After the clients glides on the [BPT loop](bpt.md), and products are well described, organization can proceed to 
+
+## AI-assisted Software Product Development
+
+What is LLM?
 
 > - AI is conceptual and marketing term
-> - LLM is tool eningeered after AI concepts
-
+> - LLM is tool eningeered after AI concepts. LLM is AI implementation.
 
 We are working together with our clients using LLM tools , as long as we are alligned on the 2025 DORA Report. Succinctly: LLM of your choice is your own assistant. But you are accountable for your output.
 
@@ -27,16 +32,17 @@ Use [PDF from this site](#download-our-copy-pdf-of-the-dora-ai-capabilities-mode
 
 The DORA AI report will resonate true for several years. Until further notice. And if it ever comes that notice will be far in the future.
 
-<!-- ![](assets/ai%20statistical%20success%20is%20not%20a%20reasoned%20competence.png) -->
-
-#### You are acountable for your contributions to the project. LLM or no LLM, which LLM etc. All contributions are your responsibility.
+>**Note** 
+>
+> Clients Business is made capable and acountable for clean contributions to the product requirements. LLM or no LLM, which LLM etc. All Products requirements and contributions are delivered by business roles working with the BA (Business Analyst).
+{: note}
 
 ---
 
 
 ##  DORA AI Capabilities Model
 
-DORA is primariy audience is Software Development Organizations. We have repurposed its core to be used as part of our AI usage guidance.
+DORA is primariy audience is Software Development Organizations. We have repurposed its core to be used as part of ICL AI usage guidance.
 
 ---
 
@@ -90,9 +96,9 @@ The **DORA AI Capabilities Model** report, is a companion guide to the 2025 Stat
 >
 #### Or use [your own download](https://cloud.google.com/resources/content/2025-dora-ai-capabilities-model-report)
 
-## What is DORA?
-
-DORA (DevOps Research and Assessment) is a research program that identified four key metrics for measuring software delivery performance:
+---
+## Appendix
+#### DORA (DevOps Research and Assessment) is a research program that identified four key metrics for measuring software delivery performance:
 
 1. **Deployment Frequency** - How often code is deployed to production
 2. **Lead Time for Changes** - Time from commit to production

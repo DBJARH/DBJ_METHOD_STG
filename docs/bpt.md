@@ -7,7 +7,7 @@
 
 This diagram represents **Enterprise Architecture role as the governing meta-layer** that orchestrates the Business-Product-Technology relationship through continuous cycles (loops).
 
-Irone Code Labs is, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
+Irone Code Labs is, delivery focused, operational methodology for CMM-ready organisations. EA is the **governor** — it does not participate in the loop, it governs it.
 
 Activities are communication protocols informing on the intent. They are simple and clean and make possible keeping the 3 parts decoupled, but delivering as a whole. Again under the central authority of the Enterprise Architecture firmly eastablished in clients organization
 
@@ -60,7 +60,7 @@ QA == Quality Assurance
 
 > **Important**
 > 
-> Product unifies; Loop validates.
+> **Product unifies; Loop validates.**
 {: .important}
 
 ![](bpt_assets/bpt-meta-loop.png)

@@ -75,7 +75,7 @@ In more precise terms, the purpose of EA is to:
    Architectural oversight ensures systemic risks, data flows, and regulatory obligations are addressed holistically—not project by project.
 
 > **Note**
-> Abose is why Iron Code Labs trains the customers to win and keepy place on high levels of [TOGAF Capability Maturity Modeling](cmm.md)
+> Abose is why Iron Code Labs trains the customers to win and keepy place on high levels of [TOGAF Capability Maturity Modeling](cmm.md#levels-and-characteristics)
 {: .note}
 
 > **Important**

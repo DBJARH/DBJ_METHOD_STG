@@ -14,21 +14,21 @@ description: Home
 
 The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**.
 
-ICL enables clients with [Enterprise Architecture](enterprise_architecture.md) as the overarching authority supporting and driving the whole process. It is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
+ICL enables clients with [Enterprise Architecture](enterprise_architecture.md) as the overarching authority supporting and driving the whole process. ICL EA is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
 
 ## Stage 1 — On-boarding
 
 In this step ICL prepares clients for EA architecture-led delivery by putting them on the firm [capability maturity foundations](cmm.md#diagram).
 
-### A — Preparing for the CMM Levels
+### A — Preparing for the [CMM Levels](cmm.md#levels-and-characteristics)
 
-ICL EA leads the assessment of the client's current organisational maturity levels using the CMM, [M0–M5](cmm.md) nomenclature. In this step ICL EA:
+ICL EA leads the assessment of the client's current organisational maturity levels using the ACMM Levels [M0–M5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL EA:
 
-- Introduces shared vocabulary via [Taxonomy](pages/taxonomy/taxonomy.md)
+- Introduces key communications aid: common vocabulary defined as Technology Landscape Classification aka [Taxonomy](pages/taxonomy/taxonomy.md)
 - Identifies capability gaps using the ACMM scorecard
 - Sets a realistic target level (typically M2)
 
-**Deliverables:** CMM baseline assessment + EA-guided improvement roadmap
+**Deliverables:** ACMM baseline assessment + EA-guided improvement roadmap
 
 ### B — Raising the Organisation to CMM Level M2
 

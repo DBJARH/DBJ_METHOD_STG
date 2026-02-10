@@ -3,13 +3,17 @@ layout: default
 title: Taxonomy
 description: Key organization communication aid
 ---
-# Organization Taxonomy
+# What is a Taxonomy?
 
-> Taxonomy is GPS of the Information Space. It is essential "tool" for locating information (hence the GPS analogy).
+>**Important**
+>
+> Taxonomy is Hierachycal structure describing the Organization Inormation Space
+> 
+> It is Organization Positioning System (OPS) of the Information Space. It is essential aid for internal enterprise communication and for quick information location.
+{: important}
 
-![](assets/taxonomy-abstract.png)
+![alt text](taxonomy_assets/taxonomy-role.png)
 
-## What is a Taxonomy?
 
 - A taxonomy is a hierarchical organizational framework for structuring information across various systems
 - In commercial enterprises it is used to solve business problems like improving data discovery, knowledge management, and content governance.

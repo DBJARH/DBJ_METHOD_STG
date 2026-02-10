@@ -28,7 +28,7 @@ In this step ICL prepares clients for EA architecture-led delivery by putting th
 
 ICL EA leads the assessment of the client's current organisational maturity levels using the ACMM Levels [M0–M5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL EA:
 
-- Introduces key communications aid: common vocabulary defined as Technology Landscape Classification aka [Taxonomy](pages/taxonomy/taxonomy.md)
+- Introduces key communications aid: common vocabulary defined as Technology Landscape Classification aka [Taxonomy](taxonomy.md)
 - Identifies capability gaps using the ACMM scorecard
 - Sets a realistic target level (typically M2)
 
@@ -40,7 +40,7 @@ ICL EA defines and documents architecture processes — moving the organisation 
 
 - Establishes governance structures and secures senior management involvement
 - Introduces architecture-driven communication practices across the organisation
-- Introduces the common, simple but powerful [Taxonomy](pages/taxonomy/taxonomy.md) as a key organisational asset
+- Introduces the common, simple but powerful [Taxonomy](taxonomy.md) as a key organisational asset
 
 **Deliverable:** organisation operating at CMM level M2 with EA-documented processes
 

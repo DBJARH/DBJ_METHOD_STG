@@ -4,40 +4,43 @@
 @import "{{ site.theme }}";
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
 
+/* Responsive layout */
 .wrapper {
-  width: 1200px;
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
-/* BEGIN --------------------------------------------------------------------------------- */
-/* as per GEMINI advice; Force the main container to be fluid */
-.wrapper, .container, #main_content {
-  width: 95% !important;
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 10px !important;
-  box-sizing: border-box !important;
-}
-
-/* Ensure images don't blow out the layout */
 img {
-  max-width: 100% !important;
-  height: auto !important;
+  max-width: 100%;
+  height: auto;
 }
-
-/* Fix for mobile screens */
-@media screen and (max-width: 600px) {
-  body {
-    font-size: 16px;
-  }
-}
-/* END --------------------------------------------------------------------------------- */
 
 header {
   width: 270px;
 }
 
 section {
-  width: 880px;
+  width: calc(100% - 300px);
+  max-width: 880px;
+}
+
+@media screen and (max-width: 720px) {
+  .wrapper {
+    display: block;
+  }
+
+  header, section {
+    width: 100%;
+    max-width: 100%;
+    float: none;
+  }
+
+  header {
+    padding-bottom: 1em;
+  }
 }
 
 .tree-view {

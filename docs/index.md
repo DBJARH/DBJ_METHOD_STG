@@ -4,7 +4,11 @@ title: Iron Code Labs Enterprise Architecture (ICLEA)
 description: Home
 ---
 
-![](assets/warwick-journey-image.png)
+<!-- ![](assets/warwick-journey-image.png) -->
+
+<!-- ![](assets/icl_dbj_method.png) -->
+
+![](assets/icl_method_bridge.png)
 
 # Iron Code Labs Method
 

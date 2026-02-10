@@ -1,12 +1,15 @@
-# Business Process Technology (BPT) Meta Loop
+# The Loop
 
-![](assets/bpt-meta-loop.png)
+### Business Process Technology (BPT) 
+
+<!-- ![](assets/bpt-meta-loop.png) -->
+![](bpt_assets/icl_dbj_method.png)
 
 This diagram represents **Enterprise Architecture role as the governing meta-layer** that orchestrates the Business-Product-Technology relationship through continuous cycles (loops).
 
-Irone Code Labs, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
+Irone Code Labs is, delivery focused, operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
 
-Activities are communication protocols communicating the intent. They are simple and clean and make possible keeping the 3 parts decoupled, but delivering as a whole. Again under the central authority of the Enterprise Architecture firmly eastablished in clients organization
+Activities are communication protocols informing on the intent. They are simple and clean and make possible keeping the 3 parts decoupled, but delivering as a whole. Again under the central authority of the Enterprise Architecture firmly eastablished in clients organization
 
 | Activity Protocol | The Intent | Key actors |
 |----------|-------------|------------|
@@ -51,8 +54,11 @@ Different roles and actors work inside different parts of the loop. That fact de
 **In TOGAF terms:** This is Architecture Governance as a productized execution model, not replacing TOGAF ADM but providing the operational CMM based framework ADM governs.
 
 > **Important**
-> **Bottom line:** Product unifies; Loop validates.
+> 
+> Product unifies; Loop validates.
 {: .important}
+
+![](bpt_assets/bpt-meta-loop.png)
 
 ---
 Until further notice &copy; dbj@dbj.org

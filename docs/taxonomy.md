@@ -9,7 +9,7 @@ description: Key organization communication aid
 >
 > Taxonomy is Hierachycal structure describing the Organization Inormation Space
 > 
-> It is Organization Positioning System (OPS) of the Information Space. It is essential aid for internal enterprise communication and for quick information location.
+> It is Organization Positioning System (OPS) of the Information Space. It is essential aid for internal enterprise communication, smooth development and quick information location.
 {: important}
 
 ![alt text](taxonomy_assets/taxonomy-role.png)

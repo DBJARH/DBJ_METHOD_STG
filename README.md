@@ -16,10 +16,5 @@
 - ## Staging vs. Production
   - **Staging** is a private "rough draft" version of the website where developers test new features to make sure nothing breaks. **Production** is the final, live version that is actually "on air" and ready for the public to use.
 
----
-
-**Next step:** Would you like me to explain the difference between the **Staging** and **Production** links shown in your image?
-
-
 >[!NOTE]
-Unless otherwise declared &copy; by dbj@dbj.org  | CC BY SA 4.0 
+> Unless otherwise declared &copy; by dbj@dbj.org  | CC BY SA 4.0 

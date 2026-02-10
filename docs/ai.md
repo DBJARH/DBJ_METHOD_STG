@@ -19,6 +19,12 @@ After the clients glides on the [BPT loop](bpt.md), and products are well descri
 
 ## AI-assisted Software Product Development
 
+
+>**Note** 
+>
+> Clients Business is made capable and acountable for clean contributions to the product requirements. All Products requirements and contributions are delivered by business roles working with the BA (Business Analyst).
+{: note}
+
 What is LLM?
 
 > - AI is conceptual and marketing term
@@ -32,10 +38,6 @@ Use [PDF from this site](#download-our-copy-pdf-of-the-dora-ai-capabilities-mode
 
 The DORA AI report will resonate true for several years. Until further notice. And if it ever comes that notice will be far in the future.
 
->**Note** 
->
-> Clients Business is made capable and acountable for clean contributions to the product requirements. LLM or no LLM, which LLM etc. All Products requirements and contributions are delivered by business roles working with the BA (Business Analyst).
-{: note}
 
 ---
 

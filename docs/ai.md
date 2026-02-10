@@ -1,6 +1,6 @@
 ---
 layout: default
-title: EA AI Context
+title: EA AI Guidance
 description: Iron Code Labs EA AI guiding principles
 ---
 

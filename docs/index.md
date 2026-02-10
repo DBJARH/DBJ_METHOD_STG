@@ -50,11 +50,18 @@ Once on-boarded, the client organisation enters the **BPT Loop** — a continuou
 
 ---
 
-## [AI is Inside](AI.md)
+## AI is "everywhere"
 
-Each individual has a role and can use the LLM to help create the results of their activities. Accountability stays with the person, not the tool.
+[**ICL AI Guidance**](ai.md)
 
-- Our guiding principle is to understand why and how we and our customers use AI
+Each Team Member has a role defined by the ICL Method and can use the LLM to help create the results of the activities. But here is the key:
+
+>**Important**
+>
+> Accountability stays with the person, not the tool
+{: important}
+
+- ICL guiding principle is to understand why, how and were, we and our customers use the AI
 - We are not used by AI
 - If things go wrong we do not blame it on AI
 - AI is a marketing term — LLM is engineering

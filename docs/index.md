@@ -51,9 +51,12 @@ Once on-boarded, the client organisation enters the **BPT Loop** — a continuou
 
 ---
 
-## AI is "everywhere"
+## AI is "everywhere" in the method
 
-[**ICL AI Guidance**](ai.md)
+>**Tip**
+>
+> **[ICL AI Guidance](ai.md)**
+{: tip}
 
 Each Team Member has a role defined by the ICL Method and can use the LLM to help create the results of the activities. But here is the key:
 

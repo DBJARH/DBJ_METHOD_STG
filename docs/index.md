@@ -12,7 +12,8 @@ description: Home
 
 # Iron Code Labs Method
 
-The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**.
+<!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
+The Iron Code Labs (ICL) method is a bridge of two arches: **On-boarding** and **The Loop**.
 
 ICL enables clients with [Enterprise Architecture](enterprise_architecture.md) as the overarching authority supporting and driving the whole process. ICL EA is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
 

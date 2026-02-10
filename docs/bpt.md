@@ -24,10 +24,15 @@ Evaluate feeds back to Business so that next Require can commence— the loop ne
 
 Different roles and actors work inside different parts of the loop. That fact defines the scope of each role.
 
-- **Business** — declares products, owns outcomes
-- **Product** — bridges business needs and technical capabilities (the alignment point)
-- **Technology** — implements products
-- **Enterprise Architect** — overarching role whose scope is company-wide; governs the meta-layer, guides all transitions without bottlenecking
+| Roles | Scope | Activities |
+|-------|-------|------------|
+| Business Leaders, Clients, Product Owners, BAs | **Business** | declares products, owns outcomes |
+| Product Owners, QAs, BAs| **Product** | bridges business needs and technical capabilities (the alignment point) |
+| Engineers, Developers, DevOPs| **Technology** | implements products |
+| Enterprise Architects | **Organization** | overarching role whose scope is company-wide; governs the meta-layer, guides all transitions without bottlenecking |
+
+BA == Business Analyst
+QA == Quality Assurance
 
 > **Note**
 > 

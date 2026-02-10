@@ -2,7 +2,7 @@
 
 Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
 
-This repo GitHub link: github.com/ironcodelabs-com/EA_STG/
+This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 
 ## GH Pages Links
 

@@ -4,19 +4,21 @@ title: Iron Code Labs Enterprise Architecture (ICLEA)
 description: Home
 ---
 
+*Back to [IRONCODELABS.COM](https://ironcodelabs.com)*
+
 
 ### This Method exists because of AI
 
-[ICL AI Guidance](ai.md)
+#### [ICL AI Guidance](ai.md)
 
-Each ICL Client Team Member has a role defined by the ICL Method and can use the LLM to help create the results. But here is the key:
+<!-- Each ICL Client Team Member has a role defined by the ICL Method and can use the LLM to help create the results. But here is the key:
 
 **Accountability stays with the person, not the AI tool**
 
 - ICL guiding principle is to understand why, how and were, our customers use the AI tool of choice
 - If things go wrong we do not blame it on AI
 - AI is a marketing term — LLM is engineering
-- We do not blame it on the LLM
+- We do not blame it on the LLM -->
 
 # Iron Code Labs Method
 
@@ -26,11 +28,8 @@ Each ICL Client Team Member has a role defined by the ICL Method and can use the
 
 ![](assets/icl_method_bridge_bw.png)
 
-Back to [IRONCODELABS.COM](https://ironcodelabs.com)
-
-
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
-The Iron Code Labs (ICL) method is a bridge of two arches: **On-boarding** and **The Loop**.
+#### The Iron Code Labs (ICL) method is a bridge of two arches: **On-boarding** and **The Loop**.
 
 >**Important**
 >

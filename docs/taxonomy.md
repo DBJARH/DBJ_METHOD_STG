@@ -71,17 +71,21 @@ This top level, simple progression supports better decision-making and operation
   - Use thise terms as common vocabulary
   - It is extremely important to share simple common vocabulary, company wide
   - That is a key aid for business/technology communications
+
+<details>
+<summary><strong>Taxonomy is a hierarchical structure. First level of the hierarchy is called "Categories", second level is called "Capabilities"</strong><summary>
+
+Capabilities added are turning the four top level categories into full software taxonomy.
+
+Taxonomy "category" together with its four "capability" siblings is a complete definition for a single category.
+
+Taxonomy defined in here is applicable to wide spectra of organization activities and roles performing those activities
   
-**Taxonomy is a hierarchical structure. First level of the hierarchy is called "Categories", second level is called "Capabilities"**
+</details>  
 
-- Capabilities added are turning the four top level categories into full software taxonomy.
-- Taxonomy "category" together with its four "capability" siblings is a complete definition for a single category.
-- This Taxonomy is applicable to wide spectra of organization activities
-  - and roles performing those activities
+## The Taxonomy Hierarchy
 
----
-
-<details open>
+<details>
 <summary><strong>Conceptual</strong></summary>
 
 *Focuses on foundational aspects of software, emphasizes goals, data, functions, and technologies, serves as a high-level blueprint, ensures alignment with business objectives, organizes information effectively, delivers desired functionality, utilizes appropriate technologies, and establishes shared understanding among stakeholders.*

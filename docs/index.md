@@ -4,13 +4,35 @@ title: Iron Code Labs Enterprise Architecture (ICLEA)
 description: Home
 ---
 
+<details>
+<summary><b>This Method exists because of AI</b>
+<summary>
+<p>
+
+<b>[ICL AI Guidance](ai.md)</b>
+
+Each ICL Client Team Member has a role defined by the ICL Method and can use the LLM to help create the results. But here is the key:
+
+<b>Accountability stays with the person, not the AI tool</b>
+
+- ICL guiding principle is to understand why, how and were, our customers use the AI tool of choice
+- If things go wrong we do not blame it on AI
+- AI is a marketing term — LLM is engineering
+- We do not blame it on the LLM
+
+</p>
+</details>
+
+# Iron Code Labs Method
+
 <!-- ![](assets/warwick-journey-image.png) -->
 
 <!-- ![](assets/icl_dbj_method.png) -->
 
-![](assets/icl_method_bridge.png)
+![](assets/icl_method_bridge_bw.png)
 
-# Iron Code Labs Method
+Back to [IRONCODELABS.COM](https://ironcodelabs.com)
+
 
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
 The Iron Code Labs (ICL) method is a bridge of two arches: **On-boarding** and **The Loop**.
@@ -52,27 +74,6 @@ For full detail on the maturity model see [CMM](cmm.md).
 
 Once on-boarded, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
 
----
-
-## AI is "everywhere" in the method
-
->**Tip**
->
-> **[ICL AI Guidance](ai.md)**
-{: tip}
-
-Each Team Member has a role defined by the ICL Method and can use the LLM to help create the results of the activities. But here is the key:
-
->**Important**
->
-> Accountability stays with the person, not the tool
-{: important}
-
-- ICL guiding principle is to understand why, how and were, we and our customers use the AI
-- We are not used by AI
-- If things go wrong we do not blame it on AI
-- AI is a marketing term — LLM is engineering
-- We do not blame it on the tool
 
 ---
 Subject to change, material in this site is &copy; dbj@dbj.org , CC BY SA 4.0

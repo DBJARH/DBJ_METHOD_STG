@@ -65,7 +65,7 @@ This top level, simple progression supports better decision-making and operation
   
 ---
 
-<details>
+<details markdown="1">
 <summary><strong>Conceptual</strong></summary>
 
 *Focuses on foundational aspects of software, emphasizes goals, data, functions, and technologies, serves as a high-level blueprint, ensures alignment with business objectives, organizes information effectively, delivers desired functionality, utilizes appropriate technologies, and establishes shared understanding among stakeholders.*
@@ -77,7 +77,7 @@ This top level, simple progression supports better decision-making and operation
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Logical</strong></summary>
 
 *Addresses structural and operational aspects of software, provides a detailed view of software functionality, covers data management strategies, includes system integrations, discusses software platform and security measures, bridges the gap between conceptual design and physical implementation, ensures seamless and secure interaction of components, and maintains a robust framework.*
@@ -89,7 +89,7 @@ This top level, simple progression supports better decision-making and operation
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Physical</strong></summary>
 
 *Focuses on tangible and technical resources, encompassing hardware, infrastructure, network communication, and storage systems. It ensures a stable, efficient, and scalable environment, addresses performance needs, and enables reliable data processing and connectivity.*
@@ -101,7 +101,7 @@ This top level, simple progression supports better decision-making and operation
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><strong>Implementation</strong></summary>
 
 *Concerned with processes and practices for delivering, maintaining, and monitoring software, this approach includes deployment, development, monitoring, and operational activities. It ensures effective building and launching of software while sustaining it through continuous improvements. Additionally, it involves performance tracking and routine maintenance to meet evolving requirements.*

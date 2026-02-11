@@ -115,9 +115,12 @@ This top level, simple progression supports better decision-making and operation
 
 ---
 
-# Capability is the key KPI of an organization
+## Taxonomy Capability is the key KPI of an organization
 
-## Each Role is played by an Actor of various Capabilities
+#### Each Role is played by group of Actors, having the ability to manage various organization Capabilities
+
+*Example: Ability of an organization to deploy Business Roles to communicate the "Business" capability of the "Conceptual" level, in order to architect it develop it and maintain it.*
+
 
 > **Note:** 
 > 

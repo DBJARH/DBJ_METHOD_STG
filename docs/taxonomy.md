@@ -73,7 +73,7 @@ This top level, simple progression supports better decision-making and operation
   - That is a key aid for business/technology communications
 
 <details>
-<summary><strong>Taxonomy is a hierarchical structure. First level of the hierarchy is called "Categories", second level is called "Capabilities"</strong><summary>
+<summary><strong>Taxonomy is a hierarchical structure. First level of the hierarchy is called "Categories", second level is called "Capabilities"</strong></summary>
 
 Capabilities added are turning the four top level categories into full software taxonomy.
 

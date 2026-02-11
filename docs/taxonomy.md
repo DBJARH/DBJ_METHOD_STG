@@ -115,7 +115,9 @@ This top level, simple progression supports better decision-making and operation
 
 ---
 
-## Each Actor is in a Role delivering capabilities
+# Capability is the key KPI of an organization
+
+## Each Role is played by an Actor of various Capabilities
 
 > **Note:** 
 > 
@@ -124,12 +126,12 @@ This top level, simple progression supports better decision-making and operation
 
 > **Important:** 
 > 
-> Capability is the key KPI of an organization
+> Capabilities are defined by the single common Taxonomy of the  organization
 {: important}
 
 ## Appendix
 
-> Taxonomy in ASCII chars for your perusal in the documentation or code
+> Copy paste Taxonomy using ASCII char. For perusal in the documentation or code in the organization
 
 ```
 ├── Conceptual

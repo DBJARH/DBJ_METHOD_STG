@@ -1,7 +1,7 @@
 ![alt text](icl_story_cinemascope.png)
 
 >[!NOTE]
-**Internal communication:** For web seo/design, width is what matters. We keep images width 1024px. Conservative width that always works. Read: on all screen
+**Internal communication:** For web seo/design, width is what matters. We keep images width 1024px. Conservative width that always works. Read: on all screens.
 
 # Our story 
 

@@ -3,7 +3,9 @@
 >[!NOTE]
 **Internal communication:** For web seo/design, width is what matters. We keep images width 1024px. Conservative width that always works. Read: on all screen
 
-# IRON CODE LABS story 2026 Q1
+# Our story 
+
+**2026 Q1**
 
 - We are meeting founders quietly admitting they feel exposed.
 - Boards unsure if their tech strategy is actually robust.

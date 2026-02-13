@@ -1,4 +1,7 @@
+![alt text](icl_story_cinemascope.png)
 
+>[!TIP]
+For web seo/design, width is what matters. We keep images width 1024px. Conservative width that always works. Read: on all screen
 
 # IRON CODE LABS story 2026 Q1
 
@@ -44,8 +47,3 @@ And remember this: AI is a tool, not magic.
 
 <!-- <img src="icl_story_2026q1.png" width="50%" /> -->
 
-![alt text](icl_story_2026q1.png)
-
->[!TIP]
-For web seo/design, width is what matters. We keep images width 1024px. Conservative width that always works. Read: on all screen sizes.
-Above image is 1024x1024px , because it is square. A rare case. For non suare images we go 1024x768px. Also very conservative size and proportion that alwys works.

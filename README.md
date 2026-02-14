@@ -1,19 +1,25 @@
-# Iron Code Labs 
+
+# Iron Code Labs (Enterpise) Architecture Methodology
+## Staging repository
+
+>[!TIP]
+Theis is not code developers repository. This repository is hosting 'mark down' documents, presenting the ICL Method, blog posts, and such. No code and no software development.
 
 Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
 
 This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 
-## GH Pages Links
+## GH Repositories are two: 'EA_STG' for staging and 'EA' for published pages
 
-- This is [Staging Site](https://ironcodelabs-com.github.io/EA_STG/)
-- [Published Site](https://ironcodelabs-com.github.io/EA)
+- Private [Staging Site](https://ironcodelabs-com.github.io/EA_STG/)
+  - only what is under `docs` folder gets published as 'site'
+  - when copied to public twin 'EA', `docs` folder
+- Public  [Published Site](https://ironcodelabs-com.github.io/EA)
+  - https://ea.ironcodelabs.com is pointing to that site.
+  - it is used as a link from the main ICL site
 
-<details>
-<summary>
-<b>Explanations</b>
-
-</summary>
+<details markdown="1">
+<summary><b>Explanations</b></summary>
 <p>
 
 ![alt text](image.png)
@@ -23,7 +29,7 @@ This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 - What is `https:`?
   - The `https:` at the start of a web address means the connection (aka `link`) is private and protected by **encryption**, essentially turning web site data into a secret code that only you and the website can read. This keeps your personal information, like passwords or login details, safe from hackers who might try to "eavesdrop" on your internet activity.
 - ## Staging vs. Production
-  - **Staging** is a private "rough draft" version of the website where developers test new features to make sure nothing breaks. **Production** is the final, live version that is actually "on air" and ready for the public to use.
+  - **Staging** is a private "rough draft" version of the website where we test new features to make sure nothing breaks. **Production** is the final, live version that is actually "on air" and ready for the public to use.
 
 </p>  
 </details>

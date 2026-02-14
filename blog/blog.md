@@ -1,6 +1,8 @@
 # Posts Staging Area
 
-Content from these posts is used to make posts or articles on ICL LinkedIN space
+Content from these posts will be used to make posts or articles on ICL LinkedIN space. 
+
+Or is alreay used.
 
 
 

@@ -11,7 +11,7 @@ This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 
 ## GH Repositories are two: 'EA_STG' for staging and 'EA' for published pages
 
-- Private [Staging Site](https://ironcodelabs-com.github.io/EA_STG/)
+- Private [Staging Repository](https://github.com/IRONCODELABS-COM/EA_STG)
   - only what is under `docs` folder gets published as 'site'
   - when copied to public twin 'EA', `docs` folder
 - Public  [Published Site](https://ironcodelabs-com.github.io/EA)

@@ -1,5 +1,5 @@
 
-![alt text](image-1.png)
+![alt text](modular-monolith-for-mainframe.png)
 
 &copy; 2026 by Iron Code Labs Ltd | CC BY SA 4.0
 

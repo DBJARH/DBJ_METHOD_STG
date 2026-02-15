@@ -37,22 +37,6 @@ This aligns with ICL principle: start modular monolith, distribute only if feasi
 3. **Reduced network overhead** - avoids the latency/complexity of distributed calls that kill mainframe performance economics
 4. **MIPS efficiency** - in-process module calls consume far fewer MIPS than network hops or message queues
 
-### The evolution path
-
-```
-Legacy Monolith → Modular Monolith → Selective Distribution
-```
-
-- Start: Define bounded contexts within existing codebase
-- Refactor: Extract modules with clear interfaces
-- Stabilize: Prove the architecture, reduce technical debt
-- Optionally: Extract specific modules to containers/services only where distribution adds value
-
-### MIPS impact
-Modular monoliths let us optimize hot paths and reduce coupling *before* adding distributed system overhead - often achieving 30-60% MIPS reduction without leaving the mainframe.
-
-**ICL EA principle: start modular monolith, distribute only if feasible.**
-
 ## AI Context
 
 <details markdown="1" >

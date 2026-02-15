@@ -1,5 +1,6 @@
 
-![alt text](the-wall-of-legacy.png)
+![alt text](why-cmm-onboarding.png)
+
 q: Where is the M5 winner? A: On the other side od the wall of Legacy.
 
 &copy; 2026 by Iron Code Labs Ltd | CC BY SA 4.0

@@ -4,21 +4,24 @@ This repo contains only documentation (markdown files and media). No code.
 
 The primary focus is **enterprise architecture** and **methodology** — not software or technical architecture.
 
-## Architecture levels (highest to lowest abstraction)
+## Taxonomy
 
-When writing or organizing architectural content, place each concern at the correct level of abstraction. Do not mix levels within the same section.
+The Common Taxonomy (`research/TAXONOMY_FINAL/taxonomy_final.md`) is the single source of truth, organization wide. It defines the hierarchy, the names, and the vocabulary. All roles use these names with no changes or reinterpretations.
 
-1. **Conceptual Architecture** — business capabilities, domain boundaries, strategic alignment
-2. **Logical Architecture** — component relationships, data flows, integration patterns, information architecture
-3. **Physical Architecture** — deployment topology, infrastructure, network
-4. **Software Architecture** — code structure, layering, dependency rules (rarely the focus here)
+### Categories and Capabilities
 
-- Common Taxonomy is single source of truth organization wide
-- Taxonomy is that single hierarchy that defines levels and names
-- These names should be used by all the roles in the company process
-- This is the common vocabulary
+1. **Conceptual** — Business, Information, Application, Technology
+2. **Logical** — Data Management, Integration, Platform, Security
+3. **Physical** — Compute, Infrastructure, Network, Storage
+4. **Implementation** — Deployment, Development, Monitoring, Operations
 
-Architecture and engineering are distinct disciplines. Architecture defines *what* the system is and *how it is structured*; engineering defines *how it is built, operated, and kept healthy*. Keep them clearly separated in all documents.
+"Categories" are the four first-level nodes. "Capabilities" are the second-level nodes.
+
+### Architecture vs. Engineering
+
+Architecture and engineering are distinct disciplines. Architecture defines *what* the system is and *how it is structured*; engineering defines *how it is built, operated, and kept healthy*. Architecture scope spans all four Categories. The lower the Category, the more engineering roles participate — but the structural decisions remain architecture's responsibility.
+
+When writing or organizing content, place each concern at the correct Category. Do not mix Categories within the same section.
 
 ## Output
 

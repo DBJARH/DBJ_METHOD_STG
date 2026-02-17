@@ -34,7 +34,20 @@ This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 </p>  
 </details>
 
+## Content
+
+- [docs/](docs/) — Published site pages (methodology vault)
+- [blog/](blog/) — Posts staging area
+- [research/](research/) — Research notes and taxonomy
+  - [Taxonomy (single source of truth)](research/TAXONOMY_FINAL/taxonomy_final.md)
+  - [Architecture of LLM Adoption](research/architecture-of-llm-adoption/)
+  - [Implementation notes](research/implementation/)
+  - [Liquid Foundation Models](research/lfm/liquid_foundation_models.md)
+- [custom_styling_guide.md](custom_styling_guide.md) — Jekyll CSS extensions
+- [PLAN.md](PLAN.md) — Docs index rework plan
+- [AGENTS.md](AGENTS.md) — Rules for AI agents
+
 ---
 
 >[!NOTE]
-> Unless otherwise declared &copy; by dbj@dbj.org  | CC BY SA 4.0 
+> Unless otherwise declared &copy; by dbj@dbj.org  | CC BY SA 4.0

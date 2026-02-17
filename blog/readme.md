@@ -11,3 +11,4 @@ Or is alreay used.
 - [EA is the navigator, Business is the captain](ai-or-iceberg/ai-or-iceberg.md)
 - [Knighthood of Legacy Slayers](knighthood-of-legacy-slayers/knighthood-of-legacy-slayers.md)
 - [Modular monoliths are highly suitable for mainframe modernization](modular-monolith-for-mainframe/modular-monolith-for-mainframe.md)
+- [AI in a Military Context](icl4military/icl4military.md)

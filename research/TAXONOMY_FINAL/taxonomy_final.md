@@ -3,8 +3,14 @@ layout: default
 title: Taxonomy
 description: ICL Enterprise Taxonomy — structure, terminology, and usage
 ---
+> **Note**
+>
+> Capability (taxonomy): a named classification node — fixed, structural, defined by [taxonomy_core.md](taxonomy_core.md).
+>
+> Capability (organizational): the measurable ability to staff and execute within that node — variable, evolving, and the basis for enterprise KPIs.
+{: note}
 
-> **Important**
+>[!IMPORTANT]
 >
 > The taxonomy is a two-level hierarchy.
 >
@@ -13,12 +19,12 @@ description: ICL Enterprise Taxonomy — structure, terminology, and usage
 >
 > The definitive hierarchy and terminology are maintained in [taxonomy_core.md](taxonomy_core.md).
 > This document explains the taxonomy — it does not redefine it.
-{: important}
 
-> **Note**
+
+>[!NOTE]
 >
 > Taxonomy is necessary knowledge to start "climbing" the [CMM Levels](cmm.md#levels-and-characteristics)
-{: note}
+
 
 # Iron Code Labs Enterprise Taxonomy
 
@@ -40,10 +46,9 @@ Each Category together with its Capabilities forms a complete category definitio
 
 Root of the hierarchy tree is thus top-left positioned.
 
-> **Important**
+>[!IMPORTANT]
 >
 > All node names in the hierarchy are official terminology — to be used company wide with no changes or reinterpretations. See [taxonomy_core.md](taxonomy_core.md) for the authoritative hierarchy.
-{: important}
 
 ---
 
@@ -105,7 +110,7 @@ Processes and practices for building, delivering, and sustaining systems. The lo
 
 The taxonomy defines sixteen **Structural Capabilities** — the named second-level nodes within each Category. These are structural: they name *what matters* in the organization's information space. They do not change with staffing, maturity, or time.
 
->[!TIP]The taxonomy names the slots. It does not measure how well they are filled.
+>[!TIP]Capabilities named on the Taxonomy are "slots". It does not measure how well they are filled.
 
 ### Capability as Organizational Ability
 
@@ -121,9 +126,3 @@ Actors are not always humans. At different levels of abstraction — or from dif
 
 *Example: An Enterprise Architect and a Business Analyst both operate within the "Business" Capability of the "Conceptual" Category — one defines the structure, the other elaborates the requirements. The Role names differ; the Capability they serve is the same.*
 
-> **Note**
->
-> Capability (taxonomy): a named classification node — fixed, structural, defined by [taxonomy_core.md](taxonomy_core.md).
->
-> Capability (organizational): the measurable ability to staff and execute within that node — variable, evolving, and the basis for enterprise KPIs.
-{: note}

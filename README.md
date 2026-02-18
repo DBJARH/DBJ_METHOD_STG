@@ -50,4 +50,4 @@ This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 ---
 
 >[!NOTE]
-> Unless otherwise declared &copy; by dbj@dbj.org  | CC BY SA 4.0
+> Unless otherwise declared &copy; Iron Code Labs Ltd & dbj@dbj.org  | CC BY SA 4.0

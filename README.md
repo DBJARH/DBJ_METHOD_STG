@@ -22,8 +22,6 @@ This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 <summary><b>Explanations</b></summary>
 <p>
 
-![alt text](image.png)
-
 - What is `github.io`?
   - `github.io` is the domain for **GitHub Pages**, a service that automatically turns code stored in a GitHub repository into a live, functional website. In your specific links, it acts as the "host" that tells the internet to look inside the `ironcodelabs-com` account to find the files for the **EA** and **EA_STG** projects.
 - What is `https:`?

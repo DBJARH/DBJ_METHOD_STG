@@ -1,11 +1,11 @@
-![](icl4military.png)
+
+<img src="icl4military.png" width="55%" >
 
 # AI in a Military Context
 
 >[!WARNING]Very long and technical post with a gentle entry, too lure the reader in.
 
 - [AI in a Military Context](#ai-in-a-military-context)
-    - [In practical terms](#in-practical-terms)
     - [Why ETL appears in the meme](#why-etl-appears-in-the-meme)
 - [ETL vs ELT in modern AI architectures](#etl-vs-elt-in-modern-ai-architectures)
   - [1️⃣ ETL (Extract → Transform → Load)](#1️⃣-etl-extract--transform--load)
@@ -32,43 +32,7 @@
     - [Technology Capability](#technology-capability)
 - [8️⃣ The Brutal Reality (Why the Meme above is Accurate)](#8️⃣-the-brutal-reality-why-the-meme-above-is-accurate)
 - [9️⃣ What a Mature AI Enterprise Actually Looks Like](#9️⃣-what-a-mature-ai-enterprise-actually-looks-like)
-
-
-
-<details markdown="1">
-<summary>What is Extract – Transform – Load</summary>
-
-It is a classic **data engineering pipeline pattern** used to prepare data for analytics, reporting, or AI/ML systems.
-
-### In practical terms
-
-1. **Extract**
-   Pull data from source systems
-
-   * Operational databases
-   * Logs
-   * APIs
-   * Sensors
-   * Legacy systems
-
-2. **Transform**
-   Clean and reshape the data
-
-   * Normalize formats
-   * Remove duplicates
-   * Join datasets
-   * Aggregate
-   * Feature engineering for ML
-
-3. **Load**
-   Store the processed data into a target system
-
-   * Data warehouse
-   * Data lake
-   * Feature store
-   * Analytics DB
-
-</details>
+  - [References](#references)
 
 ---
 
@@ -92,11 +56,12 @@ In both enterprise and military contexts, the “AI engineer” in the trench is
 * Legacy systems
 * Poor data quality
 
->[!TIP] Implementing AI is rarely the hard part. Data engineering is. Let’s be precise.
+>[!TIP] Implementing AI is rarely the hard part. Data engineering is.
 
 # ETL vs ELT in modern AI architectures
 
-![](etl-vs-elt.png)
+<img src="etl-vs-elt.png" width="50%" >
+
 Somewhat simplified view
 
 ## 1️⃣ ETL (Extract → Transform → Load)

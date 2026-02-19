@@ -36,7 +36,7 @@ description: Home
 > ICL enables clients with [Enterprise Architecture](enterprise_architecture.md) as the overarching framework supporting and driving the whole process. ICL EA is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
 {: important}
 
-## Arch 1 — On-boarding
+## Stage (Arch) 1 — On-boarding
 
 In this step ICL prepares clients for EA architecture-led delivery by putting them on the firm [capability maturity foundations](cmm.md#diagram).
 
@@ -62,7 +62,7 @@ ICL EA defines and documents architecture processes — moving the organisation 
 
 For full detail on the maturity model see [CMM](cmm.md).
 
-## Arch 2 — [Business, Product, Technology](bpt.md) Loop
+## Stage (Arch) 2 — [Business, Product, Technology](bpt.md) Loop
 
 **Continuous operational cycle, company-wide**
 

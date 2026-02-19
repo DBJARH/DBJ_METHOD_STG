@@ -1,10 +1,12 @@
 
+# Iron Code Labs EA, LLM Adoption Decision Model (4-Level Test)
+
 >[!TIP]
 > Maps directly to "dbj taxonomy" **four architectural levels** and defines a crisp decision rules.
+> Please make sure you are aware of the Common Taxonomy.
 
 ---
 
-# LLM Adoption Decision Model (4-Level Test)
 
 ## 1️⃣ Conceptual Level — *Capability Legitimacy*
 

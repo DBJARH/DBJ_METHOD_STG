@@ -1,176 +1,135 @@
 ---
 layout: default
 title: Taxonomy
-description: Key organization communication aid
----
->**Note**
->
-> Taxonomy concept is necessary knowledge to start "climbing" the [CMM Levels](cmm.md#levels-and-characteristics)
-{: note}
-
-# What is a Taxonomy?
-
->**Important**
->
-> Taxonomy is Hierachycal structure describing the Organization Inormation Space
-> 
-> It is a Positioning System (OPS) of the Information Space. 
-> 
-> It is essential aid for communication, smooth development and quick information location.
-{: important}
-
-![alt text](taxonomy_assets/taxonomy-role-bw.png)
-
-
-- A taxonomy is a hierarchical organizational structure across various domains
-- In commercial enterprises it is used to solve business problems like improving data discovery, knowledge management, and content governance.
-  - It provides a predefined classification system that categorizes technical assets, documentation, and resources from general to specific topics, enabling IT organizations to efficiently organize, locate, and reuse information.
-- Taxonomy is Location Positioning System of the Information Space. 
-- It is essential communication "aid" for cross disciplined activities 
-- Simple well defined Taxonomy is applicable for various types of business activities, undertaken by various actors in the organization information space.
-- Taxonomy is underlying mesh holding the organization information space together
-
-### Iron Code Labs Enterprise Taxonomy (ICL ET)
-
-IT Architecture Taxonomies represent structured organizational communication aid that cover various IT domains. Not presumably inside one organization.
-
-#### Top Level
->
-> Top level of ICL ET is made of four key categories ordered by level of abstractions they cover.
->
-> 1. **Concepts** (foundational principles and business requirements)
-> 2. **Logical** architecture (system designs and relationships)
-> 3. **Physical** architecture (infrastructure and deployment models)
-> 4. **Implementation** architecture (internal software technologies and deployment)
-
-This top level, simple progression supports better decision-making and operational efficiency by creating intuitive pathways for information access, while helping organizations maintain consistency in how technical knowledge is classified, shared, and leveraged across different teams and systems. 
-
-
->**Common Terminology**
->
-> Please note the overarching, technology neutral terminology. Taxonomy as a concept is applicable across various disciplines. Terminology for "anything" that can be defined and stored following the common logic of classification. 
-> 
-
-## ICL Enterprise Taxonomy Hierarchy
-
-- As Organization IT Landscape Classification, ICL Taxonomy is essential for cataloguing, ordering and succinct communiction. 
-- This is essential activity before any kind of feasible business development can start.
-- As an organization architecture classification logic, taxonomy hierarchy is also essential for software product development management. 
-- As it describes the information content location, of deliverables 
-- Use the ICL ET as the simple primary source of truth in the organization
-- ICL Eneteprise Taxonomy terminology are common crucial vocabulary
-  - To share and use company wide
-  - Key aid for smooth business/technology communications
-
-![alt text](taxonomy_assets/taxonomy-role-bw.png)
-
-## Structure
-<strong>Taxonomy is a hierarchical structure. First level of the hierarchy we call "Categories", second level "Capabilities"</strong>
-
-- Capabilities when added to four Categories are turning the simple list into full taxonomy.
-- Taxonomy "category" together with its four "capability" siblings is a complete definition for a single category.
-- Taxonomy defined in here is applicable to wide spectra of organization activities and roles performing those activities
-  
+description: ICL Enterprise Taxonomy — structure, terminology, and usage
 ---
 
-<details markdown="1">
-<summary><strong>Conceptual</strong></summary>
+# Taxonomy 
 
-*Focuses on foundational aspects of software, emphasizes goals, data, functions, and technologies, serves as a high-level blueprint, ensures alignment with business objectives, organizes information effectively, delivers desired functionality, utilizes appropriate technologies, and establishes shared understanding among stakeholders.*
+## [Core](taxonomy_core.md)
 
-**Capabilities**
+![](taxonomy_assets/taxonomy_meta.png)
 
-- **Business** — Defines the business goals and objectives that software is intended to support, focusing on aligning software with organizational strategy and desired outcomes.
-- **Information** — Focuses on the data that software processes and manages, including its structure and relationships, ensuring data is structured to meet the needs of the organization and its processes.
-- **Application** — Describes the specific functions and features of the software, such as user interfaces, data processing, and reporting, defining what the software does and how users interact with it.
-- **Technology** — Outlines the underlying technologies used to build and operate the software, such as programming languages, databases, and operating systems, highlighting the technical foundation that supports the software's functionality.
+> Taxonomy shape is a two-level hierarchy.
+>
+> - **Categories** — the four first-level nodes
+> - **Capabilities** — the four second-level nodes within each Category
+>
+> The definitive hierarchy and terminology are maintained in [taxonomy_core.md](taxonomy_core.md).
+> This document explains the taxonomy — it does not redefine its core.
 
-</details>
 
-<details markdown="1">
-<summary><strong>Logical</strong></summary>
+>[!NOTE]
+>
+> Taxonomy is necessary precondition and knowledge to start "climbing" the [CMM Levels](cmm.md#levels-and-characteristics)
 
-*Addresses structural and operational aspects of software, provides a detailed view of software functionality, covers data management strategies, includes system integrations, discusses software platform and security measures, bridges the gap between conceptual design and physical implementation, ensures seamless and secure interaction of components, and maintains a robust framework.*
 
-**Capabilities**
+# Iron Code Labs Enterprise Taxonomy
 
-- **Data Management** — Addresses how data is stored, accessed, and managed within the software, ensuring efficient handling and organization of data for various operations.
-- **Integration** — Focuses on how the software interacts with other systems and applications, facilitating seamless communication between different software systems.
-- **Platform** — Describes the software environment and infrastructure on which the software runs, providing a stable foundation to host and execute the software.
-- **Security** — Defines the measures taken to protect the software and its data from unauthorized access and threats, safeguarding sensitive information and ensuring compliance with standards.
+## What is a Enterprise Taxonomy?
 
-</details>
+A taxonomy is a hierarchical classification structure for an organization's information space. It serves as:
 
-<details markdown="1">
-<summary><strong>Physical</strong></summary>
+- A **positioning system** — locating any concern within the organization's information space
+- A **communication aid** — providing shared vocabulary across disciplines and roles
+- A **governance foundation** — enabling consistent cataloguing, discovery, and reuse of knowledge
 
-*Focuses on tangible and technical resources, encompassing hardware, infrastructure, network communication, and storage systems. It ensures a stable, efficient, and scalable environment, addresses performance needs, and enables reliable data processing and connectivity.*
+The ICL Enterprise Taxonomy (ICL ET) applies this concept to the Enterprise Domain. Its terminology is technology-neutral and applicable across business activities, roles, and deliverables.
 
-**Capabilities**
+![Taxonomy role](taxonomy_assets/taxonomy-role-bw.png)
 
-- **Compute** — Addresses the hardware resources used to run the software, such as servers and processors, providing the computational power necessary to execute the software.
-- **Infrastructure** — Describes the physical environment in which the software operates, including data centers and network connections, supporting the software with physical and virtual infrastructure.
-- **Network** — Focuses on the communication pathways used to connect the software components and users, ensuring connectivity and data exchange between systems and users.
-- **Storage** — Defines how data is stored and retrieved, including the types of storage devices used, managing data storage to support both short-term and long-term requirements.
+## Enterprise Taxonomy Terminology
 
-</details>
+Each Category together with its Capabilities forms a complete category definition. The four Categories are ordered by level of abstraction, from highest on the top to lowest on the bottom.
 
-<details markdown="1">
-<summary><strong>Implementation</strong></summary>
+Root of the hierarchy tree is thus top-left positioned.
 
-*Concerned with processes and practices for delivering, maintaining, and monitoring software, this approach includes deployment, development, monitoring, and operational activities. It ensures effective building and launching of software while sustaining it through continuous improvements. Additionally, it involves performance tracking and routine maintenance to meet evolving requirements.*
-
-**Capabilities**
-
-- **Deployment** — Addresses the process of installing and configuring the software on its target environment, ensuring smooth transition from development to production environments.
-- **Development** — Describes the activities involved in designing, coding, and testing the software, transforming ideas and requirements into functional software.
-- **Monitoring** — Focuses on tracking the performance and health of the software after deployment, identifying and resolving issues to maintain optimal performance.
-- **Operations** — Addresses the ongoing management and maintenance of the software, including updates, backups, and incident response, keeping the software running reliably and efficiently over time.
-
-</details>
+>[!IMPORTANT]
+>
+> All node names in the hierarchy are official terminology — to be used company wide with no changes or reinterpretations. See [taxonomy_core.md](taxonomy_core.md) for the authoritative hierarchy.
 
 ---
 
-## ICL Taxonomy Capability is the key KPI of an organization
+### Category: Conceptual
 
-#### Each Role is played by group of Actors, having the ability to manage various organization Capabilities
+High-level blueprint: business goals, information domains, application functions, and technology choices. Establishes alignment with business objectives and shared understanding among stakeholders.
 
-*Example: Ability of an organization to deploy Business Roles to communicate the "Business" capability of the "Conceptual" level, in order to architect, develop and maintain it.*
+**Capabilities**
 
+- **Business** — Business goals and objectives; alignment of systems with organizational strategy and desired outcomes.
+- **Information** — Data structures and relationships the organization needs; how information is organized to serve business processes.
+- **Application** — Functions and features delivered to users: interfaces, processing, reporting.
+- **Technology** — Underlying technologies selected to build and operate systems: languages, databases, platforms.
 
-> **Note:** 
+---
+
+### Category: Logical
+
+Detailed design: how components interact, how data is managed, how systems integrate, and how they are secured. Bridges conceptual intent and physical reality.
+
+**Capabilities**
+
+- **Data Management** — How data is stored, accessed, and governed across systems.
+- **Integration** — How systems communicate and exchange information with each other.
+- **Platform** — The software environment and runtime infrastructure on which systems operate.
+- **Security** — Measures protecting systems and data from unauthorized access and threats; compliance with standards.
+
+---
+
+### Category: Physical
+
+Tangible resources: hardware, infrastructure, connectivity, and storage. Ensures a stable, scalable environment for reliable processing and data exchange.
+
+**Capabilities**
+
+- **Compute** — Processing resources: servers, processors, virtual machines.
+- **Infrastructure** — Physical and virtual environment: data centres, hosting, environmental support.
+- **Network** — Communication pathways connecting components and users.
+- **Storage** — Devices and strategies for persisting and retrieving data.
+
+---
+
+### Category: Implementation
+
+Processes and practices for building, delivering, and sustaining systems. The lower in the taxonomy, the more engineering roles participate — but architectural decisions on structure and boundaries remain at every level.
+
+**Capabilities**
+
+- **Deployment** — Installing and configuring systems in target environments; transition from development to production.
+- **Development** — Designing, coding, and testing; transforming requirements into working systems.
+- **Monitoring** — Tracking performance and health after deployment; identifying and resolving issues.
+- **Operations** — Ongoing management: updates, backups, incident response, and continuous improvement.
+
+---
+
+## Capabilities
+
+In the context of Enteprise Taxonomy, Abilities have two assets.
+
+>
+> Quick Definitions of two facets of capabilities
 > 
-> A capability is the ability or capacity of an organization, system, or individual to perform a specific task or achieve a desired outcome effectively and efficiently. It encompasses the resources, skills, processes, and technologies that enable the execution of activities to meet strategic objectives.
-{: note}
+> 1. Taxonomy Capability (Structural): a named classification node — fixed, structural, defined by [taxonomy_core.md](taxonomy_core.md).
+>
+> 2. Organizational Capability: the measurable ability to staff and execute within that node — variable, evolving, and the basis for enterprise KPIs.
 
-> **Important:** 
-> 
-> Capabilities are defined here by the single common ICL Taxonomy of the  organization
-{: important}
+### Capability as Taxonomy Term
 
-## Appendix
+The taxonomy defines sixteen **Structural Capabilities** — the named second-level nodes within each Taxonomy Category. These are structural: they name *what matters* in the organization's information space. They do not change with staffing, maturity, or time.
 
-> Copy paste Taxonomy using ASCII char. For perusal in the documentation or code in the organization
+>[!TIP]Capabilities named on the Taxonomy are "slots". It does not measure how well they are filled. That is the duty of Organization.
 
-```
-├── Conceptual
-│   ├── Business
-│   ├── Information
-│   ├── Application
-│   └── Technology
-├── Logical
-│   ├── Data Management
-│   ├── Integration
-│   ├── Platform
-│   └── Security
-├── Physical
-│   ├── Compute
-│   ├── Infrastructure
-│   ├── Network
-│   └── Storage
-└── Implementation
-    ├── Deployment
-    ├── Development
-    ├── Monitoring
-    └── Operations
-```
+### Capability as Organizational Ability
+
+An organization develops and maintains its actual capability within each of those named slots. This is measurable: can the organization staff, execute, and deliver within a given Capability?
+
+The taxonomy names sixteen Capabilities. The organization's maturity is reflected in how effectively it performs across them. These are the enterprise KPIs (Key Performance Indicators).
+
+### Roles and Actors
+
+Each staff member holds a Role — such as Product Owner, Enterprise Architect, Business Analyst, or Stakeholder. Role names are organizational; they do not mirror Capability names. A group of Actors (staff members sharing a Role) collectively own the organization's ability to perform within one or more Capabilities.
+
+Actors are not always humans. At different levels of abstraction — or from different Points of View (POV) — an Actor may be a system, a service, or an automated process.
+
+*Example: An Enterprise Architect and a Business Analyst both operate within the "Business" Capability of the "Conceptual" Category — one defines the structure, the other elaborates the requirements. The Role names differ; the Capability they serve is the same.*
+

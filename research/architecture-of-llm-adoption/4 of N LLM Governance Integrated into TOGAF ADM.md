@@ -3,7 +3,7 @@ Below is this same LLM control model, now mapped explicitly to **[TOGAF ADM](htt
 
 ---
 
-![alt text](togaf_adm.png)
+![alt text](classification-of-information-is-architecture-foundation.png)
 
 # LLM Governance Integrated into [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)
 
@@ -189,6 +189,8 @@ Otherwise:
 You are not introducing AI.
 
 You are building your second system.
+
+![alt text](second-system-effect.png)
 
 ---
 

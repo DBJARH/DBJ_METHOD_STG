@@ -7,7 +7,9 @@ description: Home
 *Back to [IRONCODELABS.COM](https://ironcodelabs.com)*
 
 
-### This Method exists because of AI
+>**Note**
+>This Method exists to facilitate safe journey of an enterprise to AI enablement
+{: note}
 
 #### [ICL AI Guidance](ai.md)
 

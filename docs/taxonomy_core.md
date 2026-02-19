@@ -3,13 +3,13 @@ layout: default
 title: Taxonomy-Core
 description: ICL Enterprise Taxonomy — the Core
 ---
->[!IMPORTANT]
-> This docuent is single source of truth.
+> **Important**
+> This document is single source of truth.
 >
-> It containes the taxonomy hierarchy and the terminology defined by it
+> It contains the taxonomy hierarchy and the terminology defined by it.
 >
-> These definitions are to be used company wide, with no changes or reinterpretations
->
+> These definitions are to be used company wide, with no changes or reinterpretations.
+{: .important}
 
 # Taxonomy Shape
 
@@ -51,8 +51,9 @@ Meta data elements are given names to define the Taxonomy in the context of an c
     └── Operations
 ```
 
->[!WARNING]
-Names of the nodes on the Taxonomy hierarchy, are official Enterprise Terminology
+> **Warning**
+> Names of the nodes on the Taxonomy hierarchy are official Enterprise Terminology.
+{: .warning}
 
 <details markdown="1">
 <summary><b>Commercial Enterprise Context</b></summary>

@@ -6,11 +6,12 @@ description: ICL Enterprise Taxonomy — structure, terminology, and usage
 
 # Taxonomy 
 
-## [Core](taxonomy_core.md)
-
-![](taxonomy_assets/taxonomy_meta.png)
+## The [Core](taxonomy_core.md)
 
 > Taxonomy shape is a two-level hierarchy.
+>
+> ![](taxonomy_assets/taxonomy_meta.png)
+>
 >
 > - **Categories** — the four first-level nodes
 > - **Capabilities** — the four second-level nodes within each Category
@@ -19,24 +20,26 @@ description: ICL Enterprise Taxonomy — structure, terminology, and usage
 > This document explains the taxonomy — it does not redefine its core.
 
 
->[!NOTE]
->
+> **Note**
 > Taxonomy is necessary precondition and knowledge to start "climbing" the [CMM Levels](cmm.md#levels-and-characteristics)
+{: .note}
 
 
-# Iron Code Labs Enterprise Taxonomy
+# Enterprise Taxonomy
 
 ## What is a Enterprise Taxonomy?
 
-A taxonomy is a hierarchical classification structure for an organization's information space. It serves as:
+Enterprise Taxonomy is a hierarchical classification structure for an commerical enterprise (aka organization) information space. It serves as:
 
 - A **positioning system** — locating any concern within the organization's information space
 - A **communication aid** — providing shared vocabulary across disciplines and roles
 - A **governance foundation** — enabling consistent cataloguing, discovery, and reuse of knowledge
 
-The ICL Enterprise Taxonomy (ICL ET) applies this concept to the Enterprise Domain. Its terminology is technology-neutral and applicable across business activities, roles, and deliverables.
+The Enterprise Taxonomy applies this concept to the Enterprise Domain. Its terminology is technology-neutral and applicable across business activities, roles, and deliverables.
 
 ![Taxonomy role](taxonomy_assets/taxonomy-role-bw.png)
+
+Enterprise Taxonomy is key communication asset of the Enteprise
 
 ## Enterprise Taxonomy Terminology
 
@@ -44,9 +47,9 @@ Each Category together with its Capabilities forms a complete category definitio
 
 Root of the hierarchy tree is thus top-left positioned.
 
->[!IMPORTANT]
->
+> **Important**
 > All node names in the hierarchy are official terminology — to be used company wide with no changes or reinterpretations. See [taxonomy_core.md](taxonomy_core.md) for the authoritative hierarchy.
+{: .important}
 
 ---
 
@@ -104,7 +107,7 @@ Processes and practices for building, delivering, and sustaining systems. The lo
 
 ## Capabilities
 
-In the context of Enteprise Taxonomy, Abilities have two assets.
+In the context of Enteprise Taxonomy, Cabilities have two assets.
 
 >
 > Quick Definitions of two facets of capabilities
@@ -117,7 +120,9 @@ In the context of Enteprise Taxonomy, Abilities have two assets.
 
 The taxonomy defines sixteen **Structural Capabilities** — the named second-level nodes within each Taxonomy Category. These are structural: they name *what matters* in the organization's information space. They do not change with staffing, maturity, or time.
 
->[!TIP]Capabilities named on the Taxonomy are "slots". It does not measure how well they are filled. That is the duty of Organization.
+> **Tip**
+> Capabilities named on the Taxonomy are "slots". It does not measure how well they are filled. That is the duty of Organization.
+{: .tip}
 
 ### Capability as Organizational Ability
 

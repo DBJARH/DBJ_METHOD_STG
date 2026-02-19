@@ -27,3 +27,7 @@ When writing or organizing content, place each concern at the correct Category. 
 
 - be succinct
 - pay attention to kramdown vs markdown differences
+
+## KRAMDOWN syntax should be used only in the content inside the /doc folder
+
+- that is a staging area, to be deployed/copied to the [EA](https://github.com/IRONCODELABS-COM/EA) repository `/docs` folder, after this staging area is tested

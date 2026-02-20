@@ -1,6 +1,6 @@
 # Architecture of LLM Adoption
 
-![alt text](classification-of-information-is-architecture-foundation.png)
+![alt text](llm-must-earn-its-place-in-organization.png)
 
 Enterprise architecture discipline applied to Large Language Model adoption — a structured series covering capability justification, governance, and ADM integration.
 

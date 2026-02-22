@@ -1,120 +1,78 @@
+# EA Governance Checklist — LLM Adoption
 
->[!TIP]
-Below is a **concise 1-page EA Governance Checklist** suitable for mandatory ADR validation before approving any LLM usage.
-ADR == Architecture Decision Record
+Use this checklist before approving any LLM introduction. It maps to the [4-Level Decision Model](2%20of%20N%20llm%20adoption%20decision%20model.md) and follows the [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) levels: Conceptual, Logical, Physical, Implementation. Every item must be answered "yes" for approval.
 
----
+Work through the four sections and bring the completed checklist to the Architecture Board.
 
-# EA Governance Checklist — LLM Adoption Control
-
-## ADR Title:
-
-“Use of LLM for &lt;Capability Name&gt;”
+**Capability:** `<name>`
 
 ---
 
-# 1️⃣ Conceptual Validation — Capability Legitimacy
+## Section 1 — Business Capability (Conceptual Level)
 
-### ☐ C1. Capability Classification
+Does this capability genuinely require language reasoning?
 
-* Is the capability inherently semantic, interpretative, or probabilistic?
-* Does it require reasoning over unstructured language?
+- [ ] The capability involves unstructured text, ambiguous intent, or contextual reasoning
+- [ ] A deterministic alternative (rules, workflow, search) was evaluated and ruled out
+- [ ] Written justification exists for why non-LLM approaches are insufficient
 
-### ☐ C2. Deterministic Alternative Eliminated
-
-* Have rule-based, search-based, or workflow solutions been explicitly evaluated and rejected?
-* Is there written justification why deterministic methods are insufficient?
-
-**Gate Rule:**
-If deterministic specification is possible → ADR rejected.
+**Gate:** If a rule-based solution could do the job — stop here. ADR rejected.
 
 ---
 
-# 2️⃣ Logical Validation — Architectural Containment
+## Section 2 — Service Design (Logical Level)
 
-### ☐ L1. Bounded Service Definition
+Is the LLM architecturally contained?
 
-* Is the LLM implemented as a single, isolated domain service?
-* Is there a strict input/output contract?
+- [ ] LLM is implemented as a single, isolated service
+- [ ] There is a defined input/output contract for the service
+- [ ] The LLM does not act as orchestrator, policy engine, or cross-domain decision maker
+- [ ] Success metrics are defined (accuracy, error rate, hallucination rate, or equivalent)
 
-### ☐ L2. No Architectural Centralization
-
-* Is the LLM prevented from acting as:
-
-  * Enterprise orchestrator?
-  * Cross-domain policy engine?
-  * Source of business truth?
-
-### ☐ L3. Measurable Outcome
-
-* Are evaluation metrics defined (accuracy, precision, hallucination rate)?
-* Is success objectively measurable?
-
-**Gate Rule:**
-If LLM becomes architectural core → ADR rejected.
+**Gate:** If the LLM is central to the architecture — stop here. The proposal is rejected: do not proceed, do not submit to the Architecture Board. Redesign so the LLM is a peripheral service, then restart the checklist.
 
 ---
 
-# 3️⃣ Physical Validation — Operational Discipline
+## Section 3 — Operations (Physical Level)
 
-### ☐ P1. Cost Envelope Defined
+Is production readiness defined?
 
-* Monthly cost projection documented?
-* Scaling characteristics understood?
+- [ ] Monthly cost projection is documented, including scaling behavior
+- [ ] Response time target is defined
+- [ ] Availability target is defined
+- [ ] Monitoring plan is in place
+- [ ] Fallback behavior is defined (what happens when the LLM fails or returns unusable output)
 
-### ☐ P2. SLA & Latency Defined
-
-* Target response time?
-* Availability target?
-* Monitoring plan?
-
-### ☐ P3. Failure Containment
-
-* Defined fallback path?
-* Clear degradation behavior?
-
-**Gate Rule:**
-If failure mode is undefined → ADR rejected.
+**Gate:** If failure mode is undefined — stop here. ADR rejected.
 
 ---
 
-# 4️⃣ Implementation Validation — Replaceability & Clean Boundaries
+## Section 4 — Implementation (Implementation Level)
 
-### ☐ I1. Model Swappability
+Can the LLM be removed or replaced cleanly?
 
-* Is the model replaceable without domain rewrite?
-* No vendor API leakage into core domain?
+- [ ] The model can be swapped without rewriting domain logic
+- [ ] No vendor API leaks into core business code
+- [ ] Business rules exist in code, not in prompts
+- [ ] An anti-corruption layer separates the LLM from the rest of the system
 
-### ☐ I2. No Hidden Business Logic in Prompts
-
-* Prompts do not encode domain rules?
-* Domain logic exists outside LLM?
-
-### ☐ I3. Anti-Corruption Layer
-
-* Is there a clear AI boundary protecting the core system?
-
-**Gate Rule:**
-If removing LLM collapses business flow → Overengineered → ADR rejected.
+**Gate:** If removing the LLM would collapse the system — stop here. ADR rejected.
 
 ---
 
-# Final Approval Condition
+## Approval Condition
 
-LLM is approved only if:
+All four sections must pass. No exceptions.
 
 ```
 Semantic necessity
-AND
-Bounded service architecture
-AND
-Operational containment
-AND
-Replaceability guaranteed
+AND bounded service
+AND operational readiness
+AND replaceability
 ```
 
-Failure of any one condition = architectural violation ([Fred Brooks Second-System](https://en.wikipedia.org/wiki/Second-system_effect) Risk).
+Any failed gate = architectural violation. Redesign before resubmitting.
 
 ---
 
-<!-- If useful, I can now align this explicitly to TOGAF ADM phases (Preliminary → Implementation Governance) for integration into your governance model. -->
+*Reference: [Fred Brooks — Second-System Effect](https://en.wikipedia.org/wiki/Second-system_effect)*

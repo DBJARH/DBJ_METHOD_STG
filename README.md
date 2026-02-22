@@ -1,5 +1,7 @@
 
-# Iron Code Labs (Enterpise) Architecture 
+<img src="blog/ICLogo.png" width="25%" />
+
+# Iron Code Labs Enterpise Architecture
 ## Methodology, Posts and Lessons
 ## Staging repository
 

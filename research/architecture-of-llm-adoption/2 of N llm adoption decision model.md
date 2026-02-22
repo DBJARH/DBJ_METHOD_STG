@@ -2,8 +2,8 @@
 # Iron Code Labs EA, LLM Adoption Decision Model (4-Level Test)
 
 >[!TIP]
-> Maps directly to "dbj taxonomy" **four architectural levels** and defines a crisp decision rules.
-> Please make sure you are aware of the Common Taxonomy.
+> This document content maps directly to "dbj taxonomy" **four architectural levels** and defines a crisp decision rules.
+> Please make sure you understand the [Iron Code Labs Enterprise Taxonomy](#icl_taxonomy).
 
 ---
 
@@ -13,7 +13,7 @@
 **Question:**
 Is the required business capability inherently semantic and probabilistic?
 
-LLM is legitimate only if the capability requires:
+LLM is legitimate solution only if the capability requires:
 
 * Interpretation of unstructured language
 * Contextual reasoning
@@ -109,4 +109,8 @@ You are building your [Fred Brooks "Second system"](https://en.wikipedia.org/wik
 
 ---
 
-<!-- If you want, I can compress this into a 1-page EA governance checklist suitable for ADR enforcement. -->
+### References
+
+<br id="icl_taxonomy">
+
+#### 1. [Iron Code Labs Enteprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html)

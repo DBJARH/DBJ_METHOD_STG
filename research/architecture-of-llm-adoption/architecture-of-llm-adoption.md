@@ -1,7 +1,9 @@
 # Architecture of LLM Adoption
 
-![alt text](llm-must-earn-its-place-in-organization.png)
+![alt text](architecture-of-llm-adoption.png)
+LLM is complex. Organization can not just assume it needs one.
 
+>[!NOTE]
 Enterprise architecture discipline applied to Large Language Model adoption — a structured series covering capability justification, governance, and ADM integration.
 
 The central argument across all documents: **LLM complexity must be earned, not assumed.** Each document applies the four-level taxonomy (Conceptual → Logical → Physical → Implementation) to keep AI adoption under architectural control.

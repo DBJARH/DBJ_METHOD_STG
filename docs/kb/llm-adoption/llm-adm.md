@@ -12,23 +12,9 @@ The rule is simple: LLM gets no special treatment. It goes through the same gate
 
 The checks in each phase map to the [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) levels: Conceptual (Phase A–B), Logical (Phase C), Physical (Phase D), Implementation (Phase E–G).
 
-![TOGAF ADM phases](togaf_adm.png)
+![TOGAF ADM phases](../icl-adm/assests/togaf_adm.png)
 
-### What are ADM deliverables — and why do they matter?
-
-Every phase of the ADM is expected to produce **deliverables**: formal documents, diagrams, or catalogs that record decisions and evidence for review. They are not bureaucracy for its own sake. They exist because verbal agreements disappear — written artifacts persist, can be audited, and can be handed to the next team or the next review cycle.
-
-**Why deliverables?** Without them, governance has no object to review. The Architecture Board cannot approve or reject a verbal description. Deliverables are what the board reads.
-
-**What kinds of deliverables exist?** TOGAF names many: Principles Catalogs, Capability Maps, Application Portfolio Catalogs, Interface Catalogs, Technology Standards Catalogs, Roadmaps, and more. Each is a structured document that captures a specific slice of the architecture.
-
-**Which deliverables are required?** Not all of them, for every engagement. The rule is: produce what is needed to answer the governance questions at that phase. For LLM adoption specifically, this document calls out the minimum required artifact at each phase.
-
-**Who produces them?** The project team — architects, tech leads, product owners, and engineers — depending on the artifact. The Architecture Board reviews them but does not produce them.
-
-The diagram below maps the standard ADM deliverables to each phase. Use it as a reference for what is available at each stage — not as a checklist that must be completed in full.
-
-![ADM with deliverables](adm-with-deliverables.png)
+For an explanation of what ADM deliverables are, why they matter, and who produces them, see the [ICL ADM](../icl-adm/icl_adm.md).
 
 ---
 

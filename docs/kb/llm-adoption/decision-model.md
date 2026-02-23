@@ -10,7 +10,7 @@ Before approving LLM use in any project, run it through four questions — one p
 
 The four levels come directly from the [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html): Conceptual, Logical, Physical, Implementation. The taxonomy defines what each level is responsible for. This model applies that structure to the LLM adoption decision.
 
-![TOGAF ADM](togaf_adm.png)
+![TOGAF ADM](../icl-adm/assests/togaf_adm.png)
 
 ---
 

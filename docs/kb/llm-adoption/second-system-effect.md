@@ -20,7 +20,7 @@ The image captures that perfectly:
 * Left: pipeline, bounded, coherent.
 * Right: graph-theory nightmare.
 
-<img src="second-system-effect.png" width="75%" />
+<img src="assets/second-system-effect.png" width="75%" />
 
 ---
 

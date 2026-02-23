@@ -63,8 +63,6 @@ Every step of the ADM is expected to produce **deliverables**: formal documents,
 
 **Who produces them?** The project team — architects, tech leads, product owners, and engineers — depending on the artifact. The Architecture Board reviews them but does not produce them.
 
-![ADM with deliverables](assests/adm-with-deliverables.png)
-
 ## ICL Project Deliverables
 
 | ICL Step & Deliverable | ADM step deliverable | Comment |
@@ -79,9 +77,9 @@ Every step of the ADM is expected to produce **deliverables**: formal documents,
 
 ## Applicability
 
-This structure applies to any ICL ADM wheel. Examples:
+This framework applies to any ICL ADM wheel. Examples:
 
-- **LLM Adoption wheel** — authorizes or rejects LLM introduction into a capability
+- **LLM Adoption wheel** — [authorizes or rejects LLM introduction into a capability](../llm-adoption/llm-adoption.md)
 - **Cloud Migration wheel** — authorizes transition from on-premise to cloud hosting
 - **Data Governance wheel** — establishes data ownership, classification, and retention rules
 

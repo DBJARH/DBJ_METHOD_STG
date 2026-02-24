@@ -41,7 +41,7 @@ Here are three options for ICL marketing copy, ranging from provocative to strat
 > **A Quick Tip on the Tone:** Since this audience is likely feeling "burnt" by AI costs, using the term **"Most Valuable Architecture"** is a clever play on MVP (Minimum Viable Product). It shifts the conversation from "doing the bare minimum to get by" to "investing in what actually scales."
 >
 
->**MVP** is a well known "AGILE" movement idea. Release ASAP. Don't wait. Later cyclces will spill out the later versions. Time to market is more important than quality. That is why many call MVP: "Fake it until you make it". 
+>**MVP** is a well known "AGILE" movement idea. Release ASAP. Don't wait. Later cycles will spill out the later versions. Time to market is more important than quality. That is why many call MVP: "Fake it until you make it". 
 
 # 2. LinkedIn post and a landing page hero section
 

@@ -11,7 +11,7 @@ Or is already used.
 - [Our Story](icl_story/icl_story_2026Q1.md)
   - Organizational failure rarely stems from engineering incompetence — it stems from ambiguous direction and absent architectural vision. ICL provides executive-level judgment where AI-fatigued organizations need it most.
 - [Why CMM Onboarding is Iron Code Labs' First Step](why-cmm-onboarding/why-cmm-onboarding.md)
-  - Transformation fails without measurable organizational readiness. ICL begins with a CMM assessment to establish shared vocabulary, close capability gaps, and reach M2 maturity before any delivery work begins.
+  - Transformation fails without measurable organizational readiness. ICL begins with a [TOGAF ACMM](https://www.opengroup.org/togaf) assessment to establish shared vocabulary, close capability gaps, and reach M2 maturity before any delivery work begins.
 - [EA is the navigator, Business is the captain](ai-or-iceberg/ai-or-iceberg.md)
   - AI mirrors broken structures, amplifies friction, and builds the wrong things faster. The ICL Method addresses each root cause structurally — taxonomy first, maturity before velocity, EA as the governing layer.
 - [Knighthood of Legacy Slayers](knighthood-of-legacy-slayers/knighthood-of-legacy-slayers.md)
@@ -21,7 +21,7 @@ Or is already used.
 - [AI in a Military Context](icl4military/icl4military.md)
   - Implementing AI is rarely the hard part — data engineering is. A deep technical walkthrough of ETL vs ELT, MLOps, Data Mesh, and TOGAF capability framing, anchored in enterprise and military contexts.
 - [AI History](ai-history/ai-history.md)
-  - Kunihiko Fukushima's Neocognitron (1979) — the world's first multilayer convolutional neural network — was built during the AI winter at NHK. The foundations of modern deep learning are older than most assume.
+  - [Kunihiko Fukushima](https://en.wikipedia.org/wiki/Kunihiko_Fukushima)'s [Neocognitron](https://en.wikipedia.org/wiki/Neocognitron) (1979) — the world's first multilayer convolutional neural network — was built during the AI winter at NHK. The foundations of modern deep learning are older than most assume.
 - [Crufty AI](crufty-ai/crufty-ai.md)
   - Chatbots bolted onto data silos. LLMs fed dirty inputs. Pilots that never graduate. This isn't an AI problem — it's a cruft problem. The fix isn't a better model. It's architecture.
 - [Most Valuable Architecture](most-valuable-architecture/most-valuable-architecture.md)
@@ -29,4 +29,4 @@ Or is already used.
 - [The Incompetence Is Out of Hand](incomptence-is-out-of-hand/incomptence-is-out-of-hand.md)
   - Bad processes powered by AI are just faster bad processes. What's out of hand isn't AI — it's the organizational incompetence AI is being asked to hide. Architecture makes the structure visible before it collapses.
 - [Safe Harbour for the Business](business-safe-harbour/business-safe-harbour.md)
-  - Organizations exhausted by AI hype need structural recovery, not more experimentation. ICL uses TOGAF ACMM to assess maturity and ICL ADM to align AI initiatives with measurable value streams — architecture-first, not LLM-first.
+  - Organizations exhausted by AI hype need structural recovery, not more experimentation. ICL uses [TOGAF ACMM](https://www.opengroup.org/togaf) to assess maturity and ICL ADM to align AI initiatives with measurable value streams — architecture-first, not LLM-first.

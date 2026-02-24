@@ -23,3 +23,11 @@ The ICL Architecture Development Method — a simplified ADM cycle adapted from 
 Enterprise architecture governance framework for introducing Large Language Models into an organization. Covers capability justification, the 4-level decision model, governance checklist, TOGAF ADM integration, and the Architecture Board approval template.
 
 > LLM complexity must be earned, not assumed.
+
+---
+
+## 3 [ITIL Role](itil/ITIL_role.md)
+
+Establishes ITIL as the alternative benchmarking and standards measurement framework for IT operations within the ICL Method. Clarifies the boundary with TOGAF: TOGAF governs state transition; ITIL measures operational fitness. Covers the Service Value Chain, Four Dimensions, 34 Management Practices, key benchmarking metrics, ADM integration points, and ITIL CMM alignment.
+
+> TOGAF governs the *state transition*. ITIL measures *operational fitness*.

@@ -28,3 +28,5 @@ Or is already used.
   - CMM → MVA → AI → ROI. For organizations drowning in technical debt, the problem isn't the AI model — it's the foundation. Most Valuable Architecture (MVA) is the blueprint for clearing the path to real returns.
 - [The Incompetence Is Out of Hand](incomptence-is-out-of-hand/incomptence-is-out-of-hand.md)
   - Bad processes powered by AI are just faster bad processes. What's out of hand isn't AI — it's the organizational incompetence AI is being asked to hide. Architecture makes the structure visible before it collapses.
+- [Safe Harbour for the Business](business-safe-harbour/business-safe-harbour.md)
+  - Organizations exhausted by AI hype need structural recovery, not more experimentation. ICL uses TOGAF ACMM to assess maturity and ICL ADM to align AI initiatives with measurable value streams — architecture-first, not LLM-first.

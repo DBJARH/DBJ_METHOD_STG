@@ -1,12 +1,13 @@
 
 ## Introduction
 
+>[!NOTE]
 > "...the changes brought about by enthusiastic AI adoption can be unsustainable, causing problems down the line..."
 > https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
 
-Please make sure you read and understand and keep safe this article: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.
+### Please make sure you read and understand and keep safe this article: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.
 
-### Here we present the current mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
+### Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
 
 #### [Remember the Iceberg post](https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
 
@@ -15,9 +16,9 @@ Please make sure you read and understand and keep safe this article: [“AI Does
 
 
 >[!TIP]
->[Level3+](https://ea.ironcodelabs.com/cmm.html#levels) teams are "Redirecting Intentionally".
+>[Level3+](https://ea.ironcodelabs.com/cmm.html#levels) teams are "Redirecting Intentionally". That also makes them L3+.
 
-## [TOGAF CMM](https://ea.ironcodelabs.com/cmm) Clears The Space so Businesses Can Move
+### [TOGAF CMM](https://ea.ironcodelabs.com/cmm) Clears The Space so Businesses Can Move
 
 > ICL governs the customers on the road to the [ACMM Level 3](https://ea.ironcodelabs.com/cmm.html#levels).
 
@@ -44,7 +45,7 @@ Please make sure you read and understand and keep safe this article: [“AI Does
 
 That’s what EA really does... It CLEARS space so the business can MOVE.
 
-## [The People Problem](https://www.linkedin.com/posts/anjana-manavalan-a4715216_78-of-companies-have-jumped-on-the-ai-train-activity-7433899258728341504-26L_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
+### [The People Problem](https://www.linkedin.com/posts/anjana-manavalan-a4715216_78-of-companies-have-jumped-on-the-ai-train-activity-7433899258728341504-26L_?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
 
 <details markdown="1">
 <summary><b>The actual LI post</b></summary>
@@ -61,17 +62,17 @@ The future isn't humans vs. machines. It’s just us with better tools.
 ```
 </details>
 
->**Important**
-> Exactly the step one of our prescribed workflow. Capabilities first.
+>[!Important]
+> Exactly, why is the step one of our prescribed workflow, capabilities first.
 >
 > [IronCodeLabs](https://ea.ironcodelabs.com/)
-{: important}
 
-## [We were promised less work](https://www.linkedin.com/posts/carolynhealey_we-were-promised-less-work-ai-gave-us-more-activity-7433164090245791744-aVOB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
+
+### [We were promised less work](https://www.linkedin.com/posts/carolynhealey_we-were-promised-less-work-ai-gave-us-more-activity-7433164090245791744-aVOB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
 
 <details markdown="1">
 
-<summary><b>The actual LI post</b></summary>
+<summary><b>The actual (a bit longer and detailed) LI post</b></summary>
 
 We were promised less work. AI gave us more.
 

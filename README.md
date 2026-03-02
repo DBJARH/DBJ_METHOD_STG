@@ -6,23 +6,23 @@
 ## Staging repository
 
 >[!TIP]
-Theis is not code developers repository. This repository is hosting 'mark down' documents, presenting the ICL Method, blog posts, and such. No code and no software development.
+Theis is not code developers repository. This repository is hosting ('[mark down](https://en.wikipedia.org/wiki/Markdown)') documents, presenting the ICL Method, blog posts, and such. No code and no software development.
 
 Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
 
-This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
+This repo GitHub [Location/Link](github.com/ironcodelabs-com/EA_STG/).
 
 ## GH Repositories are two: 'EA_STG' for staging and 'EA' for published pages
 
-- Private [Staging Repository](https://github.com/IRONCODELABS-COM/EA_STG)
+- **Private** [Staging Repository](https://github.com/IRONCODELABS-COM/EA_STG)
   - only what is under `docs` folder gets published as 'site'
   - when copied to public twin 'EA', `docs` folder
-- Public  [Published Site](https://ironcodelabs-com.github.io/EA)
+- **Public**  [Published Repo](https://ironcodelabs-com.github.io/EA)
   - https://ea.ironcodelabs.com is pointing to that site.
   - it is used as a link from the main ICL site
 
 <details markdown="1">
-<summary><b>Explanations</b></summary>
+<summary><b>GH WWW Publsihing Terminology </b></summary>
 <p>
 
 - What is `github.io`?
@@ -38,17 +38,16 @@ This repo GitHub [Link](github.com/ironcodelabs-com/EA_STG/).
 ## Content
 
 - [docs/](docs/) — Published site pages (methodology vault)
-- [blog/](blog/) — Posts staging area
+- [blog/](blog/) — Posts staging area. Copied to [Published Repository](https://ironcodelabs-com.github.io/EA) 
 - [research/](research/) — Research notes and taxonomy
-  - [Taxonomy (single source of truth)](research/TAXONOMY_FINAL/taxonomy_final.md)
+  - [Taxonomy](research/TAXONOMY_FINAL/) — single source of truth
   - [Architecture of LLM Adoption](research/architecture-of-llm-adoption/)
   - [Implementation notes](research/implementation/)
-  - [Liquid Foundation Models](research/lfm/liquid_foundation_models.md)
-- [custom_styling_guide.md](custom_styling_guide.md) — Jekyll CSS extensions
-- [PLAN.md](PLAN.md) — Docs index rework plan
-- [AGENTS.md](AGENTS.md) — Rules for AI agents
+  - [Liquid Foundation Models](research/lfm/)
+- [external/](external/) — Customer-facing leaflets
+- [internal/](internal/) — Internal documentation
 
 ---
 
 >[!NOTE]
-> Unless otherwise declared &copy; Iron Code Labs Ltd & dbj@dbj.org  | CC BY SA 4.0
+> Unless otherwise declared joint &copy; Iron Code Labs Ltd & dbj@dbj.org  | CC BY SA 4.0

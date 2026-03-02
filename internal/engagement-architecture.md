@@ -5,21 +5,32 @@
 
 ![](assets/customer-adoption-workflow.png)
 
+### Taxonomy
+
+- Common, shared and simple [Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) is the underlying essential mesh holding the Organisation universe together.  
+- It gives both the structure and naming of structure elements. 
+- It is the essential comon langugage of the organization
+
 ## Purpose
 
-This document describes how ICL structures customer engagements — from initial onboarding through to a deployable product. It is intended for ICL personnel preparing to engage a new customer. Or orient a new team member.
+This document describes how ICL structures customer engagements — from initial onboarding through to a deployable product. It is intended for ICL personnel preparing to engage a new customer. Or orient a new ICL team member.
 
 ## Entry Point — ICL ADM Boot Camp
 
-Every engagement begins with the ICL ADM Boot Camp. Customer personnel — typically a cross-functional team representing all roles — attend to establish a shared working method. The Boot Camp grounds the team in the ICL ACMM and the Common Taxonomy before any architecture work begins. ICL ADMs facilitate the Boot Camp and remain the primary point of contact throughout the engagement.
-
-References: [ACMM](https://ea.ironcodelabs.com/cmm.html) · [Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) · [ICL ADM](https://ea.ironcodelabs.com/kb/icl-adm/icl_adm.html)
+- Every engagement begins with the ICL ADM Boot Camp. Customer personnel — typically a cross-functional team representing all roles — attend to establish a shared working method. 
+  - The Boot Camp grounds the team in the ICL ACMM and the Common Taxonomy before any architecture work begins. 
+- References: [ACMM](https://ea.ironcodelabs.com/cmm.html) 
+- ### More [detail and the logic](icl-cmm-boot-camp/icl-cmm-boot-camp.md)
 
 ## The Engagement Workflow
 
 All architecture work occurs within an Enterprise Architecture boundary governed by ICL's Governance, Principles, Standards, and Guidance. Three parties interact within this boundary.
 
 **Business** stakeholders approve the direction of the work and specify what capabilities the product must incorporate. Their input drives scope. Work occurs in one or more "ADM Wheels". Notice the roles present (Stakeholders, Product Owners) and the "Conceptual" nature of the outcomes.
+
+  - Mor than 1, ICL ADMs facilitate the Business Domain and remain the primary point of business contact throughout the engagement.
+  - [ICL ADM](https://ea.ironcodelabs.com/kb/icl-adm/icl_adm.html)
+
 
 **The Product** is the central artifact. It is decomposed and modularized through workflow analysis, developed iteratively, evaluated against the customer's context, and deployed to UAT before final handoff. Roles; Business Aanalyst, Product Owners, Quality Assurance, Engineering Executives. Outcomes categories: "Logical" and "Physical"
 

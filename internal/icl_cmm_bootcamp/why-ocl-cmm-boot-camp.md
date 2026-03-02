@@ -1,22 +1,23 @@
 
 ## Introduction
 
-Here we present the current mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
+> "...the changes brought about by enthusiastic AI adoption can be unsustainable, causing problems down the line..."
+> https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
+
+Please make sure you read and understand and keep safe this article: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.
+
+### Here we present the current mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
 
 #### [Remember the Iceberg post](https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
-
->[!IMPORTANT]
-**Please make sure you read and understand and keep safe this: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.**
-
 
 >[!NOTE]
 >Most AI deployments skip the operating model redesign entirely. AI creates capacity, and that capacity gets absorbed by existing structures instead of being redirected intentionally. Not an AI problem — a governance and programme design problem.
 
 
->[!IMPORTANT]
->Level3+ teams are "Redirecting Intentionally".
+>[!TIP]
+>[Level3+](https://ea.ironcodelabs.com/cmm.html#levels) teams are "Redirecting Intentionally".
 
-## TOGAF CMM Clears The Space so Business Can Move
+## [TOGAF CMM](https://ea.ironcodelabs.com/cmm) Clears The Space so Businesses Can Move
 
 > ICL governs the customers on the road to the [ACMM Level 3](https://ea.ironcodelabs.com/cmm.html#levels).
 

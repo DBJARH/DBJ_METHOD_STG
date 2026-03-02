@@ -12,7 +12,9 @@
 >[!IMPORTANT]
 >Level3+ teams are "Redirecting Intentionally".
 
-## EA Clears The Space so Business Can Move
+## TOGAF CMM Clears The Space so Business Can Move
+
+> ICL governs the customers on the road to the [ACMM Level 3](https://ea.ironcodelabs.com/cmm.html#levels).
 
 <details markdown="1">
 <summary><b>The actual LI post</b></summary>
@@ -54,9 +56,11 @@ The future isn't humans vs. machines. It’s just us with better tools.
 ```
 </details>
 
+>**Important**
 > Exactly the step one of our prescribed workflow. Capabilities first.
 >
-> IronCodeLabs
+> [IronCodeLabs](https://ea.ironcodelabs.com/)
+{: important}
 
 ## [We were promised less work](https://www.linkedin.com/posts/carolynhealey_we-were-promised-less-work-ai-gave-us-more-activity-7433164090245791744-aVOB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
 

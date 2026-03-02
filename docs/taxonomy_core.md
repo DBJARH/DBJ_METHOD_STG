@@ -9,6 +9,10 @@ description: ICL Enterprise Taxonomy — the Core
 > It contains the taxonomy hierarchy and the terminology defined by it.
 >
 > These definitions are to be used company wide, with no changes or reinterpretations.
+>
+> - Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.  
+> - It gives both the structure and naming of structure elements. 
+> - It is the essential comon langugage of the organization
 {: .important}
 
 # Taxonomy Shape

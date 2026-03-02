@@ -6,6 +6,10 @@ description: ICL Enterprise Taxonomy — structure, terminology, and usage
 
 # Taxonomy 
 
+- Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.  
+- It gives both the structure and naming of structure elements. 
+- It is the essential comon langugage of the organization
+
 ## The [Core](taxonomy_core.md)
 
 > Taxonomy shape is a two-level hierarchy.

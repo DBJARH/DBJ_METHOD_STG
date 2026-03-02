@@ -1,11 +1,16 @@
 
-> Here we present the current mood in the industry. Regardibg the widespread failure and hardship "AI enabled" projects induce.
+## Introduction
+
+> Here we present the current mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
+
+#### [Remember the Iceberg post](https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
+
+>[!NOTE]
+>Most AI deployments skip the operating model redesign entirely. AI creates capacity, and that capacity gets absorbed by existing structures instead of being redirected intentionally. Not an AI problem — a governance and programme design problem.
 
 
->[!NOTE]Most AI deployments skip the operating model redesign entirely. AI creates capacity, and that capacity gets absorbed by existing structures instead of being redirected intentionally. Not an AI problem — a governance and programme design problem.
-
-
->[!IMPORTANT]Level3+ teams are "Redirecting Intentionally".
+>[!IMPORTANT]
+>Level3+ teams are "Redirecting Intentionally".
 
 ## EA Clears The Space so Business Can Move
 
@@ -28,7 +33,7 @@
 >
 </details>
 
-### ***You can’t park new strategy on top of old chaos.***
+### You can’t park new strategy on top of old chaos
 
 That’s what EA really does... It CLEARS space so the business can MOVE.
 

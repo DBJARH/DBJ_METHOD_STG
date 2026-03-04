@@ -1,13 +1,23 @@
 
-## Introduction
+<div style="float: right; margin: 1em; text-align: center;">
+<img src="../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>
+<div style="clear: both;"></div>
+
+# ICL CMM Workshop
+
+>[!NOTE]This is internal document
+
+#### Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
 
 >[!NOTE]
 > "...the changes brought about by enthusiastic AI adoption can be unsustainable, causing problems down the line..."
 > https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
 
-### Please make sure you read and understand and keep safe this article: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.
+#### Please make sure you read and understand and keep safe this article: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.
 
-### Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
+
 
 #### [Remember the Iceberg post](https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
 
@@ -18,7 +28,7 @@
 >[!TIP]
 >[Level3+](https://ea.ironcodelabs.com/cmm.html#levels) teams are "Redirecting Intentionally". That also makes them L3+.
 
-### [TOGAF CMM](https://ea.ironcodelabs.com/cmm) Clears The Space so Businesses Can Move
+## [TOGAF CMM](https://ea.ironcodelabs.com/cmm) Clears The Space so Businesses Can Move
 
 > ICL governs the customers on the road to the [ACMM Level 3](https://ea.ironcodelabs.com/cmm.html#levels).
 
@@ -172,3 +182,8 @@ If it isn’t, you amplify strain.
 That’s the strategic choice in front of every CXO right now.
 
 </details>
+
+<div style="float: right; margin: 1em; text-align: center;">
+<img src="../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

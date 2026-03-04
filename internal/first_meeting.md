@@ -6,7 +6,13 @@ The Structure
 - Client questions — to surface the pain and reframe their thinking
 - Handoff — bridge to the Boot Camp
 ---
-# First Client Meeting — Talking Points
+<div style="float: right; margin: 1em; text-align: center;">
+<img src="assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>
+<div style="clear: both;"></div>
+
+# Meeting One: Talking Points
 
 This is the initial meeting with a prospective client. The conversation is **business-first**. Lead with value, not methodology.
 
@@ -64,3 +70,8 @@ The pitch in one line:
 If the conversation goes well, the next step is the **ICL CMM Boot Camp** — where we establish the architecture foundations needed to execute the programme.
 
 > "We don't start with a big bang. We start with a shared baseline — so every decision from day one is traceable, governed, and defensible."
+
+<div style="float: right; margin: 1em; text-align: center;">
+<img src="assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

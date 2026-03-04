@@ -1,9 +1,17 @@
+<div style="float: right; margin: 1em; text-align: center;">
+<img src="../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>
+<div style="clear: both;"></div>
 
-![](TOGAF_CMM.png)
+# ICL CMM Workshop: Key Talking Points
+
+
+![](../assets/TOGAF_CMM.png)
 Ideal Target
 
+>[!NOTE] ICL Coach is talking to the customers team specificaly assembled to join the ICL Led "Recovery"
 
-# Key Talking Points
 ## “Why We Must Reach Level 3 Architecture Maturity”
 
 Below is a concise, authoritative narrative you can use when presenting this diagram.
@@ -105,6 +113,11 @@ Final message you can deliver:
 
 ## If you'd like, I can also prepare:
 
-✅ A slide you can paste directly into a presentation  
-✅ A one‑page “Why Level 3” briefing note  
+✅ A slide you can paste directly into a presentation
+✅ A one‑page “Why Level 3” briefing note
 ✅ A script you can read during the meeting
+
+<div style=”float: right; margin: 1em; text-align: center;”>
+<img src=”../assets/icl_logo.png” width=”64px” /><br/>
+<a href=”https://ironcodelabs.ai”>&copy; Iron Code Labs Ltd</a>
+</div>

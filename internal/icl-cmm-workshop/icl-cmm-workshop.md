@@ -10,7 +10,7 @@
 # ICL CMM Workshop
 
 ![](../assets/togaf_cmm_icl_simplified.png)
->[!NOTE]Simplified CMM required organogram
+*ICL Simplified CMM required organogram*
 
 #### Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
 

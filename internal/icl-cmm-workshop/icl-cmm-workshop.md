@@ -5,9 +5,12 @@
 </div>
 <div style="clear: both;"></div>
 
+>[!TIP]This is internal document
+
 # ICL CMM Workshop
 
->[!NOTE]This is internal document
+![](../assets/togaf_cmm_icl_simplified.png)
+>[!NOTE]Simplified CMM required organogram
 
 #### Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
 
@@ -16,8 +19,6 @@
 > https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it
 
 #### Please make sure you read and understand and keep safe this article: [“AI Doesn’t Reduce Work—It Intensifies It”](https://hbr.org/2026/02/ai-doesnt-reduce-work-it-intensifies-it) Aruna Ranganathan and Xingqi Maggie Ye, Harvard Business Review, February 2026.
-
-
 
 #### [Remember the Iceberg post](https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
 

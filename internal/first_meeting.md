@@ -18,9 +18,9 @@ Handoff: bridge to the Boot Camp
   - [How is Enterprise Architecture profitable activity?](#how-is-enterprise-architecture-profitable-activity)
     - [Enterprise Architecture is not marketing](#enterprise-architecture-is-not-marketing)
   - [Iron Core Labs Method in a nutshell](#iron-core-labs-method-in-a-nutshell)
-      - [The Entry is not Free it is called ACMM](#the-entry-is-not-free-it-is-called-acmm)
+      - [The Entry is not Free it is called ICL CMM](#the-entry-is-not-free-it-is-called-icl-cmm)
     - [**Architecture Capability Modeling**](#architecture-capability-modeling)
-    - [Structure of Enterprise Architecture Capable Organization](#structure-of-enterprise-architecture-capable-organization)
+    - [Structure of Architecture Capable Organization](#structure-of-architecture-capable-organization)
   - [The Legacy Systems Insights](#the-legacy-systems-insights)
       - [The Core Message](#the-core-message)
   - [The ICL Method Unique Selling Point](#the-icl-method-unique-selling-point)
@@ -40,21 +40,23 @@ Handoff: bridge to the Boot Camp
 
 ## Iron Core Labs Method in a nutshell
 
+The [ICL BPT](https://ea.ironcodelabs.com/bpt.html) loop keeps Business, Product, and Technology decoupled and yet continuously aligned — so architectural decisions are tested against reality in every cycle, not just at project start. Organizations running BPT stop accumulating misalignment debt and start delivering outcomes that are traceable to strategy.
+
 ![](first_meeting/bpt-nutshell.png)
 
-#### The Entry is not Free it is called ACMM
+#### The Entry is not Free it is called [ICL CMM](https://ea.ironcodelabs.com/kb/icl-cmm/icl-cmm.html)
 
 ### **Architecture Capability Modeling**
 
-> [!TIP] ACMM maps what architectural capabilities an organization actually has 
+> [!TIP] ICL CMM maps what architectural capabilities an organization actually has 
 > So business knows where to invest, where to stop guessing, and where AI can deliver real ROI.
 
-> [!TIP] ACMM unlocks the process. 
+> [!TIP] ICL CMM unlocks the process. 
 > Levels 3–5 achieved, mean the organization has the repeatable discipline to actually run [ICL ADM](https://ea.ironcodelabs.com/kb/icl-adm/icl_adm.html) cycles that produce consistent, governed outcomes — not just one-off architecture documents that gather dust.
 
 ![alt text](first_meeting/cmm-levels.png)
 
-### Structure of Enterprise Architecture Capable Organization
+### Structure of Architecture Capable Organization
 
 >[!IMPORTANT]
 > "Level 3" applies to the **whole organization** — not to an EA team, not to individual employees, not to a single department.

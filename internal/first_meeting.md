@@ -1,10 +1,10 @@
 ---
-The Structure
-- Core message — frames it as a knowledge problem, not a technology problem
-- The legacy insight — technology vs. knowledge, and how ICL decouples them
-- USP — three differentiators, ending with the EA AI ROI tagline
-- Client questions — to surface the pain and reframe their thinking
-- Handoff — bridge to the Boot Camp
+The Structure: document structure planned
+Core message: frames it as a knowledge problem, not a technology problem
+The legacy insight: technology vs. knowledge, and how ICL decouples them
+USP: three differentiators, ending with the EA AI ROI tagline
+Client questions: to surface the pain and reframe their thinking
+Handoff: bridge to the Boot Camp
 ---
 <div style="float: right; margin: 1em; text-align: center;">
 <img src="assets/icl_logo.png" width="64px" /><br/>
@@ -16,42 +16,65 @@ The Structure
 
 - [Meeting One: Talking Points](#meeting-one-talking-points)
   - [How is Enterprise Architecture profitable activity?](#how-is-enterprise-architecture-profitable-activity)
+    - [Enterprise Architecture is not marketing](#enterprise-architecture-is-not-marketing)
   - [Iron Core Labs Method in a nutshell](#iron-core-labs-method-in-a-nutshell)
-    - [The Entry is not Free](#the-entry-is-not-free)
-    - [ACMM](#acmm)
-  - [The Legacy Systems Insight](#the-legacy-systems-insight)
+      - [The Entry is not Free it is called ACMM](#the-entry-is-not-free-it-is-called-acmm)
+    - [**Architecture Capability Modeling**](#architecture-capability-modeling)
+    - [Structure of Enterprise Architecture Capable Organization](#structure-of-enterprise-architecture-capable-organization)
+  - [The Legacy Systems Insights](#the-legacy-systems-insights)
       - [The Core Message](#the-core-message)
-  - [The Unique Selling Point](#the-unique-selling-point)
+  - [The ICL Method Unique Selling Point](#the-icl-method-unique-selling-point)
   - [Questions for the Client](#questions-for-the-client)
   - [The Handoff](#the-handoff)
 
 
 # Meeting One: Talking Points
 
-This is the initial meeting with a prospective client. The conversation is **business-first**. Lead with value, not methodology.
+>[!NOTE]This is the initial meeting with a prospective client. The conversation is **business-first**. Lead with value, not methodology.
 
 ## How is Enterprise Architecture profitable activity?
 
 ![](first_meeting/EA_ROI.png)
 
+### Enterprise Architecture is not marketing
 
 ## Iron Core Labs Method in a nutshell
 
 ![](first_meeting/bpt-nutshell.png)
 
-### The Entry is not Free
+#### The Entry is not Free it is called ACMM
 
-### ACMM
+### **Architecture Capability Modeling**
 
-**Architecture Capability Modeling**
+> [!TIP] ACMM maps what architectural capabilities an organization actually has 
+> So business knows where to invest, where to stop guessing, and where AI can deliver real ROI.
+
+> [!TIP] ACMM unlocks the process. 
+> Levels 3–5 achieved, mean the organization has the repeatable discipline to actually run [ICL ADM](https://ea.ironcodelabs.com/kb/icl-adm/icl_adm.html) cycles that produce consistent, governed outcomes — not just one-off architecture documents that gather dust.
 
 ![alt text](first_meeting/cmm-levels.png)
 
-**Enterprise Architecture Capable Organization **
+### Structure of Enterprise Architecture Capable Organization
 
-![alt text](first_meeting/cmm-capable-organization.png)
+>[!IMPORTANT]
+> "Level 3" applies to the **whole organization** — not to an EA team, not to individual employees, not to a single department.
+>
+> The ICL CMM assesses maturity across five structural elements present in every organization: 
+> - Governance
+> - Skilled Resource Pool
+> - Projects/Portfolios
+> - Business Operations
+> - Architecture Repository. 
+> 
+> Each is scored independently. The organization's level is the lowest score across all five.
+>
+> What matters is that each of these five elements operates with defined, repeatable processes — so that when architecture work begins, the organizational structures needed to support it are already in place.
 
-## The Legacy Systems Insight
+![alt text](https://ea.ironcodelabs.com/kb/icl-cmm/togaf_cmm_icl_simplified.png)
+
+> This structure is operational only once the organization has reached **ICL CMM Level 3 across all five elements**. Below that threshold, one or more structural elements lack the repeatable processes needed to sustain it — introducing the structure earlier creates overhead without the discipline to make it work.
+
+## The Legacy Systems Insights
 
 #### The Core Message
 
@@ -76,9 +99,9 @@ The new system inherits the legacy knowledge. The old technology is replaced. No
 
 ---
 
-## The Unique Selling Point
+## The ICL Method Unique Selling Point
 
-Structured approach that from the start:
+Structured approach  from the start:
 
 1. **Separates legacy knowledge from legacy technology** — so the business keeps what it has built over years, while shedding what holds it back.
 2. **Uses Enterprise Architecture as a business tool, not an marketing tool** — architecture drives outcomes, not diagrams.
@@ -100,7 +123,7 @@ The pitch in one line:
 
 ## The Handoff
 
-If the conversation goes well, the next step is the **ICL CMM Boot Camp** — where we establish the architecture foundations needed to execute the programme.
+If the conversation goes well, the next step is the **ICL CMM Boot Camp** — where we assess the organization against the [ICL CMM](https://ea.ironcodelabs.com/kb/icl-cmm/icl-cmm.html) and establish the architecture foundations needed to execute the programme.
 
 > "We don't start with a big bang. We start with a shared baseline — so every decision from day one is traceable, governed, and defensible."
 

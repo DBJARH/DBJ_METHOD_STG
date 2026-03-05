@@ -7,17 +7,29 @@
 </div>
 <div style="clear: both;"></div>
 
-# Meeting Two: Engagement Architecture
+<h1>Meeting Two: Engagement Architecture</h1>
+
+- [Taxonomy First](#taxonomy-first)
+- [The Purpose](#the-purpose)
+- [Entry Point — ICL ADM Boot Camp](#entry-point--icl-adm-boot-camp)
+- [The Engagement Workflow](#the-engagement-workflow)
+- [Customer AI Layer — LLM / Agents / MCP](#customer-ai-layer--llm--agents--mcp)
+- [Customer IT Landscape](#customer-it-landscape)
+- [Output — Customer Deployment Target](#output--customer-deployment-target)
+
+
+>[!NOTE]This is internal document
+
 
 ![](assets/customer-adoption-workflow.png)
 
-### Taxonomy
+## Taxonomy First
 
 - Common, shared and simple [Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) is the underlying essential mesh holding the Organisation universe together.  
 - It gives both the structure and naming of structure elements. 
 - It is the essential comon langugage of the organization
 
-## Purpose
+## The Purpose
 
 This document describes how ICL structures customer engagements — from initial onboarding through to a deployable product. It is intended for ICL personnel preparing to engage a new customer. Or orient a new ICL team member.
 

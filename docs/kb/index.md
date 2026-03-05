@@ -26,7 +26,15 @@ Enterprise architecture governance framework for introducing Large Language Mode
 
 ---
 
-## 3 [ITIL Role](itil/ITIL_role.md)
+## 3 [ICL CMM](icl-cmm/icl-cmm.md)
+
+The Iron Code Labs Capability Maturity Model — a mirror of the TOGAF CMM applied to the whole organization across five structural elements: Governance, Skilled Resource Pool, Projects/Portfolios, Business Operations, and Architecture Repository. Covers maturity levels L0–L5, characteristics per element, a reference table, and the scoring rule. L3 across all five elements is the entry ticket to the ICL BPT methodology and the precondition for running the ICL ADM.
+
+> The ICL CMM is not a fork of TOGAF CMM — it is the same model applied to the whole organization, not just the EA practice.
+
+---
+
+## 4 [ITIL Role](itil/ITIL_role.md)
 
 Establishes ITIL as the alternative benchmarking and standards measurement framework for IT operations within the ICL Method. Clarifies the boundary with TOGAF: TOGAF governs state transition; ITIL measures operational fitness. Covers the Service Value Chain, Four Dimensions, 34 Management Practices, key benchmarking metrics, ADM integration points, and ITIL CMM alignment.
 

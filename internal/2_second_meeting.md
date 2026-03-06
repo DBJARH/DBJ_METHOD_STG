@@ -2,7 +2,7 @@
 
 
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>
 <div style="clear: both;"></div>
@@ -21,7 +21,7 @@
 >[!NOTE]This is internal document
 
 
-![](assets/customer-adoption-workflow.png)
+![](assets_second_meeting/customer-adoption-workflow.png)
 
 ## Taxonomy First
 
@@ -38,7 +38,7 @@ This document describes how ICL structures customer engagements — from initial
 - Every engagement begins with the ICL ADM Boot Camp. Customer personnel — typically a cross-functional team representing all roles — attend to establish a shared working method. 
   - The Boot Camp grounds the team in the ICL ACMM and the Common Taxonomy before any architecture work begins. 
 - References: [ACMM](https://ea.ironcodelabs.com/cmm.html) 
-- ### More [detail and the logic](icl-cmm-workshop/icl-cmm-workshop.md)
+- ### More [detail and the logic](icl-cmm-workshop.md)
 
 ## The Engagement Workflow
 
@@ -75,6 +75,6 @@ That is a feasible approach, simply because on upper levels of abstractions anom
 The engagement produces a structured architecture product scoped to the customer's specific deployment target. It is the result of the iterative workflow above: approved by Business, built by Engineering, validated through UAT, and traceable back to the Product Work and all the way back to the Business ADM Centric Architecture. )
 
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>

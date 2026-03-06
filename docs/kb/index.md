@@ -47,3 +47,11 @@ Establishes ITIL as the alternative benchmarking and standards measurement frame
 Enterprise architecture lens on AI regulatory compliance. Covers what the EU AI Act, NIST AI RMF, SOC 2, HIPAA, and SEC guidance each require, and why pre-execution governance is the only architecture that structurally satisfies all five frameworks. The EU AI Act compliance deadline for high-risk AI systems is August 2026.
 
 > Regulators won't ask what your AI did — they will ask whether governance was active and correctly configured.
+
+---
+
+## 6 [AI-Enabled Legacy Solution](ai-enabled-legacy-solution/ai-enabled-legacy-solution.md)
+
+Integration architecture for connecting new AI-enabled systems to existing enterprise knowledge. Covers the New System → Agents → MCP Servers → Legacy Knowledge pattern, the role of LLMs as a peer input (not gateway), MCP Servers as the anti-corruption layer across heterogeneous legacy data sources, and the decoupling principles that keep legacy knowledge authoritative in place.
+
+> The tool contract is the only interface that matters — the Agent never knows what sits behind the MCP Server.

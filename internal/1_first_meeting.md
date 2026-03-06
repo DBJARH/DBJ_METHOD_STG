@@ -7,7 +7,7 @@ Client questions: to surface the pain and reframe their thinking
 Handoff: bridge to the Boot Camp
 ---
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>
 <div style="clear: both;"></div>
@@ -34,7 +34,7 @@ Handoff: bridge to the Boot Camp
 
 ## How is Enterprise Architecture profitable activity?
 
-![](first_meeting/EA_ROI.png)
+![](assets_first_meeting/EA_ROI.png)
 
 ### Enterprise Architecture is not marketing
 
@@ -42,7 +42,7 @@ Handoff: bridge to the Boot Camp
 
 The [ICL BPT](https://ea.ironcodelabs.com/bpt.html) loop keeps Business, Product, and Technology decoupled and yet continuously aligned — so architectural decisions are tested against reality in every cycle, not just at project start. Organizations running BPT stop accumulating misalignment debt and start delivering outcomes that are traceable to strategy.
 
-![](first_meeting/bpt-nutshell.png)
+![](assets_first_meeting/bpt-nutshell.png)
 
 #### The Entry is not Free it is called [ICL CMM](https://ea.ironcodelabs.com/kb/icl-cmm/icl-cmm.html)
 
@@ -54,7 +54,7 @@ The [ICL BPT](https://ea.ironcodelabs.com/bpt.html) loop keeps Business, Product
 > [!TIP] ICL CMM unlocks the process. 
 > Levels 3–5 achieved, mean the organization has the repeatable discipline to actually run [ICL ADM](https://ea.ironcodelabs.com/kb/icl-adm/icl_adm.html) cycles that produce consistent, governed outcomes — not just one-off architecture documents that gather dust.
 
-![alt text](first_meeting/cmm-levels.png)
+![alt text](assets_first_meeting/cmm-levels.png)
 
 ### Structure of Architecture Capable Organization
 
@@ -84,7 +84,7 @@ The [ICL BPT](https://ea.ironcodelabs.com/bpt.html) loop keeps Business, Product
 >
 >"Most organisations don't have a technology problem. They have a **knowledge problem** — and they don't know it yet."
 
-![](first_meeting/bpt-legacy-insights.png)
+![](assets_first_meeting/bpt-legacy-insights.png)
 
 Every legacy system has two parts:
 
@@ -130,6 +130,6 @@ If the conversation goes well, the next step is the **ICL CMM Boot Camp** — wh
 > "We don't start with a big bang. We start with a shared baseline — so every decision from day one is traceable, governed, and defensible."
 
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>

@@ -6,8 +6,9 @@ description:  The EU AI Act compliance deadline for high-risk AI systems is Augu
 
 # The EU AI Compliance Act
 
->[!NOTE]
+>**NOTE**
 "*AI is a corporate risk. Non compliant AI is unmanageable corporate risk*" - &copy; Dusan Jovanovic 2026
+{: note}
 
 ![](ai-compliance.jpg)
 
@@ -32,7 +33,8 @@ What exactly what each framework requires:
 and why pre-execution governance is probably the only architecture that structurally satisfies all 5.
 
 
->[!NOTE]
+>**NOTE**
 > Governing AI at the Execution Layer: Regulatory Alignment
 > 
 > (pobably not a lucid ans succinct text: https://lnkd.in/egw4eCC2)
+{: note}

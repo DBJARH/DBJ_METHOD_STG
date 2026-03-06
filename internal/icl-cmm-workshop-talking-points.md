@@ -1,5 +1,5 @@
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="../assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>
 <div style="clear: both;"></div>
@@ -7,8 +7,8 @@
 # ICL CMM Workshop: Key Talking Points
 
 
-![](../assets/TOGAF_CMM.png)
-Ideal Target
+![](https://ea.ironcodelabs.com/kb/icl-cmm/togaf_cmm_icl_simplified.png)
+*ICL Simplified CMM required organogram*
 
 >[!NOTE] ICL Coach is talking to the customers team specificaly assembled to join the ICL Led "Recovery"
 
@@ -118,6 +118,6 @@ Final message you can deliver:
 ✅ A script you can read during the meeting
 
 <div style=”float: right; margin: 1em; text-align: center;”>
-<img src=”../assets/icl_logo.png” width=”64px” /><br/>
+<img src=”assets_common/icl_logo.png” width=”64px” /><br/>
 <a href=”https://ironcodelabs.ai”>&copy; Iron Code Labs Ltd</a>
 </div>

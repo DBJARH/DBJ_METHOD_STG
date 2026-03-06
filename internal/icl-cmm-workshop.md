@@ -1,6 +1,6 @@
 
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="../assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>
 <div style="clear: both;"></div>
@@ -9,10 +9,10 @@
 
 # ICL CMM Workshop
 
-![](../assets/togaf_cmm_icl_simplified.png)
+![](https://ea.ironcodelabs.com/kb/icl-cmm/togaf_cmm_icl_simplified.png)
 *ICL Simplified CMM required organogram*
 
-#### Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects induce.
+>[!NOTE] Here we present the current (2026Q1) mood in the industry. Regarding the widespread failure and hardship "AI enabled" projects seem to induce.
 
 >[!NOTE]
 > "...the changes brought about by enthusiastic AI adoption can be unsustainable, causing problems down the line..."
@@ -52,6 +52,8 @@
 >
 </details>
 
+---
+
 ### You can’t park new strategy on top of old chaos
 
 That’s what EA really does... It CLEARS space so the business can MOVE.
@@ -72,6 +74,8 @@ Think of AI like a search engine. It doesn't replace the researcher; it just cha
 The future isn't humans vs. machines. It’s just us with better tools. 
 ```
 </details>
+
+---
 
 >[!Important]
 > Exactly, why is the step one of our prescribed workflow, capabilities first.
@@ -184,7 +188,9 @@ That’s the strategic choice in front of every CXO right now.
 
 </details>
 
+---
+
 <div style="float: right; margin: 1em; text-align: center;">
-<img src="../assets/icl_logo.png" width="64px" /><br/>
+<img src="assets_common/icl_logo.png" width="64px" /><br/>
 <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
 </div>

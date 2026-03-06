@@ -6,7 +6,7 @@ description: Iron Code Labs EA knowledge base — structured reference material 
 
 # Knowledge Base
 
-Structured reference material on enterprise architecture topics. Each section is a self-contained series that can be read independently.
+Structured reference material on enterprise architecture topics. Each section is a self-contained and can be read independently.
 
 ---
 
@@ -39,3 +39,11 @@ The Iron Code Labs Capability Maturity Model — a mirror of the TOGAF CMM appli
 Establishes ITIL as the alternative benchmarking and standards measurement framework for IT operations within the ICL Method. Clarifies the boundary with TOGAF: TOGAF governs state transition; ITIL measures operational fitness. Covers the Service Value Chain, Four Dimensions, 34 Management Practices, key benchmarking metrics, ADM integration points, and ITIL CMM alignment.
 
 > TOGAF governs the *state transition*. ITIL measures *operational fitness*.
+
+---
+
+## 5 [AI Compliance](ai-compliance/ai-compliance.md)
+
+Enterprise architecture lens on AI regulatory compliance. Covers what the EU AI Act, NIST AI RMF, SOC 2, HIPAA, and SEC guidance each require, and why pre-execution governance is the only architecture that structurally satisfies all five frameworks. The EU AI Act compliance deadline for high-risk AI systems is August 2026.
+
+> Regulators won't ask what your AI did — they will ask whether governance was active and correctly configured.

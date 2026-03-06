@@ -30,7 +30,7 @@ What exactly what each framework requires:
 - HIPAA
 - SEC guidance 
 
-and why pre-execution governance is probably the only architecture that structurally satisfies all 5.
+At Iron Code Labs, we recommend closed-loop, pre-execution and runtime-integrated governance framework
 
 
 >**NOTE**

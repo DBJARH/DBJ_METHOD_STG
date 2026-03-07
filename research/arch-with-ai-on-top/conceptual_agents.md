@@ -14,9 +14,9 @@ Single responsibility applies here too. An Agent that can "do anything" becomes 
 
 Better model: each Agent has a well-defined scope — one domain, one workflow type, one capability. The API Gateway routes to the right Agent. If a task needs multiple concerns, Agents compose (one orchestrates others) rather than one Agent doing everything.
 
-"Agent Pool" in the diagram is fine as an infrastructure term (a pool of scaled instances), but each deployed Agent type should be narrow and purposeful.
+"Agent Pool" is fine as an infrastructure term (a pool of scaled instances), but each deployed Agent type should be narrow and purposeful.
 
-An Agent maps naturally to an (DDD) Aggregate — it owns a bounded context, encapsulates its state and behavior, and is the single point of authority for its domain concern.
+An Agent maps naturally to an ([DDD](https://en.wikipedia.org/wiki/Domain-driven_design)) [Aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html) — it owns a bounded context, encapsulates its state and behavior, and is the single point of authority for its domain concern.
 
 The composition pattern follows too: Aggregates don't reach into other Aggregates directly — they communicate via domain events or commands. Same applies to Agents composing: one orchestrates others through explicit calls, not shared state.
 
@@ -24,7 +24,8 @@ The composition pattern follows too: Aggregates don't reach into other Aggregate
 
 Actually the logic is simple and straightforward. Messages flow through a Chat Hub (inbound/outbound channels) into the Agent Loop, which builds context from memory/sessions/skills, calls the LLM via OpenAI-compatible API, and executes tools (filesystem, exec, web, etc.) before sending replies back through the hub.
 
-
+![](assets/agent_arch.png)
+*This image is from [picobot](https://github.com/louisho5/picobot) readme*
 
 ### Classic example: purchase order (PO) approval.
 

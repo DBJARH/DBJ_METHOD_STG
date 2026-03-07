@@ -6,13 +6,15 @@
 
 # LLM Integration
 
-1. [Conceptual Architecture](#1-conceptual-architecture)
-2. [Conceptual Agents](#2-conceptual-agents)
-3. [Service Topology](#3-service-topology)
-4. [Async & Large Payload Handling](#4-async--large-payload-handling)
-5. [Stateless Agent & State Externalisation](#5-stateless-agent--state-externalisation)
-6. [Discoverability & API Management](#6-discoverability--api-management)
-7. [Long-Running Workflows](#7-long-running-workflows)
+- [LLM Integration](#llm-integration)
+  - [1. Conceptual Architecture](#1-conceptual-architecture)
+  - [2. Conceptual Agents Internals](#2-conceptual-agents-internals)
+  - [3. Service Topology](#3-service-topology)
+  - [4. Async \& Large Payload Handling](#4-async--large-payload-handling)
+  - [5. Stateless Agent \& State Externalisation](#5-stateless-agent--state-externalisation)
+  - [6. Discoverability \& API Management](#6-discoverability--api-management)
+  - [7. Long-Running Workflows](#7-long-running-workflows)
+  - [Key Deployment Principles](#key-deployment-principles)
 
 ## 1. Conceptual Architecture
 
@@ -38,7 +40,7 @@ Legacy knowledge has been decoupled from legacy technology. It is a set of varie
 
 >[!IMPORTANT]It is decoupled from the rest of the system by MCP Servers. So it can evolve indepedantly to the time of consolidate data storage.
 
-## 2. Conceptual Agents
+## 2. Conceptual Agents Internals
 
 See [conceptual_agents.md](conceptual_agents.md).
 

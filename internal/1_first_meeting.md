@@ -15,7 +15,7 @@ Handoff: bridge to the Boot Camp
 >[!NOTE]This appears to be internal document
 
 - [Meeting One: Talking Points](#meeting-one-talking-points)
-  - [AI Adopters Universal Paint Point The Legacy Systems](#ai-adopters-universal-paint-point-the-legacy-systems)
+  - [AI Adopters Universal Paint Point: The Legacy Systems](#ai-adopters-universal-paint-point-the-legacy-systems)
     - [Iron Code Labs EA Insight](#iron-code-labs-ea-insight)
   - [How is Enterprise Architecture profitable activity?](#how-is-enterprise-architecture-profitable-activity)
     - [Enterprise Architecture is not marketing](#enterprise-architecture-is-not-marketing)
@@ -33,7 +33,7 @@ Handoff: bridge to the Boot Camp
 
 >[!NOTE]This is the initial meeting with a prospective client. The conversation is **business-first**. Lead with value, not methodology.
 
-## AI Adopters Universal Paint Point The Legacy Systems
+## AI Adopters Universal Paint Point: The Legacy Systems
 
 <!-- DBJ post:  https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ -->
 

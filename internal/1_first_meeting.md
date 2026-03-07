@@ -15,14 +15,15 @@ Handoff: bridge to the Boot Camp
 >[!NOTE]This appears to be internal document
 
 - [Meeting One: Talking Points](#meeting-one-talking-points)
+  - [AI Adopters Universal Paint Point The Legacy Systems](#ai-adopters-universal-paint-point-the-legacy-systems)
+    - [Iron Code Labs EA Insight](#iron-code-labs-ea-insight)
   - [How is Enterprise Architecture profitable activity?](#how-is-enterprise-architecture-profitable-activity)
     - [Enterprise Architecture is not marketing](#enterprise-architecture-is-not-marketing)
   - [Iron Core Labs Method in a nutshell](#iron-core-labs-method-in-a-nutshell)
       - [The Entry is not Free it is called ICL CMM](#the-entry-is-not-free-it-is-called-icl-cmm)
     - [**Architecture Capability Modeling**](#architecture-capability-modeling)
     - [Structure of Architecture Capable Organization](#structure-of-architecture-capable-organization)
-  - [The Legacy Systems Insights](#the-legacy-systems-insights)
-      - [The Core Message](#the-core-message)
+    - [ICL Enterprise Architecture is not Marketing](#icl-enterprise-architecture-is-not-marketing)
   - [The ICL Method Unique Selling Point](#the-icl-method-unique-selling-point)
   - [Questions for the Client](#questions-for-the-client)
   - [The Handoff](#the-handoff)
@@ -32,11 +33,46 @@ Handoff: bridge to the Boot Camp
 
 >[!NOTE]This is the initial meeting with a prospective client. The conversation is **business-first**. Lead with value, not methodology.
 
+## AI Adopters Universal Paint Point The Legacy Systems
+
+<!-- DBJ post:  https://www.linkedin.com/posts/dusanjovanovic_roi-on-ai-is-just-not-materializing-why-activity-7427788629197864961-mFMN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ -->
+
+### Iron Code Labs EA Insight
+
+>[!IMPORTANT] **AI has amplified the business core problem**
+>
+>"Most organisations don't have a technology problem. They have a **knowledge problem** — and they don't know it yet."
+
+![](assets_first_meeting/bpt-method-insights.png)
+
+Every legacy system has two major parts:
+
+- **Technology** — the stack, the debt, the constraints
+- **Knowledge** — the business logic, rules, and institutional memory accumulated over decades
+
+The business value is almost entirely in the **knowledge**. But that knowledge is imprisoned by the technical debt surrounding it.
+
+Most blind AI modernisation efforts fail because they treat the two as one. They replace the legacy system and lose the knowledge — or they preserve the knowledge and can't escape the iceberg of technical debt.
+
+**Iron Code Labs (ICL) method decouples the two.**
+
+The new system inherits the legacy knowledge. The old technology is replaced. Nothing valuable is lost.
+
+---
+
+
 ## How is Enterprise Architecture profitable activity?
 
 ![](assets_first_meeting/EA_ROI.png)
 
 ### Enterprise Architecture is not marketing
+
+<details markdown="1">
+<summary><b>But how is that actually helping?</b></summary>
+
+<img src="assets_common/the_iceberg.jpg" width="50%"/>
+
+</details>
 
 ## Iron Core Labs Method in a nutshell
 
@@ -76,30 +112,10 @@ The [ICL BPT](https://ea.ironcodelabs.com/bpt.html) loop keeps Business, Product
 
 > This structure is operational only once the organization has reached **ICL CMM Level 3 across all five elements**. Below that threshold, one or more structural elements lack the repeatable processes needed to sustain it — introducing the structure earlier creates overhead without the discipline to make it work.
 
-## The Legacy Systems Insights
-
-#### The Core Message
-
->[!IMPORTANT] **AI has amplified the business core problem**
->
->"Most organisations don't have a technology problem. They have a **knowledge problem** — and they don't know it yet."
-
+### ICL Enterprise Architecture is not Marketing
 ![](assets_first_meeting/bpt-legacy-insights.png)
 
-Every legacy system has two parts:
-
-- **Technology** — the stack, the debt, the constraints
-- **Knowledge** — the business logic, rules, and institutional memory accumulated over decades
-
-The business value is almost entirely in the **knowledge**. But that knowledge is imprisoned by the technical debt surrounding it.
-
-Most blind AI modernisation efforts fail because they treat the two as one. They replace the technology and lose the knowledge — or they preserve the knowledge and can't escape the iceberg of technical debt.
-
-**Iron Code Labs (ICL) method decouples the two.**
-
-The new system inherits the legacy knowledge. The old technology is replaced. Nothing valuable is lost.
-
----
+First we enanble them, then we follow the customer to the delivery.
 
 ## The ICL Method Unique Selling Point
 

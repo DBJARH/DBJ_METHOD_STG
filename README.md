@@ -1,12 +1,15 @@
 
 # Iron Code Labs — EA_STG
 
+Please folow [HERE](docs/index.md) to the documentation home page.
+
 >[!TIP]
 This is not a code developers repository. These repositories host ('[markdown](https://en.wikipedia.org/wiki/Markdown)') documents presenting the ICL Method, blog posts, and such. No code and no software development.
 
 >[!IMPORTANT] This is a **public** repository. Be aware when adding new content.
 
-This is the repo: [github.com/ironcodelabs-com/EA_STG](https://github.com/IRONCODELABS-COM/EA_STG)
+
+This is the GH repo link: [github.com/ironcodelabs-com/EA_STG](https://github.com/IRONCODELABS-COM/EA_STG)
 
 > See [README_COMMON.md](README_COMMON.md) for shared context: repo overview, publishing terminology, and copyright.
 

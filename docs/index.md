@@ -22,23 +22,28 @@ description: Home
 - AI is a marketing term — LLM is engineering
 - We do not blame it on the LLM -->
 
-# Iron Code Labs Method
+# Iron Code Labs Method: based on Enterprise Architecture 
 
 <!-- ![](assets/warwick-journey-image.png) -->
 
 <!-- ![](assets/icl_dbj_method.png) -->
 
-![](assets/icl_method_bridge_bw.png)
+![](index_assests/bpt-method-insights.png)
+The outcome of the Iron Code Labs Engagement
 
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
-#### The Iron Code Labs (ICL) method is a bridge of two arches: **On-boarding** and **The Loop**.
+#### The Iron Code Labs (ICL) method is a bridge of two arches: 
+
+* [**On-boarding**](#arch-1-on-boarding) 
+* [**The Loop** ](#arch-2-business-product-technology-loop)
+
+
+## Arch 1: **On-boarding**
 
 >**Important**
 >
-> ICL enables clients with [Enterprise Architecture](enterprise_architecture.md) as the overarching framework supporting and driving the whole process. ICL EA is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
+> ICL enables clients with simplified [Enterprise Architecture](enterprise_architecture.md) as the overarching framework supporting and driving the whole process. ICL EA is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
 {: important}
-
-## Stage (Arch) 1 — On-boarding
 
 In this step ICL prepares clients for EA architecture-led delivery by putting them on the firm [capability maturity foundations](cmm.md#diagram).
 
@@ -64,11 +69,15 @@ ICL EA defines and documents architecture processes — moving the organisation 
 
 For full detail on the maturity model see [CMM](cmm.md).
 
-## Stage (Arch) 2 — [Business, Product, Technology](bpt.md) Loop
+## Arch 2: [Business, Product, Technology](bpt.md) Loop
 
 **Continuous operational cycle, company-wide**
 
-Once on-boarded, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for CMM-ready organisations. EA is the **meta-layer** — it does not participate in the loop, it governs it.
+Once on-boarded, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for CMM-ready organisations. 
+
+EA does not participate in the loop, it governs it. Iron Code Labs has the plans for the bridge over which customers may cross from chaos of Legacy to the Feasibility of AI.
+
+![](index_assests/empty-medieval-bridge.jpg)
 
 
 ---

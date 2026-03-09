@@ -75,9 +75,16 @@ For full detail on the maturity model see [CMM](cmm.md).
 
 Once on-boarded, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for CMM-ready organisations. 
 
-EA does not participate in the loop, it governs it. Iron Code Labs has the plans for the bridge over which customers may cross from chaos of Legacy to the Feasibility of AI.
+Iron Code Labs has the EA Plans for the bridge over which customers may cross from chaos of Legacy to the Feasibility of AI. 
 
-![](index_assests/empty-medieval-bridge.jpg)
+EA does not participate, it governs. 
+
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="index_assests/empty-medieval-bridge.jpg" width="480px" />
+<br/>
+<!-- <a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a> -->
+</div>
+<div style="clear: both;"></div>
 
 
 ---

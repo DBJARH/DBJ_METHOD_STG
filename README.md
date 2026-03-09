@@ -1,9 +1,10 @@
 
 <img src="blog/ICLogo.png" width="25%" />
 
-# Iron Code Labs Enterpise Architecture
-## Methodology, Posts and Lessons
-## Staging repository
+# Iron Code Labs Staging Area
+## Methodology, Posts, Lessons, Marketing
+
+>[!IMPORTANT]This is not public repository
 
 >[!TIP]
 Theis is not code developers repository. This repository is hosting ('[mark down](https://en.wikipedia.org/wiki/Markdown)') documents, presenting the ICL Method, blog posts, and such. No code and no software development.

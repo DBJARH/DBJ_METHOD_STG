@@ -14,14 +14,13 @@ This is the repo: [github.com/ironcodelabs-com/EA_STG](https://github.com/IRONCO
 ## Content
 
 - [docs/](docs/) — Published site pages (methodology vault)
-- [blog/](blog/) — Posts staging area. Copied to [Published Repository](https://ironcodelabs-com.github.io/EA)
-- [research/](research/) — Research notes and taxonomy
-  - [Taxonomy](research/TAXONOMY_FINAL/) — single source of truth
-  - [Architecture of LLM Adoption](research/architecture-of-llm-adoption/)
-  - [Implementation notes](research/implementation/)
-  - [Liquid Foundation Models](research/lfm/)
-- [external/](external/) — Customer-facing leaflets
-- [internal/](internal/) — Internal documentation
+  - [bpt.md](docs/bpt.md) — BPT Loop
+  - [cmm.md](docs/cmm.md) — Capability Maturity Model
+  - [taxonomy.md](docs/taxonomy.md) — Common Taxonomy (full)
+  - [taxonomy_core.md](docs/taxonomy_core.md) — Common Taxonomy (core)
+  - [enterprise_architecture.md](docs/enterprise_architecture.md) — Enterprise Architecture overview
+  - [ai.md](docs/ai.md) — AI
+  - [kb/](docs/kb/) — Knowledge base articles
 
 ---
 

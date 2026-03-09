@@ -8,7 +8,8 @@
 # Iron Code Labs Staging Area
 ## Methodology, Posts, Lessons, Marketing
 
->[!IMPORTANT]This is not public repository
+>[!IMPORTANT]This is public repository
+Be aware when adding new content.
 
 >[!TIP]
 Theis is not code developers repository. This repository is hosting ('[mark down](https://en.wikipedia.org/wiki/Markdown)') documents, presenting the ICL Method, blog posts, and such. No code and no software development.

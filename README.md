@@ -1,5 +1,8 @@
-
-<img src="blog/ICLogo.png" width="25%" />
+<p style="float: right; margin: 1em; text-align: center;">
+<img src="blog/ICLogo.png" width="15%" /><br/>
+<a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
+</p>
+<hr style="clear:both;" />
 
 # Iron Code Labs Staging Area
 ## Methodology, Posts, Lessons, Marketing
@@ -52,3 +55,9 @@ This repo GitHub [Location/Link](github.com/ironcodelabs-com/EA_STG/).
 
 >[!NOTE]
 > Unless otherwise declared joint &copy; Iron Code Labs Ltd & dbj@dbj.org  | CC BY SA 4.0
+
+<p style="float: right; margin: 1em; text-align: center;">
+<img src="blog/ICLogo.png" width="15%" /><br/>
+<a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
+</p>
+<hr style="clear:both;" />

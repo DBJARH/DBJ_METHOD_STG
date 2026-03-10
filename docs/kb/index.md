@@ -63,3 +63,11 @@ Integration architecture for connecting new AI-enabled systems to existing enter
 Why AGI is an unreachable milestone — and why the distinction matters for the business restarting the AI strategy. Covers the ANI/AGI feature gap, the four strongest arguments against AGI ever existing (stochastic parrots, the Chinese Room, embodiment, the scaling wall), and the governance implication: Enterprise Architecture evaluates capability, not marketing position on a notional AGI scale.
 
 > ANI is real, deployable, and governable. AGI is a philosophical milestone whose reachability is genuinely in dispute.
+
+---
+
+## 8 [Win32 Monolith Modernization](win32-monolith/win32-monolith.md)
+
+Enterprise architecture approach for modernizing a legacy Win32 monolith with a web front end. Covers the Strangler Fig pattern as the governing migration strategy, the Anti-Corruption Layer as Phase 1, progressive service extraction in Phase 2, the recommended stack (.NET 8, Azure SQL, HTMX), and the key constraints to validate before starting.
+
+> The monolith shrinks — it does not get rewritten in one shot.

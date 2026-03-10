@@ -83,15 +83,23 @@ In more precise terms, the purpose of EA is to:
 > **Iron Code Labs Enterprise Architecture ensures the enterprise changes intentionally, not accidentally.**
 {: .important}
 
-![](assets/icl_ea_clogs.png)
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="assets/icl_ea_clogs.png" width="480px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>
 
 <!-- If customer want, I can frame this through **DDD**, **microservices**, or DBJ **Conceptual → Logical → Physical → Implementation** taxonomy. -->
 
 ## Taxonomy
 
-Taxonomy provides the key communication aid and structural foundation, that characterizes a capable and mature enterprise. As per the [TOGAF CMM](cmm.md) foundations.
+[ICL Taxonomy](cmm.md) provides the key communication aid and structural foundation, that characterizes a capable and mature enterprise. It is a mirror with strong  [TOGAF CMM](kb/togaf-cmm/togaf-cmm.md) foundations.
 
-See [Taxonomy](pages/taxonomy/taxonomy.md) for details.
+* Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.
+* It gives both the structure and naming of structure elements.
+* It is the essential comon langugage of the organization
+
+See [Taxonomy](taxonomy.md) for details.
 
 <!-- Standard Footer -->
 <div style="clear: both;"></div>

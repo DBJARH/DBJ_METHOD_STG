@@ -55,3 +55,11 @@ Enterprise architecture lens on AI regulatory compliance. Covers what the EU AI 
 Integration architecture for connecting new AI-enabled systems to existing enterprise knowledge. Covers the New System → Agents → MCP Servers → Legacy Knowledge pattern, the role of LLMs as a peer input (not gateway), MCP Servers as the anti-corruption layer across heterogeneous legacy data sources, and the decoupling principles that keep legacy knowledge authoritative in place.
 
 > The tool contract is the only interface that matters — the Agent never knows what sits behind the MCP Server.
+
+---
+
+## 7 [ANI Is Not AGI](ani_is_not_agi/ani_is_not_agi.md)
+
+Why AGI is an unreachable milestone — and why the distinction matters for enterprise architecture. Covers the ANI/AGI feature gap, the four strongest arguments against AGI ever existing (stochastic parrots, the Chinese Room, embodiment, the scaling wall), and the governance implication: EA evaluates capability, not marketing position on a notional AGI scale.
+
+> ANI is real, deployable, and governable. AGI is a philosophical milestone whose reachability is genuinely in dispute.

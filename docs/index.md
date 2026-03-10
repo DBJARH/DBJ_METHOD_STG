@@ -9,10 +9,11 @@ description: Home
 
 >**Note**
 >This Method exists to facilitate safe journey of an enterprise to AI enablement
+>
+> General [AI Guidance](ai.md)
 {: note}
 
-#### [ICL AI Guidance](ai.md)
-
+ 
 <!-- Each ICL Client Team Member has a role defined by the ICL Method and can use the LLM to help create the results. But here is the key:
 
 **Accountability stays with the person, not the AI tool**
@@ -22,7 +23,7 @@ description: Home
 - AI is a marketing term — LLM is engineering
 - We do not blame it on the LLM -->
 
-# Iron Code Labs Method: based on Enterprise Architecture 
+# Iron Code Labs Method is based on Enterprise Architecture 
 
 <!-- ![](assets/warwick-journey-image.png) -->
 
@@ -32,10 +33,10 @@ description: Home
 The outcome of the Iron Code Labs Engagement -->
 
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
-## The Iron Code Labs (ICL) method is a bridge of two arches: 
+## The Iron Code Labs (ICL) method is a safe passage bridge made of two arches: 
 
-* Arch 1: [**On-boarding**](#arch-1-on-boarding) 
-* Arch 2: [**The Loop** ](#arch-2-business-product-technology-loop)
+* ### Arch 1: [**On-boarding**](#arch-1-on-boarding) 
+* ### Arch 2: [**The Loop** ](#arch-2-business-product-technology-loop)
 
 
 ## Arch 1: **On-boarding**

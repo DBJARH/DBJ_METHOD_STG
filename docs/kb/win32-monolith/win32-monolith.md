@@ -5,11 +5,10 @@ description: Enterprise architecture approach for modernizing a legacy Win32 mon
 ---
 
 *MERMAID_MINIMAL_JEKYLL*
-
 # Legacy Monolith WIN32 desktop GUI; System Modernization.
 
-### Web front end to be added
-### Mobile apps to be developed?
+> * Web front end to be added
+> * Mobile apps to be developed
 
 ## 1. Vision
 

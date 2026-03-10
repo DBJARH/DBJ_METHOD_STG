@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ANI Is Not AGI
-description: Why AGI is an unreachable milestone — and why the distinction matters for enterprise architecture
+description: Why AGI is an unreachable milestone — and why the distinction matters
 ---
 
 # ANI Is Not AGI
@@ -61,7 +61,9 @@ Enterprise architecture does not evaluate AI by its marketing position on a noti
 
 ANI is real, deployable, and governable. AGI is a philosophical milestone whose reachability is genuinely in dispute. Treat them accordingly.
 
+> **Note**
 > The distinction between ANI and AGI is not academic. Governance built on the assumption that today's AI is "almost AGI" will be structurally wrong — and structurally wrong governance fails at the worst moment.
+ {: note}
 
 ---
 
@@ -74,6 +76,9 @@ March 2026, [Dusan Jovanovic](https://dusanjovanovic.org/)
 <br/>
 <i>Safe Passage to AI</i>
 </div>
+<!-- Standard Footer -->
 <div style="clear: both;"></div>
-
-[Iron Code Labs Ltd](https://ironcodelabs.com/)
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

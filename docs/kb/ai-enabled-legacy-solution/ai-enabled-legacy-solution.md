@@ -71,3 +71,9 @@ The consumer (Agent) is shielded from:
 **Practical consequence**: You can replace an Oracle DB with a document store behind an MCP Server and the Agent never knows. The tool contract is the only interface that matters.
 
 This also means MCP Servers are where **data governance**, **access control**, and **audit logging** are enforced — consistently, regardless of what sits behind them.
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

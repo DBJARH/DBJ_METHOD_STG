@@ -116,3 +116,10 @@ Target for consolidated IT landscape: **Level 3 minimum** across all Tier 1 serv
 
 *Document owner: Enterprise Architecture Practice*  
 *Framework references: [ITIL 4 Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation) (AXELOS), [TOGAF 10](https://www.opengroup.org/togaf) (The Open Group), [ICL ADM](../icl-adm/icl_adm.md)*
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

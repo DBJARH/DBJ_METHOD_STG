@@ -73,3 +73,10 @@ Capability Maturity Models were developed by the [Software Engineering Institute
 ---
 
 *Reference: [TOGAF Architecture Maturity Models](https://pubs.opengroup.org/togaf-standard/architecture-maturity-models/)*
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

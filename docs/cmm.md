@@ -109,3 +109,10 @@ Assess each element independently on the L0–L5 scale using the characteristics
 Example: Governance=L4, Skilled Resource Pool=L3, Projects=L3, Business Operations=L2, Architecture Repository=L3 → **Organization level: L2**
 
 This prevents high scores in one area from masking critical gaps elsewhere.
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

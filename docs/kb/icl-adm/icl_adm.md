@@ -84,3 +84,10 @@ This framework applies to any ICL ADM wheel. Examples:
 - **Data Governance wheel** — establishes data ownership, classification, and retention rules
 
 Each wheel runs the same five-step structure. Each wheel's artifacts are specific to its topic.
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

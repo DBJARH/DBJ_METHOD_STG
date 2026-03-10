@@ -111,3 +111,10 @@ Software development teams are classified as Elite, High, Medium, or Low perform
 
 **Google Cloud** is the primary company behind DORA.
 
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

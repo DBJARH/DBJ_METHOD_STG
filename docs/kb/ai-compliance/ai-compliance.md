@@ -38,3 +38,10 @@ At Iron Code Labs, we recommend closed-loop, pre-execution and runtime-integrate
 > 
 > (pobably not a lucid ans succinct text: https://lnkd.in/egw4eCC2)
 {: note}
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

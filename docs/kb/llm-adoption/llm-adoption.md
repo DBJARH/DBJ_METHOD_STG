@@ -135,3 +135,10 @@ A team tasked to approve the introduction of an LLM works through these in order
 > Do not make LLM a "[Single Point of Failure](https://en.wikipedia.org/wiki/Single_point_of_failure)"
 
 *Reference: [Fred Brooks — Second-System Effect](https://en.wikipedia.org/wiki/Second-system_effect)*
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="../../assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

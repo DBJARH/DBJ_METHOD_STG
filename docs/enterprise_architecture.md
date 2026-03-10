@@ -92,3 +92,10 @@ In more precise terms, the purpose of EA is to:
 Taxonomy provides the key communication aid and structural foundation, that characterizes a capable and mature enterprise. As per the [TOGAF CMM](cmm.md) foundations.
 
 See [Taxonomy](pages/taxonomy/taxonomy.md) for details.
+
+<!-- Standard Footer -->
+<div style="clear: both;"></div>
+<div style="float: center; margin: 1em; text-align: center;">
+<img src="assets/icl_logo.png" width="64px" /><br/>
+<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+</div>

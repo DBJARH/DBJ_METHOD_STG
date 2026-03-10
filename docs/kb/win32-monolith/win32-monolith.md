@@ -99,7 +99,7 @@ Once the ACL is in place, each functional domain can be extracted one at a time:
 ```mermaid
 graph LR
     B(["Browser"])
-    WF(["Web Frontend"])
+    WF(["Web Server"])
     GW(["API Gateway"])
     SvcA(["New Service A<br/>(containerised)"])
     SvcB(["New Service B<br/>(containerised)"])
@@ -145,7 +145,37 @@ graph LR
 - **New Services** must NOT use the MCP Server — use the ACL (ProtoBuf) instead; JSON overhead is not acceptable on a hot service path
 - MCP Server does not call the LLM — it is deterministic in its own behaviour
 
-## 4 Constraints to validate before starting 
+## 4 AI Agent — Call Chain
+
+The AI Agent is a backend component. It is never exposed directly to the browser. A New Service invokes it when it needs AI reasoning (e.g. summarise customer history, suggest next action). The Agent fetches legacy data (if it needs legacy data) via the MCP Server and returns a result to the calling service.
+
+```mermaid
+graph LR
+    B(["Browser"])
+    WF(["Web Server"])
+    GW(["API Gateway"])
+    SVC(["New Service"])
+    AGENT(["AI Agent<br/>(LLM-driven)"])
+    LLM(["LLM"])
+    MCP(["MCP Server"])
+    DB(["Legacy DB"])
+
+    B -->|HTTPS| WF
+    WF --> GW
+    GW --> SVC
+    SVC -->|invoke| AGENT
+    AGENT -->|tool call| MCP
+    AGENT -->|prompt| LLM
+    MCP -->|SQL| DB
+```
+
+- The Agent is an internal capability of the service layer — not a gateway endpoint
+- The New Service decides when to invoke the Agent; the browser never calls it directly
+- The Agent's response is returned to the New Service, which responds to the Gateway as normal
+
+---
+
+## 5 Constraints to validate before starting
 
 | Question | Why it matters |
 |---|---|

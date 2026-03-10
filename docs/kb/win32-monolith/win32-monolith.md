@@ -123,12 +123,29 @@ Extract modules in order of: highest business value first, lowest coupling secon
 Modularization is diffuclt technicaly. Also logicalt because it has to be business driven. One business function =~ One module
 {: important}
 
-### AI (at last!)
+## 3 AI Integration — MCP Server as Anti-Corruption Layer
 
-- MCP Server is ideal AI "entity" for integrating new with legacy. 
-- MCP Server does not call LLM so it is not non-dererministic in its behaviour
+```mermaid
+graph LR
+    AGENT(["AI Agent<br/>(LLM-driven)"])
+    NEW(["New Service<br/>(containerised)"])
+    ACL(["ACL<br/>(ProtoBuf)"])
+    MCP(["MCP Server<br/>(JSON / HTTP)"])
+    DB(["Legacy DB<br/>(RDBMS)"])
+    WIN(["Win32 Monolith"])
 
-## 3 Constraints to validate before starting 
+    AGENT -->|tool call| MCP
+    NEW -->|ProtoBuf| ACL
+    ACL -->|IPC| WIN
+    MCP -->|SQL| DB
+    WIN -->|SQL| DB
+```
+
+- **MCP Server** is for the AI Agent only — it speaks JSON over HTTP/SSE, which is acceptable because LLM inference latency dwarfs wire overhead
+- **New Services** must NOT use the MCP Server — use the ACL (ProtoBuf) instead; JSON overhead is not acceptable on a hot service path
+- MCP Server does not call the LLM — it is deterministic in its own behaviour
+
+## 4 Constraints to validate before starting 
 
 | Question | Why it matters |
 |---|---|

@@ -1,49 +1,24 @@
-# Capability Maturity Model (CMM)
+---
+layout: default
+title: Capability Maturity Model (CMM)
+description: Iron Code Labs Capability Maturity Model — organizational maturity across five structural elements
+---
 
-## Contents
+# Iron Code Labs Capability Maturity Model (ICL CMM)
 
-- [Capability Maturity Model (CMM)](#capability-maturity-model-cmm)
-  - [Contents](#contents)
-  - [Why CMM](#why-cmm)
-  - [What is CMM](#what-is-cmm)
-  - [Components of the ACMM](#components-of-the-acmm)
-  - [Maturity Levels](#maturity-levels)
-  - [Nine ACMM Characteristics](#nine-acmm-characteristics)
-  - [ACMM as Foundational Capability for ADM Actors](#acmm-as-foundational-capability-for-adm-actors)
-    - [Organisational Capability Implications](#organisational-capability-implications)
-  - [Maturity Building Strategy](#maturity-building-strategy)
-  - [Conclusion](#conclusion)
-  - [History](#history)
+![ICLCMM](assets/togaf_cmm_icl_simplified.png)
 
->[!NOTE] Formal foundations are firmly embedded in the TOGAF CMM:
-> https://www.opengroup.org/architecture/0310wash/presents/Judith_Jones-Maturity_Models.pdf
->
+The ICL CMM mirrors the TOGAF CMM — it uses the same maturity scale and the same principle of assessing organizational capability across multiple dimensions. It is not a fork or a replacement. The difference is scope: where TOGAF CMM focuses on the EA practice, the ICL CMM applies to the **whole organization**, using five structural elements that exist in every organization regardless of size, industry, or whether dedicated EA practitioners are present:
 
-![](assets/TOGAF_CMM.png)
-Classic TOGAF CMM enabled organization diagram
+- **Governance** — decision-making authority, policies, and oversight
+- **Skilled Resource Pool** — the people and competencies available to the organization
+- **Projects / Portfolios** — how work is initiated, executed, and delivered
+- **Business Operations** — the running business; day-to-day function and continuity
+- **Architecture Repository** — the organizational knowledge base; decisions, patterns, principles, and records
 
+Organization Maturity is assessed across these five elements. Each element is scored independently. The overall organization level is the lowest score across all five — a chain is as strong as its weakest link.
 
-## Why CMM
-
-Organizations seeking effective methods to enhance their business/technology processes and gain better control over their architectural endeavours benefit from the Architecture Capability Framework, deeply rooted in CMM and embedded within TOGAF. This framework provides a structured approach to gradually improve Technology-related processes. The central vehicle is the [Architecture Capabilities Maturity Model (ACMM)](https://pubs.opengroup.org/togaf-standard/architecture-maturity-models/).
-
-## What is CMM
-
-TOGAF's Architecture Capability Framework draws inspiration from various CMM variants, each tailored to specific aspects of organisational processes:
-
-- **CMMI** — Capability Maturity Model Integration
-- **SA-CMM** — Software Acquisition CMM
-- **SE-CMM** — Systems Engineering CMM
-- **P-CMM** — People CMM
-- **ACMM** — [Enterprise Architecture Capabilities Maturity Model](https://pubs.opengroup.org/togaf-standard/architecture-maturity-models/)
-
-## Components of the ACMM
-
-The ACMM comprises three main sections:
-
-1. **Architecture Maturity Model** — defines six maturity levels (M0–M5) across nine key architecture characteristics
-2. **Architecture Characteristics at Different Maturity Levels** — provides comprehensive organisational capability assessment across all nine dimensions
-3. **ACMM Scorecard** — monitoring and assessment tool for evaluating current maturity level per characteristic
+---
 
 <p id="levels"></p>
 
@@ -51,75 +26,86 @@ The ACMM comprises three main sections:
 
 | Level | Name | Description |
 |-------|------|-------------|
-| M0 | None | No architecture capability |
-| M1 | Initial | Ad-hoc, unorganised |
-| M2 | Under Development | Processes being defined |
-| M3 | Defined | Documented and standardised |
-| M4 | Managed | Measured and controlled |
-| M5 | Optimising | Continuous improvement |
+| L0 | None | No recognizable structure in this element |
+| L1 | Initial | Activity exists but is ad-hoc and person-dependent |
+| L2 | Emerging | Processes being defined; inconsistently applied |
+| L3 | Defined | Documented, standardized, consistently followed |
+| L4 | Managed | Measured, monitored, actively controlled |
+| L5 | Optimising | Continuous improvement embedded in normal operation |
 
-## Nine ACMM Characteristics
+> The entry ticket to the ICL BPT methodology is **L3 across all five elements**.
 
-Each characteristic is assessed independently across M0–M5, giving a multi-dimensional view rather than a single score. An organisation might be M3 on Governance but M1 on Business Linkage.
+An organization at L3 across all five elements has what the [ICL ADM](kb/icl-adm/icl_adm.md) requires to function:
 
-<p id="chars"></p>
+- **Governance** can host an Architecture Board with enforcement authority
+- **Skilled Resource Pool** can produce and review architectural deliverables
+- **Projects / Portfolios** can run a structured five-step [ICL ADM](kb/icl-adm/icl_adm.md) wheel
+- **Business Operations** engages with architectural decisions rather than bypassing them
+- **Architecture Repository** holds and serves the artifacts each wheel produces
 
-1. **Architecture Process** — how architecture work is performed (ad-hoc vs. repeatable vs. optimised)
-2. **Architecture Development** — maturity of producing architecture artefacts and deliverables
-3. **Business Linkage** — alignment between architecture and business strategy/goals
-4. **Senior Management Involvement** — executive sponsorship and engagement with EA
-5. **Operating Unit Participation** — involvement of business units in architecture processes
-6. **Architecture Communication** — how architecture is communicated across the organisation
-7. **IT Security** — integration of security into architecture practice
-8. **Architecture Governance** — controls, compliance, decision-making structures
-9. **IT Investment and Acquisition Strategy** — how architecture informs technology investment decisions
-
-> Practical use: the CMM "meter" identifies specific capability gaps rather than blanket immaturity statements — useful for targeted improvement roadmaps.
-
-## ACMM as Foundational Capability for ADM Actors
-
-The [ICL Architecture Development Method](https://ea.ironcodelabs.com/kb/icl-adm/icl_adm.html) (ICL ADM) requires the client organisation to be at ACMM maturity level M3 or above. Deliverable quality is capability-gated by CMM foundations — effective ADM execution requires sufficient maturity across all nine dimensions.
-
-### Organisational Capability Implications
-
-| Level | Implication |
-|-------|-------------|
-| M0–M1 | EA becomes ineffective without foundational structures |
-| M2 | Minimum viable governance emerging |
-| M3+ | EA can function with documented standards and executive support |
-
-Critical structural requirements include:
-
-- Executive-level EA reporting relationships
-- Cross-unit participation models
-- Architecture Review Board with enforcement authority
-- Strategic planning integration
-
-## Maturity Building Strategy
-
-Rather than immediately delivering architecture artifacts, effective ICL client engagement focuses on capability development first.
-
-**Phased Approach:**
-
-1. **Phase 1** (3–6 months): Organisational readiness — governance establishment, role definition, process frameworks
-2. **Phase 2** (6–12 months): Pilot ADM cycle with limited scope
-3. **Phase 3** (Ongoing): Scale and continuous optimisation
-
-## Conclusion
-
-The Architecture Capability Framework in TOGAF, and the ACMM in particular, empowers organisations to enhance their Technology-related development processes systematically. By leveraging maturity levels and the nine characteristics, organisations gain targeted insight into capability gaps and a structured path for continuous improvement.
-
-## History
-
-![](assets/TOGAF_CMM.png)
-Classic TOGAF CMM enabled organization diagram
-
-Capability Maturity Models (CMM) are frameworks developed by the [Software Engineering Institute (SEI)](https://en.wikipedia.org/wiki/Software_Engineering_Institute) at Carnegie Mellon University in 1987 to assess and improve software development processes. Originally created to help the U.S. Department of Defense evaluate contractor capabilities, CMM provides a structured, five-level evolutionary path to enhance process maturity, quality, and predictability. CMM has since evolved into CMMI (Capability Maturity Model Integration), covering broader business areas.
-
->[!NOTE]CMM level is Enteprise KPI
->
-> CMM level is organisation-wide measure — it reflects process maturity across all units, not just IT, making it a legitimate enterprise metric. Leadership can set a target level (e.g. "reach M3 by year-end") and track progress against it like any strategic KPI. Since ADM effectiveness is capability-gated by CMM level, the metric directly predicts whether EA initiatives will succeed — giving executives the signal they need to justify investment in governance, training, and tooling in the language of business outcomes.
+Below L3, one or more of these conditions fails — and the [ICL ADM](kb/icl-adm/icl_adm.md) wheel stalls.
 
 ---
 
-*Sources: [cmm.md](cmm.md) · [dbj_cmm.md](dbj_cmm.md) · [dbj.org/cmm](https://dbj.org/cmm/)*
+<p id="characteristics"></p>
+
+## Characteristics
+
+Each element has a set of observable characteristics used to assess its maturity level.
+
+### Governance
+
+1. **Decision Authority** — it is clear who makes which decisions and at what level
+2. **Policy Existence** — policies exist, are written down, and are known to those affected
+3. **Compliance Enforcement** — decisions and policies are actually followed; deviations are addressed
+4. **Strategic Linkage** — governance decisions visibly connect to business strategy
+
+### Skilled Resource Pool
+
+1. **Role Clarity** — roles are defined; people know what is expected of them
+2. **Competency Awareness** — the organization knows what skills it has and what it lacks
+3. **Knowledge Retention** — knowledge is not locked in individuals; it survives turnover
+4. **Cross-functional Participation** — people from different functions contribute to shared goals
+
+### Projects / Portfolios
+
+1. **Initiation Process** — projects are started through a defined process, not informally
+2. **Scope and Ownership** — each project has clear scope, owner, and success criteria
+3. **Portfolio Visibility** — leadership has a current view of all active work and priorities
+4. **Delivery Consistency** — projects deliver predictably; outcomes match intent
+
+### Business Operations
+
+1. **Process Documentation** — key operational processes are written down and followed
+2. **Business-IT Engagement** — business roles actively engage with technology decisions that affect them
+3. **Outcome Measurement** — operations are measured against defined business outcomes
+4. **Continuity Awareness** — the organization understands and manages operational risk
+
+### Architecture Repository
+
+1. **Existence** — a repository exists and has a known location
+2. **Currency** — content is kept up to date; outdated records are removed or flagged
+3. **Accessibility** — the right people can find and use what is in the repository
+4. **Decision Traceability** — architectural decisions are recorded with rationale, not just outcomes
+
+---
+
+## Maturity per Element — Reference Table
+
+| Element | L0 | L1 | L2 | L3 | L4 | L5 |
+|---|---|---|---|---|---|---|
+| Governance | No decisions | Reactive only | Being formalized | Documented and followed | Measured | Self-improving |
+| Skilled Resource Pool | No role clarity | Individual heroics | Roles emerging | Defined and stable | Capacity managed | Continuously developed |
+| Projects / Portfolios | No process | Projects start informally | Some structure | Consistent initiation and delivery | Portfolio actively managed | Optimised throughput |
+| Business Operations | No documentation | Key-person dependent | Processes partially documented | Standardized and followed | Outcomes measured | Continuously optimised |
+| Architecture Repository | Does not exist | Ad-hoc notes | Partially maintained | Current and accessible | Audited and governed | Actively curated |
+
+---
+
+## Scoring
+
+Assess each element independently on the L0–L5 scale using the characteristics above as evidence criteria. The **organization's ICL CMM level** is the minimum score across all five elements.
+
+Example: Governance=L4, Skilled Resource Pool=L3, Projects=L3, Business Operations=L2, Architecture Repository=L3 → **Organization level: L2**
+
+This prevents high scores in one area from masking critical gaps elsewhere.

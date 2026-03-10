@@ -26,11 +26,11 @@ Enterprise architecture governance framework for introducing Large Language Mode
 
 ---
 
-## 3 [ICL CMM](icl-cmm/icl-cmm.md)
+## 3 [TOGAF CMM](togaf-cmm/togaf-cmm.md)
 
-The Iron Code Labs Capability Maturity Model — a mirror of the TOGAF CMM applied to the whole organization across five structural elements: Governance, Skilled Resource Pool, Projects/Portfolios, Business Operations, and Architecture Repository. Covers maturity levels L0–L5, characteristics per element, a reference table, and the scoring rule. L3 across all five elements is the entry ticket to the ICL BPT methodology and the precondition for running the ICL ADM.
+The TOGAF Architecture Capability Maturity Model (ACMM) — the EA-practice-focused foundation from which the ICL CMM is derived. Covers the six maturity levels (M0–M5), the nine ACMM characteristics, the scorecard structure, and the M3 prerequisite for running the ICL ADM.
 
-> The ICL CMM is not a fork of TOGAF CMM — it is the same model applied to the whole organization, not just the EA practice.
+> The TOGAF CMM measures the EA practice. The [ICL CMM](../cmm.md) measures the whole organization.
 
 ---
 

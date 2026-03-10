@@ -28,14 +28,14 @@ description: Home
 
 <!-- ![](assets/icl_dbj_method.png) -->
 
-![](index_assests/bpt-method-insights.png)
-The outcome of the Iron Code Labs Engagement
+<!-- ![](index_assests/bpt-method-insights.png)
+The outcome of the Iron Code Labs Engagement -->
 
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
-#### The Iron Code Labs (ICL) method is a bridge of two arches: 
+## The Iron Code Labs (ICL) method is a bridge of two arches: 
 
-* [**On-boarding**](#arch-1-on-boarding) 
-* [**The Loop** ](#arch-2-business-product-technology-loop)
+* Arch 1: [**On-boarding**](#arch-1-on-boarding) 
+* Arch 2: [**The Loop** ](#arch-2-business-product-technology-loop)
 
 
 ## Arch 1: **On-boarding**
@@ -47,7 +47,7 @@ The outcome of the Iron Code Labs Engagement
 
 In this step ICL prepares clients for EA architecture-led delivery by putting them on the firm [capability maturity foundations](cmm.md#diagram).
 
-### A — Preparing for the [CMM Levels](cmm.md#levels-and-characteristics)
+### A — Preparing for the [CMM Levels](cmm.md#levels)
 
 ICL EA leads the assessment of the client's current organisational maturity levels using the ACMM Levels [M0–M5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL EA:
 
@@ -67,7 +67,7 @@ ICL EA defines and documents architecture processes — moving the organisation 
 
 **Deliverable:** organisation operating at CMM level M2 with EA-documented processes
 
-For full detail on the maturity model see [CMM](cmm.md).
+For full detail on the organization maturity model see [CMM](cmm.md).
 
 ## Arch 2: [Business, Product, Technology](bpt.md) Loop
 

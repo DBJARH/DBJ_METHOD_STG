@@ -1,9 +1,23 @@
-# Legacy Monolith WIN32 desktop GUI system modernization. 
+# Legacy Monolith WIN32 desktop GUI; System Modernization. 
 
 ### Web front end to be added
 ### Mobile apps to be developed?
 
-## Vision
+## 1. Vision
+
+```mermaid
+graph TD
+    UI(["HTMX Web UI<br/>(Browser)"])
+    APP(["Web Server<br/>.NET Container"])
+    DB(["Azure SQL<br/>(Managed)"])
+    WIN(["Win32 Monolith<br/>(Azure VM)"])
+    CLOUD(["Azure Cloud<br/>Logging · Backups · Monitoring · Security"])
+
+    UI -->|HTTPS| APP
+    APP -->|SQL| DB
+    APP -->|IPC / ACL| WIN
+    APP & DB & WIN -->|hosted in| CLOUD
+```
 
 ### Platform
 
@@ -28,6 +42,7 @@
 
 ### WEB UI: HTMX
 
+
   - much simpler than any other html front end
   - mature and proven
   - does not require specialized JavaScript/Type Script resources
@@ -36,44 +51,84 @@
 >**Important**
 Native Mobile UI requirement will basically explode the complexity
 
-# Application/System Architecture Concepts
+## 2. Application/System Architecture Concepts
 
 Classic **Strangler Fig** pattern applies here. The web front end becomes the entry point; the Win32 monolith is progressively hollowed out from behind it.
 
+>**Important**
 **Key architectural decision:** Do NOT attempt to expose the Win32 GUI directly. Treat the existing monolith as a black box with a new service boundary cut in front of it.
+{: important}
 
 ---
 
-**Phase 1 — Anti-Corruption Layer (ACL)**
+## Phase 1 — Anti-Corruption Layer (ACL)
 
-Introduce a thin backend service (the ACL) that wraps the Win32 monolith:
+Introduce a thin backend service (the ACL) that is a "Facade" to the Win32 monolith:
 
+```mermaid
+graph LR
+    B(["Browser"])
+    WF(["Web Server"])
+    ACL(["Anti Coruption Layer"])
+    WIN(["Win32 Monolith<br/>COM · RPC · named pipes · CLI"])
+    DB(["RDBMS"])
+
+    B -->|HTTPS| WF
+    WF -->|Proto Buf| ACL
+    ACL -->|IPC| WIN
+    WIN -->|IPC| DB
 ```
-Browser → Web Frontend → ACL (REST/JSON) → Win32 Monolith (COM/RPC/named pipes/CLI)
-```
 
-- ACL runs as a Windows Service or containerised .NET/Node process on the same host
-- Communication to Win32 via whatever IPC the monolith already exposes — COM automation, named pipes, CLI invocation, or DB-level if nothing else
-- ACL owns the HTTP API contract; the monolith sees no change
+- ACL runs as containerised .NET/Node processes (plural) on the same host
+  - Windows Service only if absolutely necessary
+- Communication to Win32 via whatever IPC the monolith already exposes 
+  - COM automation, named pipes, CLI invocation, or DB-level if nothing else
+- ACL owns the `ProtoBuf` contract; the monolith sees no changes
+
+>**Important**
+Aim for JSON Free architecture. That leads to much faster and much safer system.
+{: important}
+
 
 ---
 
-**Phase 2 — Strangler Fig extraction**
+## Phase 2 — Strangler Fig extraction
 
 Once the ACL is in place, each functional domain can be extracted one at a time:
 
-```
-Browser → Web Frontend → API Gateway
-                              ├─ New Service A (containerised)
-                              ├─ New Service B (containerised)
-                              └─ ACL → Win32 residual (shrinking)
+```mermaid
+graph LR
+    B(["Browser"])
+    WF(["Web Frontend"])
+    GW(["API Gateway"])
+    SvcA(["New Service A<br/>(containerised)"])
+    SvcB(["New Service B<br/>(containerised)"])
+    ACL(["ACL"])
+    WIN(["Win32 residual<br/>(shrinking)"])
+    DB(["Legacy Data"])
+    DBN(["New Data"])
+
+    B -->|HTTPS| WF
+    WF --> GW
+    GW --> SvcA --> DB
+    GW --> SvcB --> DBN
+    GW --> ACL
+    ACL -->|IPC| WIN
+    WIN -->|IPC| DB
 ```
 
 Extract modules in order of: highest business value first, lowest coupling second.
 
----
+>**Important**
+Modularization is diffuclt technicaly. Also logicalt because it has to be business driven. One business function =~ One module
+{: important}
 
-**Constraints to validate before starting:**
+### AI (at last!)
+
+- MCP Server is ideal AI "entity" for integrating new with legacy. 
+- MCP Server does not call LLM so it is not non-dererministic in its behaviour
+
+## 3 Constraints to validate before starting 
 
 | Question | Why it matters |
 |---|---|
@@ -86,14 +141,16 @@ Extract modules in order of: highest business value first, lowest coupling secon
 
 **Recommended stack for ACL** (pragmatic, containerisable):
 
-- .NET 8 minimal API — native Win32 interop, Dockerisable on Windows containers
+- .NET  minimal API — native Win32 interop, Dockerisable on Windows containers
 - Or Node.js if the monolith exposes a DB or file interface only
 
 **Web frontend** — decouple completely from day one. SPA (React/Vue) or server-rendered — that decision is independent of the modernisation path.
 
 ---
 
+>**Important**
 The guiding principle: **the monolith shrinks, it does not get rewritten in one shot.** The ACL protects the new system from the old system's semantics until extraction is complete.
+
 
 **QUESTION**: What is the Win32 monolith's existing IPC surface, if any?
 

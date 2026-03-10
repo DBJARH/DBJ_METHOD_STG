@@ -72,7 +72,7 @@ March 2026, [Dusan Jovanovic](https://dusanjovanovic.org/)
 <div style="float: center; margin: 1em; text-align: center;" markdown="1">
 <img src="../../index_assests/empty-medieval-bridge.jpg" width="480px" />
 <br/>
-<i>EA Plan for the Bridge to AI</i>
+<i>Safe Passage to AI</i>
 </div>
 <div style="clear: both;"></div>
 

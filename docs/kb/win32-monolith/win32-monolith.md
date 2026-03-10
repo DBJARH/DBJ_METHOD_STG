@@ -1,4 +1,7 @@
-# Requirement: Legacy WIN32 system to be modernized. Web front end to be added. It is one monolith. It has GUI also inside.
+# Legacy Monolith WIN32 desktop GUI system modernization. 
+
+### Web front end to be added
+### Mobile apps to be developed?
 
 ## Vision
 

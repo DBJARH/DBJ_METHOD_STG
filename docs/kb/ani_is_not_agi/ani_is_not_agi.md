@@ -71,11 +71,13 @@ March 2026, [Dusan Jovanovic](https://dusanjovanovic.org/)
 
 ---
 
+<!-- Standard Footer Prefix -->
 <div style="float: center; margin: 1em; text-align: center;" markdown="1">
 <img src="../../index_assests/empty-medieval-bridge.jpg" width="480px" />
 <br/>
 <i>Safe Passage to AI</i>
 </div>
+
 <!-- Standard Footer -->
 <div style="clear: both;"></div>
 <div style="float: center; margin: 1em; text-align: center;">

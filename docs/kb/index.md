@@ -60,6 +60,6 @@ Integration architecture for connecting new AI-enabled systems to existing enter
 
 ## 7 [ANI Is Not AGI](ani_is_not_agi/ani_is_not_agi.md)
 
-Why AGI is an unreachable milestone — and why the distinction matters for enterprise architecture. Covers the ANI/AGI feature gap, the four strongest arguments against AGI ever existing (stochastic parrots, the Chinese Room, embodiment, the scaling wall), and the governance implication: EA evaluates capability, not marketing position on a notional AGI scale.
+Why AGI is an unreachable milestone — and why the distinction matters for the business restarting the AI strategy. Covers the ANI/AGI feature gap, the four strongest arguments against AGI ever existing (stochastic parrots, the Chinese Room, embodiment, the scaling wall), and the governance implication: Enterprise Architecture evaluates capability, not marketing position on a notional AGI scale.
 
 > ANI is real, deployable, and governable. AGI is a philosophical milestone whose reachability is genuinely in dispute.

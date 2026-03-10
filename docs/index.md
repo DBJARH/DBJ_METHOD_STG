@@ -58,15 +58,18 @@ ICL EA leads the assessment of the client's current organisational maturity leve
 
 **Deliverables:** ACMM baseline assessment + EA-guided improvement roadmap
 
-### B — Raising the Organisation to CMM Level M2
+### B — Raising the Organisation to CMM Level [M3](cmm.md#levels)
 
-ICL EA defines and documents architecture processes — moving the organisation from ad-hoc (M1) to defined (M2).
+ICL EA defines and documents architecture processes — moving the organisation from ad-hoc (M1) to defined (M3).
 
 - Establishes governance structures and secures senior management involvement
 - Introduces architecture-driven communication practices across the organisation
 - Introduces the common, simple but powerful [Taxonomy](taxonomy.md) as a key organisational asset
+  - Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.
+  - It gives both the structure and naming of structure elements.
+  - It is the essential comon langugage of the organization
 
-**Deliverable:** organisation operating at CMM level M2 with EA-documented processes
+**Deliverable:** is the target reached: organisation operating at CMM level [M3](cmm.md#levels) with EA-documented processes
 
 For full detail on the organization maturity model see [CMM](cmm.md).
 
@@ -76,7 +79,16 @@ For full detail on the organization maturity model see [CMM](cmm.md).
 
 Once on-boarded, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for CMM-ready organisations. 
 
-Iron Code Labs has the EA Plans for the bridge over which customers may cross from chaos of Legacy to the Feasibility of AI. 
+### Key BPT strengths
+
+* Product is the natural alignment point between Business and Technology
+* Architecture operates “above” the process, not within it
+* CMM prerequisite filters IN organizations with foundational maturity
+* Continuous loop maps to operational rhythm, not rigid phase gates
+
+>**Tip**
+> Iron Code Labs has the EA Plans for the bridge over which customers may cross from chaos of Legacy to the Feasibility of AI. 
+> {: tip}
 
 EA does not participate, it governs. 
 

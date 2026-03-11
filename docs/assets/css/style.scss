@@ -26,6 +26,12 @@ header {
   }
 }
 
+footer {
+  position: static;
+  width: 270px;
+  margin-top: 1em;
+}
+
 section {
   width: calc(100% - 300px);
   max-width: 880px;

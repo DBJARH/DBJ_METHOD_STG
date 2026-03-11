@@ -23,7 +23,7 @@ description: Home
 - AI is a marketing term — LLM is engineering
 - We do not blame it on the LLM -->
 
-# Iron Code Labs Method is based on Enterprise Architecture 
+# Iron Code Labs Enterprise Method 
 
 <!-- ![](assets/warwick-journey-image.png) -->
 
@@ -33,7 +33,7 @@ description: Home
 The outcome of the Iron Code Labs Engagement -->
 
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
-## The Iron Code Labs (ICL) method is a safe passage bridge made of two arches: 
+## The Iron Code Labs (ICL) method is a safe bridge made of two arches: 
 
 * ### Arch 1: [**On-boarding**](#arch-1-on-boarding) 
 * ### Arch 2: [**The Loop** ](#arch-2-business-product-technology-loop)
@@ -48,19 +48,19 @@ The outcome of the Iron Code Labs Engagement -->
 
 In this step ICL prepares clients for EA architecture-led delivery by putting them on the firm [capability maturity foundations](cmm.md#diagram).
 
-### A — Preparing for the [CMM Levels](cmm.md#levels)
+### A — Preparing for the [Maturity Levels](cmm.md#levels)
 
-ICL EA leads the assessment of the client's current organisational maturity levels using the ACMM Levels [M0–M5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL EA:
+ICL EA leads the assessment of the client's current organisational maturity levels using the ACMM Levels [L0–L5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL EA:
 
 - Introduces key communications aid: common vocabulary defined as Technology Landscape Classification aka [Taxonomy](taxonomy.md)
 - Identifies capability gaps using the ACMM scorecard
-- Sets a realistic target level (typically M2)
+- Sets a realistic target level (typically L3)
 
 **Deliverables:** ACMM baseline assessment + EA-guided improvement roadmap
 
-### B — Raising the Organisation to CMM Level [M3](cmm.md#levels)
+### B — Raising the Organisation to CMM Level [L3](cmm.md#levels)
 
-ICL EA defines and documents architecture processes — moving the organisation from ad-hoc (M1) to defined (M3).
+ICL EA defines and documents architecture processes — moving the organisation from ad-hoc (M1) to defined (L3).
 
 - Establishes governance structures and secures senior management involvement
 - Introduces architecture-driven communication practices across the organisation
@@ -69,15 +69,15 @@ ICL EA defines and documents architecture processes — moving the organisation 
   - It gives both the structure and naming of structure elements.
   - It is the essential comon langugage of the organization
 
-**Deliverable:** is the target reached: organisation operating at CMM level [M3](cmm.md#levels) with EA-documented processes
+**Deliverable:** is the target reached: organisation operating at CMM level [L3](cmm.md#levels) with EA-documented processes
 
-For full detail on the organization maturity model see [CMM](cmm.md).
+For full detail on the organization maturity model see the [ICL CMM](cmm.md).
 
 ## Arch 2: [Business, Product, Technology](bpt.md) Loop
 
 **Continuous operational cycle, company-wide**
 
-Once on-boarded, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for CMM-ready organisations. 
+Once on-boarded to maturity level 3, the client organisation enters the **BPT Loop** — a continuous cycle of three clearly decoupled parts: **Business**, **Product** and **Technology**. This is Iron Code Labs' delivery-focused operational methodology for AI-ready organisations. 
 
 ### Key BPT strengths
 

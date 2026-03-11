@@ -47,6 +47,57 @@ section {
   }
 }
 
+.site-nav {
+  margin-top: 1em;
+  font-size: 0.85em;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin: 0.25em 0;
+  }
+
+  a {
+    color: #555;
+    text-decoration: none;
+
+    &:hover {
+      color: #0366d6;
+    }
+  }
+
+  details {
+    summary {
+      cursor: pointer;
+      color: #555;
+      list-style: none;
+
+      &::-webkit-details-marker { display: none; }
+      &::marker { display: none; }
+
+      &::before {
+        content: "▶ ";
+        font-size: 0.7em;
+      }
+
+      &:hover { color: #0366d6; }
+    }
+
+    &[open] > summary::before {
+      content: "▼ ";
+    }
+
+    ul {
+      padding-left: 1em;
+      margin-top: 0.25em;
+    }
+  }
+}
+
 .tree-view {
   list-style: none;
   padding-left: 0;

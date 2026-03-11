@@ -10,47 +10,51 @@ DORA is primariy audience is Software Development Organizations. We have repurpo
 
 ---
 
-<ul class="tree-view">
-  <li>
-    <strong>Why We Follow the DORA AI Capabilities Model</strong>
-    <ul>
-      <li>
-        <strong>Clear AI Strategy and Policies</strong>
-        <p>Together, we establish clear guidelines so your team knows exactly when and how to use AI safely—no guesswork, no fear of making mistakes.</p>
-        <p>Not just software development but teams in other business-like roles</p>
-      </li>
-      <li>
-        <strong>High-Quality Internal Platforms</strong>
-        <p>We advise on how to build and maintain development infrastructure that just works. Your developers shouldn't fight their tools—they should focus on delivering value.</p>
-        <p>That applies to other projects and teams producing architectural artifacts in the Product development phases.</p>
-      </li>
-      <li>
-        <strong>Clean, Accessible Data</strong>
-        <p>AI is only as good as the data it learns from. We ensure information is well-organized and accessible so AI can actually help, not hallucinate.</p>
-        <p>That is about transforming the invisible part of the iceberg</p>
-      </li>
-      <li>
-        <strong>Strong Developer Experience Focus</strong>
-        <p>Happy developers build better software. We prioritize workflows that your team will actually enjoy using—because that's how real adoption happens.</p>
-      </li>
-      <li>
-        <strong>Learning-Oriented Culture</strong>
-        <p>We encourage experimentation over perfection. Your team should feel safe to try new AI approaches without fear of blame when things don't work the first time.</p>
-        <p>That is a direct attribuitte of your CMM compliance and succes.</p>
-      </li>
-      <li>
-        <strong>Modular, Decoupled Architecture</strong>
-        <p>We design systems that can evolve. Legacy constraints shouldn't hold you back from adopting new AI capabilities as they emerge.</p>
-        <p>Your CMM based organization also requires Architecture Professional</p>
-      </li>
-      <li>
-        <strong>User-Centric Thinking</strong>
-        <p>Technology for its own sake is worthless. Every AI implementation we recommend must solve a real problem for your end users—that's the only metric that matters.</p>
-        <p>This is why we advise Business Analyst presence in Product declarations</p>
-      </li>
-    </ul>
-  </li>
-</ul>
+<details>
+  <summary><strong>Why We Follow the DORA AI Capabilities Model</strong></summary>
+
+  <details>
+    <summary><strong>Clear AI Strategy and Policies</strong></summary>
+    <p>Together, we establish clear guidelines so your team knows exactly when and how to use AI safely—no guesswork, no fear of making mistakes.</p>
+    <p>Not just software development but teams in other business-like roles</p>
+  </details>
+
+  <details>
+    <summary><strong>High-Quality Internal Platforms</strong></summary>
+    <p>We advise on how to build and maintain development infrastructure that just works. Your developers shouldn't fight their tools—they should focus on delivering value.</p>
+    <p>That applies to other projects and teams producing architectural artifacts in the Product development phases.</p>
+  </details>
+
+  <details>
+    <summary><strong>Clean, Accessible Data</strong></summary>
+    <p>AI is only as good as the data it learns from. We ensure information is well-organized and accessible so AI can actually help, not hallucinate.</p>
+    <p>That is about transforming the invisible part of the iceberg</p>
+  </details>
+
+  <details>
+    <summary><strong>Strong Developer Experience Focus</strong></summary>
+    <p>Happy developers build better software. We prioritize workflows that your team will actually enjoy using—because that's how real adoption happens.</p>
+  </details>
+
+  <details>
+    <summary><strong>Learning-Oriented Culture</strong></summary>
+    <p>We encourage experimentation over perfection. Your team should feel safe to try new AI approaches without fear of blame when things don't work the first time.</p>
+    <p>That is a direct attribuitte of your CMM compliance and succes.</p>
+  </details>
+
+  <details>
+    <summary><strong>Modular, Decoupled Architecture</strong></summary>
+    <p>We design systems that can evolve. Legacy constraints shouldn't hold you back from adopting new AI capabilities as they emerge.</p>
+    <p>Your CMM based organization also requires Architecture Professional</p>
+  </details>
+
+  <details>
+    <summary><strong>User-Centric Thinking</strong></summary>
+    <p>Technology for its own sake is worthless. Every AI implementation we recommend must solve a real problem for your end users—that's the only metric that matters.</p>
+    <p>This is why we advise Business Analyst presence in Product declarations</p>
+  </details>
+
+</details>
 
 ---
 

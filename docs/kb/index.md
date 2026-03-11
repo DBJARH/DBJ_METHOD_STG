@@ -71,3 +71,11 @@ Why AGI is an unreachable milestone — and why the distinction matters for the 
 Enterprise architecture approach for modernizing a legacy Win32 monolith with a web front end. Covers the Strangler Fig pattern as the governing migration strategy, the Anti-Corruption Layer as Phase 1, progressive service extraction in Phase 2, the recommended stack (.NET 8, Azure SQL, HTMX), and the key constraints to validate before starting.
 
 > The monolith shrinks — it does not get rewritten in one shot.
+
+---
+
+## 9 [DORA AI Capabilities Model](dora/dora.md)
+
+ICL usage of the DORA AI Capabilities Model as AI guidance for software development organizations. Covers the seven capabilities that amplify AI benefits: clear AI strategy, high-quality internal platforms, clean data, developer experience, learning-oriented culture, modular architecture, and user-centric thinking.
+
+> LLM of your choice is your own assistant — but you are accountable for your output.

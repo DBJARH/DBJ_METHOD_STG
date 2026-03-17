@@ -36,7 +36,7 @@ graph LR
     B -->|message| OtherActor[Other Actor Inbox]
 ```
 
-### The Inbox as the Only API
+### The Inbox as the API
 
 The name is intentional. An inbox in the actor model is exactly what it is in email: a place where typed messages arrive, queue, and wait to be processed one at a time. The analogy is not decorative — it reflects the same underlying model. This is also why the [email management use case](email-use-case.md) maps so naturally onto the actor model.
 
@@ -226,98 +226,9 @@ If and When a message broker is used for specific flows (e.g., Policy Actor → 
 
 ---
 
-## Implementation Architecture
+## Implementation
 
-The binary message contract introduced in the Conceptual section is implemented here using [Protocol Buffers (Protobuf)](https://en.wikipedia.org/wiki/Protocol_Buffers) — Google's language-neutral binary serialisation format. `.proto` files define the schema; the `protoc` compiler generates the code.
-
-### Core Message Envelope
-
-In Protobuf, a `message` is the implementation form of a message type concept — it defines the attributes and their types in a `.proto` schema file. The `Envelope` below is the standard protobuf message type that carries all actor communication. The `payload` field carries the serialised business message (e.g. `Deliver`, `Index`) — each a separate `.proto` message type in its own right. For the full set of message types used in a concrete system, see [Email Use Case](email-use-case.md).
-
-```proto
-message Envelope {
-  string correlation_id = 1;
-  string message_type   = 2;  // e.g. "Deliver", "Index", "NewMail"
-  bytes  payload        = 3;  // serialised business message
-}
-```
-
-### Train Pattern Protobuf Protocol
-
-Reminder: 'Train' term is invented here. The packet types used by the train pattern:
-
-```proto
-enum TrainPart {
-  HEAD = 0;
-  BODY = 1;
-  TAIL = 2;
-}
-```
-
-### Key Message Types
-
-In Protobuf, `repeated` means the field is a list — zero or more values of that type. `repeated string to` means the message can have multiple recipients. `repeated string tags` means zero or more tag strings.
-
-```proto
-// Inbound message delivery
-message Deliver {
-  string          message_id  = 1;
-  string          from        = 2;
-  repeated string to          = 3;
-  string          subject     = 4;
-  bytes           body        = 5;
-  int64           received_at = 6;
-}
-
-// Search index instruction
-message Index {
-  string          message_id  = 1;
-  string          employee_id = 2;
-  string          subject     = 3;
-  string          body_text   = 4;
-  repeated string tags        = 5;
-}
-
-// Archive instruction from Policy Actor
-message ArchiveInstruction {
-  string employee_id    = 1;
-  int64  before_epoch   = 2;
-  string archive_job_id = 3;
-}
-
-// Backup snapshot metadata (carried in HEAD of a backup train)
-message BackupHead {
-  string snapshot_id     = 1;
-  string employee_id     = 2;
-  string parent_snapshot = 3;
-  uint32 total_chunks    = 4;
-  bool   is_incremental  = 5;
-}
-
-// Quota status reply
-message QuotaStatus {
-  string employee_id   = 1;
-  int64  used_bytes    = 2;
-  int64  limit_bytes   = 3;
-  float  usage_percent = 4;
-}
-```
-
-### Schema Tooling and Governance
-
-A **schema** is the formal definition of a message type — its name, its attributes, and the type of each attribute. In this system, schemas are written as `.proto` files. The schema is the contract between sender and receiver: both sides compile from the same `.proto` file, so there is no room for interpretation. This is about the management of those schemas.
-
-```mermaid
-graph LR
-    P[.proto schema] -->|protoc| G[Generated stubs<br>Go / Java / Python / ...]
-    P -->|buf breaking| CI[CI gate<br>breaking change check]
-    CI -->|pass| MR[Merge allowed]
-    CI -->|fail| BL[Merge blocked]
-```
-
-All schemas are maintained in a central repository. No actor owner may introduce a breaking change to a shared schema without review and sign-off from all consuming actor owners. The `buf breaking` tool enforces this at CI time.
-
-Schema field numbers — not names — are the wire identity. Renaming a field is safe. Removing or reusing a field number is a breaking change and will be caught by `buf breaking`.
+The Protobuf schemas, envelope definition, train protocol, and message type definitions are documented in the [Email Use Case — Implementation](email-use-case.md#implementation) section, where they are grounded in a concrete system.
 
 ---
 

@@ -6,7 +6,7 @@ description: The actor model across all four taxonomy categories — from actor 
 
 # Actor Model Architecture
 
-The actor model is a computational model for distributed systems in which the **actor** is the fundamental unit of computation. This article covers the model across all four architecture categories: Conceptual, Logical, Physical, and Implementation.
+The actor model is a computational model for distributed systems in which the **actor** is the fundamental unit of computation. It was introduced by [Carl Hewitt](https://en.wikipedia.org/wiki/Carl_Hewitt) at MIT in 1973. This article covers the model across all four architecture categories: Conceptual, Logical, Physical, and Implementation.
 
 ---
 
@@ -29,26 +29,50 @@ The actor processes messages from its inbox one at a time, sequentially. Upon pr
 ```mermaid
 graph LR
     subgraph Actor
-        I[Inbox] --> B[Behavior]
-        B --> S[(Private State)]
+        I[Inbox<br>Comms<br>Suface] --> B[Behavior<br>Per msg<br>Type]
+        B --> S[(Private State<br>Persistent)]
     end
-    Sender -->|message| I
+    Sender -->|messages<br>organized<br>by types| I
     B -->|message| OtherActor[Other Actor Inbox]
 ```
 
 ### The Inbox as the Only API
 
-An actor has no API in the conventional sense — no method signatures, no HTTP endpoints, no function calls. The inbox is the API. The contract between actors is defined entirely by the shape of the messages they exchange.
+The name is intentional. An inbox in the actor model is exactly what it is in email: a place where typed messages arrive, queue, and wait to be processed one at a time. The analogy is not decorative — it reflects the same underlying model. This is also why the [email management use case](email-use-case.md) maps so naturally onto the actor model.
 
-This makes the interface inherently asynchronous by design. A sender deposits a message into a receiver's inbox and continues. There is no call stack crossing the actor boundary.
+An **Actor** has no API in the conventional sense — no method signatures, no HTTP endpoints, no function calls. The inbox is the API. The contract between actors is defined entirely by the shape of the messages they exchange.
+
+This makes the communication inherently asynchronous by design. A sender deposits a message into a receiver's inbox and continues. There is no call stack crossing the actor boundary.
+
+### Messages Concept
+
+Messages are logical structures defined as "types". In use as "instances" being sent/received to/from Actors.
+
+A **message type** is the definition — the named contract that describes what a message is and what data it carries. `Deliver`, `Index`, and `NewMail` are message types examples. A message type is defined once, but its instance is a structure that may be sent many times.
+
+A **message instance** is a single occurrence of a message type in flight. When the Actor `Gateway` sends the message `Deliver` to the Actor `Mailbox`, that is one instance. A thousand emails in a day are a thousand instances of the same type.
+
+A **message attribute** is a named field carried by a message instance structure. Every instance of a given type carries the same set of attributes, each with a specific value. For example, a `Deliver` nessage instance carries attributes such as the employee identifier, the sender address, and the message body. Attributes are the data; the type is the contract.
+
+This three-level distinction — type, instance, attribute — is what makes actor communication precise and verifiable. The inbox contract specifies which types an actor accepts. The schema for each type specifies which attributes it must carry.
+
+>**Tip**
+> Good analogy is Email. Email is a logical structure defintion; a Type. It has attributes like: `to`,`from`,`body`. And there is thousands or emails instances, "in flight" at any give moment in time. So, email systems has one message type: `Email`, having attributes as part of that definition. And instances of that one type flying between email servers Actors.
+{: tip}
 
 ### Message Passing
 
 All communication between actors is via message passing. Messages are immutable. A sender never shares a reference to mutable data — it sends a value. This is what makes actor systems safe to distribute across process and network boundaries.
 
-**Fire-and-forget** is the default pattern: the sender does not wait for a reply. If a reply is needed, the receiver sends a new message back to the sender's inbox at some later point. There is no synchronous call-return between actors.
+**Fire-and-forget** is the default communication pattern: the sender does not wait for a reply. If a reply is needed, the receiver sends a new message back to the sender's inbox at some later point. There is no synchronous call-return between actors.
+
+>**Tip**
+> Actors are not interlocutors. Actors are not part of classical human like conversations. Actors sends a message and never waits for an reply.
+{: tip}
 
 ### No Shared State
+
+**State** is the data an actor remembers between messages.
 
 The absence of shared state is not a limitation — it is the design. The state of the system is the aggregate of all actor states at any given moment. Each actor is the single source of truth for its own data.
 
@@ -56,20 +80,13 @@ When Actor B needs data held by Actor A, it sends a request message. Actor A pro
 
 ### Why Binary Messaging
 
-For production distributed systems, messages are encoded as binary using Protocol Buffers (Protobuf). The `.proto` schema file is the definitive contract definition for an actor's inbox.
+Messages between actors must have a defined contract — a schema that both sender and receiver agree on. In resilient and safe production distributed systems this contract is expressed as a binary encoding. Binary messaging is compact, fast, and schema-enforced by the toolchain rather than by convention.
 
-Protobuf is preferred over JSON for actor messaging because:
-
-- The schema is the contract — compiler-enforced, not convention-based.
-- Backwards compatibility is structural: field numbers, not names, are the wire identity. Adding fields does not break existing consumers.
-- Binary encoding is compact and fast. JSON parsing overhead at message volume is significant.
-- The `protoc` compiler generates idiomatic code for any target language, supporting polyglot actor implementations without coupling.
-
-The schema and encoding details are covered in the [Implementation](#implementation) section. For how agents may be layered on top of this foundation, see [Actor-Agent Architecture](actor-agent.md).
+The specific encoding format and schema tooling are covered in the [Implementation](#implementation) section. For how agents may be layered on top of this foundation, see [Actor-Agent Architecture](actor-agent.md).
 
 ---
 
-## Logical
+## Logical Architecture
 
 This section covers actor system design. The concrete use case — an organisational email management system — is documented in full in [Email Use Case](email-use-case.md). The following covers the logical patterns that apply generally.
 
@@ -79,31 +96,23 @@ A production actor system consists of many specialised actors, each with a defin
 
 ```mermaid
 graph TD
-    GW[Gateway Actor]
-    MB1[Mailbox Actor\nEmployee A]
-    MB2[Mailbox Actor\nEmployee B]
-    SR1[Search Actor\nEmployee A]
-    SR2[Search Actor\nEmployee B]
-    AR[Archive Actor]
-    BK[Backup Actor]
-    PL[Policy Actor]
-    AD[Admin Actor]
-    NT[Notification Actor]
+    GW[Gateway]
+    MB[Mailbox]
+    SR[Search]
+    AR[Archive]
+    BK[Backup]
+    PL[Policy]
+    AD[Admin]
+    NT[Notification]
 
-    GW -->|DeliverMessage| MB1
-    GW -->|DeliverMessage| MB2
-    MB1 -->|IndexMessage| SR1
-    MB2 -->|IndexMessage| SR2
-    MB1 -->|NewMailEvent| NT
-    MB2 -->|NewMailEvent| NT
+    GW -->|Deliver| MB
+    MB -->|Index| SR
+    MB -->|NewMail| NT
     PL -->|ArchiveInstruction| AR
-    AR -->|ExportBatch| MB1
-    AR -->|ExportBatch| MB2
-    BK -->|ExportFull| MB1
-    BK -->|ExportFull| MB2
+    AR -->|ExportBatch| MB
+    BK -->|ExportFull| MB
     AD -->|InitiateRestore| BK
-    PL -->|GetQuotaStatus| MB1
-    PL -->|GetQuotaStatus| MB2
+    PL -->|GetQuotaStatus| MB
 ```
 
 ### State Ownership
@@ -112,26 +121,28 @@ Each actor is the single source of truth for its own data. The pattern is consis
 
 | Actor | Owns |
 |---|---|
-| Gateway Actor | Routing table, policy rules |
-| Mailbox Actor | All email data for one employee |
-| Search Actor | Search index for one employee |
-| Archive Actor | Archive store, job registry |
-| Backup Actor | Snapshot catalogue, backup store |
-| Policy Actor | Organisational policy configuration |
-| Admin Actor | Audit log, active restore jobs |
-| Notification Actor | Notification preferences, channel registry |
+| Gateway | Routing table, policy rules |
+| Mailbox | All email data for one employee |
+| Search | Search index for one employee |
+| Archive | Archive store, job registry |
+| Backup | Snapshot catalogue, backup store |
+| Policy | Organisational policy configuration |
+| Admin | Audit log, active restore jobs |
+| Notification | Notification preferences, channel registry |
 
 No actor shares a data store with another actor. Cross-actor data access is exclusively via inbox messages.
 
 ### Large Payload Transport: The Train Pattern
 
-For payloads too large to fit in a single message, actors use a chunked message protocol. A logical sequence of messages — a **train** — carries one large payload across multiple envelopes, using three packet types:
+A **packet** is a message type used exclusively for transport mechanics — it carries a fragment of a larger payload, not a business event. A packet has no meaning on its own; it is only meaningful as part of a sequence. This distinguishes it from a message type like `Deliver` or `Index`, which carries a complete, self-contained business intent.
 
-- **HEAD** — opens the train. The receiving actor allocates a reassembly buffer keyed by `correlation_id`.
+For payloads too large to fit in a single message, actors use a chunked message protocol. A logical sequence of packets we call a **train** — carries one large payload across multiple envelopes, using three packet types:
+
+- **HEAD** — heads the train. The receiving actor allocates a reassembly buffer keyed by `correlation_id`.
 - **PACKET** — carries a chunk of the payload. The receiving actor appends to the buffer and validates the sequence number for gap detection.
-- **TAIL** — closes the train. The receiving actor verifies the checksum, hands the reassembled payload to business logic, and releases the buffer.
+- **TAIL** — closes the train sequence of packets. The receiving actor verifies the checksum, hands the reassembled payload to business logic, and releases the buffer.
 
-The `correlation_id` allows the receiving actor to demultiplex multiple concurrent trains arriving through the same inbox. It also serves as the tracing identifier for the entire train's journey across actors.
+Each train carries a `correlation_id` — a unique identifier stamped on every packet in the sequence. Because an inbox receives packets from many senders, the receiving actor uses the `correlation_id` to know which packets belong together and reassemble them in the right order. The same identifier also acts as a trace handle: if something goes wrong, you can follow the `correlation_id` across every actor that touched the train. Simple example:
 
 ```mermaid
 sequenceDiagram
@@ -146,43 +157,43 @@ sequenceDiagram
     R-->>S: ACK (correlation_id)
 ```
 
-### No Global Message Broker by Default
+### No Global Message Broker by Design
 
-A centralised async message broker (Kafka, RabbitMQ, SQS) is architecturally tempting. However, introducing a broker into the critical path of all actor communication creates a Single Point of Failure and concentrates operational risk.
+A centralised async message broker (Kafka, RabbitMQ, SQS) is architecturally tempting. However, introducing a broker into the critical path of all actor communication creates a potential Single Point of Failure and concentrates operational risk.
 
 The pragmatic position: use a broker selectively for genuinely async, high-volume, fan-out scenarios where durability and decoupling are explicit requirements. Keep direct actor-to-actor messaging for latency-sensitive conversations where broker overhead provides no benefit.
 
-The broker is a conscious architectural choice for specific flows, not the default nervous system of the system.
+The single message broker is a conscious architectural choice for specific flows, not the default nervous system of the system.
 
 ---
 
-## Physical
+## Physical Architecture
 
 ### Actor Placement
 
-Actors are logical units. Their physical placement is a separate decision made at deployment time. Actors that communicate frequently and latency-sensitively are candidates for co-location on the same node. Actors that handle bulk, async, or scheduled work (Archive Actor, Backup Actor) can be placed on separate nodes without impacting interactive flows.
+Actors are implementation of logical architecture and software design after it. Their physical shape and placement is a separate decision made at development and deployment time. Actors that communicate frequently and latency-sensitively are candidates for co-location on the same computing node (aka Server). Actors that handle bulk, async, or scheduled work (Archive Actor, Backup Actor) can be placed on separate nodes without impacting interactive flows.
 
 ```mermaid
 graph TD
-    subgraph Node A — Interactive
-        GW[Gateway Actor]
-        MB[Mailbox Actors]
-        SR[Search Actors]
-        NT[Notification Actor]
+    subgraph Node A - Interactive
+        GW[Gateway ]
+        MB[Mailbox ]
+        SR[Search ]
+        NT[Notification ]
     end
 
-    subgraph Node B — Bulk Operations
-        AR[Archive Actor]
-        BK[Backup Actor]
-        PL[Policy Actor]
+    subgraph Node B - Bulk Operations
+        AR[Archive ]
+        BK[Backup ]
+        PL[Policy ]
     end
 
-    subgraph Node C — Administration
-        AD[Admin Actor]
+    subgraph Node C - Administration
+        AD[Admin ]
     end
 
     subgraph Optional Broker
-        BRK[(Message Broker\nKafka / RabbitMQ)]
+        BRK[(Message Broker<br>Kafka / RabbitMQ)]
     end
 
     GW <-->|direct| MB
@@ -195,48 +206,61 @@ graph TD
 
 ### Fault Domains
 
-Each node is an independent fault domain. Failure of the bulk operations node does not affect interactive mail delivery. The Archive Actor and Backup Actor operate on scheduled cycles; a temporary outage delays a backup run but does not corrupt mailbox state.
+A **fault domain** is a boundary within which a failure is contained — what breaks together, stays together, and what is outside the boundary keeps running.
 
-Actors within a node are supervised. A crashed actor is restarted by its supervisor. The inbox persists across restarts — messages deposited before the crash are not lost, provided the inbox is backed by durable storage or an in-process queue with sufficient depth.
+>**Tip**
+Sometimes called `blast radius`
+{: tip}
+
+Each node (aka computer) is an independent fault domain. Failure of the bulk operations node does not affect interactive messages delivery. The Archive Actor and Backup Actor operate on scheduled cycles; a temporary outage delays a backup run but does not corrupt Actors inbox state.
+
+Actors within a node are supervised (monitored). A crashed actor is restarted by its supervisor. The inbox persists across restarts — messages deposited before the crash are not lost, provided the inbox is backed by durable storage or an in-process queue with sufficient depth.
+
+>**Tip**
+> The supervisor is a fitting model for a **supervisor AI agent** — an agent whose sole, narrow purpose is to monitor other agents and restart them on failure. It does not do business work. It watches, detects failure, and acts. This is a single-purpose agent by design, which is exactly what makes it reliable.
+{: tip}
 
 ### Broker Placement
 
-When a message broker is used for specific flows (e.g., Policy Actor → Archive Actor scheduling), the broker sits outside both nodes. It is not in the critical path of interactive operations. Its failure affects only the flows routed through it.
+If and When a message broker is used for specific flows (e.g., Policy Actor → Archive Actor scheduling), the broker sits outside both nodes. It is not in the critical path of interactive operations. Its failure affects only the flows routed through it.
 
 ---
 
-## Implementation
+## Implementation Architecture
+
+The binary message contract introduced in the Conceptual section is implemented here using [Protocol Buffers (Protobuf)](https://en.wikipedia.org/wiki/Protocol_Buffers) — Google's language-neutral binary serialisation format. `.proto` files define the schema; the `protoc` compiler generates the code.
 
 ### Core Message Envelope
 
-All actor communication is wrapped in a standard envelope:
+In Protobuf, a `message` is the implementation form of a message type concept — it defines the attributes and their types in a `.proto` schema file. The `Envelope` below is the standard protobuf message type that carries all actor communication. The `payload` field carries the serialised business message (e.g. `Deliver`, `Index`) — each a separate `.proto` message type in its own right. For the full set of message types used in a concrete system, see [Email Use Case](email-use-case.md).
 
 ```proto
 message Envelope {
-  string     correlation_id = 1;
-  PacketType type           = 2;
-  uint32     sequence       = 3;
-  bytes      payload        = 4;
+  string correlation_id = 1;
+  string message_type   = 2;  // e.g. "Deliver", "Index", "NewMail"
+  bytes  payload        = 3;  // serialised business message
 }
 ```
 
-### Train Pattern Wire Protocol
+### Train Pattern Protobuf Protocol
 
-The packet types used by the train pattern:
+Reminder: 'Train' term is invented here. The packet types used by the train pattern:
 
 ```proto
-enum PacketType {
-  HEAD   = 0;
-  PACKET = 1;
-  TAIL   = 2;
+enum TrainPart {
+  HEAD = 0;
+  BODY = 1;
+  TAIL = 2;
 }
 ```
 
 ### Key Message Types
 
+In Protobuf, `repeated` means the field is a list — zero or more values of that type. `repeated string to` means the message can have multiple recipients. `repeated string tags` means zero or more tag strings.
+
 ```proto
 // Inbound message delivery
-message DeliverMessage {
+message Deliver {
   string          message_id  = 1;
   string          from        = 2;
   repeated string to          = 3;
@@ -246,7 +270,7 @@ message DeliverMessage {
 }
 
 // Search index instruction
-message IndexMessage {
+message Index {
   string          message_id  = 1;
   string          employee_id = 2;
   string          subject     = 3;
@@ -261,7 +285,7 @@ message ArchiveInstruction {
   string archive_job_id = 3;
 }
 
-// Backup snapshot metadata (carried in HEAD of backup train)
+// Backup snapshot metadata (carried in HEAD of a backup train)
 message BackupHead {
   string snapshot_id     = 1;
   string employee_id     = 2;
@@ -281,10 +305,12 @@ message QuotaStatus {
 
 ### Schema Tooling and Governance
 
+A **schema** is the formal definition of a message type — its name, its attributes, and the type of each attribute. In this system, schemas are written as `.proto` files. The schema is the contract between sender and receiver: both sides compile from the same `.proto` file, so there is no room for interpretation. This is about the management of those schemas.
+
 ```mermaid
 graph LR
-    P[.proto schema] -->|protoc| G[Generated stubs\nGo / Java / Python / ...]
-    P -->|buf breaking| CI[CI gate\nbreaking change check]
+    P[.proto schema] -->|protoc| G[Generated stubs<br>Go / Java / Python / ...]
+    P -->|buf breaking| CI[CI gate<br>breaking change check]
     CI -->|pass| MR[Merge allowed]
     CI -->|fail| BL[Merge blocked]
 ```
@@ -297,9 +323,13 @@ Schema field numbers — not names — are the wire identity. Renaming a field i
 
 *See also: [Email Use Case](email-use-case.md) — full worked example applying this model to organisational email management. [Actor-Agent Architecture](actor-agent.md) — how AI agents may be added externally to this foundation.*
 
-<!-- Standard Footer -->
-<div style="clear: both;"></div>
+---
+
 <div style="float: center; margin: 1em; text-align: center;">
-<img src="../../assets/icl_logo.png" width="64px" /><br/>
-<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+<!-- KB footer -->
+<br/>
+EA Navigates &trade;
+<hr/>
+Subject to chang&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
 </div>
+<div style="clear: both;"></div>

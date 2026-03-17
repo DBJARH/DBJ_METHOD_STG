@@ -71,16 +71,11 @@ March 2026, [Dusan Jovanovic](https://dusanjovanovic.org/)
 
 ---
 
-<!-- Standard Footer Prefix -->
-<div style="float: center; margin: 1em; text-align: center;" markdown="1">
-<img src="../../index_assests/empty-medieval-bridge.jpg" width="256px" />
-<br/>
-<i>Safe Passage to AI</i>
-</div>
-
-<!-- Standard Footer -->
-<div style="clear: both;"></div>
 <div style="float: center; margin: 1em; text-align: center;">
-<img src="../../assets/icl_logo.png" width="64px" /><br/>
-<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+<!-- KB footer -->
+<br/>
+EA Navigates &trade;
+<hr/>
+Subject to chang&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
 </div>
+<div style="clear: both;"></div>

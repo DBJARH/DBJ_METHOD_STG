@@ -30,6 +30,8 @@ Taxonomy Meta Data defines only two elements
 
 # Enterprise Taxonomy
 
+<div id="canonical"></div>
+
 Meta data elements are given names to define the Taxonomy in the context of an commercial exnteprise based on IT.
 
 ```text

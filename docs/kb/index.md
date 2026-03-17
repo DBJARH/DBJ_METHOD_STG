@@ -91,10 +91,11 @@ The actor model as the foundation for resilient distributed and agentic systems.
 --- 
 
 <div style="float: center; margin: 1em; text-align: center;">
+<!-- KB footer -->
 <br/>
 EA Navigates &trade;
 <hr/>
-Subject to change, material in this site is <br/>&copy; dbj@dbj.org , CC BY SA 4.0
+Subject to chang&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
 </div>
 <div style="clear: both;"></div>
 

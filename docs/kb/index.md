@@ -79,3 +79,23 @@ Enterprise architecture approach for modernizing a legacy Win32 monolith with a 
 ICL usage of the DORA AI Capabilities Model as AI guidance for software development organizations. Covers the seven capabilities that amplify AI benefits: clear AI strategy, high-quality internal platforms, clean data, developer experience, learning-oriented culture, modular architecture, and user-centric thinking.
 
 > LLM of your choice is your own assistant — but you are accountable for your output.
+
+---
+
+## 10 [Agent-Actor Architecture](agent-actor-model/index.md)
+
+The actor model as the foundation for resilient distributed and agentic systems. Covers the model from first principles through to AI agent integration: actor anatomy, message passing, Protobuf binary contracts, the Train Pattern for large payloads, fault domains, and schema governance. A separate article applies the model to a full organisational email management use case. A third covers how AI agents attach externally — entering the system through typed inboxes as the translation layer between LLM text and Protobuf contracts.
+
+> Actors first. Agents are additive.
+
+--- 
+
+<div style="float: center; margin: 1em; text-align: center;">
+<br/>
+EA Navigates &trade;
+<hr/>
+Subject to change, material in this site is <br/>&copy; dbj@dbj.org , CC BY SA 4.0
+</div>
+<div style="clear: both;"></div>
+
+

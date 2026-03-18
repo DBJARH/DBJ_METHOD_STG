@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Email Management System — Actor Model Use Case
-description: A full worked example applying the actor model to organisational email management — actor inventory, conversation maps, and large-payload flows.
+title: Email Management System — AgentActor Use Case
+description: A full worked example applying the AgentActor unified concept to organisational email management — AgentActor inventory, conversation maps, and large-payload flows.
 ---
 
-# Demo: Email Management System — Actor Model Use Case
+# Demo: Email Management System — AgentActor Use Case
 
-This document applies the [Actor Model Architecture](actor-model.md) to a concrete business problem: organisational email management for a single organisation.
+This document applies the `AgentActor` unified concept to a concrete business problem: organisational email management for a single organisation. Every node in the system is an `AgentActor` — some deterministic, some optionally wired to an LLM or external capability.
 
 ---
 
@@ -23,15 +23,15 @@ The system manages all email activity for a defined organisation. It is not a pu
 - Administrative operations: account provisioning, quota management, policy enforcement
 
 **Out of scope at this stage:**
-- Physical deployment topology detail beyond what is covered in [Actor Model Architecture — Physical](actor-model.md#physical)
+- Physical deployment topology
 - Infrastructure provisioning
 - External mail gateway integration detail
 
 ---
 
-## Actor Inventory
+## AgentActor Inventory
 
-Each actor owns its private state and exposes only its inbox. No actor queries another actor's data store directly.
+Each `AgentActor` owns its private state and exposes only its inbox. No `AgentActor` queries another's data store directly.
 
 ```mermaid
 graph TD
@@ -58,13 +58,13 @@ graph TD
 
 ### Gateway
 
-Receives all inbound SMTP messages from the external mail transfer layer. Validates envelope headers, performs basic spam and policy checks, and routes accepted messages to the appropriate Mailbox inbox. Emits rejection notices back to the external layer for messages that fail policy.
+Receives all inbound SMTP messages from the external mail transfer layer. Validates envelope headers, performs basic spam and policy checks, and routes accepted messages to the appropriate Mailbox inbox. Emits rejection notices back to the external layer for messages that fail policy. Routing decisions read only envelope fields — the message payload stays binary and is never unpacked.
 
 **State:** routing table (employee address → Mailbox reference), policy ruleset.
 
 ### Mailbox
 
-The central actor for employee email data. Routes to the correct employee mailbox via the `eid` attribute on each message. Owns the complete mailbox state for that employee: inbox, sent, drafts, trash, and custom folders. Processes all CRUD operations on that mailbox.
+The central `AgentActor` for employee email data. Routes to the correct employee mailbox via the `eid` attribute on each message. Owns the complete mailbox state for that employee: inbox, sent, drafts, trash, and custom folders. Processes all CRUD operations on that mailbox.
 
 **State:** message store, folder structure, unread counts, quota usage.
 
@@ -82,7 +82,8 @@ The central actor for employee email data. Routes to the correct employee mailbo
 | `GetQuotaStatus` | Return current quota usage |
 
 ### Search
-Maintains a full-text search index for one employee's mailbox. Receives index update events from Mailbox whenever a message is delivered, deleted, or permanently purged. Responds to search queries with ranked message ID lists. Mailbox retrieves the actual message bodies.
+
+Maintains a full-text search index for one employee's mailbox. Receives index update events from Mailbox whenever a message is delivered, deleted, or permanently purged. Responds to search queries with ranked message ID lists. Mailbox retrieves the actual message bodies. A candidate for LLM-wired behavior for natural language query understanding — the `AgentActor` model remains unchanged, only the behavior configuration differs.
 
 **State:** inverted search index over message content and metadata.
 
@@ -100,7 +101,7 @@ Performs scheduled full and incremental backups of all Mailbox state. Communicat
 
 ### Policy
 
-Owns the organisational email policy configuration: retention periods, quota limits, acceptable use rules, archival schedules. Emits scheduled instructions to Archive and quota enforcement instructions to Mailbox. Does not store email data.
+Owns the organisational email policy configuration: retention periods, quota limits, acceptable use rules, archival schedules. Emits scheduled instructions to Archive and quota enforcement instructions to Mailbox. Does not store email data. A candidate for LLM-wired anomaly detection — flagging unusual quota or usage patterns without changing the inbox contract.
 
 **State:** policy ruleset, schedule state, per-employee policy overrides.
 
@@ -112,13 +113,15 @@ Processes administrative operations issued by system administrators. Provisions 
 
 ### Notification
 
-Receives notification events from Mailbox (new message delivered, quota threshold reached) and from Policy (policy violation detected). Delivers notifications to employees via the appropriate channel. Does not store email content.
+Receives notification events from Mailbox (new message delivered, quota threshold reached) and from Policy (policy violation detected). Delivers notifications to employees via the appropriate channel. Does not store email content. A candidate for LLM-wired summarisation — digest notifications summarised rather than listed raw.
 
 **State:** notification preferences per employee, delivery channel registry.
 
 ---
 
-## Actor Conversation Map
+## AgentActor Conversation Map
+
+#### New Mail Sequence
 
 ```mermaid
 sequenceDiagram
@@ -134,6 +137,8 @@ sequenceDiagram
     MB->>NT: NewMail
 ```
 
+#### Export Batch Sequence
+
 ```mermaid
 sequenceDiagram
     participant PL as Policy
@@ -145,6 +150,8 @@ sequenceDiagram
     MB-->>AR: ACK
     AR->>MB: Purge
 ```
+
+#### Restore Backup Sequence
 
 ```mermaid
 sequenceDiagram
@@ -176,7 +183,7 @@ sequenceDiagram
 
 ## Large Payload Flows
 
-Three flows in this system involve payloads that may exceed practical single-message size and use the [Train Pattern](actor-model.md#large-payload-transport-the-train-pattern):
+Three flows in this system involve payloads that may exceed practical single-message size and use the Train Pattern:
 
 **Archive export** — Mailbox may hold years of email for an employee. HEAD carries total chunk count and content type; BODYs each contain a serialised batch of messages; TAIL carries a checksum for integrity verification.
 
@@ -188,94 +195,17 @@ In all three cases, the `correlation_id` is logged at every hop, giving Admin a 
 
 ---
 
+<!--
+
 ## Implementation
 
-<div id="implementation"></div>
+Protobuf schemas, envelope definition, train protocol, and message type definitions — see archived reference in `unused/actor-model.md`.
 
-The message contracts in this system are implemented using [Protocol Buffers (Protobuf)](https://en.wikipedia.org/wiki/Protocol_Buffers) — Google's language-neutral binary serialisation format. `.proto` files define the schema; the `protoc` compiler generates the code.
-
-### Envelope
-
-<div id="envelope"></div>
-
-In Protobuf, a `message` is the implementation form of a message type — it defines the attributes and their types in a `.proto` schema file. The `Envelope` is the standard message type that carries all actor communication. The `payload` field carries the serialised business message (`Deliver`, `Index`, etc.) — each a separate `.proto` message type in its own right.
-
-```proto
-message Envelope {
-  string correlation_id = 1;
-  string message_type   = 2;  // e.g. "Deliver", "Index", "NewMail"
-  bytes  payload        = 3;  // serialised business message
-}
-```
-
-### Train Protocol
-
-<div id="train-protocol"></div>
-
-The `TrainPart` enum identifies each packet's role in a train sequence:
-
-```proto
-enum TrainPart {
-  HEAD = 0;
-  BODY = 1;
-  TAIL = 2;
-}
-```
-
-### Message Type Schemas
-
-<div id="message-schemas"></div>
-
-In Protobuf, `repeated` means the field is a list — zero or more values of that type.
-
-```proto
-// Inbound message delivery
-message Deliver {
-  string          message_id  = 1;
-  string          from        = 2;
-  repeated string to          = 3;
-  string          subject     = 4;
-  bytes           body        = 5;
-  int64           received_at = 6;
-}
-
-// Search index instruction
-message Index {
-  string          message_id  = 1;
-  string          eid         = 2;
-  string          subject     = 3;
-  string          body_text   = 4;
-  repeated string tags        = 5;
-}
-
-// Archive instruction from Policy
-message ArchiveInstruction {
-  string eid            = 1;
-  int64  before_epoch   = 2;
-  string archive_job_id = 3;
-}
-
-// Backup snapshot metadata (carried in HEAD of a backup train)
-message BackupHead {
-  string snapshot_id     = 1;
-  string eid             = 2;
-  string parent_snapshot = 3;
-  uint32 total_chunks    = 4;
-  bool   is_incremental  = 5;
-}
-
-// Quota status reply
-message QuotaStatus {
-  string eid           = 1;
-  int64  used_bytes    = 2;
-  int64  limit_bytes   = 3;
-  float  usage_percent = 4;
-}
-```
+-->
 
 ---
 
-*See also: [Actor Model Architecture](actor-model.md) — the foundational model this use case applies. [Actor-Agent Architecture](actor-agent.md) — how AI agents may be added externally to this system.*
+*See also: [Agent-Actor Architecture](index.md) — the `AgentActor` unified concept at Conceptual and Logical levels.*
 
 ---
 

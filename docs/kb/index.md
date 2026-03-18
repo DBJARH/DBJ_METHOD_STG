@@ -88,6 +88,14 @@ The actor model as the foundation for resilient distributed and agentic systems.
 
 > Actors first. Agents are additive.
 
+---
+
+## 11 [ISO27001 != GDPR Compliance](ISO27001/ISO27001.md)
+
+**ISO 27001 is not sufficient for full GDPR compliance** because it focuses on information security management (the CIA triad) rather than the legal, data privacy rights mandated by GDPR. While ISO 27001 provides a robust framework for technical safeguards and risk management, it lacks GDPR-specific requirements like consent management, data subject access requests (DSARs), and strict legal bases for processing. 
+
+> ISO27001 != GDPR Compliance
+
 --- 
 
 <div style="float: center; margin: 1em; text-align: center;">

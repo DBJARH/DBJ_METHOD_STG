@@ -4,6 +4,8 @@ title: LLM Adoption
 description: Enterprise architecture governance framework for introducing Large Language Models
 ---
 
+[← Knowledge Base](../index.md)
+
 # W.I.P.
 
 # LLM is not mandatory

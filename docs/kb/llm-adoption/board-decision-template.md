@@ -4,6 +4,8 @@ title: Architecture Board Decision Template — LLM Approval
 description: Ten-question approval gate for Architecture Board LLM decisions
 ---
 
+[← Knowledge Base](../index.md)
+
 # Architecture Board Decision Template — LLM Approval
 
 ## What is this document?

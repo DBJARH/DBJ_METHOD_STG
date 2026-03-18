@@ -4,6 +4,8 @@ title: The EU AI Compliance Act
 description:  The EU AI Act compliance deadline for high-risk AI systems is August 2026
 ---
 
+[← Knowledge Base](../index.md)
+
 # The EU AI Compliance Act
 
 >**NOTE**

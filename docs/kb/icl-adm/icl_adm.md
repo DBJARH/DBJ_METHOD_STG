@@ -4,6 +4,8 @@ title: ICL ADM
 description: A simplified ADM cycle for the ICL Method — how governance steps map across the full taxonomy
 ---
 
+[← Knowledge Base](../index.md)
+
 # ICL ADM
 
 The ICL ADM is a simplified version of the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) adapted for use within the ICL Method. It retains the wheel metaphor — a repeating cycle of governed architecture work — while reducing the step count to what a real organization can sustain without a dedicated architecture team.

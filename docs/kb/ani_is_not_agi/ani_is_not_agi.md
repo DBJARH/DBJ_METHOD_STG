@@ -4,6 +4,8 @@ title: ANI Is Not AGI
 description: Why AGI is an unreachable milestone — and why the distinction matters
 ---
 
+[← Knowledge Base](../index.md)
+
 # ANI Is Not AGI
 
 >**Note** 

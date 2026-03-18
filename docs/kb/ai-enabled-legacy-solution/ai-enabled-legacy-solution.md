@@ -1,4 +1,6 @@
 
+[← Knowledge Base](../index.md)
+
 # Legacy Knowledge LLM Integration Architecture
 
 ![LLM Integration Architecture](legacy-knowledge-ai-integration.png)

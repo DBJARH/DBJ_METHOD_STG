@@ -4,6 +4,8 @@ title: LLM Adoption Decision Model — The 4-Level Test
 description: Four decision rules, one per architectural level, for evaluating LLM adoption
 ---
 
+[← Knowledge Base](../index.md)
+
 # LLM Adoption Decision Model — The 4-Level Test
 
 Before approving LLM use in any project, run it through four questions — one per architectural level. All four must pass. One failure means the LLM does not belong there.

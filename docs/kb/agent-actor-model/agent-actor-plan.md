@@ -4,6 +4,8 @@ title: Agent-Actor Architecture — Plan and Decision Log
 description: Working spec and decision log for the agent-actor KB restructuring.
 ---
 
+[← Knowledge Base](../index.md)
+
 # Agent-Actor Architecture — Plan and Decision Log
 
 This file is a working spec / context document for restructuring the agent-actor KB section.

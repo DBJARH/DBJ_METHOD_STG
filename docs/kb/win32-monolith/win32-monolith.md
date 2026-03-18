@@ -4,6 +4,8 @@ title: Win32 Monolith Modernization
 description: Enterprise architecture approach for modernizing a legacy Win32 monolith with a web front end — Strangler Fig pattern, ACL, MCP Server, and AI integration.
 ---
 
+[← Knowledge Base](../index.md)
+
 # Legacy Monolith WIN32 desktop GUI; System Modernization.
 
 > * Web front end to be added

@@ -4,6 +4,8 @@ title: Email Management System — AgentActor Use Case
 description: A full worked example applying the AgentActor unified concept to organisational email management — AgentActor inventory, conversation maps, and large-payload flows.
 ---
 
+[← Knowledge Base](../index.md)
+
 # Demo: Email Management System — AgentActor Use Case
 
 This document applies the `AgentActor` unified concept to a concrete business problem: organisational email management for a single organisation. Every node in the system is an `AgentActor` — some deterministic, some optionally wired to an LLM or external capability.

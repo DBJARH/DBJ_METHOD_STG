@@ -65,7 +65,7 @@ ANI is real, deployable, and governable. AGI is a philosophical milestone whose 
 
 > **Note**
 > The distinction between ANI and AGI is not academic. Governance built on the assumption that today's AI is "almost AGI" will be structurally wrong — and structurally wrong governance fails at the worst moment.
- {: note}
+ {: .note.}
 
 ---
 

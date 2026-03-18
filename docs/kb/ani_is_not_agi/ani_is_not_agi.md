@@ -8,8 +8,7 @@ description: Why AGI is an unreachable milestone — and why the distinction mat
 
 # ANI Is Not AGI
 
->**Note** 
-AGI is a machine that can understand, learn, and apply its intelligence to solve any problem a human can. No such machine exists.
+> AGI is a machine that can understand, learn, and apply its intelligence to solve any problem a human can. No such machine exists.
 {: .note}
 
 In the world of technology, AGI (Artificial General Intelligence) is often called the "Holy Grail" of computer science. It sounds like science fiction — and that framing is the problem. Confusing AGI ambition with ANI capability leads organizations to misplace strategic bets.

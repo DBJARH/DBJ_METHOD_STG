@@ -38,9 +38,11 @@ The framework does not invent a `special AI process`. LLMs adoption go through t
 
 ## Start a new EA project
 
->[!IMPORTANT]LLM approval is a single separate ADM centric EA project. As other ICL prescribed project it requires a business "buy in", role from the business and before anything: Organization on the ACMM level 3.
+> LLM approval is a single separate ADM centric EA project. As other ICL prescribed project it requires a business "buy in", role from the business and before anything: Organization on the ACMM level 3.
+{: .important}
 
->[!NOTE]Remember: ICL ADM project cycling is simplified vs full TOGAF ADM. See [ICL ADM](../icl-adm/icl_adm.md) for the structural foundation that all ICL ADM wheels follow.
+> Remember: ICL ADM project cycling is simplified vs full TOGAF ADM. See [ICL ADM](../icl-adm/icl_adm.md) for the structural foundation that all ICL ADM wheels follow.
+{: .note}
 
 ---
 
@@ -130,9 +132,10 @@ A team tasked to approve the introduction of an LLM works through these in order
 
 ---
 
->[!TIP]If removing the LLM would collapse the architecture, you overengineered it.
+> If removing the LLM would collapse the architecture, you overengineered it.
 >
 > In plain terms: the LLM should be one replaceable part of the system — like a subcontractor you can swap out. If the whole system is built around the LLM, structured to serve it, or impossible to change without it, then the LLM became the architecture itself. That is the problem. The AI LLM should serve the system, not be the system.
+{: .tip}
 >
 > Do not make LLM a "[Single Point of Failure](https://en.wikipedia.org/wiki/Single_point_of_failure)"
 

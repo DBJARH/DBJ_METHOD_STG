@@ -56,15 +56,14 @@ graph TD
   - does not require specialized JavaScript/Type Script resources
   - Mobile interface is possible but nat native mobile gui
 
->**Important**
-Native Mobile UI requirement will basically explode the complexity
+> Native Mobile UI requirement will basically explode the complexity
+{: .important}
 
 ## 2. Application/System Architecture Concepts
 
 Classic **Strangler Fig** pattern applies here. The web front end becomes the entry point; the Win32 monolith is progressively hollowed out from behind it.
 
->**Important**
-**Key architectural decision:** Do NOT attempt to expose the Win32 GUI directly. Treat the existing monolith as a black box with a new service boundary cut in front of it.
+> **Key architectural decision:** Do NOT attempt to expose the Win32 GUI directly. Treat the existing monolith as a black box with a new service boundary cut in front of it.
 {: .important}
 
 ---
@@ -93,8 +92,7 @@ graph LR
   - COM automation, named pipes, CLI invocation, or DB-level if nothing else
 - ACL owns the `ProtoBuf` contract; the monolith sees no changes
 
->**Important**
-Aim for JSON Free architecture. That leads to much faster and much safer system.
+> Aim for JSON Free architecture. That leads to much faster and much safer system.
 {: .important}
 
 
@@ -127,8 +125,7 @@ graph LR
 
 Extract modules in order of: highest business value first, lowest coupling second.
 
->**Important**
-Modularization is diffuclt technicaly. Also logicalt because it has to be business driven. One business function =~ One module
+> Modularization is diffuclt technicaly. Also logicalt because it has to be business driven. One business function =~ One module
 {: .important}
 
 ## 3 AI Integration — MCP Server as Anti-Corruption Layer
@@ -203,8 +200,8 @@ graph LR
 
 ---
 
->**Important**
-The guiding principle: **the monolith shrinks, it does not get rewritten in one shot.** The ACL protects the new system from the old system's semantics until extraction is complete.
+> The guiding principle: **the monolith shrinks, it does not get rewritten in one shot.** The ACL protects the new system from the old system's semantics until extraction is complete.
+{: .important}
 
 
 **QUESTION**: What is the Win32 monolith's existing IPC surface, if any?

@@ -103,8 +103,8 @@ The motivating novelty: using safe, fast binary messaging (Protobuf) on top of t
 
 ### The New Primary Thesis
 
->[!IMPORTANT]
-**An [Agent](https://en.wikipedia.org/wiki/Intelligent_agent) is a highly configurable [Actor](https://en.wikipedia.org/wiki/Actor_model) — with an optional LLM/CPM link.**
+> **An [Agent](https://en.wikipedia.org/wiki/Intelligent_agent) is a highly configurable [Actor](https://en.wikipedia.org/wiki/Actor_model) — with an optional LLM/CPM link.**
+{: .important}
 
 Not a new concept. Not a special case. An [Actor](https://en.wikipedia.org/wiki/Actor_model) where the behavior function can be wired to a language model or a classical probabilistic model (CPM) instead of deterministic logic. The inbox contract, isolation, and failure containment are all inherited unchanged.
 

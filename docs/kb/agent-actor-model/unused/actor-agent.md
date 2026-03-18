@@ -6,9 +6,8 @@ description: How AI agents attach externally to an actor-model foundation — en
 
 # Actor-Agent Architecture
 
-> **Tip** 
 > This document explores how AI Agents may be added externally to a system built on the [Actor Model Architecture](actor-model.md). It is a living document — added to as patterns emerge.
-{: tip}
+{: .tip}
 
 ---
 
@@ -18,10 +17,10 @@ description: How AI agents attach externally to an actor-model foundation — en
 {: .note}
 
 > Agents are **not** the foundation. They are external additions that bring AI capabilities to specific, well-defined points in the system — where the structured, deterministic logic of Actors reaches the boundary of what rules can cover.
-{: .important}
+{: .warning}
 
 > This distinction matters. A system designed around Agents as the core becomes fragile: behaviour is probabilistic, contracts are implicit, and failure modes are harder to reason about. A system designed around Actors, with Agents as optional bolt-ons, remains predictable at its core.
-{: .warning}
+{: .important}
 
 ---
 

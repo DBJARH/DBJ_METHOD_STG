@@ -56,7 +56,6 @@ A **message attribute** is a named field carried by a message instance structure
 
 This three-level distinction — type, instance, attribute — is what makes Actor communication precise and verifiable. The inbox contract specifies which types an Actor accepts. The schema for each type specifies which attributes it must carry.
 
->**Tip**
 > Good analogy is Email. Email is a logical structure defintion; a Type. It has attributes like: `to`,`from`,`body`. And there is thousands or emails instances, "in flight" at any give moment in time. So, email systems has one message type: `Email`, having attributes as part of that definition. And instances of that one type flying between email servers Actors.
 {: .tip}
 
@@ -66,7 +65,6 @@ All communication between Actors is via message passing. Messages are immutable.
 
 **Fire-and-forget** is the default communication pattern: the sender does not wait for a reply. If a reply is needed, the receiver sends a new message back to the sender's inbox at some later point. There is no synchronous call-return between Actors.
 
->**Tip**
 > Actors are not interlocutors. Actors are not part of classical human-like conversations. Actors send a message and never wait for a reply.
 {: .tip}
 
@@ -210,15 +208,13 @@ graph TD
 
 A **fault domain** is a boundary within which a failure is contained — what breaks together, stays together, and what is outside the boundary keeps running.
 
->**Tip**
-Sometimes called `blast radius`
+> Sometimes called `blast radius`
 {: .tip}
 
 Each node (aka computer) is an independent fault domain. Failure of the bulk operations node does not affect interactive message delivery. The Archive Actor and Backup Actor operate on scheduled cycles; a temporary outage delays a backup run but does not corrupt Actors' inbox state.
 
 Actors within a node are supervised (monitored). A crashed Actor is restarted by its supervisor. The inbox persists across restarts — messages deposited before the crash are not lost, provided the inbox is backed by durable storage or an in-process queue with sufficient depth.
 
->**Tip**
 > The supervisor is a fitting model for a **supervisor AI Agent** — an Agent whose sole, narrow purpose is to monitor other Agents and restart them on failure. It does not do business work. It watches, detects failure, and acts. This is a single-purpose Agent by design, which is exactly what makes it reliable.
 {: .tip}
 

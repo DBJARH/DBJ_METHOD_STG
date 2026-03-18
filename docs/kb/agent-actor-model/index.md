@@ -194,6 +194,6 @@ Protobuf schemas, the Train Protocol wire format, and schema governance tooling 
 <br/>
 EA Navigates &trade;
 <hr/>
-Subject to chang&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
+Subject to change&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
 </div>
 <div style="clear: both;"></div>

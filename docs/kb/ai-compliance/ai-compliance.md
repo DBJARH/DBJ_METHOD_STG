@@ -10,7 +10,7 @@ description:  The EU AI Act compliance deadline for high-risk AI systems is Augu
 
 >**NOTE**
 "*AI is a corporate risk. Non compliant AI is unmanageable corporate risk*" - &copy; Dusan Jovanovic 2026
-{: .note.}
+{: .note}
 
 ![](ai-compliance.jpg)
 
@@ -39,7 +39,7 @@ At Iron Code Labs, we recommend closed-loop, pre-execution and runtime-integrate
 > Governing AI at the Execution Layer: Regulatory Alignment
 > 
 > (pobably not a lucid and succinct text: https://lnkd.in/egw4eCC2)
-{: .note.}
+{: .note}
 
 ---
 

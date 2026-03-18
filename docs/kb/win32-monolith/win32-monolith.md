@@ -65,7 +65,7 @@ Classic **Strangler Fig** pattern applies here. The web front end becomes the en
 
 >**Important**
 **Key architectural decision:** Do NOT attempt to expose the Win32 GUI directly. Treat the existing monolith as a black box with a new service boundary cut in front of it.
-{: .important.}
+{: .important}
 
 ---
 
@@ -95,7 +95,7 @@ graph LR
 
 >**Important**
 Aim for JSON Free architecture. That leads to much faster and much safer system.
-{: .important.}
+{: .important}
 
 
 ---
@@ -129,7 +129,7 @@ Extract modules in order of: highest business value first, lowest coupling secon
 
 >**Important**
 Modularization is diffuclt technicaly. Also logicalt because it has to be business driven. One business function =~ One module
-{: .important.}
+{: .important}
 
 ## 3 AI Integration — MCP Server as Anti-Corruption Layer
 

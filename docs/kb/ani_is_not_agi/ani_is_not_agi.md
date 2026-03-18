@@ -63,9 +63,8 @@ Enterprise architecture does not evaluate AI by its marketing position on a noti
 
 ANI is real, deployable, and governable. AGI is a philosophical milestone whose reachability is genuinely in dispute. Treat them accordingly.
 
-> **Note**
 > The distinction between ANI and AGI is not academic. Governance built on the assumption that today's AI is "almost AGI" will be structurally wrong — and structurally wrong governance fails at the worst moment.
- {: .note.}
+{: .note}
 
 ---
 

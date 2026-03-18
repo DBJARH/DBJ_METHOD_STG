@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(echo \"=== $f ===\")",
+      "Read(//g/IRONCODELABS-COM/EA_STG/**)",
+      "Bash(done)"
+    ]
+  }
+}

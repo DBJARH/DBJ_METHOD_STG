@@ -8,6 +8,9 @@ description: Clickable EA landscape diagram — Business and Technology landscap
 
 # Enterprise Architecture Full View — Business & Technology Landscape
 
+> This is clickable diagram
+{: .note}
+
 ```mermaid
 graph TD
     subgraph Business ["Business landscape"]
@@ -65,7 +68,8 @@ The model has three obligations.
 
 **EA's role** sits between them with three specific duties: align, consolidate, and govern. Technology constraints inform what business can declare, and business change drives technology evolution.
 
-> [!IMPORTANT] The key principle: *business declares the product, technology implements it*. EA ensures that chain is intact, traceable, and free of drift in both directions.
+> The key principle: *business declares the product, technology implements it*. EA ensures that chain is intact, traceable, and free of drift in both directions.
+{: .important}
 
 ---
 

@@ -81,9 +81,11 @@ A business capability is a stable expression of **what the organisation can do**
 
 EA uses capability maps as the primary bridge to the technology landscape. Each capability must be owned, funded, and traceable to at least one technology realisation. Gaps and overlaps in capability coverage are primary inputs to the roadmap.
 
-The [ICL Taxonomy](../../taxonomy.md) does not use the term "business capability" — it defines 16 structural Capability nodes (the named slots). A business capability, as used here, is an *organisational ability* that maps across one or more of those slots. The Taxonomy names the slots; the organisation's capability is how well those slots are filled.
+> The [ICL Taxonomy](../../taxonomy.md) does not use the term "business capability" — it defines 16 structural Capability nodes (the named slots). A business capability, as used here, is an *organisational ability* that maps across one or more of those slots. The Taxonomy names the slots; the organisation's capability is how well those slots are filled.
+{: .note}
 
-*Example: Order Management (Business Capability) spans `Conceptual > Business` (what is sold), `Conceptual > Information` (order data model), `Conceptual > Application` (OMS functions), and `Logical > Integration` (fulfilment APIs) — one capability, four Taxonomy nodes.*
+> *Example: Order Management (Business Capability) spans `Conceptual > Business` (what is sold), `Conceptual > Information` (order data model), `Conceptual > Application` (OMS functions), and `Logical > Integration` (fulfilment APIs) — one capability, four Taxonomy nodes.*
+{: note}
 
 ### Products & services {#products-and-services}
 

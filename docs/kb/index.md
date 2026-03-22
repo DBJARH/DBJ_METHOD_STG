@@ -100,9 +100,9 @@ The actor model as the foundation for resilient distributed and agentic systems.
 
 ---
 
-## 11 [Business Product Technology](Busines_Product_Technology/index.md)
+## 11 [Business & Technology](Busines_Technology_Landscapes/index.md)
 
-The BPT Loop — aligning Business, Product, and Technology through the EA methodology.
+Enterprise Full View — Business & Technology Landscape
 
 > Business declares. Technology implements. EA aligns.
 {: .important}

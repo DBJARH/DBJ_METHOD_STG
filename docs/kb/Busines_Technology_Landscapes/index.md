@@ -85,7 +85,7 @@ EA uses capability maps as the primary bridge to the technology landscape. Each 
 {: .note}
 
 > *Example: Order Management (Business Capability) spans `Conceptual > Business` (what is sold), `Conceptual > Information` (order data model), `Conceptual > Application` (OMS functions), and `Logical > Integration` (fulfilment APIs) — one capability, four Taxonomy nodes.*
-{: note}
+{: .note}
 
 ### Products & services {#products-and-services}
 

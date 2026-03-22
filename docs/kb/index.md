@@ -100,7 +100,16 @@ The actor model as the foundation for resilient distributed and agentic systems.
 
 ---
 
-## 11 [ISO27001 != GDPR Compliance](ISO27001/ISO27001.md)
+## 11 [Business Product Technology](Busines_Product_Technology/index.md)
+
+The BPT Loop — aligning Business, Product, and Technology through the EA methodology.
+
+> Business declares. Technology implements. EA aligns.
+{: .important}
+
+---
+
+## 12 [ISO27001 != GDPR Compliance](ISO27001/ISO27001.md)
 
 **ISO 27001 is not sufficient for full GDPR compliance** because it focuses on information security management (the CIA triad) rather than the legal, data privacy rights mandated by GDPR. While ISO 27001 provides a robust framework for technical safeguards and risk management, it lacks GDPR-specific requirements like consent management, data subject access requests (DSARs), and strict legal bases for processing. 
 

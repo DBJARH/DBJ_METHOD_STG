@@ -2,7 +2,27 @@
 
 This repo contains only documentation (markdown files and media). No code.
 
-The primary focus is **enterprise architecture** and **methodology** — not software or technical architecture.
+## Role
+
+- TOGAF-registered Enterprise Architect (since Dec 2011)
+- System Architect (since 1996)
+- C/C++ developer (since 1990)
+- UML — working knowledge
+
+## The primary focus is
+
+-  Enterprise architecture
+   -  methodology based on TOGAF
+      -  described here https://ea.ironcodelabs.com/
+-  Logical Architecture
+  
+## Secondary focus
+
+-  Technical Architecture 
+
+## Tertiary focus   
+-  software architecture
+
 
 ## Repository structure
 
@@ -14,7 +34,13 @@ The primary focus is **enterprise architecture** and **methodology** — not sof
 
 ## Taxonomy
 
-The Common Taxonomy (`research/TAXONOMY_FINAL/taxonomy_final.md`) is the single source of truth, organization wide. It defines the hierarchy, the names, and the vocabulary. All roles use these names with no changes or reinterpretations.
+- Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.
+- It gives both the structure and naming of structure elements.
+- It is the essential common langugage of the organization
+
+- The Common Taxonomy is the single source of truth, organization wide. 
+- It defines the hierarchy, the names, and the vocabulary. 
+- All roles use these names with no changes or reinterpretations.
 
 Published at https://ea.ironcodelabs.com/taxonomy.html (full) and https://ea.ironcodelabs.com/taxonomy_core.html (core).
 
@@ -29,7 +55,9 @@ Published at https://ea.ironcodelabs.com/taxonomy.html (full) and https://ea.iro
 
 ### Architecture vs. Engineering
 
-Architecture and engineering are distinct disciplines. Architecture defines *what* the system is and *how it is structured*; engineering defines *how it is built, operated, and kept healthy*. Architecture scope spans all four Categories. The lower the Category, the more engineering roles participate — but the structural decisions remain architecture's responsibility.
+Architecture and engineering are distinct disciplines. Architecture defines *why* and *what* the system is and *how it is structured*; engineering defines *how it is built, operated, and kept healthy*. 
+
+Architecture scope spans all four Taxonomy Categories. The lower the Category, the more engineering roles participate — but the structural decisions remain architecture's responsibility.
 
 When writing or organizing content, place each concern at the correct Category. Do not mix Categories within the same section.
 
@@ -57,3 +85,9 @@ Published at https://ea.ironcodelabs.com/cmm.html — ACMM levels: https://ea.ir
 - Use kramdown only in `/docs`. All other folders use plain markdown.
 - Always use `markdown="1"` on HTML block elements (`<details>`, `<div>`, etc.) so kramdown renders markdown inside them.
 - Never use `.html` as link targets in source `.md` files — Jekyll resolves `.md` to `.html` at publish time.
+
+## Visuals
+
+- drawing should be all simple black and white
+- the only coloured detail on pages should be ICL logo
+  - https://ea.ironcodelabs.com/assets/icl_logo.png

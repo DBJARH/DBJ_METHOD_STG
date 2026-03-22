@@ -6,7 +6,9 @@ description: Clickable EA landscape diagram — Business and Technology landscap
 
 [← Knowledge Base](../index.md)
 
-# Enterprise Architecture — Business & Technology Landscape
+# Enterprise Architecture Full View — Business & Technology Landscape
+
+### No Iceberg
 
 Click any box in the diagram to jump to its explanation.
 
@@ -28,95 +30,87 @@ Click any box in the diagram to jump to its explanation.
 </defs>
 
 <!-- Business landscape container -->
-<rect x="30" y="30" width="270" height="300" rx="10" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6 4" opacity="0.5"/>
-<text class="label" x="165" y="22" text-anchor="middle" dominant-baseline="central">Business landscape</text>
+<rect x="30" y="30" width="270" height="300" rx="10" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.8"/>
+<text class="box-title" x="165" y="22" text-anchor="middle" dominant-baseline="central">Business landscape</text>
 
 <a href="#business-capabilities"><g class="node">
-  <rect x="50" y="50" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="50" y="50" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="165" y="69" text-anchor="middle" dominant-baseline="central">Business capabilities</text>
   <text class="box-sub"   x="165" y="88" text-anchor="middle" dominant-baseline="central">What the org can do</text>
 </g></a>
 
 <a href="#products-and-services"><g class="node">
-  <rect x="50" y="115" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="50" y="115" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="165" y="134" text-anchor="middle" dominant-baseline="central">Products &amp; services</text>
   <text class="box-sub"   x="165" y="153" text-anchor="middle" dominant-baseline="central">Declared by business</text>
 </g></a>
 
 <a href="#business-processes"><g class="node">
-  <rect x="50" y="180" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="50" y="180" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="165" y="199" text-anchor="middle" dominant-baseline="central">Business processes</text>
   <text class="box-sub"   x="165" y="218" text-anchor="middle" dominant-baseline="central">How value is delivered</text>
 </g></a>
 
 <a href="#information-assets"><g class="node">
-  <rect x="50" y="245" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="50" y="245" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="165" y="264" text-anchor="middle" dominant-baseline="central">Information assets</text>
   <text class="box-sub"   x="165" y="283" text-anchor="middle" dominant-baseline="central">Data with business value</text>
 </g></a>
 
 <!-- Technology landscape container -->
-<rect x="380" y="30" width="270" height="300" rx="10" fill="none" stroke="#000" stroke-width="1" stroke-dasharray="6 4" opacity="0.5"/>
-<text class="label" x="515" y="22" text-anchor="middle" dominant-baseline="central">Technology landscape</text>
+<rect x="380" y="30" width="270" height="300" rx="10" fill="none" stroke="#000" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.8"/>
+<text class="box-title" x="515" y="22" text-anchor="middle" dominant-baseline="central">Technology landscape</text>
 
 <a href="#application-portfolio"><g class="node">
-  <rect x="400" y="50" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="400" y="50" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="515" y="69" text-anchor="middle" dominant-baseline="central">Application portfolio</text>
   <text class="box-sub"   x="515" y="88" text-anchor="middle" dominant-baseline="central">Implements business products</text>
 </g></a>
 
 <a href="#infrastructure"><g class="node">
-  <rect x="400" y="115" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="400" y="115" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="515" y="134" text-anchor="middle" dominant-baseline="central">Infrastructure</text>
   <text class="box-sub"   x="515" y="153" text-anchor="middle" dominant-baseline="central">Containerised platforms</text>
 </g></a>
 
 <a href="#integrations"><g class="node">
-  <rect x="400" y="180" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="400" y="180" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="515" y="199" text-anchor="middle" dominant-baseline="central">Integrations</text>
   <text class="box-sub"   x="515" y="218" text-anchor="middle" dominant-baseline="central">APIs and data flows</text>
 </g></a>
 
 <a href="#technology-debt"><g class="node">
-  <rect x="400" y="245" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.7"/>
+  <rect x="400" y="245" width="230" height="52" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="515" y="264" text-anchor="middle" dominant-baseline="central">Technology debt</text>
   <text class="box-sub"   x="515" y="283" text-anchor="middle" dominant-baseline="central">Gaps and consolidation items</text>
 </g></a>
 
-<!-- Aligned by EA arrow -->
-<line x1="302" y1="180" x2="378" y2="180" stroke="#000" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)" opacity="0.7"/>
-<text class="small" x="340" y="170" text-anchor="middle" dominant-baseline="central">aligned by EA</text>
-
-<!-- Arrows down to EA box -->
-<line x1="165" y1="332" x2="165" y2="388" stroke="#000" stroke-width="1" marker-end="url(#arrow)" opacity="0.6"/>
-<line x1="515" y1="332" x2="515" y2="388" stroke="#000" stroke-width="1" marker-end="url(#arrow)" opacity="0.6"/>
-
 <!-- EA box -->
-<rect x="30" y="390" width="620" height="96" rx="10" fill="none" stroke="#000" stroke-width="1" opacity="0.7"/>
+<rect x="30" y="390" width="620" height="96" rx="10" fill="none" stroke="#000" stroke-width="1.5" opacity="0.9"/>
 <text class="label" x="340" y="410" text-anchor="middle" dominant-baseline="central">Enterprise architecture — alignment &amp; consolidation</text>
 
 <a href="#capability-mapping"><g class="node">
-  <rect x="50" y="424" width="170" height="48" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.6"/>
+  <rect x="50" y="424" width="170" height="48" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="135" y="442" text-anchor="middle" dominant-baseline="central">Capability mapping</text>
   <text class="box-sub"   x="135" y="460" text-anchor="middle" dominant-baseline="central">Business ↔ tech</text>
 </g></a>
 
 <a href="#governance"><g class="node">
-  <rect x="255" y="424" width="170" height="48" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.6"/>
+  <rect x="255" y="424" width="170" height="48" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="340" y="442" text-anchor="middle" dominant-baseline="central">Governance</text>
   <text class="box-sub"   x="340" y="460" text-anchor="middle" dominant-baseline="central">Standards and principles</text>
 </g></a>
 
 <a href="#roadmap"><g class="node">
-  <rect x="460" y="424" width="170" height="48" rx="6" fill="none" stroke="#000" stroke-width="0.5" opacity="0.6"/>
+  <rect x="460" y="424" width="170" height="48" rx="6" fill="none" stroke="#000" stroke-width="1" opacity="0.9"/>
   <text class="box-title" x="545" y="442" text-anchor="middle" dominant-baseline="central">Roadmap</text>
   <text class="box-sub"   x="545" y="460" text-anchor="middle" dominant-baseline="central">Target state planning</text>
 </g></a>
 
 <!-- Arrows from EA title to sub-boxes -->
-<line x1="135" y1="418" x2="135" y2="422" stroke="#000" stroke-width="0.8" marker-end="url(#arrow)" opacity="0.5"/>
-<line x1="340" y1="418" x2="340" y2="422" stroke="#000" stroke-width="0.8" marker-end="url(#arrow)" opacity="0.5"/>
-<line x1="545" y1="418" x2="545" y2="422" stroke="#000" stroke-width="0.8" marker-end="url(#arrow)" opacity="0.5"/>
+<line x1="135" y1="418" x2="135" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/>
+<line x1="340" y1="418" x2="340" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/>
+<line x1="545" y1="418" x2="545" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/>
 
 </svg>
 

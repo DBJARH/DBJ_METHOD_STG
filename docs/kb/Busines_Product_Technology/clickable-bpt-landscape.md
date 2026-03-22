@@ -108,9 +108,10 @@ Click any box in the diagram to jump to its explanation.
 </g></a>
 
 <!-- Arrows from EA title to sub-boxes -->
+<!-- 
 <line x1="135" y1="418" x2="135" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/>
 <line x1="340" y1="418" x2="340" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/>
-<line x1="545" y1="418" x2="545" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/>
+<line x1="545" y1="418" x2="545" y2="422" stroke="#000" stroke-width="1.5" marker-end="url(#arrow)" opacity="0.9"/> -->
 
 </svg>
 

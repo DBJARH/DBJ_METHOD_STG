@@ -24,7 +24,9 @@ Concepts build on each other. Marketing should reflect this order:
 
 2. **BPT Loop** — what operates. Business and Technology are put in motion through the loop (Require → Develop → Deploy → Evaluate). Product is the pivot. EA governs from above without entering the loop. This is the operational methodology.
 
-3. **Engagement Architecture** — how ICL delivers. BPT applied to a real customer engagement. Entry requires CMM Level 3. Internal use only — not for external marketing.
+3. **ICL ADM Wheel** — how governance works. EA runs architecture projects as "wheels" — structured cycles that produce formal deliverables at each step. Deliverables are placed in segment repositories; BPT segments pick them up from there. The wheel authorizes delivery; it never delivers. One wheel for smaller organisations; many concurrent wheels for large enterprises or complex programmes — the method scales both ways.
+
+4. **Engagement Architecture** — how ICL delivers. BPT applied to a real customer engagement. Entry requires CMM Level 3. Internal use only — not for external marketing.
 
 Each layer uses the one above as its foundation. Do not collapse them or present them as synonyms.
 
@@ -41,6 +43,10 @@ Try to use these terms exactly. Do not paraphrase, rename, or reinterpret.
 | **Taxonomy Capability** | A named structural node in the ICL Taxonomy — fixed, definitional. One of 16 (four per Category). |
 | **Product** | The alignment point between Business and Technology. Not a deliverable — a decoupling/coupling mechanism. |
 | **BPT Loop** | The operational cycle: Require → Develop → Deploy → Evaluate. Continuous, product-centric. |
+| **ADM Wheel** | An ICL architecture governance project. Produces formal deliverables at each step. Authorizes delivery; never delivers itself. |
+| **BPT Repository** | The persistent store of ADM deliverables for each segment (Business, Product, Technology). The governed handoff mechanism — auditable and decoupled. Not necessarily a database; any persistent store qualifies. |
+| **Requirements Management** | The central ADM entity that holds all requirements across all steps. Every step reads it; every step may add to it. Ensures nothing is lost between steps or across abstraction levels. |
+| **REQ traceability** | Every requirement references what it satisfies or requires. The chain from Implementation back to Conceptual is auditable at any point. A differentiator for regulated industries and CMM Level 4/5 organisations. |
 | **EA** | Enterprise Architecture. Governs the BPT loop from above. Does not participate in delivery. |
 | **CMM Level 3** | The entry ticket to the BPT cycle. Organisations below this level lack the foundational governance structures for the loop to function. |
 

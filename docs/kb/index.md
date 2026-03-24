@@ -118,7 +118,16 @@ The three BPT segments in depth — purpose, boundaries, repositories, and the e
 
 ---
 
-## 13 [ISO27001 != GDPR Compliance](ISO27001/ISO27001.md)
+## 13 [Engagement Architecture](engagement_architecture/index.md)
+
+How ICL structures customer engagements — from the ADM Boot Camp through to a deployable product. Covers the three-party workflow (Business, Product, Engineering), the customer AI layer, IT landscape analysis, and the traceable output back to Business architecture decisions.
+
+> No need to dive into the code if design is wrong.
+{: .important}
+
+---
+
+## 14 [ISO27001 != GDPR Compliance](ISO27001/ISO27001.md)
 
 **ISO 27001 is not sufficient for full GDPR compliance** because it focuses on information security management (the CIA triad) rather than the legal, data privacy rights mandated by GDPR. While ISO 27001 provides a robust framework for technical safeguards and risk management, it lacks GDPR-specific requirements like consent management, data subject access requests (DSARs), and strict legal bases for processing. 
 

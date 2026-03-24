@@ -121,7 +121,7 @@ In the context of Enteprise Taxonomy, Cabilities have two facets.
 > 2. Organizational Capability: the measurable ability to staff and execute within that node — variable, evolving, and the basis for enterprise KPIs.
 
 > **Note**
-> The Taxonomy does not use the term *business capability* — that term belongs to the Business Landscape layer and maps across one or more Taxonomy nodes. Organisational Capability is the correct Taxonomy term; it covers all four Categories, not just business-facing concerns. See [Business Technology Landscape](kb/Busines_Technology_Landscapes/index.md) for how business capabilities map to Taxonomy nodes.
+> The Taxonomy does not use the term *business capability* — that term belongs to the Business Landscape layer and maps across one or more Taxonomy nodes. Organisational Capability is the correct Taxonomy term; it covers all four Categories, not just business-facing concerns. See [Business Technology Landscape](kb/Business_Technology_Landscapes/index.md) for how business capabilities map to Taxonomy nodes.
 {: .note}
 
 ### Capability as Taxonomy Term

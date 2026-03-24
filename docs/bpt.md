@@ -16,7 +16,7 @@
 >Continuous Product Centric Cycle
 {: tip}
 
-![](bpt_assets/bpt-meta-loop.png)
+![](bpt_assets/bpt-meta-loop-simple.png)
 
 
 This diagram represents **Enterprise Architecture role as the governing meta-layer** that orchestrates the Business-Product-Technology relationship through continuous cycles (loops).
@@ -75,8 +75,6 @@ QA == Quality Assurance
 
 **In TOGAF terms:** This is Architecture Governance as a productized execution model, not replacing TOGAF ADM but providing the operational CMM based framework EA governs.
 
-> **Tip**
-> 
 > **Product unifies; Loop validates.**
 {: .tip}
 

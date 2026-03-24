@@ -12,15 +12,16 @@ description: How ICL structures customer engagements — from initial onboarding
 </div>
 <div style="clear: both;"></div>
 
-# Meeting Two: Engagement Architecture
+# Iron Code Labs Engagement Architecture
 
-- [Taxonomy First](#taxonomy-first)
-- [The Purpose](#the-purpose)
-- [Entry Point — ICL ADM Boot Camp](#entry-point--icl-adm-boot-camp)
-- [The Engagement Workflow](#the-engagement-workflow)
-- [Customer AI Layer — LLM / Agents / MCP](#customer-ai-layer--llm--agents--mcp)
-- [Customer IT Landscape](#customer-it-landscape)
-- [Output — Customer Deployment Target](#output--customer-deployment-target)
+- [Iron Code Labs Engagement Architecture](#iron-code-labs-engagement-architecture)
+  - [Taxonomy First](#taxonomy-first)
+  - [The Purpose](#the-purpose)
+  - [Entry Point — ICL ADM Boot Camp](#entry-point--icl-adm-boot-camp)
+  - [The Engagement Workflow](#the-engagement-workflow)
+  - [Customer AI Layer — LLM / Agents / MCP](#customer-ai-layer--llm--agents--mcp)
+  - [Customer IT Landscape](#customer-it-landscape)
+  - [Output — Customer Deployment Target](#output--customer-deployment-target)
 
 ![](engagement_architecture.png)
 

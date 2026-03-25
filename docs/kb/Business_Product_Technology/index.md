@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Business, Product, Technology
-description: The three BPT segments explained — structure, boundaries, repositories, and the event-driven model.
+description: The three BPT segments explained — structure, boundaries, repositories, and the four Activity Streams.
 ---
 
 [← Knowledge Base](../index.md)
@@ -28,9 +28,9 @@ Each segment has defined roles, boundaries, and artifacts. No segment reaches in
 
 ## The BPT Repository Model
 
-Each BPT segment has a repository. The repository is not a filing system — it is the conceptual event bus of the BPT loop. B, P, and T repositories are conceptual/logical entities; how they are physically realised is an implementation decision left to the organisation.
+ADM and BPT are decoupled by three ADM Deliverables Repositories — one per segment. Each repository is passive storage. It does not signal; it stores. B, P, and T repositories are conceptual/logical entities; how they are physically realised is an implementation decision left to the organisation.
 
-The [ICL ADM wheel](../icl-adm/icl_adm.md) operates in the EA governance layer above BPT. When a wheel step produces a deliverable, it is placed in the repository of the segment whose jurisdiction matches the deliverable's Taxonomy Category:
+The [ICL ADM wheel](../icl-adm/icl_adm.md) operates in the EA governance layer above BPT. Its deliverables land in the repository of the segment whose jurisdiction matches the deliverable's Taxonomy Category:
 
 | Deliverable Category | Repository | Segment |
 |---|---|---|
@@ -38,9 +38,7 @@ The [ICL ADM wheel](../icl-adm/icl_adm.md) operates in the EA governance layer a
 | Logical / Physical | Product repository | P |
 | Physical / Implementation | Technology repository | T |
 
-**Placing a deliverable in a repository is the event.** The segment monitors its repository. A new SOW arriving is the trigger — roles in that segment pick it up and act.
-
-This is the decoupling mechanism between the wheel and the segments. The wheel does not hand off to roles — it hands off to the repository. Roles never watch the wheel; they watch their repository. Segments never communicate directly — Product reads from the Business repository, Technology reads from the Product repository.
+The BPT loop itself is driven by the four Activity Streams. Activity Streams are the conceptual signaling mechanism between B, P, and T — distinct from the repositories, and distinct from the Activities that Roles perform inside each segment.
 
 EA defines the repository structure, the naming, and the categorisation. It does not dictate how Product builds software or how Technology operates infrastructure.
 

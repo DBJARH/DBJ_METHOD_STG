@@ -44,10 +44,10 @@ BPT is Architecture Governance as a productized execution model. The BPT Loop do
 <img src="bpt_assets/bpt-meta-loop-complex.png" style="width:75%;" />
 </div>
 
-## BPT Loop Segmens Explained
+## BPT Loop Segments Explained
 
 - [Conceptual Foundations](kb/Business_Technology_Landscapes/)
-- [Business, Product, Technology](kb/Business_Product_Technology/index.md) — the three segments in depth: boundaries, repositories, and the event-driven handoff model
+- [Business, Product, Technology](kb/Business_Product_Technology/index.md) — the three segments in depth: boundaries, repositories, and the four Activity Streams
 - [Roles, Actors and Jurisdictions](kb/Roles_Actors_Jurisdictions/index.md) — who works where in the BPT loop and why
 - [ICL ADM](kb/icl-adm/icl_adm.md) — the governance ADM (aka wheel) that operates above BPT
 - [CMM](cmm.md) — the maturity prerequisite

@@ -45,11 +45,13 @@ Business owns the *what* and the *why*. It does not touch the *how*. Technology 
 
 ---
 
-## BPT is event driven
+## ADM, Repositories, and Activity Streams
 
-The Business segment always contains at least one wheel. In larger organisations or complex engagements it contains many — each scoped to a domain or capability cluster, all governed by EA. See [One wheel or many](../icl-adm/icl_adm.md#one-or-many) for the full treatment. The BPT loop is event-driven — the event is a wheel deliverable.
+The Business segment always contains at least one wheel. In larger organisations or complex engagements it contains many — each scoped to a domain or capability cluster, all governed by EA. See [One wheel or many](../icl-adm/icl_adm.md#one-or-many) for the full treatment.
 
-A wheel that produces a purely Conceptual outcome — strategy, compliance assessment, capability map — completes without triggering P or T segments. When a wheel deliverable declares a product, it triggers the Product segment. Product's output in turn triggers Technology. 
+ADM and BPT are decoupled by the three ADM Deliverables Repositories. Each repository is passive — it stores ADM deliverables and decouples the wheel from the segments. The BPT loop is driven by the four Activity Streams, which are the conceptual signaling mechanism between B, P, and T.
+
+A wheel that produces a purely Conceptual outcome — strategy, compliance assessment, capability map — places its deliverable in the Business repository. When a wheel deliverable declares a product, it lands in the Product repository. Product repository deliverables in turn feed the Technology repository. 
 
 ---
 

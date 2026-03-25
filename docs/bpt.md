@@ -54,4 +54,4 @@ BPT is Architecture Governance as a productized execution model. The BPT Loop do
 
 
 
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
+> © dbj@dbj.org , CC BY SA 4.0

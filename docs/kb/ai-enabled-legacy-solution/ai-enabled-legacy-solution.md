@@ -75,11 +75,4 @@ The consumer (Agent) is shielded from:
 This also means MCP Servers are where **data governance**, **access control**, and **audit logging** are enforced — consistently, regardless of what sits behind them.
 ---
 
-<div style="float: center; margin: 1em; text-align: center;">
-<!-- KB footer -->
-<br/>
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
-<hr/>
-Subject to change&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
-</div>
-<div style="clear: both;"></div>
+> © dbj@dbj.org , CC BY SA 4.0

@@ -76,4 +76,4 @@ The BPT loop assumes organisational readiness: established capabilities, governa
 
 ---
 
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
+> © dbj@dbj.org , CC BY SA 4.0

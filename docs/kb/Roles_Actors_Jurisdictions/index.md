@@ -61,4 +61,4 @@ Definitions and terms may appear in singular or plural depending on the size of 
 
 ---
 
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
+> © dbj@dbj.org , CC BY SA 4.0

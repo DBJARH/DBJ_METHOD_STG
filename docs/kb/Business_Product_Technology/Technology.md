@@ -55,4 +55,4 @@ Technology owns the *how it is built and run*. It does not own what is built (Bu
 
 ---
 
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
+> © dbj@dbj.org , CC BY SA 4.0

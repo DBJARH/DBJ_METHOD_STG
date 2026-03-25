@@ -71,11 +71,4 @@ March 2026, [Dusan Jovanovic](https://dusanjovanovic.org/)
 
 ---
 
-<div style="float: center; margin: 1em; text-align: center;">
-<!-- KB footer -->
-<br/>
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
-<hr/>
-Subject to change&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
-</div>
-<div style="clear: both;"></div>
+> © dbj@dbj.org , CC BY SA 4.0

@@ -101,4 +101,4 @@ EA does not participate, it governs.
 
 
 ---
-Subject to change, material in this site is &copy; dbj@dbj.org , CC BY SA 4.0
+> © dbj@dbj.org , CC BY SA 4.0

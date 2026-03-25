@@ -145,13 +145,6 @@ How ICL structures customer engagements — from the ADM Boot Camp through to a 
 
 ---
 
-<div style="float: center; margin: 1em; text-align: center;">
-<!-- KB footer -->
-<br/>
-> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
-<hr/>
-Subject to change&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
-</div>
-<div style="clear: both;"></div>
+> © dbj@dbj.org , CC BY SA 4.0
 
 

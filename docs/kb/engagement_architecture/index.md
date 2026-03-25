@@ -75,4 +75,4 @@ The engagement produces a structured architecture product scoped to the customer
 
 ---
 
-EA Navigates ™ / Subject to change&nbsp;© dbj@dbj.org , CC BY SA 4.0
+> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0

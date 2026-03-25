@@ -53,4 +53,4 @@ A wheel that produces a purely Conceptual outcome — strategy, compliance asses
 
 ---
 
-EA Navigates ™ / Subject to change&nbsp;© dbj@dbj.org , CC BY SA 4.0
+> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0

@@ -121,7 +121,7 @@ Questions are grouped by [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/t
 <div style="float: center; margin: 1em; text-align: center;">
 <!-- KB footer -->
 <br/>
-EA Navigates &trade;
+> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
 <hr/>
 Subject to change&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
 </div>

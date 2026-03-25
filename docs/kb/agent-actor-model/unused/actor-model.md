@@ -239,7 +239,7 @@ The Protobuf schemas, envelope definition, train protocol, and message type defi
 <div style="float: center; margin: 1em; text-align: center;">
 <!-- KB footer -->
 <br/>
-EA Navigates &trade;
+> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0
 <hr/>
 Subject to change&nbsp;&copy; dbj@dbj.org , CC BY SA 4.0
 </div>

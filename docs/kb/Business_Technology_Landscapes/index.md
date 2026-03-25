@@ -157,4 +157,4 @@ It is derived from three inputs: business strategy (where the business is going)
 
 ---
 
-EA Navigates ™ / Subject to change&nbsp;© dbj@dbj.org , CC BY SA 4.0
+> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0

@@ -44,8 +44,6 @@ BPT is Architecture Governance as a productized execution model. The BPT Loop do
 <img src="bpt_assets/bpt-meta-loop-complex.png" style="width:75%;" />
 </div>
 
----
-
 ## BPT Loop Segmens Explained
 
 - [Conceptual Foundations](kb/Business_Technology_Landscapes/)
@@ -54,6 +52,6 @@ BPT is Architecture Governance as a productized execution model. The BPT Loop do
 - [ICL ADM](kb/icl-adm/icl_adm.md) — the governance ADM (aka wheel) that operates above BPT
 - [CMM](cmm.md) — the maturity prerequisite
 
----
 
-EA Navigates ™ / Subject to change&nbsp;© dbj@dbj.org , CC BY SA 4.0
+
+> EA Navigator ™ /  © dbj@dbj.org , CC BY SA 4.0

@@ -10,7 +10,7 @@ Structured reference material on enterprise architecture topics. Each section is
 
 ---
 
-## 1 [ICL ADM](icl-adm/icl_adm.md)
+## 1 [ICL ADM](icl-adm/index.md)
 
 The ICL Architecture Development Method — a simplified ADM cycle adapted from TOGAF for organizations without a dedicated architecture team. Covers the phase-to-category mapping, the role of the ICL Taxonomy, ADM deliverables, and the five-step ICL governance wheel.
 

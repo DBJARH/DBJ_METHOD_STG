@@ -4,7 +4,26 @@ title: The BPT Loop
 description: Business, Product, Technology — the ICL operational methodology governing continuous delivery.
 ---
 
-# The BPT Loop
+## Why the BPT Loop
+
+>The underlying idea of ICL Method is to make simplified TOGAF artifacts, into the framework for feasible business management method.
+{: .note}
+
+* We transform Business Roles central, accountable and reponsible to the conceptual architecture
+  * We do this by onboarding them on simplified [Maturity Model](cmm.md)
+  * Abbreviated name ICL CMM
+* To make the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) malleable to the business, we use the simplified version in which the business drives, not EA. 
+    * TOGAF ADM is central structure for Enteprrise Architecture projects, used by (many) Enteprise Architects producing only EA Artifacts
+  * We have simplified the (TOGAF) ADM wheel into the [Development Management Concept](kb/icl-adm/index.md) where Business is driving.
+  * Name is abbreviated to ICL ADM 
+* At the helm of ICL ADM "wheel" is the business. Enterprise Architecture is "just" the navigator.
+  * That is unlike TOGAF ADM, that is a domain of Enteprise Architects, producing EA Artifacts only.
+* The core necessity of the BPT is to make the ICL ADM products easy to digest and use by the three key segments of any organisation: 
+  * Business
+  * Product
+  * Technology
+
+## The BPT Loop
 
 > Continuous Product-Centric Cycle
 {: .tip}
@@ -38,7 +57,7 @@ Evaluate Stream feeds back to Business so the next Require can commence — the 
 
 ## Bridge from EA to Return on Investement (ROI)
 
-BPT is Architecture Governance as a productized execution model. The BPT Loop does not replace the ADM "Wheel" — it is the operational framework that the ADM governs. The [ICL ADM wheel](kb/icl-adm/icl_adm.md) runs inside the EA governance layer above BPT, producing the deliverables that the three segments consume.
+BPT is Architecture Governance as a productized execution model. The BPT Loop does not replace the ADM "Wheel" — it is the operational framework that the ADM governs. The [ICL ADM wheel](kb/icl-adm/index.md) runs inside the EA governance layer above BPT, producing the deliverables that the three segments consume.
 
 <div markdown="1" style="text-align:center;">
 <img src="bpt_assets/bpt-meta-loop-complex.png" style="width:75%;" />
@@ -49,7 +68,7 @@ BPT is Architecture Governance as a productized execution model. The BPT Loop do
 - [Conceptual Foundations](kb/Business_Technology_Landscapes/)
 - [Business, Product, Technology](kb/Business_Product_Technology/index.md) — the three segments in depth: boundaries, repositories, and the four Activity Streams
 - [Roles, Actors and Jurisdictions](kb/Roles_Actors_Jurisdictions/index.md) — who works where in the BPT loop and why
-- [ICL ADM](kb/icl-adm/icl_adm.md) — the governance ADM (aka wheel) that operates above BPT
+- [ICL ADM](kb/icl-adm/index.md) — the governance ADM (aka wheel) that operates above BPT
 - [CMM](cmm.md) — the maturity prerequisite
 
 

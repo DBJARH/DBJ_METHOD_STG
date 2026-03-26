@@ -30,7 +30,7 @@ Each segment has defined roles, boundaries, and artifacts. No segment reaches in
 
 ADM and BPT are decoupled by three ADM Deliverables Repositories — one per segment. Each repository is passive storage. It does not signal; it stores. B, P, and T repositories are conceptual/logical entities; how they are physically realised is an implementation decision left to the organisation.
 
-The [ICL ADM wheel](../icl-adm/icl_adm.md) operates in the EA governance layer above BPT. Its deliverables land in the repository of the segment whose jurisdiction matches the deliverable's Taxonomy Category:
+The [ICL ADM wheel](../icl-adm/index.md) operates in the EA governance layer above BPT. Its deliverables land in the repository of the segment whose jurisdiction matches the deliverable's Taxonomy Category:
 
 | Deliverable Category | Repository | Segment |
 |---|---|---|

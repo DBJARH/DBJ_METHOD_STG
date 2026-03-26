@@ -60,7 +60,7 @@ Each characteristic is assessed independently across M0–M5, giving a multi-dim
 
 ## ADM Prerequisite
 
-The [ICL ADM](../icl-adm/icl_adm.md) requires the client organisation to be at ACMM maturity level M3 or above across all nine characteristics. Effective ADM execution is capability-gated.
+The [ICL ADM](../icl-adm/index.md) requires the client organisation to be at ACMM maturity level M3 or above across all nine characteristics. Effective ADM execution is capability-gated.
 
 | Level | Implication |
 |-------|-------------|

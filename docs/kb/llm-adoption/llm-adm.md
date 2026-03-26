@@ -16,7 +16,7 @@ The checks in each phase map to the [ICL Enterprise Taxonomy](https://ea.ironcod
 
 ![TOGAF ADM phases](../icl-adm/assests/togaf_adm.png)
 
-For an explanation of what ADM deliverables are, why they matter, and who produces them, see the [ICL ADM](../icl-adm/icl_adm.md).
+For an explanation of what ADM deliverables are, why they matter, and who produces them, see the [ICL ADM](../icl-adm/index.md).
 
 ---
 

@@ -6,8 +6,10 @@ description: Home
 
 *Back to [IRONCODELABS.COM](https://ironcodelabs.com)*
 
+>The underlying idea of ICL Method is to make simplified TOGAF artifacts, into the framework for feasible business management method.
+{: .note}
 
->**Note**
+
 >This Method exists to facilitate safe journey of an enterprise to AI enablement
 >
 > General [AI Guidance](ai.md)

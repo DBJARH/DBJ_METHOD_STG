@@ -45,13 +45,13 @@ This document describes how ICL structures customer engagements — from initial
 
 All architecture work occurs within an Enterprise Architecture boundary governed by ICL's Governance, Principles, Standards, and Guidance. The three [BPT segments](../Business_Product_Technology/index.md) — Business, Product, and Technology — interact within this boundary. Segments do not hand off to each other directly; each monitors its own repository for ADM deliverables. See [BPT Repository Model](../Business_Product_Technology/index.md#the-bpt-repository-model) for the decoupling mechanism.
 
-**Business** stakeholders approve the direction of the work and specify what capabilities the product must incorporate. Their input drives scope. Work occurs in one or more ADM Wheels — one wheel per domain or capability cluster is common in larger engagements. See [One wheel or many](../icl-adm/icl_adm.md#one-or-many). Roles present: Stakeholders, Product Owners. Outcome category: Conceptual.
+**Business** stakeholders approve the direction of the work and specify what capabilities the product must incorporate. Their input drives scope. Work occurs in one or more ADM Wheels — one wheel per domain or capability cluster is common in larger engagements. See [One wheel or many](../icl-adm/index.md#one-or-many). Roles present: Stakeholders, Product Owners. Outcome category: Conceptual.
 
 **Product** is the central artifact. It is decomposed and modularized through workflow analysis, developed iteratively, evaluated against the customer's context, and deployed to UAT before final handoff. Roles: Business Analyst, Product Owners, Quality Assurance, Engineering Executives. Outcome categories: Logical and Physical.
 
 **Technology** — the Engineering roles (Engineers, DevOps) — implement what Product defines. They reference the Product repository and the customer IT landscape throughout, ensuring the architecture reflects operational reality. "Engineering" describes the roles inside the Technology segment; Technology is the BPT segment name. Categories: Physical and Implementation.
 
-All requirements produced across all steps are tracked and traced. Every ADM deliverable references the REQs it satisfies; every REQ references what it requires. See [Requirements Management](../icl-adm/icl_adm.md#requirements-management) and [Requirement hierarchy and traceability](../icl-adm/icl_adm.md#requirement-hierarchy).
+All requirements produced across all steps are tracked and traced. Every ADM deliverable references the REQs it satisfies; every REQ references what it requires. See [Requirements Management](../icl-adm/index.md#requirements-management) and [Requirement hierarchy and traceability](../icl-adm/index.md#requirement-hierarchy).
 
 The flow is cyclical: Business requires, Technology develops, the product is evaluated, refined, and redeployed until it meets the agreed standard.
 

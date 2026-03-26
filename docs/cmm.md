@@ -35,15 +35,15 @@ Organization Maturity is assessed across these five elements. Each element is sc
 
 > The entry ticket to the ICL BPT methodology is **L3 across all five elements**.
 
-An organization at L3 across all five elements has what the [ICL ADM](kb/icl-adm/icl_adm.md) requires to function:
+An organization at L3 across all five elements has what the [ICL ADM](kb/icl-adm/index.md) requires to function:
 
 - **Governance** can host an Architecture Board with enforcement authority
 - **Skilled Resource Pool** can produce and review architectural deliverables
-- **Projects / Portfolios** can run a structured five-step [ICL ADM](kb/icl-adm/icl_adm.md) wheel
+- **Projects / Portfolios** can run a structured five-step [ICL ADM](kb/icl-adm/index.md) wheel
 - **Business Operations** engages with architectural decisions rather than bypassing them
 - **Architecture Repository** holds and serves the artifacts each wheel produces
 
-Below L3, one or more of these conditions fails — and the [ICL ADM](kb/icl-adm/icl_adm.md) wheel stalls.
+Below L3, one or more of these conditions fails — and the [ICL ADM](kb/icl-adm/index.md) wheel stalls.
 
 ---
 

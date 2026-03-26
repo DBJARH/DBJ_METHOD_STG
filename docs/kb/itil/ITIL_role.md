@@ -19,7 +19,7 @@ description: The Rol of ITIL in ICL Method
 
 | Concern | Framework | Scope |
 |---|---|---|
-| Architecture design and transformation | TOGAF / [ADM](../icl-adm/icl_adm.md) | *How to change* |
+| Architecture design and transformation | TOGAF / [ADM](../icl-adm/index.md) | *How to change* |
 | IT service quality and operational benchmarking | ITIL | *How well you run* |
 
 > TOGAF governs the *state transition*.  ITIL measures *operational fitness* of the current and target states. They are complementary, not competing. EA practice retains TOGAF for architecture governance; ITIL is adopted for IT landscape standards auditing and benchmarking.
@@ -78,7 +78,7 @@ Key constructs relevant to benchmarking:
 
 ## Integration with EA Practice
 
-The EA team might use ITIL metrics as **input signals** to the [Architecture Development Method (ADM)](../icl-adm/icl_adm.md):
+The EA team might use ITIL metrics as **input signals** to the [Architecture Development Method (ADM)](../icl-adm/index.md):
 
 - **Phase A (Architecture Vision):** ITIL baseline metrics define current-state pain points
 - **Phase B/C/D (Business/IS/Technology Architecture):** SLA and availability targets inform NFRs in target architecture
@@ -115,7 +115,7 @@ Target for consolidated IT landscape: **Level 3 minimum** across all Tier 1 serv
 ---
 
 *Document owner: Enterprise Architecture Practice*  
-*Framework references: [ITIL 4 Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation) (AXELOS), [TOGAF 10](https://www.opengroup.org/togaf) (The Open Group), [ICL ADM](../icl-adm/icl_adm.md)*
+*Framework references: [ITIL 4 Foundation](https://www.axelos.com/certifications/itil-service-management/itil-4-foundation) (AXELOS), [TOGAF 10](https://www.opengroup.org/togaf) (The Open Group), [ICL ADM](../icl-adm/index.md)*
 
 ---
 

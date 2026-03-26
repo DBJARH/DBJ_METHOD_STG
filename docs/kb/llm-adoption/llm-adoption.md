@@ -12,14 +12,14 @@ description: Enterprise architecture governance framework for introducing Large 
 
 ![LLM Adoption](assets/architecture-of-llm-adoption.png)
 
-> Enterprise architecture discipline applied to Large Language Model adoption — a structured framework covering capability justification, governance, and [ICL ADM integration](../icl-adm/icl_adm.md).
+> Enterprise architecture discipline applied to Large Language Model adoption — a structured framework covering capability justification, governance, and [ICL ADM integration](../icl-adm/index.md).
 {: .note}
 
 This is the root document for the LLM Adoption framework. It explains the overall approach and points to the five documents that together form a complete governance framework for introducing Large Language Models into an organization.
 
 > **The central argument:** LLM complexity must be earned, not > assumed. 
 > 
-> Each document applies the  [ICL ADM integration](../icl-adm/icl_adm.md) to keep LLM adoption under architectural control.
+> Each document applies the  [ICL ADM integration](../icl-adm/index.md) to keep LLM adoption under architectural control.
 
 ## What business issue does this framework solve?
 
@@ -41,7 +41,7 @@ The framework does not invent a `special AI process`. LLMs adoption go through t
 > LLM approval is a single separate ADM centric EA project. As other ICL prescribed project it requires a business "buy in", role from the business and before anything: Organization on the ACMM level 3.
 {: .important}
 
-> Remember: ICL ADM project cycling is simplified vs full TOGAF ADM. See [ICL ADM](../icl-adm/icl_adm.md) for the structural foundation that all ICL ADM wheels follow.
+> Remember: ICL ADM project cycling is simplified vs full TOGAF ADM. See [ICL ADM](../icl-adm/index.md) for the structural foundation that all ICL ADM wheels follow.
 {: .note}
 
 ---

@@ -38,7 +38,7 @@ EA's jurisdiction is the whole organisation — not a segment, not a project. Th
 - Ensures Product decisions maintain Business-Technology coherence
 - Governs without bottlenecking the cycle
 - Measures alignment health through Evaluate feedback
-- Runs the [ICL ADM wheel](../icl-adm/icl_adm.md) — the governance project container that spans the full Taxonomy
+- Runs the [ICL ADM wheel](../icl-adm/index.md) — the governance project container that spans the full Taxonomy
 
 EA does not implement, does not manage products, and does not operate infrastructure. It governs the structure within which all of those happen.
 
@@ -57,7 +57,7 @@ EA does not implement, does not manage products, and does not operate infrastruc
 
 The BPT segments are named **Business**, **Product**, and **Technology**. The roles inside the Technology segment are Engineers and DevOps — *Engineering* describes the roles, *Technology* is the segment. This distinction matters when reading diagrams and deliverables: the segment name is always Technology.
 
-Definitions and terms may appear in singular or plural depending on the size of the organisation. It is rare for there to be only one product or one team. The model scales — see [One wheel or many](../icl-adm/icl_adm.md#one-or-many).
+Definitions and terms may appear in singular or plural depending on the size of the organisation. It is rare for there to be only one product or one team. The model scales — see [One wheel or many](../icl-adm/index.md#one-or-many).
 
 ---
 

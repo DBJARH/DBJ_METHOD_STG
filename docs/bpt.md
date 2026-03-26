@@ -8,8 +8,7 @@ description: Business, Product, Technology — the ICL operational methodology g
 
 >The underlying idea of ICL Method is to make simplified TOGAF artifacts, into the framework for feasible business management method.
 {: .note}
-
-* We transform Business Roles central, accountable and reponsible to the conceptual architecture
+* We transform Business Roles central, accountable and responsible to the conceptual architecture
   * We do this by onboarding them on simplified [Maturity Model](cmm.md)
   * Abbreviated name ICL CMM
 * To make the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) malleable to the business, we use the simplified version in which the business drives, not EA. 

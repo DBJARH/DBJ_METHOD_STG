@@ -41,7 +41,9 @@ Try to use these terms exactly. Do not paraphrase, rename, or reinterpret.
 | **Business Capability** | What the organisation can do — stable, ownable, fundable. A business-facing subset of Organisational Capability. |
 | **Organisational Capability** | The measurable ability to staff and execute within a named ICL Taxonomy slot. Covers all 16 Taxonomy Capabilities across all four Categories. |
 | **Taxonomy Capability** | A named structural node in the ICL Taxonomy — fixed, definitional. One of 16 (four per Category). |
-| **Product** | The alignment point between Business and Technology. Not a deliverable — a decoupling/coupling mechanism. |
+| **Business** | Market strategy, stakeholders, and business owners. Declares intent into the BPT loop via the Require stream. |
+| **Product** | The specification and delivery management layer — the alignment point between Business and Technology. Not a deliverable — a decoupling/coupling mechanism. |
+| **Technology** | Engineering and development teams. Implements to product specifications via the Develop and Deploy streams. |
 | **BPT Loop** | The operational cycle: Require → Develop → Deploy → Evaluate. Continuous, product-centric. |
 | **ADM Wheel** | An ICL architecture governance project. Produces formal deliverables at each step. Authorizes delivery; never delivers itself. |
 | **BPT Repository** | The persistent store of ADM deliverables for each segment (Business, Product, Technology). The governed handoff mechanism — auditable and decoupled. Not necessarily a database; any persistent store qualifies. |

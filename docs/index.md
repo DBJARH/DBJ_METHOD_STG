@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Iron Code Labs Enterprise Architecture (ICLEA)
+title: AI ROI Method based on TOGAF
 description: Home
 ---
 

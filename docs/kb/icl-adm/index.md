@@ -10,28 +10,29 @@ description: A simplified ADM cycle for the ICL Method — how governance steps 
 
 <span id="togaf_adm"></span>
 
-![](assests/togaf-adm-with-deliverables.png)
-Togaf ADM and a subset of its deliverables
+<img src="assests/togaf-adm-with-deliverables.png" style="width:75%; display:block; margin:0 auto;" />
 
-> The **TOGAF** ADM wheel produces architecture artifacts — documented decisions, not deployed systems.
+<p style="text-align:center;">Togaf ADM and a subset of its deliverables</p>
+
+> The [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework#Architecture_Development_Method) driven project (we also call it "wheel", as in steering wheel) produces architecture artifacts — documented decisions, not deployed systems. It is one of the central parts of the TOGAF. It is intended as a tool for Enterprise Architecture teams producing the numerous carefully classified deliverables: diagrams, lists, tables, documents. All unified with common non trivial templates. Color coordinated and graphically synchronised.
 >
-> Specifically: principles, vision, architecture definitions (business, information systems, technology), roadmaps, migration plans, and governance reports.
+> Specifically subset of most important deliverables is classified as: principles, vision, architecture definitions (business, information systems, technology), roadmaps, migration plans, and governance reports.
 > 
-> The wheel authorizes delivery. It never deploys.
+> The ADM wheel authorizes delivery. It never deploys.
 {: .note}
 
-## ICL ADM
+# ICL ADM
 
-The ICL ADM is a simplified version of the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) adapted for use within the ICL Method. It retains the wheel metaphor — a repeating cycle of governed architecture work — while reducing the step count to what a real organization can sustain without a dedicated architecture team.
+The ICL ADM is a simplified version of the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) adapted for business use following the ICL Method. It retains the wheel metaphor — a repeating cycle of governed architecture work — while reducing the step count to what a real organization can sustain without a dedicated architecture team.
 
 But with the organization at the CMM [Level 3](../../cmm.md#maturity-levels) or above, ensuring the organization capability to "steer the ADM wheel".
 
-This document describes the structural logic of an ICL ADM wheel. Specific "wheels" aka "adm projects", follow this doument and reference it.
+This document describes the structural logic of an ICL ADM wheel. Specific "wheels" aka "adm projects", follow this document and reference it.
 
-> The **ICL** ADM wheel produces much destilled architecture artifacts v.s. TOGAF. The wheel authorizes delivery; it never delivers.
+> The **ICL** ADM wheel produces much distilled architecture artifacts v.s. TOGAF. The wheel authorizes delivery; it never delivers.
 {: .note}
 
-![](assests/icl-adm-icl-terminology-mapper.png)
+<img src="assests/icl-adm-icl-terminology-mapper.png" style="width:75%; display:block; margin:0 auto;" />
 
 ### Five ICL ADM steps
 

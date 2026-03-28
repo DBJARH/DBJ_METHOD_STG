@@ -35,11 +35,15 @@ The BPT Loop is the ICL operational methodology
 * **Product** — the specification and delivery management layer — is the alignment point between them, decoupling each so both can evolve independently, while coupling them so delivery is coherent and traceable. 
 * **Technology** — engineering and development teams — implements to product specifications.
 
-The three segments are decoupled. That makes roles responsibilities clearly separated. 
+The three segments are decoupled. That makes roles responsibilities clearly separated.
 
 > Example: Business Analyst (EA) works inside the "Product" segment. It is informed by "Business" segment deliverables on WHAT is required, then it creates workflow diagrams to translate *what* into *how* , but only until the implementation. That is the responsibility of the "Technology" roles, operating in the "Technology" segment. And each of the roles mentioned has many other duties and "jurisdictions" completely encapsulated in their fields of expertise.
 {: .note}
- 
+
+Each segment has a **repository** — a persistent store for the deliverables that belong to it. The [ICL ADM wheel](kb/icl-adm/index.md) does not hand deliverables to roles directly; it places them in the correct segment repository. Roles watch their repository; they never watch the wheel directly. This is what keeps the wheel and the segments decoupled.
+
+> ADM deliverables by segment: Business receives Conceptual outputs. Product receives Logical and Physical outputs. Technology receives Physical and Implementation outputs.
+{: .note}
 
 Enterprise Architecture (EA) governs the loop from above. It does not participate in delivery — it defines the principles, governs the transitions, and measures alignment health through the Evaluate feedback.
 

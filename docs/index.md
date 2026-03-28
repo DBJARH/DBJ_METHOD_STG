@@ -35,47 +35,41 @@ description: Home
 The outcome of the Iron Code Labs Engagement -->
 
 <!-- The Iron Code Labs (ICL) method is composed of two stages: **On-boarding** and **The Loop**. -->
-## The Iron Code Labs (ICL) method is a safe bridge made of two arches: 
+## The Iron Code Labs (ICL) Method has two stages:
 
-* ### Arch 1: [**On-boarding**](#arch-1-on-boarding) 
-* ### Arch 2: [**The Loop** ](#arch-2-business-product-technology-loop)
+- [On-boarding](#on-boarding)
+- [Business, Product, Technology Loop](#business-product-technology-loop)
 
 
-## Arch 1: **On-boarding**
+## On-boarding
 
->**Important**
->
-> ICL enables clients with simplified [Enterprise Architecture](enterprise_architecture.md) as the overarching framework supporting and driving the whole process. ICL EA is based on solid [TOGAF](https://www.opengroup.org/togaf) foundations.
-{: important}
+ICL enables clients with a Method based on [TOGAF](https://www.opengroup.org/togaf). ICL Method is a framework keeping the organisation running in a feasible fashion and repeatedly raising the AI ROI level.
 
-In this step ICL prepares clients for EA architecture-led delivery by putting them on the firm [capability maturity foundations](cmm.md#diagram).
+In this step ICL Method prepares clients for architecture-led delivery by putting them on firm [capability maturity foundations](cmm.md#diagram).
 
 ### A — Preparing for the [Maturity Levels](cmm.md#levels)
 
-ICL EA leads the assessment of the client's current organisational maturity levels using the ACMM Levels [L0–L5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL EA:
+ICL Method leads the assessment of the client's current organisational maturity levels using the ACMM Levels [L0–L5](cmm.md#levels-and-characteristics) nomenclature. In this step ICL Method:
 
-- Introduces key communications aid: common vocabulary defined as Technology Landscape Classification aka [Taxonomy](taxonomy.md)
-- Identifies capability gaps using the ACMM scorecard
+- Establishes a common vocabulary: the [Taxonomy](taxonomy.md) — the shared language of the organisation's information space
+- Classifies capability gaps using the ACMM scorecard
 - Sets a realistic target level (typically L3)
 
-**Deliverables:** ACMM baseline assessment + EA-guided improvement roadmap
+**Deliverables:** ACMM baseline assessment + ICL Method improvement roadmap
 
 ### B — Raising the Organisation to CMM Level [L3](cmm.md#levels)
 
-ICL EA defines and documents architecture processes — moving the organisation from ad-hoc (M1) to defined (L3).
+ICL Method defines and documents architecture processes — moving the organisation from ad-hoc (L1) to defined (L3).
 
 - Establishes governance structures and secures senior management involvement
-- Introduces architecture-driven communication practices across the organisation
-- Introduces the common, simple but powerful [Taxonomy](taxonomy.md) as a key organisational asset
-  - Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.
-  - It gives both the structure and naming of structure elements.
-  - It is the essential comon langugage of the organization
+- Analyzes and documents architecture-driven communication practices across the organisation
+- Anchors the [shared lexicon](taxonomy.md) as a durable organisational asset — the structural mesh holding the information space together
 
-**Deliverable:** is the target reached: organisation operating at CMM level [L3](cmm.md#levels) with EA-documented processes
+**Deliverable:** organisation operating at CMM level [L3](cmm.md#levels) with documented processes
 
 For full detail on the organization maturity model see the [ICL CMM](cmm.md).
 
-## Arch 2: [Business, Product, Technology](bpt.md) Loop
+## [Business, Product, Technology](bpt.md) Loop
 
 **Continuous operational cycle, company-wide**
 
@@ -88,11 +82,9 @@ Once on-boarded to maturity level 3, the client organisation enters the **BPT Lo
 * CMM prerequisite filters IN organizations with foundational maturity
 * Continuous loop maps to operational rhythm, not rigid phase gates
 
->**Tip**
-> Iron Code Labs has the EA Plans for the bridge over which customers may cross from chaos of Legacy to the Feasibility of AI. 
-> {: tip}
+ICL Method provides the bridge over which customers cross from the chaos of Legacy to the feasibility of AI.
 
-EA does not participate, it governs. 
+Architecture does not participate in the loop — it governs it.
 
 <div style="float: center; margin: 1em; text-align: center;">
 <img src="index_assests/empty-medieval-bridge.jpg" width="480px" />

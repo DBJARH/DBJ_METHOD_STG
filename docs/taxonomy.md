@@ -6,9 +6,12 @@ description: ICL Enterprise Taxonomy — structure, terminology, and usage
 
 # Taxonomy 
 
-- Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.  
-- It gives both the structure and naming of structure elements. 
-- It is the essential comon langugage of the organization
+<br id="definition" />
+
+#### Taxonomy is a underlying mesh of information particles keeping the information space together. For technology based org.
+
+- It gives both the structure and naming of structure elements.
+- It is the essential common language of the organization
 
 ## The [Core](taxonomy_core.md)
 
@@ -43,7 +46,7 @@ The Enterprise Taxonomy applies this concept to the Enterprise Domain. Its termi
 
 ![Taxonomy role](taxonomy_assets/taxonomy-role-bw.png)
 
-Enterprise Taxonomy is key communication asset of the Enteprise
+Enterprise Taxonomy is a key communication asset of the Enterprise
 
 ## Enterprise Taxonomy Terminology
 
@@ -57,6 +60,7 @@ Root of the hierarchy tree is thus top-left positioned.
 
 ---
 
+<span id="conceptual"></span>
 ### Category: Conceptual
 
 High-level blueprint: business goals, information domains, application functions, and technology choices. Establishes alignment with business objectives and shared understanding among stakeholders.
@@ -70,6 +74,7 @@ High-level blueprint: business goals, information domains, application functions
 
 ---
 
+<span id="logical"></span>
 ### Category: Logical
 
 Detailed design: how components interact, how data is managed, how systems integrate, and how they are secured. Bridges conceptual intent and physical reality.
@@ -83,6 +88,7 @@ Detailed design: how components interact, how data is managed, how systems integ
 
 ---
 
+<span id="physical"></span>
 ### Category: Physical
 
 Tangible resources: hardware, infrastructure, connectivity, and storage. Ensures a stable, scalable environment for reliable processing and data exchange.
@@ -96,6 +102,7 @@ Tangible resources: hardware, infrastructure, connectivity, and storage. Ensures
 
 ---
 
+<span id="implementation"></span>
 ### Category: Implementation
 
 Processes and practices for building, delivering, and sustaining systems. The lower in the taxonomy, the more engineering roles participate — but architectural decisions on structure and boundaries remain at every level.

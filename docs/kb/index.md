@@ -172,7 +172,7 @@ ICL usage of the DORA AI Capabilities Model as AI guidance for software developm
 
 ---
 
-## [How to Document Software Architecture](how-to-document-software-architecture/index.md)
+## [How to Document Software Architecture](documenting-architecture/index.md)
 
 Appraisal of *Documenting Software Architectures: Views and Beyond, 2nd Edition* (Clements et al., SEI, 2010). Covers the three-viewtype framework (Module, C&C, Allocation), stakeholder-driven view selection, interface and rationale documentation, and how the book stands against lighter modern frameworks (C4, arc42, ADRs).
 

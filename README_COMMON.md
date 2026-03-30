@@ -9,16 +9,42 @@
 
 Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
 
-## GH Repositories: three in total
 
-- **EA** — [Published Repo](https://ironcodelabs-com.github.io/EA) — public, GitHub Pages
-  - `https://ea.ironcodelabs.com` is mapped to this site
-  - linked from the main ICL site
-- **EA_STG** — [Staging Repository](https://github.com/IRONCODELABS-COM/EA_STG) — public, GitHub Pages (default GH url)
-  - only what is under `docs` folder gets published as a site
-  - content is copied to EA when ready to publish
-- **EA_DEV** — private, no GitHub Pages
-  - architecture and dev notes only, no code
+
+### VS Code — Wrap Selection as Markdown Link
+
+`Ctrl+Shift+L` — wraps selected text as a markdown link `[selection](|)` with cursor placed inside the parentheses ready for the URL. Configured in VS Code user keybindings (`C:\Users\Korisnik\AppData\Roaming\Code\User\keybindings.json`), outside this repo.
+
+---
+
+### GH Repositories: three in total
+
+<details>
+<summary><b>EA</b> — Published Repo — public, GitHub Pages</summary>
+
+- [Published Repo](https://ironcodelabs-com.github.io/EA)
+- `https://ea.ironcodelabs.com` is mapped to this site
+- linked from the main ICL site
+
+</details>
+
+<details>
+<summary><b>EA_STG</b> — Staging Repository — public, GitHub Pages (default GH url)</summary>
+
+- [Staging Repository](https://github.com/IRONCODELABS-COM/EA_STG)
+- only what is under `docs` folder gets published as a site
+- content is copied to EA when ready to publish
+
+</details>
+
+<details>
+<summary><b>EA_DEV</b> — private, no GitHub Pages</summary>
+
+- architecture and dev notes only, no code
+
+</details>
+
+---
 
 <details markdown="1">
 <summary><b>GH WWW Publishing Terminology</b></summary>
@@ -36,10 +62,10 @@ Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)
 
 ---
 
->[!NOTE] Unless otherwise declared joint &copy; Iron Code Labs Ltd & dbj@dbj.org  | CC BY SA 4.0
+>[!NOTE] Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
 
 <p style="float: right; margin: 1em; text-align: center;">
-<img src="blog/ICLogo.png" width="15%" /><br/>
+<img src="docs/assets/icl_logo.png" width="15%" /><br/>
 <a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
 </p>
 <hr style="clear:both;" />

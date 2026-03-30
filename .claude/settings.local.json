@@ -8,7 +8,11 @@
       "Bash(done)",
       "Bash(xargs sed:*)",
       "Bash(perl -pi -e 's/Subject to chang\\(?=&\\)/Subject to change/g' docs/kb/ISO27001/ISO27001.md)",
-      "Bash(xargs perl:*)"
+      "Bash(xargs perl:*)",
+      "WebSearch",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }

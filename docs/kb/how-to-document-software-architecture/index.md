@@ -8,7 +8,7 @@ description: Practical frameworks for documenting software architecture — C4, 
 
 # How to Document Software Architecture
 
-The theoretical foundation is well established — see [Documenting Software Architectures: Views and Beyond, 2nd Edition](Documenting_Software_Architectures_Views_and_Beyond_2nd_David_Garlan.pdf) (Clements et al., SEI, 2010). The book introduced the three-viewtype framework (Module, Component-and-Connector, Allocation) and stakeholder-driven view selection. It remains the rigorous reference. It is not a practical handbook for modern delivery teams.
+The theoretical foundation is well established — see *Documenting Software Architectures: Views and Beyond, 2nd Edition* (Clements et al., SEI, 2010): [SEI library](https://www.sei.cmu.edu/library/documenting-software-architectures-views-and-beyond-second-edition/) · [InformIT](https://www.informit.com/store/documenting-software-architectures-views-and-beyond-9780321552686) · [Google Books](https://books.google.com/books?id=UTZbsrA4qAsc). The book introduced the three-viewtype framework (Module, Component-and-Connector, Allocation) and stakeholder-driven view selection. It remains the rigorous reference. It is not a practical handbook for modern delivery teams.
 
 The frameworks below are.
 

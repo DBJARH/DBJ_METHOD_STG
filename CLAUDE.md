@@ -91,3 +91,7 @@ Published at https://ea.ironcodelabs.com/cmm.html — ACMM levels: https://ea.ir
 - drawing should be all simple black and white
 - the only coloured detail on pages should be ICL logo
   - https://ea.ironcodelabs.com/assets/icl_logo.png
+
+## Visualisation Context Partitioning
+
+Each visualisation has exactly one context, defined by its level of abstraction (Conceptual, Logical, Physical, Implementation). Elements from other levels do not appear on the same diagram.

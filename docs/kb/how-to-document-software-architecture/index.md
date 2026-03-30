@@ -13,7 +13,7 @@ Documenting software architecture is not about choosing a notation or filling a 
 > We do not mandate symbology
 {: note}
 
-Every diagram can indeed use only boxes and arrows. That is not the point. Neither is a symbology what we mandate. The point is that **each diagram represents one level of abstraction** — and that level defines what a box means. The same box symbol means a System at the Conceptual level, a Product at the Logical level, a Module at the Physical level, and a Deployment Unit at the Implementation level. Although it is not "fodbuden", mixing levels on one diagram destroys the meaning of it.
+Every diagram can indeed use only boxes and arrows. That is not the point. Neither is a symbology what we mandate. The point is that **each diagram represents one level of abstraction** — and that level defines what a box means. The same box symbol means a System at the Conceptual level, a Product at the Logical level, a Module at the Physical level, and a Deployment Unit at the Implementation level. Although it is not "forbiden", mixing levels on one diagram can destroy the meaning of it.
 
 Existing industry visualisation frameworks — C4, arc42 — do not follow these principles consistently. They are reviewed in [Legacy Ways of Software Documenting](legacy_ways_of_softwae_documenting.md).
 
@@ -31,6 +31,7 @@ Existing industry visualisation frameworks — C4, arc42 — do not follow these
 | [Implementation](../../taxonomy.md#implementation) | Modules Landscape | End Points | Functional End Points are implemented as APIs. Code is behind API's|
 
 
+## The level of abstraction defines a diagram's context
 
 ---
 

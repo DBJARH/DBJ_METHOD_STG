@@ -172,6 +172,15 @@ ICL usage of the DORA AI Capabilities Model as AI guidance for software developm
 
 ---
 
+## [How to Document Software Architecture](how-to-document-software-architecture/index.md)
+
+Appraisal of *Documenting Software Architectures: Views and Beyond, 2nd Edition* (Clements et al., SEI, 2010). Covers the three-viewtype framework (Module, C&C, Allocation), stakeholder-driven view selection, interface and rationale documentation, and how the book stands against lighter modern frameworks (C4, arc42, ADRs).
+
+> Read it to understand the foundations; return to it when the lighter framework runs out of answers.
+{: .important}
+
+---
+
 ## [ISO27001 != GDPR Compliance](ISO27001/ISO27001.md)
 
 **ISO 27001 is not sufficient for full GDPR compliance** because it focuses on information security management (the CIA triad) rather than the legal, data privacy rights mandated by GDPR. While ISO 27001 provides a robust framework for technical safeguards and risk management, it lacks GDPR-specific requirements like consent management, data subject access requests (DSARs), and strict legal bases for processing.

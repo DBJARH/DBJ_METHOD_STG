@@ -1,11 +1,5 @@
 
-<p style="float: right; margin: 1em; text-align: center;">
-<img src="blog/ICLogo.png" width="15%" /><br/>
-<a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
-</p>
-<hr style="clear:both;" />
-
-# Common readme
+# Common Readme
 
 Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
 
@@ -62,10 +56,15 @@ Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)
 
 ---
 
->[!NOTE] Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
-
 <p style="float: right; margin: 1em; text-align: center;">
 <img src="docs/assets/icl_logo.png" width="15%" /><br/>
 <a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
+<br/><br/>
+<img src="docs/assets/dbj-logo.jpg" width="15%" /><br/>
+<a href="https://dbj.org">dbj dot org</a>
 </p>
 <hr style="clear:both;" />
+
+>[!NOTE] 
+Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
+

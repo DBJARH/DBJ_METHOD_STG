@@ -1,83 +1,28 @@
 ---
 layout: default
 title: How to Document Software Architecture
-description: Practical frameworks for documenting software architecture — C4, arc42, and ADRs.
+description: ICL approach to software architecture documentation — simpler and better than legacy ways.
 ---
 
 [← Knowledge Base](../index.md)
 
 # How to Document Software Architecture
 
-The theoretical foundation is well established — see *Documenting Software Architectures: Views and Beyond, 2nd Edition* (Clements et al., SEI, 2010): [SEI library](https://www.sei.cmu.edu/library/documenting-software-architectures-views-and-beyond-second-edition/) · [InformIT](https://www.informit.com/store/documenting-software-architectures-views-and-beyond-9780321552686) · [Google Books](https://books.google.com/books?id=UTZbsrA4qAsc). The book introduced the three-viewtype framework (Module, Component-and-Connector, Allocation) and stakeholder-driven view selection. It remains the rigorous reference. It is not a practical handbook for modern delivery teams.
+Documenting software architecture is not about choosing a notation or filling a template. It is about communicating the right structure to the right audience at the right level of abstraction.
 
-The frameworks below are.
+> We do not mandate symbology
+{: note}
 
----
+Every diagram can indeed use only boxes and arrows. That is not the point. Neither is a symbology what we mandate. The point is that **each diagram represents one level of abstraction** — and that level defines what a box means. The same box symbol means a System at the Conceptual level, a Product at the Logical level, a Module at the Physical level, and a Deployment Unit at the Implementation level. Although it is not "fodbuden", mixing levels on one diagram destroys the meaning of it.
 
-## C4 Model
-
-**Author:** Simon Brown, 2018
-**Reference:** [c4model.com](https://c4model.com)
-
-Four diagram types, four audiences, one consistent notation:
-
-| Level | [ICL Taxonomy](../../taxonomy.md) | Audience | Shows |
+| Abstraction Level | Digrams Shows | As Made of | Comment |
 |---|---|---|---|
-| Context | Conceptual | Business, non-technical | System in its environment — users and external dependencies |
-| Container | Logical | Architects, developers | Major deployable units — apps, databases, services |
-| Component | Physical | Developers | Internal structure of a single container |
-| Code | Implementation | Developers | Classes, interfaces — usually auto-generated |
+| [Conceptual](../../taxonomy.md#conceptual) | Business Landscape | Systems | Non-functional view. In the wider environment of the [commercial enterprise](../../enterprise_architecture.md) |
+| [Logical](../../taxonomy.md#logical) | Systems Landscape | Components | Usualy systems are made of products and other components. They exist as a re-action to business requirements |
+| [Physical](../../taxonomy.md#physical) | Components Landscape | Modules | Fuctional view. Modules exhibit functional end points|
+| [Implementation](../../taxonomy.md#implementation) | Modules Landscape | End Points | Functional End Points are implemented as APIs. Code is behind API's|
 
-Start at Context and stop at the level your audience needs. Most conversations are resolved at Container. Code-level diagrams are almost never worth maintaining by hand.
-
-> The term "Container" is unfortunate — since 2013 it reads as Docker container to most engineers, which is one specific deployment technology, not the general concept C4 intends. A clearer synonym is **Deployable Unit**: it captures the essential meaning (something that runs independently and communicates over a network) without the Docker collision. When introducing C4 to a team, use "Deployable Unit" in conversation and reserve "Container" only when citing the C4 spec directly.
-{: .note}
-
-C4 uses a simple, tool-agnostic notation. Diagrams can be produced in any diagramming tool or as code via [Structurizr](https://structurizr.com) (Brown's own tool) or the [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) library.
-
-> Four diagrams cover most of what teams actually need to communicate.
-
----
-
-## arc42
-
-**Authors:** Gernot Starke and Peter Hruschka
-**Reference:** [arc42.org](https://arc42.org)
-
-arc42 is a lean, structured template for architecture documentation — twelve sections covering context, solution strategy, building blocks, runtime, deployment, decisions, quality, and risks. It is worth knowing it exists.
-
-Teams working within the [ICL ADM](../../kb/icl-adm/index.md) should not adopt arc42 as a documentation structure. The ICL ADM already defines the documentation scaffold through its phases and deliverables; introducing arc42 alongside it creates two competing structures for the same content. arc42 is designed for teams without a governing ADM — it fills the gap that TOGAF and ICL ADM already fill here.
-
-> Know it. Do not use it here.
-
----
-
-## Architecture Decision Records (ADRs)
-
-**Origin:** Michael Nygard, 2011
-**Reference:** [adr.github.io](https://adr.github.io)
-
-An ADR captures one decision: the context that forced it, the options considered, the decision taken, and its consequences.
-
-**Within the ICL ADM, ADRs are redundant at the architecture level.** The ICL ADM produces hierarchical requirements with decisions already embedded as deliverables — that is precisely what an ADR is attempting to construct from scratch. Where a governing requirements hierarchy exists, ADRs duplicate it.
-
-The more accurate name for what development teams actually use them for is **Development Decision Records (DDRs)**: a way to trace code-level choices back to architecture. That is a legitimate and useful practice — but it belongs entirely within the Development aka [Technology segment](../Business_Product_Technology/Technology.md) of the [BPT](../Business_Product_Technology/index.md). DDRs are a private engineering artefact, disconnected from the BPT flow. Architecture does not read them; they are a breadcrumb trail for the dev. team that owns the code.
-
-> If the team wants DDRs, that is fine. They are internal to Development and invisible to the BPT loop.
-
-**Tooling:** [adr-tools](https://github.com/npryce/adr-tools) (CLI), [Log4brains](https://github.com/thomvaill/log4brains) (web UI), or plain files in a `/decisions` folder.
-
----
-
-## In Practice
-
-| Concern | Tool |
-|---|---|
-| Visual communication across levels | C4 |
-| Documentation structure and decision hierarchy | ICL ADM deliverables |
-| Code-level traceability (Development only) | DDRs (ADRs repurposed) |
-
-***A minimal viable documentation practice*** within the ICL ADM: C4 Context and Container diagrams for stakeholder communication, ICL ADM deliverables for decisions and requirements. DDRs are optional and internal to the Development team.
+Existing industry visualisation frameworks — C4, arc42 — do not follow this principle consistently. They are reviewed in [Legacy Ways of Software Documenting](legacy_ways_of_softwae_documenting.md).
 
 ---
 

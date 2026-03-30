@@ -19,6 +19,8 @@ Existing industry visualisation frameworks — C4, arc42 — do not follow these
 
 <p id="partitioning">&nbsp;</p>
 
+> We favour visualisation that follows partioning logic. Which is based on ICL Taxonomy.
+
 ### Logical and physical partitioning
 
 | Abstraction Level | Digrams Shows | As Made of | Comment |

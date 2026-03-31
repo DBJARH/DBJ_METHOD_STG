@@ -11,6 +11,20 @@ description: How the AI Agent concept merges naturally onto the Actor model — 
 
 [← Knowledge Base](../index.md)
 
+
+> "*I just deleted all my MCPs. Skills + CLI is all you need.*
+>
+> *MCPs were a solution for humans pretending to build for agents. But agents aren't humans. They're processes. And processes talk to the world through CLIs and APIs. Always have. Always will.*
+>
+> *GitHub's official MCP server: 54,000 tokens to load the spec. Fifty-four thousand. Before I even ask it to do anything.*
+> *Meanwhile, `gh --help` costs 562 tokens. And the model already knows it from training data.*
+>
+> *MCP is a JSON bureaucracy pretending to be infrastructure. It's the enterprise middleware of AI, lots of ceremony, zero value add.*
+>
+> *Skills are 30-50 tokens until triggered. Progressive disclosure. They teach the agent how to think. CLIs are the what — battle-tested, version-controlled, debuggable without a spec document.*"
+>
+> — Mitko Vasilev CTO, [LinkedIn, 2026 Q1](https://www.linkedin.com/posts/ownyourai_i-just-deleted-all-my-mcps-skills-cli-activity-7437591826464677888-83u0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAAaxaMBp4-gq5wAJBgyOVUixCCWNdTQwQQ)
+
 # Agent-Actor 
 
 The [Actor model](https://en.wikipedia.org/wiki/Actor_model) has been the foundation for resilient distributed systems since Hewitt, 1973. The [AI Agent](https://en.wikipedia.org/wiki/Intelligent_agent) concept, now ubiquitous, is not a new idea layered on top — it is the same idea, recognised.

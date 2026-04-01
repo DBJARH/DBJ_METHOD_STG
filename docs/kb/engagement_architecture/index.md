@@ -12,6 +12,12 @@ description: How ICL structures customer engagements — from initial onboarding
 </div>
 <div style="clear: both;"></div>
 
+##   How does this method enable AI ROI 
+
+> Every organization not operating on the simple and usable methodology has struggled to deliver ROI even before AI arrived. AI arrival has amplified the dysfunction. The BPT method is feasible; addresses the legacy operational problems first. ROI follows naturally and AI induced ROI follows from that, not the other way around.
+{: .note} 
+
+
 # Iron Code Labs Engagement Architecture
 
 - [Iron Code Labs Engagement Architecture](#iron-code-labs-engagement-architecture)

@@ -3,7 +3,7 @@
 
 <table style="margin: 1em; text-align: left;">
 <tr>
-<td><img src="dbj-org-logo.jpg" width="100px" /></td>
+<td><img src="dbj-org-logo.jpg" width="80px" /></td>
 <td><img src="icl_logo_200.png" width="100px" /></td>
 </tr>
 <tr>

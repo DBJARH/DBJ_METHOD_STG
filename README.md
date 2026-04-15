@@ -29,15 +29,16 @@ This is the [GH repo link](https://github.com/DBJARH/DBJ_METHOD_STG)
 
 ---
 
-<p style="float: right; margin: 1em; text-align: center;">
-<img src="docs/assets/icl_logo.png" width="15%" /><br/>
-<a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
-<br/><br/>
-<img src="docs/assets/dbj-logo.jpg" width="15%" /><br/>
-<a href="https://dbj.org">dbj dot org</a>
-</p>
-<hr style="clear:both;" />
+> Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
 
->[!NOTE] 
-Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
+<table style="margin: 1em; text-align: left;">
+<tr>
+<td><img src="dbj/dbj-org-logo.jpg" width="80px" /></td>
+<td><img src="dbj/icl_logo_200.png" width="100px" /></td>
+</tr>
+<tr>
+<td><a href="https://dbj.org">dbj dot org</a></td>
+<td><a href="https://ironcodelabs.ai">Iron Code Labs</a></td>
+</tr>
+</table>
 

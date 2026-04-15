@@ -48,7 +48,17 @@ That means:
 
 ## Tertiary focus   
 -  software architecture
+  
 
+## The purpose of this repo -- - ### What is DBJ Method in the context of Architecture
+
+- To formally describe DBJ Methodology
+- Methodology Behaviour nature is dynamic. Architecture nature is static. Architecture does not change after the building starts.
+- DBJ Method uses tailored TOGAF artifacts to aid the smooth running of the organization.
+- Central part of DBJ Method, "BPT" is an endless loop of three segments: Business, Product, and Technology. 
+- Business declares the Products; Technology implements them.
+- The underlying idea of DBJ Method is to tailor the TOGAF artifacts into a method for a feasible business management method.
+- This Method also exists to facilitate the safe journey of a legacy enterprise to an AI-Ready organization.
 
 ## Repository structure
 
@@ -92,10 +102,16 @@ Published at [BPT](docs/bpt.md)
 - Published as[cmm](docs/cmm.md) 
 - Also ACMM [levels](docs/cmm#levels)
 
-## Iron Code Labs brand
+## DBJ brand
 
 - Motto: **EA AI ROI**
 - Preferred title style: declarative and confident (e.g., "The Case for X") — avoid hedging phrases like "Just why".
+
+## Ownership
+
+- DBJ Method and this repo are IP of Dusan B. Jovnovic, uniquely dentitied by his email: dbj@dbj.org
+- DBJ Method and this repo are (c) dbj@dbj.org
+- Origibnal Content of this repo and DBJ Methodology are under MIT Licence
 
 ## Output
 

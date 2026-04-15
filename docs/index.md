@@ -6,13 +6,13 @@ description: Home
 
 *Back to [IRONCODELABS.COM](https://ironcodelabs.com)*
 
-**Behaviour of methof is dynamic. Architecture is static. By default Architecture does not change after the building starts.**
+### What is DBJ Method in the context of Architecture
 
-**Method is applied to a dynamic workflow. DBJ Method uses tailored TOGAF artifacats to aid the smooth running of the organization.**
+**Behaviour nature is dynamic. Architecture nature is static.Architecture does not change after the building starts.**
 
-**BPT is an endless loop of Business declaring the Products, and Enginnering implementoing the Products.**
- 
+**DBJ Method uses tailored TOGAF artifacats to aid the smooth running of the organization.**
 
+**Part of DBJ Method, BPT is an endless loop of three swgmenta. Business, Product and TEchnology. Business declaring the Products, and Technology implementoing the Products.**
 
 **The underlying idea of DBJ Method is to tailor the TOGAF artifacts, into the framework for feasible business management method.**
 

@@ -1,5 +1,5 @@
 
-# Iron Code Labs — EA_STG
+# DBJ METHOD STAGING REPO
 
 Please folow [HERE](docs/index.md) to the documentation home page.
 
@@ -9,7 +9,7 @@ This is not a code developers repository. These repositories host ('[markdown](h
 >[!IMPORTANT] This is a **public** repository. Be aware when adding new content.
 
 
-This is the GH repo link: [github.com/ironcodelabs-com/EA_STG](https://github.com/IRONCODELABS-COM/EA_STG)
+This is the [GH repo link](https://github.com/DBJARH/DBJ_METHOD_STG)
 
 > See [README_COMMON.md](README_COMMON.md) for shared context: repo overview, publishing terminology, and copyright.
 
@@ -26,4 +26,18 @@ This is the GH repo link: [github.com/ironcodelabs-com/EA_STG](https://github.co
   - [kb/](docs/kb/) — Knowledge base articles
 
 ---
+
+---
+
+<p style="float: right; margin: 1em; text-align: center;">
+<img src="docs/assets/icl_logo.png" width="15%" /><br/>
+<a href="https://ironcodelabs.ai">Iron Code Labs Ltd</a>
+<br/><br/>
+<img src="docs/assets/dbj-logo.jpg" width="15%" /><br/>
+<a href="https://dbj.org">dbj dot org</a>
+</p>
+<hr style="clear:both;" />
+
+>[!NOTE] 
+Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
 

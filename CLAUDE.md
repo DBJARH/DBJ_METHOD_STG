@@ -2,7 +2,7 @@
 
 This repo contains only documentation (markdown files and media). No code.
 
-## Role
+## Dusan Jovanovic DBJ Role
 
 - TOGAF-registered Enterprise Architect (since Dec 2011)
 - System Architect (since 1996)

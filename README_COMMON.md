@@ -1,7 +1,9 @@
 
 # Common Readme
 
-Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
+WWW Location: **[EA IRONCODELABS](https://ea.ironcodelabs.com/)**
+
+Main web site: : **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)**
 
 
 
@@ -11,7 +13,7 @@ Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)
 
 ---
 
-### GH Repositories: three in total
+### GHub Repositories: three in total
 
 <details>
 <summary><b>EA</b> — Published Repo — public, GitHub Pages</summary>
@@ -23,10 +25,10 @@ Main web site: **[From Legacy Lock-in to AI Velocity](https://ironcodelabs.com/)
 </details>
 
 <details>
-<summary><b>EA_STG</b> — Staging Repository — public, GitHub Pages (default GH url)</summary>
+<summary><b>DBJ_NETHOD_STG</b> — Staging Repository — public, GitHub Pages (default GH url)</summary>
 
-- [Staging Repository](https://github.com/IRONCODELABS-COM/EA_STG)
-- only what is under `docs` folder gets published as a site
+- [Staging Repository](https://github.com/DBJARH/DBJ_METHOD_STG)
+- only what is under `docs` folder gets published as a site to a www location as above
 - content is copied to EA when ready to publish
 
 </details>

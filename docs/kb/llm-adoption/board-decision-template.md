@@ -96,7 +96,7 @@ Questions are grouped by [DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/t
 **Score:** `__ / 10`
 
 | Result | Action |
-|---|---|
+|---|
 | 10 / 10 | **Approved** — proceed with Implementation Governance checkpoints |
 | Any "No" | **Rejected** — redesign required before resubmission |
 
@@ -118,6 +118,6 @@ Questions are grouped by [DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/t
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

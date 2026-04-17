@@ -35,6 +35,6 @@ Existing industry visualisation frameworks — C4, arc42 — do not follow these
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

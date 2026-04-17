@@ -1,11 +1,13 @@
 {
   "permissions": {
+    "allow": [
+      "Read(//g/2026_01/IRONCODELABS-COM/EA_STG/blog/**)",
+      "Bash(awk 'BEGIN{bs=\"\\\\\\\\\"} $0==\"| &copy; dbj@dbj.org | CC BY SA 4.0 \"{print \"| &copy; dbj@dbj.org \"bs\"| CC BY SA 4.0 \"; next} {print}' docs/bpt.md)",
+      "Bash(grep -rl 'dbj-org-logo.jpg\" width=\"64px\" />$' docs --include=\"*.md\")"
+    ],
     "additionalDirectories": [
       "g:\\2026_01\\IRONCODELABS-COM\\EA_STG\\docs\\kb\\llm-adoption",
       "g:\\2026_01\\IRONCODELABS-COM\\EA_STG\\docs\\kb\\icl-adm"
-    ],
-    "allow": [
-      "Read(//g/2026_01/IRONCODELABS-COM/EA_STG/blog/**)"
     ]
   }
 }

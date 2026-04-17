@@ -71,7 +71,7 @@ Not every business needs an LLM. This document gives you four concrete questions
 All four questions must have a "yes" answer. One "no" means the LLM does not belong in that context.
 
 | Level | The question |
-|---|---|
+|---|
 | Business | Does the problem actually require language reasoning? |
 | Service design | Is the LLM a contained service — not a central coordinator? |
 | Operations | Are cost, response time, and failure behavior defined? |
@@ -143,6 +143,6 @@ A team tasked to approve the introduction of an LLM works through these in order
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

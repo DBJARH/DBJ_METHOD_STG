@@ -39,7 +39,7 @@ This document describes the structural logic of an DBJ ADM wheel. Specific "whee
 The DBJ ADM reduces the nine [TOGAF ADM](../togaf-cmm/togaf-cmm.md) steps to **five**. Each step produces at least one written artifact. The Business Architecture Board reviews artifacts, not conversations.
 
 | DBJ Step | DBJ category |
-|---|---|
+|---|
 | **1 — Principles** | [Conceptual](../../taxonomy.md#conceptual) |
 | **2 — Vision** | [Conceptual](../../taxonomy.md#conceptual) |
 | **3 — Architecture** | [Conceptual](../../taxonomy.md#conceptual) → [Logical](../../taxonomy.md#logical) → [Physical](../../taxonomy.md#physical) |
@@ -52,7 +52,7 @@ The DBJ ADM reduces the nine [TOGAF ADM](../togaf-cmm/togaf-cmm.md) steps to **f
 
 
 | [TOGAF ADM step(s)](#togaf-adm) | DBJ Levels of Abstraction |
-|---|---|
+|---|
 | Preliminary, A | [Conceptual](../../taxonomy.md#conceptual) |
 | B | [Conceptual](../../taxonomy.md#conceptual) (Business layer) |
 | C | [Logical](../../taxonomy.md#logical) |
@@ -78,7 +78,7 @@ Every step of the DBJ ADM is expected to produce **deliverables**: formal docume
 ### DBJ ADM Deliverables 
 
 | DBJ ADM Deliverable | Comment |
-|---|---|
+|---|
 | **1. Principles document** | Constraints and non-negotiables that govern the entire wheel |
 | **2. Architecture Vision** | Business case, scope, and stakeholder sign-off |
 | **3. Architecture definition** | Full cross-category architecture covering Conceptual through Physical |
@@ -151,6 +151,6 @@ Each wheel is the same structure. Each wheel's artifacts are specific to its top
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

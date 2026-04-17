@@ -73,7 +73,7 @@ The central `AgentActor` for employee email data. Routes to the correct employee
 **Inbox messages accepted:**
 
 | Message | Action |
-|---|---|
+|---|
 | `Deliver` | Inbound message from Gateway |
 | `Send` | Outbound message initiated by employee |
 | `Read` | Mark message as read, return body |
@@ -171,7 +171,7 @@ sequenceDiagram
 ### Primary Message Flows (summary)
 
 | Flow | Sequence |
-|---|---|
+|---|
 | Inbound mail delivery | Gateway → Mailbox (`Deliver`) → Search (`Index`) → Notification (`NewMail`) |
 | Employee sends email | Mailbox → Gateway (`SubmitOutbound`) → Mailbox (`StoreSent`) |
 | Employee reads email | Client → Mailbox (`Read`) → Client |
@@ -211,6 +211,6 @@ Protobuf schemas, envelope definition, train protocol, and message type definiti
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

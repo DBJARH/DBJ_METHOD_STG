@@ -93,7 +93,7 @@ The EA team might use ITIL metrics as **input signals** to the [Architecture Dev
 ITIL 4 does not prescribe a formal maturity model, but the EA practice should adopt a 5-level maturity scale against each management practice:
 
 | Level | Description |
-|---|---|
+|---|
 | 1 — Initial | Ad hoc; no defined process |
 | 2 — Managed | Process defined but inconsistently applied |
 | 3 — Defined | Standardised, documented, measured |
@@ -119,6 +119,6 @@ Target for consolidated IT landscape: **Level 3 minimum** across all Tier 1 serv
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

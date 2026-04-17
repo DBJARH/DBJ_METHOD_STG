@@ -154,6 +154,6 @@ Actors are not always humans. At different levels of abstraction — or from dif
 *Example: An Enterprise Architect and a Business Analyst both operate within the "Business" Capability of the "Conceptual" Category — one defines the structure, the other elaborates the requirements. The Role names differ; the Capability they serve is the same.*
 
 
-| <img src="assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

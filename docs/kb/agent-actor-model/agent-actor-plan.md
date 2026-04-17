@@ -92,7 +92,7 @@ The motivating novelty: using safe, fast binary messaging (Protobuf) on top of t
 ## Open Questions / Decisions Needed
 
 | Question | Answer |
-|---|---|
+|---|
 | **Protobuf / train pattern placement** — move train pattern detail and `.proto` schemas to Implementation; keep only the "why binary messaging" argument in Conceptual. Confirm? | Yes. The core problem with the initial doc is that material is not properly structured to followo the top level taxonomy  |
 | **Agentic framing** — introduce the Actor-as-Agent concept within Conceptual (motivating the whole article), or as a standalone section after all four categories? | make separate actor-agent.md. it will be added to as we go. It will be cross linked with actor-model.md  |
 | **Email use case scope** — keep as the running example threaded through all four categories, or treat as a self-contained Logical appendix? | keep as email-use-case.md tobe cross reference from/to actor-model.md and actor-agent.md |
@@ -128,7 +128,7 @@ Actor behavior is **not** business logic. It is 2026 Agent logic of message proc
 Primary partitioning of content follows the taxonomy categories:
 
 | Category | Content |
-|---|---|
+|---|
 | **Conceptual** | Actor anatomy; messages (type/instance/attribute); message passing; no shared state. Then: Agent as configurable Actor, optional LLM/CPM behavior. Synergy argument. |
 | **Logical** | Actor topology; state ownership; Train Pattern (concept only); broker placement. Then: Agent at logical level — enters via inbox, narrow scope, translation surface. |
 | **Physical** | Commented out |
@@ -166,6 +166,6 @@ Primary partitioning of content follows the taxonomy categories:
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

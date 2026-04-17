@@ -110,6 +110,6 @@ Example: Governance=L4, Skilled Resource Pool=L3, Projects=L3, Business Operatio
 
 This prevents high scores in one area from masking critical gaps elsewhere.
 
-| <img src="assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

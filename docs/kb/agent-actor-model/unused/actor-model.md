@@ -118,7 +118,7 @@ graph TD
 Each Actor is the single source of truth for its own data. The pattern is consistent across all Actor types:
 
 | Actor | Owns |
-|---|---|
+|---|
 | Gateway | Routing table, policy rules |
 | Mailbox | All email data for one employee |
 | Search | Search index for one employee |
@@ -236,6 +236,6 @@ The Protobuf schemas, envelope definition, train protocol, and message type defi
 
 ---
 
-| <img src="../../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

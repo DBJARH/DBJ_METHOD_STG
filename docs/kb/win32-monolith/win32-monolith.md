@@ -183,7 +183,7 @@ graph LR
 ## 5 Constraints to validate before starting
 
 | Question | Why it matters |
-|---|---|
+|---|
 | Does the Win32 monolith have any existing IPC surface? | Determines ACL integration cost |
 | Is state held in a DB or in-process? | In-process state = harder extraction |
 | Is the GUI tightly coupled to business logic? | Likely yes — plan for logic duplication during transition |
@@ -208,6 +208,6 @@ graph LR
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

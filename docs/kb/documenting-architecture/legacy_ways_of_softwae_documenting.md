@@ -81,7 +81,7 @@ The more accurate name for what development teams actually use them for is **Dev
 ## In Practice
 
 | Concern | Tool |
-|---|---|
+|---|
 | Visual communication across levels | C4 |
 | Documentation structure and decision hierarchy [| DBJ A](../icl-adm/index.md)DM deliverables |
 | Code-level traceability (Development only) | DDRs (ADRs repurposed) |
@@ -90,6 +90,6 @@ The more accurate name for what development teams actually use them for is **Dev
 
 ---
 
-| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
-|---|---|
-| CC BY SA 4.0 | &copy; dbj@dbj.org |
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0 

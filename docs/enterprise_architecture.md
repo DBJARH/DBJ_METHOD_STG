@@ -101,15 +101,6 @@ In more precise terms, the purpose of EA is to:
 
 See [Taxonomy](taxonomy.md) for details.
 
-> Unless otherwise declared &copy;  dbj@dbj.org  | CC BY SA 4.0
-
-<table style="margin: 1em; text-align: left;">
-<tr>
-<td><img src="assets/dbj-org-logo.jpg" width="80px" /></td>
-<td><img src="assets/icl_logo_200.png" width="100px" /></td>
-</tr>
-<tr>
-<td><a href="https://dbj.org">dbj dot org</a></td>
-<td><a href="https://ironcodelabs.ai">Iron Code Labs</a></td>
-</tr>
-</table>
+| <img src="assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
+|---|---|
+| CC BY SA 4.0 | &copy; dbj@dbj.org |

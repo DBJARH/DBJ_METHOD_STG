@@ -129,6 +129,8 @@ Published at [BPT](docs/bpt.md)
 - drawing should be all simple black and white
 - the only coloured detail on pages should be ICL logo
   - https://ea.ironcodelabs.com/assets/icl_logo.png
+- Image editor: Paint.NET — native format is `.pdn`
+- Marketing images live in `/marketing/assets/`
 
 ## Visualisation Context Partitioning
 

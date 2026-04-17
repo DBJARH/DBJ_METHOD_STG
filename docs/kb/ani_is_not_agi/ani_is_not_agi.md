@@ -71,4 +71,6 @@ March 2026, [Dusan Jovanovic](https://dusanjovanovic.org/)
 
 ---
 
-> © dbj@dbj.org , CC BY SA 4.0
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
+|---|---|
+| CC BY SA 4.0 | &copy; dbj@dbj.org |

@@ -157,4 +157,6 @@ It is derived from three inputs: business strategy (where the business is going)
 
 ---
 
-> © dbj@dbj.org , CC BY SA 4.0
+| <img src="../../assets/dbj/dbj-org-logo.jpg" width="64px" /> | &nbsp; |
+|---|---|
+| CC BY SA 4.0 | &copy; dbj@dbj.org |

@@ -8,13 +8,13 @@ description: Home
 
 ### What is DBJ Method in the context of Architecture
 
-**Behaviour nature is dynamic. Architecture nature is static.Architecture does not change after the building starts.**
+**Methodology nature is dynamic. Architecture nature is static. Architecture does not change after the building starts. That annoyes the Business**
 
-**DBJ Method uses tailored TOGAF artifacats to aid the smooth running of the organization.**
+**DBJ Method uses tailored TOGAF EA artifacats to aid the smooth running of the organization.**
 
 **Part of DBJ Method, BPT is an endless loop of three swgmenta. Business, Product and TEchnology. Business declaring the Products, and Technology implementoing the Products.**
 
-**The underlying idea of DBJ Method is to tailor the TOGAF artifacts, into the framework for feasible business management method.**
+**The underlying idea of DBJ Method is to tailor the TOGAF artifacts, into the framework for feasible organisation running method.**
 
 
 **This Method also exists to facilitate safe journey of an legacy enterprise to AI enabled organizaton**

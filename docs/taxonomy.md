@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Taxonomy
-description: ICL Enterprise Taxonomy — structure, terminology, and usage
+description: DBJ Enterprise Taxonomy — structure, terminology, and usage
 ---
 
 # Taxonomy 

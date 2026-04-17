@@ -31,7 +31,7 @@ What exactly what each framework requires:
 - HIPAA
 - SEC guidance 
 
-At Iron Code Labs, we recommend closed-loop, pre-execution and runtime-integrated governance framework
+At DBJ.ORG, we recommend closed-loop, pre-execution and runtime-integrated governance framework
 
 
 > Governing AI at the Execution Layer: Regulatory Alignment

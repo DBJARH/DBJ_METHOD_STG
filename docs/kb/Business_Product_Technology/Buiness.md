@@ -16,21 +16,21 @@ Business does not implement. It declares. Everything the Business segment produc
 
 ## What happens in Business
 
-The [ICL ADM wheel](../icl-adm/index.md) operates in the EA governance layer — above BPT, not inside any segment. It is the project container. It spans the full Taxonomy and produces artifacts at every level. Business, Product, and Technology consume those artifacts according to their jurisdiction.
+The [DBJ ADM wheel](../icl-adm/index.md) operates in the EA governance layer — above BPT, not inside any segment. It is the project container. It spans the full Taxonomy and produces artifacts at every level. Business, Product, and Technology consume those artifacts according to their jurisdiction.
 
 ---
 
 ## Business Artifacts
 
-**Business Artifacts** are the Conceptual-level outputs of the ICL ADM wheel — the artifacts that belong to the Business segment's jurisdiction. They declare intent; they are not designs or implementations.
+**Business Artifacts** are the Conceptual-level outputs of the DBJ ADM wheel — the artifacts that belong to the Business segment's jurisdiction. They declare intent; they are not designs or implementations.
 
 - **Principles** — the constraints and non-negotiables that govern the engagement
 - **Architecture Vision** — business case, scope, stakeholder sign-off
 - **Business Architecture** — capability map, product declarations, information assets
 
-See [ICL Project Deliverables](../icl-adm/index.md#icl-project-deliverables) for the full deliverable list.
+See [DBJ Project Deliverables](../icl-adm/index.md#icl-project-deliverables) for the full deliverable list.
 
-Business Artifacts are placed in the **Business repository** — the persistent store of Conceptual-level ICL ADM deliverables for this segment. Product segment monitors the Business segment repository and picks up what arrives there.
+Business Artifacts are placed in the **Business repository** — the persistent store of Conceptual-level DBJ ADM deliverables for this segment. Product segment monitors the Business segment repository and picks up what arrives there.
 
 >This is architectural decoupling, not organisational ignorance. 
 {: .important}

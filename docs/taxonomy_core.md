@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Taxonomy-Core
-description: ICL Enterprise Taxonomy — the Core
+description: DBJ Enterprise Taxonomy — the Core
 ---
 > **Important**
 > This document is single source of truth.

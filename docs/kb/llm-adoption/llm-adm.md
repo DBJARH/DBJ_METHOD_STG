@@ -12,11 +12,11 @@ The [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framew
 
 The rule is simple: LLM gets no special treatment. It goes through the same gates as any other architectural component — it just has additional failure modes that need to be explicitly addressed.
 
-The checks in each phase map to the [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) levels: Conceptual (Phase A–B), Logical (Phase C), Physical (Phase D), Implementation (Phase E–G).
+The checks in each phase map to the [DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) levels: Conceptual (Phase A–B), Logical (Phase C), Physical (Phase D), Implementation (Phase E–G).
 
 ![TOGAF ADM phases](../icl-adm/assests/togaf_adm.png)
 
-For an explanation of what ADM deliverables are, why they matter, and who produces them, see the [ICL ADM](../icl-adm/index.md).
+For an explanation of what ADM deliverables are, why they matter, and who produces them, see the [DBJ ADM](../icl-adm/index.md).
 
 ---
 

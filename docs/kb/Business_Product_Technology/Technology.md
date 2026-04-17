@@ -26,7 +26,7 @@ Technology does not reach back into Product to renegotiate the specification. It
 
 ## Technology Artifacts
 
-Technology Artifacts are the Physical and Implementation-level outputs produced inside the Technology segment — and also the Physical/Implementation deliverables the ICL ADM wheel places directly into the Technology repository.
+Technology Artifacts are the Physical and Implementation-level outputs produced inside the Technology segment — and also the Physical/Implementation deliverables the DBJ ADM wheel places directly into the Technology repository.
 
 - **Deployed applications** — running software that implements declared products
 - **Infrastructure** — containerised platforms, cloud placements, network configuration

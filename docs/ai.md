@@ -1,7 +1,7 @@
 ---
 layout: default
 title: EA AI Guidance
-description: Iron Code Labs EA AI guiding principles
+description: DBJ EA AI guiding principles
 ---
 
 # AI and the Legacy Iceberg

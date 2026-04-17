@@ -24,7 +24,7 @@ The frameworks below are.
 > **The Problem**: Very much implementation oriented method. The whole of Enteprise and Logical Architecture are over-simplified into "Context". Enterprise , System, Business, Governance architecting are just a "Context" in the C4 World.
 {: .note}
 
-> C4 Does not fit the simple but strong and overarching ICL Taxonomy
+> C4 Does not fit the simple but strong and overarching DBJ Taxonomy
 {: warning.}
 
 
@@ -55,7 +55,7 @@ C4 uses a simple, tool-agnostic notation. Diagrams can be produced in any diagra
 
 arc42 is a lean, structured template for architecture documentation — twelve sections covering context, solution strategy, building blocks, runtime, deployment, decisions, quality, and risks. It is worth knowing it exists.
 
-Teams working within the[ [ICL A](../icl-adm/index.md)DM](../../kb/icl-adm/index.md) should not adopt arc42 as a documentation structure. Th[e ICL A](../icl-adm/index.md)DM already defines the documentation scaffold through its phases and deliverables; introducing arc42 alongside it creates two competing structures for the same content. arc42 is designed for teams without a governing ADM — it fills the gap that TOGAF an[d ICL A](../icl-adm/index.md)DM already fill here.
+Teams working within the[ [DBJ A](../icl-adm/index.md)DM](../../kb/icl-adm/index.md) should not adopt arc42 as a documentation structure. Th[e DBJ A](../icl-adm/index.md)DM already defines the documentation scaffold through its phases and deliverables; introducing arc42 alongside it creates two competing structures for the same content. arc42 is designed for teams without a governing ADM — it fills the gap that TOGAF an[d DBJ A](../icl-adm/index.md)DM already fill here.
 
 > Know it. Do not use it here.
 
@@ -68,7 +68,7 @@ Teams working within the[ [ICL A](../icl-adm/index.md)DM](../../kb/icl-adm/index
 
 An ADR captures one decision: the context that forced it, the options considered, the decision taken, and its consequences. ADR is not Architecture Visualisation per se, it is a single type deliverable point back to the Architecture from the development, where it is referenced.
 
-**At the presence of the [ICL ADM](../icl-adm/index.md), Deliverables and REQ's, ADRs are redundant at the organization level.** The [ICL ADM](../icl-adm/index.md) produces hierarchical requirements with decisions already embedded as deliverables — that is precisely what an ADR is attempting to construct from scratch. In ACL ADM governing REQuirements hierarchy exists; ADRs is semanticaly poorer. 
+**At the presence of the [DBJ ADM](../icl-adm/index.md), Deliverables and REQ's, ADRs are redundant at the organization level.** The [DBJ ADM](../icl-adm/index.md) produces hierarchical requirements with decisions already embedded as deliverables — that is precisely what an ADR is attempting to construct from scratch. In ACL ADM governing REQuirements hierarchy exists; ADRs is semanticaly poorer. 
 
 The more accurate name for what development teams actually use them for is **Development/Design Decision Records (DDRs)**: a way to trace code-level choices back to architecture. That is a legitimate and useful practice — but it belongs entirely within the Development aka [Technology segment](../Business_Product_Technology/Technology.md) of the [BPT](../Business_Product_Technology/index.md). DDRs are a private engineering artefact, disconnected from the BPT flow. Architecture does not read them; they are a breadcrumb trail for the dev. team that owns the code.
 
@@ -83,10 +83,10 @@ The more accurate name for what development teams actually use them for is **Dev
 | Concern | Tool |
 |---|---|
 | Visual communication across levels | C4 |
-| Documentation structure and decision hierarchy [| ICL A](../icl-adm/index.md)DM deliverables |
+| Documentation structure and decision hierarchy [| DBJ A](../icl-adm/index.md)DM deliverables |
 | Code-level traceability (Development only) | DDRs (ADRs repurposed) |
 
-***A minimal viable documentation practice*** within th[e ICL A](../icl-adm/index.md)DM: C4 Context and Container diagrams for stakeholder communication[, ICL A](../icl-adm/index.md)DM deliverables for decisions and requirements. DDRs are optional and internal to the Development team.
+***A minimal viable documentation practice*** within th[e DBJ A](../icl-adm/index.md)DM: C4 Context and Container diagrams for stakeholder communication[, DBJ A](../icl-adm/index.md)DM deliverables for decisions and requirements. DDRs are optional and internal to the Development team.
 
 ---
 

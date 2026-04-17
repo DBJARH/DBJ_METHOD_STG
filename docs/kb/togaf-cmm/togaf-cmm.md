@@ -13,7 +13,7 @@ description: TOGAF Architecture Capability Maturity Model — reference material
 
 ![Classic TOGAF CMM](TOGAF_CMM.png)
 
-The TOGAF Architecture Capability Maturity Model (ACMM) is the foundation from which the [ICL CMM](../../cmm.md) is derived. Where the ICL CMM applies to the whole organization, the TOGAF CMM focuses specifically on the EA practice and its nine characteristics.
+The TOGAF Architecture Capability Maturity Model (ACMM) is the foundation from which the [DBJ CMM](../../cmm.md) is derived. Where the DBJ CMM applies to the whole organization, the TOGAF CMM focuses specifically on the EA practice and its nine characteristics.
 
 ## CMM Variants
 
@@ -60,7 +60,7 @@ Each characteristic is assessed independently across M0–M5, giving a multi-dim
 
 ## ADM Prerequisite
 
-The [ICL ADM](../icl-adm/index.md) requires the client organisation to be at ACMM maturity level M3 or above across all nine characteristics. Effective ADM execution is capability-gated.
+The [DBJ ADM](../icl-adm/index.md) requires the client organisation to be at ACMM maturity level M3 or above across all nine characteristics. Effective ADM execution is capability-gated.
 
 | Level | Implication |
 |-------|-------------|

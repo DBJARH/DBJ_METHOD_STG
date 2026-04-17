@@ -10,7 +10,7 @@ description: Four decision rules, one per architectural level, for evaluating LL
 
 Before approving LLM use in any project, run it through four questions — one per architectural level. All four must pass. One failure means the LLM does not belong there.
 
-The four levels come directly from the [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html): Conceptual, Logical, Physical, Implementation. The taxonomy defines what each level is responsible for. This model applies that structure to the LLM adoption decision.
+The four levels come directly from the [DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html): Conceptual, Logical, Physical, Implementation. The taxonomy defines what each level is responsible for. This model applies that structure to the LLM adoption decision.
 
 ![TOGAF ADM](../icl-adm/assests/togaf_adm.png)
 
@@ -103,7 +103,7 @@ One "no" anywhere — and you are building Fred Brooks' [second system](https://
 
 ### Reference
 
-[Iron Code Labs Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html)
+[DBJ.ORG Enterprise Taxonomy](../../taxonomy.md)
 
 ---
 

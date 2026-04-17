@@ -30,7 +30,7 @@ Each segment has defined roles, boundaries, and artifacts. No segment reaches in
 
 ADM and BPT are decoupled by three ADM Deliverables Repositories — one per segment. Each repository is passive storage. It does not signal; it stores. B, P, and T repositories are conceptual/logical entities; how they are physically realised is an implementation decision left to the organisation.
 
-The [ICL ADM wheel](../icl-adm/index.md) operates in the EA governance layer above BPT. Its deliverables land in the repository of the segment whose jurisdiction matches the deliverable's Taxonomy Category:
+The [DBJ ADM wheel](../icl-adm/index.md) operates in the EA governance layer above BPT. Its deliverables land in the repository of the segment whose jurisdiction matches the deliverable's Taxonomy Category:
 
 | Deliverable Category | Repository | Segment |
 |---|---|---|
@@ -46,13 +46,13 @@ EA defines the repository structure, the naming, and the categorisation. It does
 
 ## ADM and the Wheel
 
-"Wheel" is the operational term for an ICL ADM cycle in motion. ADM is the formal governance term. Both coexist: ADM when referencing the formal structure and deliverables, Wheel when describing the operational motion. The deliverables are always ADM deliverables — the wheel is simply how the ADM runs.
+"Wheel" is the operational term for an DBJ ADM cycle in motion. ADM is the formal governance term. Both coexist: ADM when referencing the formal structure and deliverables, Wheel when describing the operational motion. The deliverables are always ADM deliverables — the wheel is simply how the ADM runs.
 
 ---
 
 ## ADM Wheel and BPT Segments
 
-The ICL ADM wheel governs from above. Its steps produce deliverables that land in the correct BPT repository by Taxonomy Category. The BPT loop runs continuously below.
+The DBJ ADM wheel governs from above. Its steps produce deliverables that land in the correct BPT repository by Taxonomy Category. The BPT loop runs continuously below.
 
 ![](../../bpt_assets/bpt-meta-loop-complex.png)
 
@@ -60,7 +60,7 @@ The ICL ADM wheel governs from above. Its steps produce deliverables that land i
 
 ## Reading the diagram
 
-**Everything shown is Conceptual Architecture.** No physical database is required or implied. The cylinder shapes are a conventional notation for persistent storage — used here because readers immediately recognise them as "something is stored here." What they represent is the **persistent repository of ICL ADM deliverables** for each segment. How an organisation physically realises that persistence is an implementation decision outside this model.
+**Everything shown is Conceptual Architecture.** No physical database is required or implied. The cylinder shapes are a conventional notation for persistent storage — used here because readers immediately recognise them as "something is stored here." What they represent is the **persistent repository of DBJ ADM deliverables** for each segment. How an organisation physically realises that persistence is an implementation decision outside this model.
 
 **"Application" and "Product" name the same layer.**
 The diagram uses the TOGAF ADM term — Application Layer. The BPT operational term for the same position is Product. Both are correct in their context. Throughout this KB, "Product" is used as the operational name for that segment and its repository.

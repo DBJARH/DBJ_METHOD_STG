@@ -1,14 +1,14 @@
 ---
 layout: default
 title: DORA AI Capabilities Model
-description: ICL usage of the DORA AI Capabilities Model as AI guidance framework for software development organizations.
+description: DBJ usage of the DORA AI Capabilities Model as AI guidance framework for software development organizations.
 ---
 
 [← Knowledge Base](../index.md)
 
 ##  DORA AI Capabilities Model
 
-DORA is primariy audience is Software Development Organizations. We have repurposed its core to be used as part of ICL AI usage guidance.
+DORA is primariy audience is Software Development Organizations. We have repurposed its core to be used as part of DBJ AI usage guidance.
 
 ---
 

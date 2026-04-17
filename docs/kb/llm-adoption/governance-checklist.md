@@ -8,7 +8,7 @@ description: Binary checklist for Architecture Decision Record validation before
 
 # EA Governance Checklist — LLM Adoption
 
-Use this checklist before approving any LLM introduction. It maps to the [4-Level Decision Model](decision-model.md) and follows the [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) levels: Conceptual, Logical, Physical, Implementation. Every item must be answered "yes" for approval.
+Use this checklist before approving any LLM introduction. It maps to the [4-Level Decision Model](decision-model.md) and follows the [DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) levels: Conceptual, Logical, Physical, Implementation. Every item must be answered "yes" for approval.
 
 Work through the four sections and bring the completed checklist to the Architecture Board.
 

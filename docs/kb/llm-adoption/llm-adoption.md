@@ -12,14 +12,14 @@ description: Enterprise architecture governance framework for introducing Large 
 
 ![LLM Adoption](assets/architecture-of-llm-adoption.png)
 
-> Enterprise architecture discipline applied to Large Language Model adoption — a structured framework covering capability justification, governance, and [ICL ADM integration](../icl-adm/index.md).
+> Enterprise architecture discipline applied to Large Language Model adoption — a structured framework covering capability justification, governance, and [DBJ ADM integration](../icl-adm/index.md).
 {: .note}
 
 This is the root document for the LLM Adoption framework. It explains the overall approach and points to the five documents that together form a complete governance framework for introducing Large Language Models into an organization.
 
 > **The central argument:** LLM complexity must be earned, not > assumed. 
 > 
-> Each document applies the  [ICL ADM integration](../icl-adm/index.md) to keep LLM adoption under architectural control.
+> Each document applies the  [DBJ ADM integration](../icl-adm/index.md) to keep LLM adoption under architectural control.
 
 ## What business issue does this framework solve?
 
@@ -31,17 +31,17 @@ This series is a framework for doing it the first way.
 
 Prerequsities is the knowledge on two foundations:
 
-- **[ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html)** — a four-level hierarchy (Conceptual, Logical, Physical, Implementation) that structures every architectural decision in the organization.
+- **[DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html)** — a four-level hierarchy (Conceptual, Logical, Physical, Implementation) that structures every architectural decision in the organization.
 - **[TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework)** — the standard architecture lifecycle that defines how decisions are governed across phases of a project.
 
 The framework does not invent a `special AI process`. LLMs adoption go through the same gates as any other "ADM centric" architecture — with additional checks for their specific failure modes.
 
 ## Start a new EA project
 
-> LLM approval is a single separate ADM centric EA project. As other ICL prescribed project it requires a business "buy in", role from the business and before anything: Organization on the ACMM level 3.
+> LLM approval is a single separate ADM centric EA project. As other DBJ prescribed project it requires a business "buy in", role from the business and before anything: Organization on the ACMM level 3.
 {: .important}
 
-> Remember: ICL ADM project cycling is simplified vs full TOGAF ADM. See [ICL ADM](../icl-adm/index.md) for the structural foundation that all ICL ADM wheels follow.
+> Remember: DBJ ADM project cycling is simplified vs full TOGAF ADM. See [DBJ ADM](../icl-adm/index.md) for the structural foundation that all DBJ ADM wheels follow.
 {: .note}
 
 ---

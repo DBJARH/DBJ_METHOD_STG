@@ -29,13 +29,14 @@ This file is a working spec / context document for restructuring the agent-actor
     - [Key Clarification on Actor Behavior](#key-clarification-on-actor-behavior)
     - [Structural Decisions for `index.md`](#structural-decisions-for-indexmd)
     - [Taxonomy Partitioning](#taxonomy-partitioning)
-  - [Status](#status)
+  - [Status (original)](#status-original)
+  - [Status 2026-03-18](#status-2026-03-18)
 
 ---
 
 ## Goal
 
-Restructure the actor model knowledge base article to follow the Iron Code Labs Common Taxonomy — four top-level categories: **Conceptual**, **Logical**, **Physical**, **Implementation**.
+Restructure the actor model knowledge base article to follow the DBJ Common Taxonomy — four top-level categories: **Conceptual**, **Logical**, **Physical**, **Implementation**.
 
 The motivating novelty: using safe, fast binary messaging (Protobuf) on top of the actor model as the foundation for a **resilient agentic system**.
 

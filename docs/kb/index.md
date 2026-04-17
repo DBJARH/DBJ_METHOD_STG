@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Knowledge Base
-description: Iron Code Labs EA knowledge base — structured reference material on enterprise architecture topics
+description: DBJ Method — structured reference material and knolwedge base
 ---
 
 # Knowledge Base
@@ -13,20 +13,20 @@ Structured reference material on enterprise Method and Enterprise Architecture t
 <details markdown="1">
 <summary><strong>Conceptual</strong> — Business · Information · Application · Technology</summary>
 
-## [ICL ADM](icl-adm/index.md)
+## [DBJ ADM](icl-adm/index.md)
 
-The ICL Architecture Development Method — a simplified ADM cycle adapted from TOGAF for organizations without a dedicated architecture team. Covers the phase-to-category mapping, the role of the ICL Taxonomy, ADM deliverables, and the five-step ICL governance wheel.
+The DBJ Architecture Development Method — a simplified ADM cycle adapted from TOGAF for organizations without a dedicated architecture team. Covers the phase-to-category mapping, the role of the DBJ Taxonomy, ADM deliverables, and the five-step DBJ governance wheel.
 
-> The ICL ADM "wheel" delivers architecture. Delivery is what the business authorizes.
+> The DBJ ADM "wheel" delivers architecture. Delivery is what the business authorizes.
 {: .important}
 
 ---
 
 ## [TOGAF CMM](togaf-cmm/togaf-cmm.md)
 
-The TOGAF Architecture Capability Maturity Model (ACMM) — the EA-practice-focused foundation from which the ICL CMM is derived. Covers the six maturity levels (M0–M5), the nine ACMM characteristics, the scorecard structure, and the M3 prerequisite for running the ICL ADM.
+The TOGAF Architecture Capability Maturity Model (ACMM) — the EA-practice-focused foundation from which the DBJ CMM is derived. Covers the six maturity levels (M0–M5), the nine ACMM characteristics, the scorecard structure, and the M3 prerequisite for running the DBJ ADM.
 
-> The TOGAF CMM measures the EA practice. The [ICL CMM](../cmm.md) measures the whole organization.
+> The TOGAF CMM measures the EA practice. The [DBJ CMM](../cmm.md) measures the whole organization.
 {: .important}
 
 ---
@@ -42,7 +42,7 @@ Enterprise Full View — the Business and Technology landscapes, and EA's positi
 
 ## [Business, Product, Technology](Business_Product_Technology/index.md)
 
-The three BPT segments in depth — purpose, boundaries, repositories, and the event-driven handoff model. Covers the ICL ADM wheel's relationship to each segment, the repository as decoupling mechanism, naming conventions (Application vs Product, Engineering vs Technology), and the prerequisites for a functioning loop. Includes the segment articles: [Business](Business_Product_Technology/Buiness.md), [Product](Business_Product_Technology/Product.md), [Technology](Business_Product_Technology/Technology.md).
+The three BPT segments in depth — purpose, boundaries, repositories, and the event-driven handoff model. Covers the DBJ ADM wheel's relationship to each segment, the repository as decoupling mechanism, naming conventions (Application vs Product, Engineering vs Technology), and the prerequisites for a functioning loop. Includes the segment articles: [Business](Business_Product_Technology/Buiness.md), [Product](Business_Product_Technology/Product.md), [Technology](Business_Product_Technology/Technology.md).
 
 > The repository is the only channel. Segments never communicate directly.
 {: .important}
@@ -74,7 +74,7 @@ Why AGI is an unreachable milestone — and why the distinction matters for the 
 
 ## [ITIL Role](itil/ITIL_role.md)
 
-Establishes ITIL as the alternative benchmarking and standards measurement framework for IT operations within the ICL Method. Clarifies the boundary with TOGAF: TOGAF governs state transition; ITIL measures operational fitness. Covers the Service Value Chain, Four Dimensions, 34 Management Practices, key benchmarking metrics, ADM integration points, and ITIL CMM alignment.
+Establishes ITIL as the alternative benchmarking and standards measurement framework for IT operations within the DBJ Method. Clarifies the boundary with TOGAF: TOGAF governs state transition; ITIL measures operational fitness. Covers the Service Value Chain, Four Dimensions, 34 Management Practices, key benchmarking metrics, ADM integration points, and ITIL CMM alignment.
 
 > TOGAF governs the *state transition*. ITIL measures *operational fitness*.
 {: .important}
@@ -101,7 +101,7 @@ The actor model as the foundation for resilient distributed and agentic systems.
 
 ## [Engagement Architecture](engagement_architecture/index.md)
 
-How ICL structures customer engagements — from the ADM Boot Camp through to a deployable product. Covers the three-party workflow (Business, Product, Engineering), the customer AI layer, IT landscape analysis, and the traceable output back to Business architecture decisions.
+How DBJ structures customer engagements — from the ADM Boot Camp through to a deployable product. Covers the three-party workflow (Business, Product, Engineering), the customer AI layer, IT landscape analysis, and the traceable output back to Business architecture decisions.
 
 > No need to dive into the code if design is wrong.
 {: .important}
@@ -165,7 +165,7 @@ Enterprise architecture approach for modernizing a legacy Win32 monolith with a 
 
 ## [DORA AI Capabilities Model](dora/dora.md)
 
-ICL usage of the DORA AI Capabilities Model as AI guidance for software development organizations. Covers the seven capabilities that amplify AI benefits: clear AI strategy, high-quality internal platforms, clean data, developer experience, learning-oriented culture, modular architecture, and user-centric thinking.
+DBJ usage of the DORA AI Capabilities Model as AI guidance for software development organizations. Covers the seven capabilities that amplify AI benefits: clear AI strategy, high-quality internal platforms, clean data, developer experience, learning-oriented culture, modular architecture, and user-centric thinking.
 
 > LLM of your choice is your own assistant — but you are accountable for your output.
 {: .important}

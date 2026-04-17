@@ -1,7 +1,7 @@
 ---
 layout: default
-title: ICL ADM
-description: A simplified ADM cycle for the ICL Method — how governance steps map across the full taxonomy
+title: DBJ ADM
+description: A simplified ADM cycle for the DBJ Method — how governance steps map across the full taxonomy
 ---
 
 [← Knowledge Base](../index.md)
@@ -21,24 +21,24 @@ description: A simplified ADM cycle for the ICL Method — how governance steps 
 > The ADM wheel authorizes delivery. It never deploys.
 {: .note}
 
-# ICL ADM
+# DBJ ADM
 
-The ICL ADM is a simplified version of the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) adapted for business use following the ICL Method. It retains the wheel metaphor — a repeating cycle of governed architecture work — while reducing the step count to what a real organization can sustain without a dedicated architecture team.
+The DBJ ADM is a simplified version of the [TOGAF ADM](https://en.wikipedia.org/wiki/The_Open_Group_Architecture_Framework) adapted for business use following the DBJ Method. It retains the wheel metaphor — a repeating cycle of governed architecture work — while reducing the step count to what a real organization can sustain without a dedicated architecture team.
 
 But with the organization at the CMM [Level 3](../../cmm.md#maturity-levels) or above, ensuring the organization capability to "steer the ADM wheel".
 
-This document describes the structural logic of an ICL ADM wheel. Specific "wheels" aka "adm projects", follow this document and reference it.
+This document describes the structural logic of an DBJ ADM wheel. Specific "wheels" aka "adm projects", follow this document and reference it.
 
-> The **ICL** ADM wheel produces much distilled architecture artifacts v.s. TOGAF. The wheel authorizes delivery; it never delivers.
+> The **DBJ** ADM wheel produces much distilled architecture artifacts v.s. TOGAF. The wheel authorizes delivery; it never delivers.
 {: .note}
 
 <img src="assests/icl-adm-icl-terminology-mapper.png" style="width:75%; display:block; margin:0 auto;" />
 
-### Five ICL ADM steps
+### Five DBJ ADM steps
 
-The ICL ADM reduces the nine [TOGAF ADM](../togaf-cmm/togaf-cmm.md) steps to **five**. Each step produces at least one written artifact. The Business Architecture Board reviews artifacts, not conversations.
+The DBJ ADM reduces the nine [TOGAF ADM](../togaf-cmm/togaf-cmm.md) steps to **five**. Each step produces at least one written artifact. The Business Architecture Board reviews artifacts, not conversations.
 
-| ICL Step | ICL category |
+| DBJ Step | DBJ category |
 |---|---|
 | **1 — Principles** | [Conceptual](../../taxonomy.md#conceptual) |
 | **2 — Vision** | [Conceptual](../../taxonomy.md#conceptual) |
@@ -47,11 +47,11 @@ The ICL ADM reduces the nine [TOGAF ADM](../togaf-cmm/togaf-cmm.md) steps to **f
 | **5 — Governance** | [Implementation](../../taxonomy.md#implementation) |
 
 
-<!-- >ICL ADM steps map directly to ICL taxonomy categories:
+<!-- >DBJ ADM steps map directly to DBJ taxonomy categories:
 {: .note}
 
 
-| [TOGAF ADM step(s)](#togaf-adm) | ICL Levels of Abstraction |
+| [TOGAF ADM step(s)](#togaf-adm) | DBJ Levels of Abstraction |
 |---|---|
 | Preliminary, A | [Conceptual](../../taxonomy.md#conceptual) |
 | B | [Conceptual](../../taxonomy.md#conceptual) (Business layer) |
@@ -59,25 +59,25 @@ The ICL ADM reduces the nine [TOGAF ADM](../togaf-cmm/togaf-cmm.md) steps to **f
 | D | [Physical](../../taxonomy.md#physical) |
 | E, F, G, H | [Implementation](../../taxonomy.md#implementation) | -->
 
-The ICL ADM outputs are always architectural — decisions, principles, constraints, blueprints. Never deployed systems or running code. Delivery is what the wheel authorizes; it is never what the wheel does.
+The DBJ ADM outputs are always architectural — decisions, principles, constraints, blueprints. Never deployed systems or running code. Delivery is what the wheel authorizes; it is never what the wheel does.
 
-## ICL ADM deliverables 
+## DBJ ADM deliverables 
 
-Every step of the ICL ADM is expected to produce **deliverables**: formal documents, diagrams, or catalogs that record decisions and evidence for review. They are not bureaucracy for its own sake. They exist because verbal agreements disappear — written artifacts persist, can be audited, and can be handed to the next team or the next review cycle.
+Every step of the DBJ ADM is expected to produce **deliverables**: formal documents, diagrams, or catalogs that record decisions and evidence for review. They are not bureaucracy for its own sake. They exist because verbal agreements disappear — written artifacts persist, can be audited, and can be handed to the next team or the next review cycle.
 
 **Why deliverables?** Without them, governance has no object to review. The Architecture & Business Board cannot approve or reject a verbal description. Deliverables are what the board reads.
 
 **What kinds of deliverables exist?** TOGAF names many: Principles Catalogs, Capability Maps, Application Portfolio Catalogs, Interface Catalogs, Technology Standards Catalogs, Roadmaps, and more. Each is a structured document that captures a specific slice of the architecture. Only [five are mandatory](#five-icl-adm-steps) as presented in that table above. Others are optional.
 
-**Which deliverables are required?** The rule is: produce what is needed to answer the business questions at that step. Each ICL ADM wheel calls out the minimum required artifact at each step.
+**Which deliverables are required?** The rule is: produce what is needed to answer the business questions at that step. Each DBJ ADM wheel calls out the minimum required artifact at each step.
 
 **Who produces them?** The project team — architects, tech leads, product owners, and engineers — depending on the artifact. The Architecture Board reviews them but does not produce them.
 
 <span id="icl-project-deliverables"> </span>
 
-### ICL ADM Deliverables 
+### DBJ ADM Deliverables 
 
-| ICL ADM Deliverable | Comment |
+| DBJ ADM Deliverable | Comment |
 |---|---|
 | **1. Principles document** | Constraints and non-negotiables that govern the entire wheel |
 | **2. Architecture Vision** | Business case, scope, and stakeholder sign-off |
@@ -112,12 +112,12 @@ A deliverable references REQuirement as a governance signal — either in the Co
 
 This is the mechanism behind [CMM Level 5](../../cmm#maturity-levels): the process is measurable and self-improving because every decision traces to a requirement and every requirement to its origin. Gaps become visible; the process closes them systematically.
 
-> ICL recommends REQ identifiers and requirement-to-requirement traceability as the minimum governance practice. If an organisation already has an established requirements management practice and tooling, that practice takes precedence — the ICL ADM integrates with it rather than replacing it. What must be preserved regardless of tooling is the traceability: every requirement must reference what it satisfies or requires.
+> DBJ recommends REQ identifiers and requirement-to-requirement traceability as the minimum governance practice. If an organisation already has an established requirements management practice and tooling, that practice takes precedence — the DBJ ADM integrates with it rather than replacing it. What must be preserved regardless of tooling is the traceability: every requirement must reference what it satisfies or requires.
 {: .note}
 
 ## One wheel or many wheels{#one-or-many}
 
-The ICL ADM is designed to scale — from a single wheel covering an entire small organisation, to many concurrent wheels each scoped to a domain, programme, or capability cluster in a large enterprise. The concept is flexible by design; it does not impose full TOGAF rigour on organisations that cannot sustain it.
+The DBJ ADM is designed to scale — from a single wheel covering an entire small organisation, to many concurrent wheels each scoped to a domain, programme, or capability cluster in a large enterprise. The concept is flexible by design; it does not impose full TOGAF rigour on organisations that cannot sustain it.
 
 **A single wheel** is appropriate when the organisation is small, the IT landscape is simple, or the engagement is narrowly scoped. One wheel, one set of deliverables, one governed cycle.
 
@@ -130,18 +130,18 @@ The ICL ADM is designed to scale — from a single wheel covering an entire smal
 
 **What does not change** is the structure. Regardless of how many wheels run, or how small the organisation:
 
-- Every wheel follows the ICL ADM structure
+- Every wheel follows the DBJ ADM structure
 - Every wheel uses Requirements Management and REQ traceability
 - Every wheel's deliverables land in the correct BPT repository
 - EA role is clear: It governs all wheels — even if EA is one person
 
-The ICL ADM does not replace an organisation's existing governance practice. If a mature practice exists, the wheel integrates with it. What the wheel provides is the minimum viable structure for organisations that have none.
+The DBJ ADM does not replace an organisation's existing governance practice. If a mature practice exists, the wheel integrates with it. What the wheel provides is the minimum viable structure for organisations that have none.
 
 ---
 
 ## Applicability
 
-This concept applies to any project, driven by underlying ICL ADM wheel. Examples:
+This concept applies to any project, driven by underlying DBJ ADM wheel. Examples:
 
 - Wheel 1: **LLM Adoption wheel** — [authorizes or rejects LLM introduction into a capability](../llm-adoption/llm-adoption.md)
 - Wheel 2: **Cloud Migration wheel** — authorizes transition from on-premise to cloud hosting

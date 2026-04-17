@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How to Document Software Architecture
-description: ICL approach to software architecture documentation — simpler and better than legacy ways.
+description: DBJ approach to software architecture documentation — simpler and better than legacy ways.
 ---
 
 [← Knowledge Base](../index.md)
@@ -19,7 +19,7 @@ Existing industry visualisation frameworks — C4, arc42 — do not follow these
 
 <p id="partitioning">&nbsp;</p>
 
-> We favour visualisation that follows partioning logic. Which is based on ICL Taxonomy.
+> We favour visualisation that follows partioning logic. Which is based on DBJ Taxonomy.
 
 ### Logical and physical partitioning
 

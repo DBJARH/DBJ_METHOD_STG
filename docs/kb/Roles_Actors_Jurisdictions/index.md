@@ -7,11 +7,11 @@ description: Who works where in the BPT loop — roles, their jurisdictions, and
 [← Knowledge Base](../index.md)
 
  
-<!-- Each ICL Client Team Member has a role defined by the ICL Method and can use the LLM to help create the results. But here is the key:
+<!-- Each DBJ Client Team Member has a role defined by the DBJ Method and can use the LLM to help create the results. But here is the key:
 
 **Accountability stays with the person, not the AI tool**
 
-- ICL guiding principle is to understand why, how and were, our customers use the AI tool of choice
+- DBJ guiding principle is to understand why, how and were, our customers use the AI tool of choice
 - If things go wrong we do not blame it on AI
 - AI is a marketing term — LLM is engineering
 - We do not blame it on the LLM -->
@@ -48,7 +48,7 @@ EA's jurisdiction is the whole organisation — not a segment, not a project. Th
 - Ensures Product decisions maintain Business-Technology coherence
 - Governs without bottlenecking the cycle
 - Measures alignment health through Evaluate feedback
-- Runs the [ICL ADM wheel](../icl-adm/index.md) — the governance project container that spans the full Taxonomy
+- Runs the [DBJ ADM wheel](../icl-adm/index.md) — the governance project container that spans the full Taxonomy
 
 EA does not implement, does not manage products, and does not operate infrastructure. It governs the structure within which all of those happen.
 

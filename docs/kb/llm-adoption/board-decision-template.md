@@ -53,7 +53,7 @@ These documents do not need to be polished reports. A diagram, a spreadsheet, an
 
 Answer each question with **Yes** or **No**. No partial credit. Any "No" requires redesign before resubmission.
 
-Questions are grouped by [ICL Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) level.
+Questions are grouped by [DBJ Enterprise Taxonomy](https://ea.ironcodelabs.com/taxonomy.html) level.
 
 ---
 

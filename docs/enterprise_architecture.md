@@ -13,7 +13,7 @@ Business commands the Enterpise (Organization), but Enteprise Architect is the n
 
 > **Enterprise Architecture aligns business with technology.**
 
-This is Iron Code Labs (ICL) phrasing, and it is both **accurate and sharper**.
+This is  DBJ phrasing, and it is both **accurate and sharper**.
 
 That formulation has three strengths:
 
@@ -36,7 +36,7 @@ That formulation has three strengths:
 
 EA role is to pro-actively manage the business/technology missalignment
 
-**“ICL EA”** without losing clarity:
+**“DBJ EA”** without losing clarity:
 
 * **“EA aligns business intent with technological reality.”**
 * **“EA ensures business strategy and technology evolve together.”**
@@ -44,13 +44,13 @@ EA role is to pro-actively manage the business/technology missalignment
 
 ## Concise, correct, and defensible.
 
-### Wider Iron Code Labs Enterprise Architecture Role
+### Wider Enterprise Architecture Role
 
 **Enterprise Architecture (EA)** exists to **align business strategy with execution** by providing a coherent structure for how an organization’s **processes, information, applications, and technology** fit together over time.
 
 > **Important**
 > 
-> This is critical role of the ICL BPT Method. ["Business Product Technology"](bpt.md)
+> This is critical role of the DBJ BPT Method. ["Business Product Technology"](bpt.md)
 > 
 {: .important}
 
@@ -63,7 +63,7 @@ In more precise terms, the purpose of EA is to:
    It provides a shared frame of reference so leaders can assess trade-offs (cost, risk, agility, technical debt) before committing to initiatives.
 
 3. **Control complexity and reduce entropy**
-   ICL EA prevents uncontrolled system sprawl by standardizing where it matters and allowing diversity where it adds value.
+   DBJ EA prevents uncontrolled system sprawl by standardizing where it matters and allowing diversity where it adds value.
 
 4. **Guide change safely**
    It enables evolution (cloud, microservices, AI, M&A, regulation) without destabilizing critical operations.
@@ -75,25 +75,24 @@ In more precise terms, the purpose of EA is to:
    Architectural oversight ensures systemic risks, data flows, and regulatory obligations are addressed holistically—not project by project.
 
 > **Note**
-> Abose is why Iron Code Labs trains the customers to win and keepy place on high levels of [TOGAF Capability Maturity Modeling](cmm.md#levels-and-characteristics)
+> Above is why DBJ and its partners train the customers to win and keep place on 3-r or above levels of [DBJ Capability Maturity Modeling](cmm.md#levels-and-characteristics) scale
 {: .note}
 
 > **Important**
 > 
-> **Iron Code Labs Enterprise Architecture ensures the enterprise changes intentionally, not accidentally.**
+> **DBJ Tailored Enterprise Architecture ensures the enterprise changes intentionally, not accidentally.**
 {: .important}
 
 <div style="clear: both;"></div>
 <div style="float: center; margin: 1em; text-align: center;">
-<img src="assets/icl_ea_clogs.png" width="480px" /><br/>
-<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
+<hr/>
 </div>
 
 <!-- If customer want, I can frame this through **DDD**, **microservices**, or DBJ **Conceptual → Logical → Physical → Implementation** taxonomy. -->
 
 ## Taxonomy
 
-[ICL Taxonomy](cmm.md) provides the key communication aid and structural foundation, that characterizes a capable and mature enterprise. It is a mirror with strong  [TOGAF CMM](kb/togaf-cmm/togaf-cmm.md) foundations.
+[DBJ Taxonomy](cmm.md) provides the key communication aid and structural foundation, that characterizes a capable and mature enterprise. It is a mirror with strong  [TOGAF CMM](kb/togaf-cmm/togaf-cmm.md) foundations.
 
 * Common, shared and simple Taxonomy is the underlying essential mesh holding the Organisation universe together.
 * It gives both the structure and naming of structure elements.

@@ -16,7 +16,7 @@ Product does not declare and it does not implement. It aligns.
 
 ## What happens in Product
 
-Product monitors the **Business repository**. When the ICL ADM wheel places a Conceptual deliverable there — a capability declaration, an architecture vision, a product definition — the Product segment picks it up and acts.
+Product monitors the **Business repository**. When the DBJ ADM wheel places a Conceptual deliverable there — a capability declaration, an architecture vision, a product definition — the Product segment picks it up and acts.
 
 Acting means: translating the Business declaration into Logical and Physical specifications. Workflows, interface contracts, data models, integration requirements. These are the artifacts that Technology can build from.
 
@@ -26,7 +26,7 @@ Product does not reach back into Business to negotiate the declaration. It works
 
 ## Product Artifacts
 
-Product Artifacts are the Logical and Physical outputs produced inside the Product segment — and also the Logical/Physical deliverables the ICL ADM wheel places directly into the Product repository.
+Product Artifacts are the Logical and Physical outputs produced inside the Product segment — and also the Logical/Physical deliverables the DBJ ADM wheel places directly into the Product repository.
 
 - **Workflows** — sequenced activity and decision flows describing how a declared product operates
 - **Interface contracts** — API definitions, message schemas, integration specifications

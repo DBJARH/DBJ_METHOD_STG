@@ -1,16 +1,10 @@
 ---
 layout: default
 title: Engagement Architecture
-description: How ICL structures customer engagements — from initial onboarding through to a deployable product.
+description: How DBJ structures customer engagements — from initial onboarding through to a deployable product.
 ---
 
 [← Knowledge Base](../index.md)
-
-<div style="float: right; margin: 1em; text-align: center;" markdown="1">
-<img src="../../assets/icl_logo.png" width="64px" /><br/>
-<a href="https://ironcodelabs.ai">&copy; Iron Code Labs Ltd</a>
-</div>
-<div style="clear: both;"></div>
 
 ##   How does this method enable AI ROI 
 
@@ -18,12 +12,12 @@ description: How ICL structures customer engagements — from initial onboarding
 {: .note} 
 
 
-# Iron Code Labs Engagement Architecture
+# DBJ.ORG Engagement Architecture
 
-- [Iron Code Labs Engagement Architecture](#iron-code-labs-engagement-architecture)
+- [DBJ.ORG Engagement Architecture](#dbjorg-engagement-architecture)
   - [Taxonomy First](#taxonomy-first)
   - [The Purpose](#the-purpose)
-  - [Entry Point — ICL ADM Boot Camp](#entry-point--icl-adm-boot-camp)
+  - [Entry Point — DBJ ADM Boot Camp](#entry-point--dbj-adm-boot-camp)
   - [The Engagement Workflow](#the-engagement-workflow)
   - [Customer AI Layer — LLM / Agents / MCP](#customer-ai-layer--llm--agents--mcp)
   - [Customer IT Landscape](#customer-it-landscape)
@@ -39,17 +33,17 @@ description: How ICL structures customer engagements — from initial onboarding
 
 ## The Purpose
 
-This document describes how ICL structures customer engagements — from initial onboarding through to a deployable product. It is intended for ICL personnel preparing to engage a new customer, or to orient a new ICL team member.
+This document describes how DBJ structures customer engagements — from initial onboarding through to a deployable product. It is intended for DBJ personnel preparing to engage a new customer, or to orient a new DBJ team member.
 
-## Entry Point — ICL ADM Boot Camp
+## Entry Point — DBJ ADM Boot Camp
 
-- Every engagement begins with the ICL ADM Boot Camp. Customer personnel — typically a cross-functional team representing all roles — attend to establish a shared working method.
-  - The Boot Camp grounds the team in the ICL ACMM and the Common Taxonomy before any architecture work begins.
+- Every engagement begins with the DBJ ADM Boot Camp. Customer personnel — typically a cross-functional team representing all roles — attend to establish a shared working method.
+  - The Boot Camp grounds the team in the DBJ ACMM and the Common Taxonomy before any architecture work begins.
 - References: [ACMM](https://ea.ironcodelabs.com/cmm.html)
 
 ## The Engagement Workflow
 
-All architecture work occurs within an Enterprise Architecture boundary governed by ICL's Governance, Principles, Standards, and Guidance. The three [BPT segments](../Business_Product_Technology/index.md) — Business, Product, and Technology — interact within this boundary. Segments do not hand off to each other directly; each monitors its own repository for ADM deliverables. See [BPT Repository Model](../Business_Product_Technology/index.md#the-bpt-repository-model) for the decoupling mechanism.
+All architecture work occurs within an Enterprise Architecture boundary governed by DBJ's Governance, Principles, Standards, and Guidance. The three [BPT segments](../Business_Product_Technology/index.md) — Business, Product, and Technology — interact within this boundary. Segments do not hand off to each other directly; each monitors its own repository for ADM deliverables. See [BPT Repository Model](../Business_Product_Technology/index.md#the-bpt-repository-model) for the decoupling mechanism.
 
 **Business** stakeholders approve the direction of the work and specify what capabilities the product must incorporate. Their input drives scope. Work occurs in one or more ADM Wheels — one wheel per domain or capability cluster is common in larger engagements. See [One wheel or many](../icl-adm/index.md#one-or-many). Roles present: Stakeholders, Product Owners. Outcome category: Conceptual.
 
@@ -63,7 +57,7 @@ The flow is cyclical: Business requires, Technology develops, the product is eva
 
 ## Customer AI Layer — LLM / Agents / MCP
 
-The customer's AI tooling (LLM platforms, agents, MCP integrations) sits above the EA boundary. Upon initial engagements, ICL personnel reference, examine, and evaluate this layer as an input to the architecture — it is customer-owned and customer-operated. ICL does not govern it directly but must account for it in the conceptual and logical architecture deliverables.
+The customer's AI tooling (LLM platforms, agents, MCP integrations) sits above the EA boundary. Upon initial engagements, DBJ personnel reference, examine, and evaluate this layer as an input to the architecture — it is customer-owned and customer-operated. DBJ does not govern it directly but must account for it in the conceptual and logical architecture deliverables.
 
 Reference: Architecture Guided [LLM Adoption](../llm-adoption/llm-adoption.md)
 

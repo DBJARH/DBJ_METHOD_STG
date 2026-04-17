@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Capability Maturity Model (CMM)
-description: Iron Code Labs Capability Maturity Model — organizational maturity across five structural elements
+description: DBJ Capability Maturity Model — organizational maturity across five structural elements
 ---
 
-# Iron Code Labs Capability Maturity Model (ICL CMM)
+# DBJ Capability Maturity Model (DBJ CMM)
 
 ![ICLCMM](assets/togaf_cmm_icl_simplified.png)
 
-The ICL CMM mirrors the TOGAF CMM — it uses the same maturity scale and the same principle of assessing organizational capability across multiple dimensions. It is not a fork or a replacement. The difference is scope: where TOGAF CMM focuses on the EA practice, the ICL CMM applies to the **whole organization**, using five structural elements that exist in every organization regardless of size, industry, or whether dedicated EA practitioners are present:
+The DBJ CMM mirrors the TOGAF CMM — it uses the same maturity scale and the same principle of assessing organizational capability across multiple dimensions. It is not a fork or a replacement. The difference is scope: where TOGAF CMM focuses on the EA practice, the DBJ CMM applies to the **whole organization**, using five structural elements that exist in every organization regardless of size, industry, or whether dedicated EA practitioners are present:
 
 - **Governance** — decision-making authority, policies, and oversight
 - **Skilled Resource Pool** — the people and competencies available to the organization
@@ -33,17 +33,17 @@ Organization Maturity is assessed across these five elements. Each element is sc
 | L4 | Managed | Measured, monitored, actively controlled |
 | L5 | Optimising | Continuous improvement embedded in normal operation |
 
-> The entry ticket to the ICL BPT methodology is **L3 across all five elements**.
+> The entry ticket to the DBJ BPT methodology is **L3 across all five elements**.
 
-An organization at L3 across all five elements has what the [ICL ADM](kb/icl-adm/index.md) requires to function:
+An organization at L3 across all five elements has what the [DBJ ADM](kb/icl-adm/index.md) requires to function:
 
 - **Governance** can host an Architecture Board with enforcement authority
 - **Skilled Resource Pool** can produce and review architectural deliverables
-- **Projects / Portfolios** can run a structured five-step [ICL ADM](kb/icl-adm/index.md) wheel
+- **Projects / Portfolios** can run a structured five-step [DBJ ADM](kb/icl-adm/index.md) wheel
 - **Business Operations** engages with architectural decisions rather than bypassing them
 - **Architecture Repository** holds and serves the artifacts each wheel produces
 
-Below L3, one or more of these conditions fails — and the [ICL ADM](kb/icl-adm/index.md) wheel stalls.
+Below L3, one or more of these conditions fails — and the [DBJ ADM](kb/icl-adm/index.md) wheel stalls.
 
 ---
 
@@ -104,7 +104,7 @@ Each element has a set of observable characteristics used to assess its maturity
 
 ## Scoring
 
-Assess each element independently on the L0–L5 scale using the characteristics above as evidence criteria. The **organization's ICL CMM level** is the minimum score across all five elements.
+Assess each element independently on the L0–L5 scale using the characteristics above as evidence criteria. The **organization's DBJ CMM level** is the minimum score across all five elements.
 
 Example: Governance=L4, Skilled Resource Pool=L3, Projects=L3, Business Operations=L2, Architecture Repository=L3 → **Organization level: L2**
 

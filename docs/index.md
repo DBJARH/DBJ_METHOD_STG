@@ -84,9 +84,9 @@ BPT Loop is using deliverables from projects based on [DBJ ADM "Wheel"](kb/icl-a
 * Continuous loop maps to operational rhythm, not rigid phase gates
 * ADM "Wheel's" and B,P or T segements depend on each other but they oprate indepedently of each other. 
 
-DBJ Method provides to the ICL Clients, the bridge over which customers cross from the chaos of Legacy to the feasibility of AI.
+DBJ Method provides to the customer organization, the bridge over which customers cross from the chaos of Legacy to the feasibility of AI.
 
-The ICL Clients future Architecture does not participate in the loop — it governs it.
+The future Clients future Architecture take the natural position: it does not participate in the loop — it governs it.
 
 <div style="float: center; margin: 1em; text-align: center;">
 <img src="index_assests/empty-medieval-bridge.jpg" width="480px" />

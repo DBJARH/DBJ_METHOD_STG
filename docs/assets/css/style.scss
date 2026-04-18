@@ -20,6 +20,12 @@ img {
 
 header {
   width: 270px;
+  position: sticky;
+  top: 0;
+  max-height: 100vh;
+  overflow-y: auto;
+  padding-bottom: 2em;
+  box-sizing: border-box;
 
   img {
     max-width: 120px;

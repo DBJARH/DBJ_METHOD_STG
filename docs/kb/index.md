@@ -10,7 +10,7 @@ Structured reference material on enterprise Method and Enterprise Architecture t
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><strong>Conceptual</strong> — Business · Information · Application · Technology</summary>
 
 ## [DBJ ADM](icl-adm/index.md)
@@ -69,7 +69,7 @@ Why AGI is an unreachable milestone — and why the distinction matters for the 
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><strong>Logical</strong> — Data Management · Integration · Platform · Security</summary>
 
 ## [ITIL Role](itil/ITIL_role.md)
@@ -119,7 +119,7 @@ Enterprise architecture lens on AI regulatory compliance. Covers what the EU AI 
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><strong>Physical</strong> — Compute · Infrastructure · Network · Storage</summary>
 
 ## [LLM Adoption](llm-adoption/llm-adoption.md)
@@ -142,7 +142,7 @@ Enterprise architecture approach for modernizing a legacy Win32 monolith with a 
 
 ---
 
-<details markdown="1">
+<details markdown="1" open>
 <summary><strong>Implementation</strong> — Deployment · Development · Monitoring · Operations</summary>
 
 ## [AI Compliance](ai-compliance/ai-compliance.md)

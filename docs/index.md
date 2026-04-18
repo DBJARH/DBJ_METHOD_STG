@@ -4,15 +4,15 @@ title: AI ROI Method based on TOGAF
 description: Home
 ---
 
-### Method vs the Architecture 
+### DBJ Method vs the Architecture 
 
 ![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
 <p style="font-size:.8em" >From Chaos to ROI</p>
 
-**Architecture nature is static. Architecture does not change after the building starts. That annoys the Business. Methodology nature is dynamic.**
+**Architecture nature is static. Architecture does not change after the building starts. That annoys the Business. DBJ Method nature is dynamic.**
 
-**DBJ Method uses tailored TOGAF EA artifacats to govern smooth running of the organization.**
+**DBJ Method uses simplified TOGAF EA artifacats to govern smooth running of the organization.**
 
 **Part of DBJ Method, "BPT" is an endless loop of three segmenta. Business, Product and Technology. Business declares the Products, and Technology is implementing the Products.**
 

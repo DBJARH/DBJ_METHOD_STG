@@ -6,6 +6,8 @@ description: Home
 
 # DBJ Method 
 
+> [!TIP]Bridge to ROI
+
 ![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
 <p style="font-size:.8em" >From Chaos to ROI</p>

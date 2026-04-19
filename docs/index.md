@@ -4,7 +4,7 @@ title: AI ROI Method based on TOGAF
 description: Home
 ---
 
-### DBJ Method vs the Architecture 
+# DBJ Method 
 
 ![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
@@ -23,7 +23,7 @@ description: Home
 > General [AI Guidance](ai.md)
 {: note}
 
-# Method Adoption  
+## Method Adoption  
 
 DBJ Method is based on [TOGAF](https://www.opengroup.org/togaf). DBJ Method is a runtime flow keeping the organisation running in a feasible fashion. Repeatedly raising the AI Readines level.
 

@@ -2,30 +2,51 @@
 layout: default
 title: The DBJ Shop - Operational Assets
 ---
+# The DBJ Method -- The Shop Window
 
-# Inside the Shop: The Navigational Toolkit
+![AI or Iceberg](../assets/ai-or-iceberg.png)
 
-Welcome to the DBJ Method inventory. This is not a collection of abstract theories, but a set of logical and conceptual equipment designed to stabilize your **BPT Engine** and secure your **AI Cargo**.
+In the current market, the gust winds push to become **AI-Enabled** is often driven by **impulsivity**—a **knee-jerk reaction** to industry trends that ignores the structural health of the organization. For an [SME](https://en.wikipedia.org/wiki/Small_and_medium_enterprises), this is a fatal risk. 
 
-### 1. The DBJ Taxonomy Ledger
-**The Language of the Crew.** A standardized base for communication. It eliminates the *impulsivity* and *knee-jerk reactions* caused by role-based misinterpretation.  
-[View Asset Detail]({{ '/shop/taxonomy-ledger' | relative_url }})
-
-### 2. The DBJ CMM Assessment Protocol
-**The Sea-Worthiness Test.** A diagnostic tool to certify your crew and hull (Levels 3-5) before leaving the harbor.  
-[View Asset Detail]({{ '/shop/cmm-protocol' | relative_url }})
-
-### 3. The DBJ ADM Steering Guide
-**The Steering Wheel.** The tailored daily workflow that keeps the Business, Product, and Technology pillars in sync.  
-[View Asset Detail]({{ '/shop/adm-steering' | relative_url }})
-
-### 4. The BPT Logic Map
-**The Engine Blueprint.** A visual map helping the EA Navigator identify *Legacy Icebergs* before they puncture the Business hull.  
-[View Asset Detail]({{ '/shop/bpt-logic-map' | relative_url }})
+The **DBJ Method** provides the architectural discipline required to ensure your investment doesn't collapse under the weight of its own innovation.
 
 ---
 
-> **Prerequisite:** Every asset in this shop is designed to move your organization from technical debt to a manageable, investable, and sellable activity.
+> **Important:** Every asset in this method is designed to move your organization from technical debt to a manageable, investable, and sellable activity.
+
+---
+
+### The BPT: Navigating the Business Ship
+The method focuses on the coordinated movement of three pillars. AI is the cargo, but the **BPT** is what charts the course to market:
+
+* **B (Business):** The Captain who owns the investment decision.
+* **P (Product):** The Business Analyst who creates the functional logic.
+* **T (Technology):** The implementation team that manages the technical execution.
+
+> **The Navigator’s Rule:** In the DBJ Method, the **Enterprise Architect (EA)** is the single Navigator. They read the charts of the **BPT** and the hazards on the horizon, ensuring the Captain’s steering (the **DBJ ADM**) doesn’t lead the ship into a **Legacy Iceberg**.
+
+
+# What's Inside: The Navigational Toolkit
+
+This is not a collection of abstractions, but a set of logical and conceptual equipment designed to stabilize your business and secure its future **AI Cargo**.
+
+### 1. The Language of the Crew
+A standardized base for communication. It eliminates the *impulsivity* and *knee-jerk reactions* caused by role-based misinterpretation.  
+[The Taxonomy Ledger](taxonomy-ledger.md)
+
+### 2. The Assessment Protocol
+**The Sea-Worthiness Test.** A diagnostic tool to certify your crew and hull (Levels 3-5) before leaving the harbor.  
+[The CMM Protocol](cmm-protocol.md)
+
+### 3. The Ship Steering Guide
+**The Steering Wheel Manual.** The tailored daily workflow that keeps the Business, Product, and Technology pillars in sync.  
+[The ADM Guide](adm-steering.md)
+
+### 4. The Navigation Blueprint
+**A visual map** helping the EA Navigator identify and route around *Legacy Icebergs* before they puncture the Business hull.  
+[The BPT Map](bpt-logic-map.md)
+
+
 
 ---
 

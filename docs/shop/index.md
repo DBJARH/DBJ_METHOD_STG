@@ -2,13 +2,15 @@
 layout: default
 title: The DBJ Shop - Operational Assets
 ---
-# The DBJ Method -- The Shop Window
+# The Shop Window
+
+> The **DBJ Method** provides the architectural discipline required to ensure your investment doesn't collapse under the weight of its own innovation.
+{: .important}
 
 ![AI or Iceberg](../assets/ai-or-iceberg.png)
 
 In the current market, the gust winds push to become **AI-Enabled** is often driven by **impulsivity**—a **knee-jerk reaction** to industry trends that ignores the structural health of the organization. For an [SME](https://en.wikipedia.org/wiki/Small_and_medium_enterprises), this is a fatal risk. 
 
-The **DBJ Method** provides the architectural discipline required to ensure your investment doesn't collapse under the weight of its own innovation.
 
 ---
 

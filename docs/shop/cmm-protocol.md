@@ -3,9 +3,11 @@ layout: default
 title: DBJ CMM Protocol
 ---
 
-# DBJ CMM Protocol: Ensuring Sea-Worthiness
+# Ensuring Sea-Worthiness
 
-The **DBJ CMM** is the organizational enablement required to start the endless BPT loop. We certify your crew at Levels 3 to 5.
+> DBJ CMM Protocol
+
+The **DBJ CMM** is the organizational enablement required to start the endless business flow. You certify your crew at Levels 3 to 5.
 
 ### Assessment Tiers
 * **Level 3 (Defined):** Standardized daily workflows; no reliance on individual heroics.

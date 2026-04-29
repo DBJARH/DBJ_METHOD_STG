@@ -3,9 +3,9 @@ layout: default
 title: DBJ Taxonomy Ledger
 ---
 
-# DBJ Taxonomy Ledger: The Unified Language
+# DBJ Taxonomy: The Language of the Crew
 
-In the heat of a market storm, miscommunication is a shipwreck. The **DBJ Taxonomy** provides a standardized language base for the whole crew.
+In the cold of a market storm, miscommunication is a shipwreck. The **DBJ Taxonomy** provides a standardized language base for the whole crew.
 
 ### Core Inventory
 * **Business Lexicon:** Standardizing terms for ROI, Investability, and Strategic Intent.

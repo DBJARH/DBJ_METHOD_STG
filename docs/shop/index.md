@@ -14,7 +14,8 @@ In the current market, the gust winds push to become **AI-Enabled** is often dri
 
 ---
 
-> **Important:** Every asset in this method is designed to move your organization from technical debt to a manageable, investable, and sellable activity.
+> Every asset in this method is designed to move your organization from technical debt to a manageable, investable, and sellable activity.
+{: .Important}
 
 ---
 

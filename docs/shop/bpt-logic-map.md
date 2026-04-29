@@ -3,9 +3,9 @@ layout: default
 title: BPT Logic Map
 ---
 
-# BPT Logic Map: The Engine Architecture
+# The Navigtion Blueprint
 
-The BPT Logic Map is the conceptual blueprint of your internal power plant.
+**The BPT Logic Map** is the conceptual blueprint of your good EA Navigaor
 
 ### The Three Segments
 1.  **B (Business):** The Captain's decision layer. Owners of the investment.

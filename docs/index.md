@@ -6,11 +6,9 @@ description: Home
 
 # DBJ Method 
 
-> [!TIP]Bridge to ROI
-
 ![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
-<p style="font-size:.8em" >From Chaos to ROI</p>
+<p style="font-size:.8em" >From Chaos to ROI, over the brridge of the DBJ Method</p>
 
 **Architecture nature is static. Architecture does not change after the building starts. That annoys the Business. DBJ Method nature is dynamic.**
 
@@ -27,14 +25,15 @@ description: Home
 
 ## Method Adoption  
 
-DBJ Method is based on [TOGAF](https://www.opengroup.org/togaf). DBJ Method is a runtime flow keeping the organisation running in a feasible fashion. Repeatedly raising the AI Readines level.
+**DBJ Method** is based on [TOGAF](https://www.opengroup.org/togaf). DBJ Method is a runtime flow keeping the organisation running in a feasible fashion. Repeatedly raising the AI Readines level.
 
 
-## The DBJ Method, engagement has two stages:
+## The Method engagement has two stages:
 
 - [On-boarding](#on-boarding)
 - [Business, Product, Technology Loop](#business-product-technology-loop)
 
+> Once it starts the BPT Loops never ends
 
 ## On-boarding
 

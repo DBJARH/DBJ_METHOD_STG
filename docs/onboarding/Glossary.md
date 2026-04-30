@@ -1,3 +1,5 @@
+[← Back](index.md)
+
 # Glossary — Key Terms
 
 A shared vocabulary is a prerequisite for CMM Level 3. All staff should be able to define and apply these terms without reference.
@@ -18,3 +20,9 @@ A shared vocabulary is a prerequisite for CMM Level 3. All staff should be able 
 | **Bridge to AI** | The DBJ thesis that CMM maturity is the prerequisite for responsible AI adoption. AI is layered into processes progressively at L3 (documentation), L4 (decision support), and L5 (optimisation). |
 | **(DBJ) ADM** | Architecture Development Method. Simplified TOGAF phase model (Preliminary → A through H → Requirements Management) for developing and evolving enterprise architecture. |
 | **Domain Lead** | The designated accountable person for architecture decisions within a domain. Co-owns cycle governance alongside other Domain Leads. Escalates cross-domain conflicts to shared resolution. |
+
+---
+
+| <img src="../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0

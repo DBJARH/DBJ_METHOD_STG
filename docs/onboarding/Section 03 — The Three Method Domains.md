@@ -1,3 +1,5 @@
+[← Back](index.md)
+
 # Section 03 — The Three Method Domains
 
 Once CMM Level 3 is established, your organisation operates as three interconnected, collaborating domains — each with a distinct mandate.
@@ -15,8 +17,14 @@ Once CMM Level 3 is established, your organisation operates as three interconnec
 
 ## Domain Interfaces
 
-Each domain has explicit handoff points — structured artefacts and gates that ensure continuity. No domain begins work without a clear input from the prior stage, and no domain closes without producing a defined output. The BPT: B→P→T→P→B loop.
+Each domain has explicit handoff points — structured artefacts and gates that ensure continuity. No domain begins work without a clear input from the prior stage, and no domain closes without producing a defined output. The BPT: B→P→T loop.
 
 ## Domain Accountability
 
 Each domain appoints a **Domain Lead** responsible for architecture decisions within their scope. Domain Leads co-own the cycle governance and escalate cross-domain conflicts to shared resolution.
+
+---
+
+| <img src="../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0

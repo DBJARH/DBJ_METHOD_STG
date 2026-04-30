@@ -1,3 +1,5 @@
+[← Back](index.md)
+
 # Section 05 — Bridge to AI
 
 CMM maturity is the prerequisite for an organisation's AI readiness. Without defined, managed processes, AI amplifies noise — not signal. The DBJ Method builds the bridge deliberately.
@@ -11,3 +13,9 @@ CMM maturity is the prerequisite for an organisation's AI readiness. Without def
 | L1–2 | L3 | L4 | L5 |
 |---|---|---|---|
 | Pre-training | **Boot Camp** | Managed | Target |
+
+---
+
+| <img src="../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0

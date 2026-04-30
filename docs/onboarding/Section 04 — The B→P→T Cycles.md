@@ -1,3 +1,5 @@
+[← Back](index.md)
+
 # Section 04 — The B→P→T Cycles
 
 The core operating rhythm of the DBJ Method. Every initiative follows this cycle — ensuring strategy is translated into execution and verified by the business before close. Notice the two sequential sub cycles: (1) B <--> P and (2) P <--> T
@@ -9,3 +11,9 @@ The core operating rhythm of the DBJ Method. Every initiative follows this cycle
 | Technology | **Build & Integrate** | Technology executes against the Products specification. Engineering, integration, and technical governance happen here. Technology delivers a testable increment back to Products for verification. | Working increment · Integration artefacts · Technical sign-off |
 | Products | **Verify & Stage for UAT** | Products receives the built increment, verifies it against requirements, and prepares it for Business acceptance. Products coordinates UAT logistics and ensures the Business can evaluate meaningfully. | UAT package · Verification report · UAT schedule |
 | UAT | **UAT → Next Cycle** | Business conducts acceptance testing. Pass: initiative closes and outcomes are logged. Fail or partial: findings feed the next cycle commission. The loop begins again — always informed by the previous iteration. | |
+
+---
+
+| <img src="../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0

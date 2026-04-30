@@ -1,3 +1,5 @@
+[← Back](index.md)
+
 # Section 01 — The DBJ Method
 
 A pragmatic, right-sized adaptation of TOGAF that makes Enterprise Architecture actionable for growing companies — without the overhead of a full TOGAF implementation.
@@ -16,7 +18,8 @@ The result: a team can achieve measurable EA maturity — and begin developing A
 
 ---
 
-**Core premise:** You do not need to be EA to think architecturally. The DBJ Method treats Enterprise Architecture as a shared discipline — not an IT department — that every domain (Business, Products, Technology) practises together.
+> **Core premise:** You do not need to be EA to think architecturally. The DBJ Method treats Enterprise Architecture as a shared discipline — not an IT department — that every domain (Business, Products, Technology) practises together.
+{: .important}
 
 ---
 
@@ -32,4 +35,10 @@ Practice the CMM ladder progressively. Each level must be stable before the next
 
 **Cycle, don't waterfall**
 
-"BPT" The B→P→T→P→B loop replaces linear delivery with iterative, domain-aware execution.
+"BPT" The B→P→T loop replaces linear delivery with iterative, domain-aware execution.
+
+---
+
+| <img src="../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0

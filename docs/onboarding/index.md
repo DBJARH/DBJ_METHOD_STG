@@ -16,3 +16,9 @@ A practical guide to the DBJ Method — your on-ramp to TOGAF-aligned Enterprise
 | 04 | [The B→P→T Cycles](Section 04 — The B→P→T Cycles.md) |
 | 05 | [Bridge to AI](Section 05 — Bridge to AI.md) |
 | 06 | [Glossary](Glossary.md) |
+
+---
+
+| <img src="../assets/dbj/dbj-org-logo.jpg" width="64px" /> 
+|---|
+| &copy; dbj@dbj.org \| CC BY SA 4.0

@@ -78,7 +78,7 @@ The core operating rhythm of the DBJ Method. BPT is composed of two sequential a
 - **Cycle 1: B ↔ P** — Business commissions; Products translates and returns for acceptance.
 - **Cycle 2: P ↔ T** — Products specifies; Technology builds and returns for verification.
 
-Every business initiative completes both cycles in order before it can be closed.
+Every business initiative completes both cycles in order before it can be closed. There are as many cycle-pairs running concurrently as there are active Products — one per Product, all identical in structure.
 
 ```mermaid
 flowchart LR

@@ -1,8 +1,6 @@
 # DBJ Method Onboarding
 
-- A practical guide to the DBJ Method — on-ramp to the DBJ Method. 
-- The Organization Daily Workflow 
-  - And the Bridge to AI.
+**A practical guide to the DBJ Method**
 
 | STARTING TARGET | ULTIMATE TARGET | METHOD DOMAINS |
 |---|---|---|
@@ -14,8 +12,8 @@
 |---|---|
 | 01 | [The DBJ Method](Section 01 — The DBJ Method.md) |
 | 02 | [Capability Maturity Model](Section 02 — Capability Maturity Model.md) |
-| 03 | [The Three Method Domains](Section 03 — The Three Method Domains.md) |
-| 04 | [The B→P→T Cycles](Section 04 — The B→P→T Cycles.md) |
+| 03 | [The Three Domains](Section 03 — The Three Method Domains.md) |
+| 04 | [One Loop and the two Cycles](Section 04 — The B→P→T Cycles.md) |
 | 05 | [Bridge to AI](Section 05 — Bridge to AI.md) |
 | 06 | [Glossary](Glossary.md) |
 

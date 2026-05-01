@@ -1,10 +1,12 @@
-# DBJ Method Oboarding & Orienteering
+# DBJ Method Onboarding
 
-A practical guide to the DBJ Method — your on-ramp to TOGAF-aligned Enterprise Architecture and the Bridge to AI.
+- A practical guide to the DBJ Method — on-ramp to the DBJ Method. 
+- The Organization Daily Workflow 
+  - And the Bridge to AI.
 
 | STARTING TARGET | ULTIMATE TARGET | METHOD DOMAINS |
 |---|---|---|
-| CMM Level 0 | CMM Level 5 | B · P · T |
+| CMM Level 3 | CMM Level 5 | B · P · T |
 
 ---
 

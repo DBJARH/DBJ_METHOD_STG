@@ -2,6 +2,10 @@
 
 # Section 02 — Capability Maturity Model
 
+![](../index_assests/why-cmm-intro-sketch.png)
+
+[DBJ CMM](../cmm.md) is TOGAF CMM tailored for a small to medium sized businesses. 
+
 DBJ CMM defines five levels of organisational maturity. The DBJ Method uses this scale to measure and grow your Enterprise Architecture practice.
 
 | Level | Name | Description | Milestone |

@@ -1,4 +1,4 @@
-[← Back](index.md)
+[← Back](Section%2005%20Bridge%20to%20AI.md)
 
 # Glossary — Key Terms
 

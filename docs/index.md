@@ -8,36 +8,33 @@ description: Home
 
 ![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
-<p style="font-size:.8em" >From Chaos to ROI, over the brridge of the DBJ Method</p>
+<p style="font-size:.8em" >From Chaos to ROI, over the DBJ Method bridge</p>
 
-**Architecture nature is static. Architecture does not change after the building starts. That annoys the Business. DBJ Method nature is dynamic.**
+**Architecture nature is static. Architecture does not change after the building starts. That is not good for the Business**
 
-**DBJ Method uses simplified TOGAF EA artifacats to govern smooth running of the organization.**
+**DBJ Method uses simplified TOGAF EA artifacats to govern smooth running of the business.**
 
-**Part of DBJ Method, "BPT" is an endless loop of three segmenta. Business, Product and Technology. Business declares the Products, and Technology is implementing the Products.**
+**Part of DBJ Method, "BPT" is an loop workflow made of three domains: Business, Products and Technology. Business declares the Product, and Technology is implementing the Product**
 
-**The guiding principle of DBJ Method is to tailor the TOGAF artifacts, into the framework for feasible organisation running method.**
+**The guiding principle of DBJ Method is to tailor the TOGAF artifacts, into the framework for feasible sailing. DBJ Method is optimal path for a feasible business running**
 
-**This Method also exists to facilitate safe journey from legacy to AI enabled organizaton**
+**This Method exists to facilitate safe journey from the chaos of legacy to AI enabled organizaton. On the other side of the bridge**
 
-> General [AI Guidance](ai.md)
+> Detour for a very quick general [AI Guidance](ai.md) 
 {: note}
 
-## Method Adoption  
+## Adoption  
 
 **DBJ Method** is based on [TOGAF](https://www.opengroup.org/togaf). DBJ Method is a runtime flow keeping the organisation running in a feasible fashion. Repeatedly raising the AI Readines level.
 
-
-## The Method engagement has two stages:
+**The Method engagement has two stages:**
 
 - [On-boarding](#on-boarding)
 - [Business, Product, Technology Loop](#business-product-technology-loop)
 
-> Once it starts the BPT Loops never ends
-
 ## On-boarding
 
-In this step DBJ prepares clients for architecture-led delivery by putting them on firm (DBJ simplified) [capability maturity foundations](cmm.md#diagram).
+In the first step DBJ Method prepares clients for architecture-led delivery by putting them on firm (DBJ simplified) [capability maturity foundations](cmm.md#diagram).
 
 ### The [Maturity Levels](cmm.md#levels)
 
@@ -49,7 +46,7 @@ DBJ Method Practitioners are leading their client's current organisational matur
 
 <!-- Potential deliverable: ACMM baseline assessment + DBJ Method improvement roadmap -->
 
-### Raising the Client Organisation to CMM Level [L3](cmm.md#levels)
+#### Raising the Client Organisation to CMM Level [L3](cmm.md#levels)
 
 DBJ Method defines and documents architecture processes — moving the organisation from ad-hoc (L1) to defined (L3). By using this Method, DBJ Method Practitioners:
 

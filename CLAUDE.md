@@ -39,7 +39,6 @@ That means:
 
 -  Enterprise architecture
    -  methodology based on TOGAF
-      -  described here https://ea.ironcodelabs.com/
 -  Logical Architecture
   
 ## Secondary focus
@@ -63,6 +62,28 @@ That means:
 ## Repository structure
 
 - `/docs` — staging area for Jekyll site, deployed to EA repo `/docs`. Use kramdown.
+
+## Deployment
+
+- This repo (STG) is published as a GitHub Pages staging site at: https://dbjarh.github.io/DBJ_METHOD_STG/
+- The onboarding section is live at: https://dbjarh.github.io/DBJ_METHOD_STG/onboarding/index
+- Remote: origin = https://github.com/DBJARH/DBJ_METHOD_STG
+
+## Production site
+
+- Repo: https://github.com/DBJARH/METHOD_DBJ_ORG
+- Local clone: G:\DBJARH\METHOD_DBJ_ORG
+- Published at: https://method.dbj.org/
+- Do not touch unless explicitly instructed.
+
+## Deployment
+
+When DBJ says "deploy", copy updated files from STG docs to PROD docs:
+
+- Source: `G:\DBJARH\DBJ_METHOD_STG\docs\`
+- Target: `G:\DBJARH\METHOD_DBJ_ORG\docs\`
+- Incremental only — copy files that are newer or changed in STG vs PROD
+- Confirm with DBJ before executing
 
 ## Taxonomy
 
@@ -128,7 +149,6 @@ Published at [BPT](docs/bpt.md)
 
 - drawing should be all simple black and white
 - the only coloured detail on pages should be ICL logo
-  - https://ea.ironcodelabs.com/assets/icl_logo.png
 - Image editor: Paint.NET — native format is `.pdn`
 - Marketing images live in `/marketing/assets/`
 

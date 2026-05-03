@@ -1,3 +1,8 @@
+---
+layout: default
+title: Onboarding
+---
+
 # DBJ Method Onboarding
 
 **A practical guide to the DBJ Method**

@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Section 04 — The BPT Cycles"
+---
+
 [← Back](Section%2003%20The%20Three%20Method%20Domains.md) \| [Next →](Section%2005%20Bridge%20to%20AI.md)
 
 # Section 04 — The B→P→T

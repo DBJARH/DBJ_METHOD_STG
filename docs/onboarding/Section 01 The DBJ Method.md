@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Section 01 — The DBJ Method"
+---
+
 [← Back](index.md) \| [Next →](Section%2002%20Capability%20Maturity%20Model.md)
 
 # Section 01 — The DBJ Method

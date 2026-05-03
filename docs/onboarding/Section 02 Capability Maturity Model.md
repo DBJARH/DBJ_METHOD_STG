@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Section 02 — Capability Maturity Model"
+---
+
 [← Back](Section%2001%20The%20DBJ%20Method.md) \| [Next →](Section%2003%20The%20Three%20Method%20Domains.md)
 
 # Section 02 — Capability Maturity Model

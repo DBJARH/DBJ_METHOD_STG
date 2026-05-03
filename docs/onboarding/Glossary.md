@@ -3,7 +3,7 @@ layout: default
 title: "Glossary"
 ---
 
-[← Back](Section%2005%20Bridge%20to%20AI.md)
+[← Back](section-05.md)
 
 # Glossary — Key Terms
 

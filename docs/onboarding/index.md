@@ -15,11 +15,11 @@ title: Onboarding
 
 | Section | Title |
 |---|---|
-| 01 | [The DBJ Method](Section%2001%20The%20DBJ%20Method.md) |
-| 02 | [Capability Maturity Model](Section%2002%20Capability%20Maturity%20Model.md) |
-| 03 | [The Three Domains](Section%2003%20The%20Three%20Method%20Domains.md) |
-| 04 | [One Loop and the two Cycles](Section%2004%20The%20BPT%20Cycles.md) |
-| 05 | [Bridge to AI](Section%2005%20Bridge%20to%20AI.md) |
+| 01 | [The DBJ Method](section-01.md) |
+| 02 | [Capability Maturity Model](section-02.md) |
+| 03 | [The Three Domains](section-03.md) |
+| 04 | [One Loop and the two Cycles](section-04.md) |
+| 05 | [Bridge to AI](section-05.md) |
 | 06 | [Glossary](Glossary.md) |
 
 ---

@@ -3,7 +3,7 @@ layout: default
 title: "Section 03 — The Three Method Domains"
 ---
 
-[← Back](Section%2002%20Capability%20Maturity%20Model.md) \| [Next →](Section%2004%20The%20BPT%20Cycles.md)
+[← Back](section-02.md) \| [Next →](section-04.md)
 
 # Section 03 — The Three Method Domains
 

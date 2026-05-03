@@ -3,7 +3,7 @@ layout: default
 title: "Section 05 — Bridge to AI"
 ---
 
-[← Back](Section%2004%20The%20BPT%20Cycles.md) \| [Next →](Glossary.md)
+[← Back](section-04.md) \| [Next →](Glossary.md)
 
 # Section 05 — Bridge to AI
 

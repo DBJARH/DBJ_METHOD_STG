@@ -3,7 +3,7 @@ layout: default
 title: BPT Logic Map
 ---
 
-# The Navigtion Blueprint
+# The Navigation Blueprint
 
 **The BPT Logic Map** is the conceptual blueprint of your good EA Navigaor
 

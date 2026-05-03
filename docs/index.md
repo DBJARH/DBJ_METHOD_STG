@@ -72,7 +72,7 @@ BPT Loop is using deliverables from projects based on [DBJ ADM "Wheel"](kb/icl-a
 
 ### Key BPT strengths
 
-* Decoupling of responsilities on the organizatio level delivers faster development
+* Decoupling of responsilities on the organization level delivers faster development
 * Product is the natural alignment point between Business and Technology
 * Client Enteprise Architecture operates “above” the process, not within it
 * CMM level 3+ prerequisite provides foundational maturity

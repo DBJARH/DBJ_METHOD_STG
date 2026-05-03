@@ -5,7 +5,7 @@ title: BPT Logic Map
 
 # The Navigation Blueprint
 
-**The BPT Logic Map** is the conceptual blueprint of your good EA Navigaor
+**The BPT Logic Map** is the conceptual blueprint of your good EA Navigator
 
 ### The Three Segments
 1.  **B (Business):** The Captain's decision layer. Owners of the investment.

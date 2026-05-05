@@ -6,17 +6,18 @@ description: Home
 
 # DBJ Method 
 
-![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
-
 <p style="font-size:.8em" >Where AI Strategy meets EA</p>
 
-**Architecture nature is static. Architecture does not change after the building starts. That is not good for the Business**
+![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
-**DBJ Method uses simplified TOGAF EA artifacats to govern smooth running of the business.**
+
+**Architecture nature is static. Architecture does not change after the building starts**
+
+**DBJ Method uses simplified TOGAF EA artifacats to govern dynamic smooth running of the business.**
 
 **Part of DBJ Method, "BPT" is an loop workflow made of three domains: Business, Products and Technology. Business declares the Product, and Technology is implementing the Product**
 
-**The guiding principle of DBJ Method is to tailor the TOGAF artifacts, into the framework for feasible sailing. DBJ Method is optimal path for a feasible business running**
+**The guiding principle of DBJ Method is to tailor the TOGAF artifacts, into the framework for plain sailing. DBJ Method is optimal path for a feasible business running**
 
 **This Method exists to facilitate safe journey from the chaos of legacy to AI enabled organizaton. On the other side of the bridge**
 
@@ -81,7 +82,7 @@ BPT Loop is using deliverables from projects based on [DBJ ADM "Wheel"](kb/icl-a
 
 DBJ Method provides to the customer organization, the bridge over which users of the method cross from the chaos of Legacy to the feasibility of AI.
 
-The future Clients future Architecture takes the natural position: it does not participate in the loop — it governs it.
+The future Clients future Architecture takes the natural position: it governs the loop.
 
 ---
 

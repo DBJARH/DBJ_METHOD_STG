@@ -8,7 +8,7 @@ description: Home
 
 ![from-chaos-to-ai](index_assests/empty-medieval-bridge.jpg)
 
-<p style="font-size:.8em" >From Chaos to ROI, over the DBJ Method bridge</p>
+<p style="font-size:.8em" >Where AI Strategy meets EA</p>
 
 **Architecture nature is static. Architecture does not change after the building starts. That is not good for the Business**
 
